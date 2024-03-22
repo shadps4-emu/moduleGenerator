@@ -170,6 +170,10 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceCommonDialog"));
     modules_to_generate.push_back(std::string("libSceMsgDialog"));
     modules_to_generate.push_back(std::string("libSceAudioOut"));
+    modules_to_generate.push_back(std::string("libSceAudioIn"));
+    modules_to_generate.push_back(std::string("libSceNet"));
+    modules_to_generate.push_back(std::string("libSceSsl"));
+    modules_to_generate.push_back(std::string("libSceHttp"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
