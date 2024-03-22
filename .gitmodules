@@ -1,0 +1,4 @@
+[submodule "externals/ps4libdoc"]
+	path = externals/ps4libdoc
+	url = https://github.com/idc/ps4libdoc.git
+	branch = 9.00
