@@ -176,6 +176,7 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceSsl"));
     modules_to_generate.push_back(std::string("libSceHttp"));
     modules_to_generate.push_back(std::string("libSceSaveData"));
+    modules_to_generate.push_back(std::string("libSceSysmodule"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
