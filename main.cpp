@@ -178,7 +178,10 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceSaveData"));
     modules_to_generate.push_back(std::string("libSceSysmodule"));
     modules_to_generate.push_back(std::string("libSceSaveDataDialog"));
-    
+    modules_to_generate.push_back(std::string("libSceNpManager"));
+    modules_to_generate.push_back(std::string("libSceNpScore"));
+    modules_to_generate.push_back(std::string("libSceNpTrophy"));
+    modules_to_generate.push_back(std::string("libSceScreenShot"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
