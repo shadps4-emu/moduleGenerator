@@ -184,6 +184,10 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceScreenShot"));
     modules_to_generate.push_back(std::string("libSceLibcInternal"));
     modules_to_generate.push_back(std::string("libSceRtc"));
+    modules_to_generate.push_back(std::string("libSceGameLiveStreaming"));
+    modules_to_generate.push_back(std::string("libSceSharePlay"));
+    modules_to_generate.push_back(std::string("libSceRemoteplay"));
+    modules_to_generate.push_back(std::string("libSceIme"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
