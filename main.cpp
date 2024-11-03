@@ -188,6 +188,7 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceSharePlay"));
     modules_to_generate.push_back(std::string("libSceRemoteplay"));
     modules_to_generate.push_back(std::string("libSceIme"));
+    modules_to_generate.push_back(std::string("libSceVideodec"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
