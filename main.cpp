@@ -52,7 +52,7 @@ void GenerateCodeFiles(
         for (const auto& func : lib.second) {
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
                 std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
-                if (funcDeclare.length() > 100) {
+                if (funcDeclare.length() > MAXIMUM_LINE_LENGTH) {
                     funcDeclare = "int PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
                 }
                 headerCode += funcDeclare;
