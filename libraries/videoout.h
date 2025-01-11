@@ -11,13 +11,11 @@ class SymbolsResolver;
 
 namespace Libraries::VideoOut {
 
-int PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege();
-int PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute();
-int PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute();
-int PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege();
-int PS4_SYSV_ABI Func_87DE0FA368680D98();
-int PS4_SYSV_ABI sceVideoOutAddBuffer();
+int PS4_SYSV_ABI sceVideoOutAdjustColor2_();
 int PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege();
+int PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege();
+int PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege();
+int PS4_SYSV_ABI sceVideoOutAddBuffer();
 int PS4_SYSV_ABI sceVideoOutAddBufferYccPrivilege();
 int PS4_SYSV_ABI sceVideoOutAddDisplayPositionEvent();
 int PS4_SYSV_ABI sceVideoOutAddDriver();
@@ -157,10 +155,12 @@ int PS4_SYSV_ABI Func_BD73297BB32EADF7();
 int PS4_SYSV_ABI Func_C0A269161093AD7D();
 int PS4_SYSV_ABI Func_C192387E6509325C();
 int PS4_SYSV_ABI Func_FF9008114F7ED758();
-int PS4_SYSV_ABI sceVideoOutAdjustColor2_();
-int PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_();
-int PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege();
 int PS4_SYSV_ABI Func_DF1AD257C5341EC8();
+int PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_();
+int PS4_SYSV_ABI Func_87DE0FA368680D98();
+int PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege();
+int PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute();
+int PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute();
 
 void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::VideoOut

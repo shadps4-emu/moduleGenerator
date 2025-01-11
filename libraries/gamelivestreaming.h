@@ -11,6 +11,8 @@ class SymbolsResolver;
 
 namespace Libraries::GameLiveStreaming {
 
+int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus();
+int PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer();
 int PS4_SYSV_ABI sceGameLiveStreamingStartDebugBroadcast();
 int PS4_SYSV_ABI sceGameLiveStreamingStopDebugBroadcast();
 int PS4_SYSV_ABI sceGameLiveStreamingApplySocialFeedbackMessageFilter();
@@ -21,13 +23,11 @@ int PS4_SYSV_ABI sceGameLiveStreamingClearSpoilerTag();
 int PS4_SYSV_ABI sceGameLiveStreamingEnableLiveStreaming();
 int PS4_SYSV_ABI sceGameLiveStreamingEnableSocialFeedback();
 int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentBroadcastScreenLayout();
-int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus();
 int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus2();
 int PS4_SYSV_ABI sceGameLiveStreamingGetProgramInfo();
 int PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessages();
 int PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessagesCount();
 int PS4_SYSV_ABI sceGameLiveStreamingInitialize();
-int PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer();
 int PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewerA();
 int PS4_SYSV_ABI sceGameLiveStreamingPermitLiveStreaming();
 int PS4_SYSV_ABI sceGameLiveStreamingPermitServerSideRecording();

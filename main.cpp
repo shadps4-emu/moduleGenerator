@@ -25,6 +25,8 @@ constexpr std::string_view SpdxHeader =
 // SPDX-License-Identifier: GPL-2.0-or-later
 )";
 
+constexpr int MAXIMUM_LINE_LENGTH = 100;
+
 void GenerateCodeFiles(
     const std::unordered_map<std::string, std::vector<NidFuncTable>>& libName2FuncTableMap,
     const std::string& moduleName) {
@@ -49,7 +51,10 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
-                const std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                if (funcDeclare.length() > 100) {
+                    funcDeclare = "int PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
+                }
                 headerCode += funcDeclare;
                 funcDeclares.insert(func.m_funcName);
             }
@@ -66,9 +71,10 @@ void GenerateCodeFiles(
     std::string sourceName(lowModName + ".cpp");
     std::string sourceCode(spdx);
     sourceCode += "\n";
-    sourceCode += "#include \"" + headerName +
-                  "\"\n\n#include \"common/logging/log.h\"\n#include " + 
-                  "\"core/libraries/error_codes.h\"\n#include \"core/libraries/libs.h\"\n\n";
+    sourceCode += "#include \"common/logging/log.h\"\n";
+    sourceCode += "#include \"core/libraries/error_codes.h\"\n";
+    sourceCode += "#include \"core/libraries/libs.h\"\n";
+    sourceCode += "#include \"core/libraries/" + lowModName + "/" + headerName + "\"\n\n";
 
     sourceCode += "namespace Libraries::" + trimmedName + " {\n\n";
 
@@ -77,9 +83,13 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
-                const std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "() {\n" +
-                                              "	LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
-                                              "	return ORBIS_OK;\n" +
+                std::string funcHeader = "int PS4_SYSV_ABI " + func.m_funcName + "() {";
+                if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
+                    funcHeader = "int PS4_SYSV_ABI\n" + func.m_funcName + "() {";
+                }
+                const std::string funcDeclare(funcHeader + "\n" +
+                                              "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
+                                              "    return ORBIS_OK;\n" +
                                               "}\n\n");
                 sourceCode += funcDeclare;
                 funcImplementation.insert(func.m_funcName);
@@ -89,10 +99,18 @@ void GenerateCodeFiles(
     sourceCode += "void Register" + moduleName + "(Core::Loader::SymbolsResolver* sym) {\n";
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
-            sourceCode += "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
+            std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
                           std::to_string(func.m_version_major) + ", " +
-                          std::to_string(func.m_version_minor) + ", " + func.m_funcName + ");\n";
+                          std::to_string(func.m_version_minor) + "," + func.m_funcName + ");\n";
+            if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
+                nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
+                          std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
+                          std::to_string(func.m_version_major) + ", " +
+                          std::to_string(func.m_version_minor) + ",\n" 
+                          + "                 " + func.m_funcName + ");\n";
+            }
+            sourceCode += nextLine;
         }
     }
 
