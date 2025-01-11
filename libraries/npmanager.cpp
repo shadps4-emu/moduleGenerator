@@ -2558,10 +2558,11 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _sceNpIpcCreateMemoryFromPool);
     LIB_FUNCTION("hyuye+88uPo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcDestroyMemory);
-    LIB_FUNCTION("VY8Xji9cAFA", "libSceNpManager", 1, "libSceNpManager", 1, 1,_sceNpIpcFreeImpl);
+    LIB_FUNCTION("VY8Xji9cAFA", "libSceNpManager", 1, "libSceNpManager", 1, 1, _sceNpIpcFreeImpl);
     LIB_FUNCTION("V38nfJwXYhg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcGetNpMemAllocator);
-    LIB_FUNCTION("VBZtcFn7+aY", "libSceNpManager", 1, "libSceNpManager", 1, 1,_sceNpIpcMallocImpl);
+    LIB_FUNCTION("VBZtcFn7+aY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _sceNpIpcMallocImpl);
     LIB_FUNCTION("TyACAxDH3Uw", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcReallocImpl);
     LIB_FUNCTION("fHGhS3uP52k", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2696,30 +2697,42 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _ZN3sce2np4NpIdC1ERK7SceNpId);
     LIB_FUNCTION("SuCCD+AZwCc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC1ERKS1_);
-    LIB_FUNCTION("YU-PxwZq21U", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdC1Ev);
+    LIB_FUNCTION("YU-PxwZq21U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdC1Ev);
     LIB_FUNCTION("ZHZ6QZ8xHLE", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC2ERK7SceNpId);
     LIB_FUNCTION("qBlMzJbMa7c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC2ERKS1_);
-    LIB_FUNCTION("OIdCMA7vGHA", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdC2Ev);
-    LIB_FUNCTION("lUXyFGSFXKo", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD0Ev);
-    LIB_FUNCTION("WcfJXQ2NFP4", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD1Ev);
-    LIB_FUNCTION("ya+s8zGxVQQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD2Ev);
+    LIB_FUNCTION("OIdCMA7vGHA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdC2Ev);
+    LIB_FUNCTION("lUXyFGSFXKo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD0Ev);
+    LIB_FUNCTION("WcfJXQ2NFP4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD1Ev);
+    LIB_FUNCTION("ya+s8zGxVQQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD2Ev);
     LIB_FUNCTION("GtMgx4YcBuo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4User5ClearEv);
     LIB_FUNCTION("bwwspVgS4hQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4User7GetUserEiPS1_);
-    LIB_FUNCTION("Z4wnPrd9jIE", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC1Ei);
+    LIB_FUNCTION("Z4wnPrd9jIE", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC1Ei);
     LIB_FUNCTION("rgtbpTzx0RA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4UserC1ERKS1_);
-    LIB_FUNCTION("S7Afe0llsL8", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC1Ev);
-    LIB_FUNCTION("i2KGykoRA-4", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC2Ei);
+    LIB_FUNCTION("S7Afe0llsL8", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC1Ev);
+    LIB_FUNCTION("i2KGykoRA-4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC2Ei);
     LIB_FUNCTION("YvL0D8Vg6VM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4UserC2ERKS1_);
-    LIB_FUNCTION("F-AkFa9cABI", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC2Ev);
-    LIB_FUNCTION("HhKQodH164k", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD0Ev);
-    LIB_FUNCTION("gQFyT9aIsOk", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD1Ev);
-    LIB_FUNCTION("itBuc3IIDaY", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD2Ev);
+    LIB_FUNCTION("F-AkFa9cABI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC2Ev);
+    LIB_FUNCTION("HhKQodH164k", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD0Ev);
+    LIB_FUNCTION("gQFyT9aIsOk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD1Ev);
+    LIB_FUNCTION("itBuc3IIDaY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD2Ev);
     LIB_FUNCTION("BI3Wo2RpVmA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np8NpTicket5ClearEv);
     LIB_FUNCTION("KjXpVcQXaYc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2780,8 +2793,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _ZThn8_N3sce2np11NpHttpTransD0Ev);
     LIB_FUNCTION("mHE2Hk9Ki80", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZThn8_N3sce2np11NpHttpTransD1Ev);
-    LIB_FUNCTION("OzKvTvg3ZYU", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAbortRequest);
-    LIB_FUNCTION("JrXA7baBMPQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmAbort);
+    LIB_FUNCTION("OzKvTvg3ZYU", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAbortRequest);
+    LIB_FUNCTION("JrXA7baBMPQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmAbort);
     LIB_FUNCTION("0cn2c-bk8wA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpAsmClientAbortRequest);
     LIB_FUNCTION("coT6qsU5t9M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2874,9 +2887,9 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpAsmGetServiceBaseUrl);
     LIB_FUNCTION("1Xe+XZ1oI28", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpAsmGetServiceIdInfo);
-    LIB_FUNCTION("j2dSNi+SJro", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmInitialize);
-    LIB_FUNCTION("Dt2rEe-d5c0", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmTerminate);
-    LIB_FUNCTION("3Zl8BePTh9Y", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCheckCallback);
+    LIB_FUNCTION("j2dSNi+SJro", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmInitialize);
+    LIB_FUNCTION("Dt2rEe-d5c0", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmTerminate);
+    LIB_FUNCTION("3Zl8BePTh9Y", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCheckCallback);
     LIB_FUNCTION("JELHf4xPufo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCheckCallbackForLib);
     LIB_FUNCTION("2rsFmlGWleQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2885,12 +2898,12 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpCheckNpAvailabilityA);
     LIB_FUNCTION("KfGZg2y73oM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCheckNpReachability);
-    LIB_FUNCTION("r6MyYJkryz8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCheckPlus);
+    LIB_FUNCTION("r6MyYJkryz8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCheckPlus);
     LIB_FUNCTION("eiqMCt9UshI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCreateAsyncRequest);
-    LIB_FUNCTION("GpLQDNKICac", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCreateRequest);
-    LIB_FUNCTION("S7QTn72PrDw", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpDeleteRequest);
-    LIB_FUNCTION("+4DegjBqV1g", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountAge);
+    LIB_FUNCTION("GpLQDNKICac", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCreateRequest);
+    LIB_FUNCTION("S7QTn72PrDw", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpDeleteRequest);
+    LIB_FUNCTION("+4DegjBqV1g", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountAge);
     LIB_FUNCTION("Ghz9iWDUtC4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountCountry);
     LIB_FUNCTION("JT+t00a3TxA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2899,8 +2912,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpGetAccountDateOfBirth);
     LIB_FUNCTION("q3M7XzBKC3s", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountDateOfBirthA);
-    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountId);
-    LIB_FUNCTION("rbknaUjpqWo", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountIdA);
+    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountId);
+    LIB_FUNCTION("rbknaUjpqWo", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountIdA);
     LIB_FUNCTION("KZ1Mj9yEGYc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountLanguage);
     LIB_FUNCTION("3Tcz5bNCfZQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2911,20 +2924,20 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpGetGamePresenceStatus);
     LIB_FUNCTION("oPO9U42YpgI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetGamePresenceStatusA);
-    LIB_FUNCTION("p-o74CnoNzY", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetNpId);
+    LIB_FUNCTION("p-o74CnoNzY", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetNpId);
     LIB_FUNCTION("e-ZuhGEoeC4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetNpReachabilityState);
-    LIB_FUNCTION("XDncXQIJUSk", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetOnlineId);
+    LIB_FUNCTION("XDncXQIJUSk", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetOnlineId);
     LIB_FUNCTION("ilwLM4zOmu4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetParentalControlInfo);
     LIB_FUNCTION("m9L3O6yst-U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetParentalControlInfoA);
-    LIB_FUNCTION("eQH7nWPcAgc", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetState);
+    LIB_FUNCTION("eQH7nWPcAgc", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetState);
     LIB_FUNCTION("VgYczPGB5ss", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetUserIdByAccountId);
     LIB_FUNCTION("F6E4ycq9Dbg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetUserIdByOnlineId);
-    LIB_FUNCTION("Oad3rvY-NJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpHasSignedUp);
+    LIB_FUNCTION("Oad3rvY-NJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpHasSignedUp);
     LIB_FUNCTION("fJuQuipzW10", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIdMapperAbortRequest);
     LIB_FUNCTION("alNLle2vACg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2961,8 +2974,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpInGameMessageSendDataA);
     LIB_FUNCTION("bMG3cVmUmuk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpInGameMessageTerminate);
-    LIB_FUNCTION("GsWjzRU7AWA", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIntCheckPlus);
-    LIB_FUNCTION("H6xqSNWg0wM", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIntGetAppType);
+    LIB_FUNCTION("GsWjzRU7AWA", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIntCheckPlus);
+    LIB_FUNCTION("H6xqSNWg0wM", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIntGetAppType);
     LIB_FUNCTION("SdNiYQWjU6E", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIntGetGamePresenceStatus);
     LIB_FUNCTION("H0n1QHWdVwQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2971,7 +2984,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpIntGetNpTitleIdSecret);
     LIB_FUNCTION("bZ2mBvP79d8", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIntRegisterGamePresenceCallback);
-    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIsPlusMember);
+    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIsPlusMember);
     LIB_FUNCTION("AUuzKQIwhXY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpManagerIntAbortRequest);
     LIB_FUNCTION("J0MUxuo9H9c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3204,13 +3217,13 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpManagerPrxStopVsh);
     LIB_FUNCTION("Gaxrp3EWY-M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpNotifyPlusFeature);
-    LIB_FUNCTION("uqcPJLWL08M", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPollAsync);
+    LIB_FUNCTION("uqcPJLWL08M", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPollAsync);
     LIB_FUNCTION("QGN2n4c8na4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2CreateUserContext);
     LIB_FUNCTION("HnV+y1xVP2c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2DeleteUserContext);
-    LIB_FUNCTION("sDqpKnwnAJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2Init);
-    LIB_FUNCTION("i1lhp0Wlu+k", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2IsInit);
+    LIB_FUNCTION("sDqpKnwnAJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2Init);
+    LIB_FUNCTION("i1lhp0Wlu+k", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2IsInit);
     LIB_FUNCTION("KnOXRM1i6KM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2OptionalCheckCallback);
     LIB_FUNCTION("CsIrEmYADDo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3225,7 +3238,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPush2SetGlobalMutex);
     LIB_FUNCTION("Y1EmilNpj3Y", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2SetNpCommunicationId);
-    LIB_FUNCTION("KjAjcg3W7F8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2Term);
+    LIB_FUNCTION("KjAjcg3W7F8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2Term);
     LIB_FUNCTION("i9NM4gcpZhk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2TriggerEmptyUserEvent);
     LIB_FUNCTION("rwM99K5fzIk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3240,7 +3253,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPush2WaitCallback);
     LIB_FUNCTION("kdrdY-BEJMw", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushCheckCallback);
-    LIB_FUNCTION("DkN+WBclFps", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPushInit);
+    LIB_FUNCTION("DkN+WBclFps", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPushInit);
     LIB_FUNCTION("1S2urF24zNQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushIntBeginInactive);
     LIB_FUNCTION("XyvQv2qjUng", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3267,7 +3280,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPushStopNotification);
     LIB_FUNCTION("Xa1igyHioag", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushStopNotificationA);
-    LIB_FUNCTION("qo5mH49gnDA", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPushTerm);
+    LIB_FUNCTION("qo5mH49gnDA", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPushTerm);
     LIB_FUNCTION("VxjXt8G-9Ns", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushUnregisterExtendedDataFilter);
     LIB_FUNCTION("6MuJ-vnDk6A", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3298,10 +3311,10 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpSetGamePresenceOnline);
     LIB_FUNCTION("C0gNCiRIi4U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpSetGamePresenceOnlineA);
-    LIB_FUNCTION("Ec63y59l9tw", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpSetNpTitleId);
+    LIB_FUNCTION("Ec63y59l9tw", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpSetNpTitleId);
     LIB_FUNCTION("TJqSgUEzexM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpSetNpTitleIdVsh);
-    LIB_FUNCTION("-QglDeRr8D8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpSetTimeout);
+    LIB_FUNCTION("-QglDeRr8D8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpSetTimeout);
     LIB_FUNCTION("aJZyCcHxzu4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpUnregisterGamePresenceCallbackA);
     LIB_FUNCTION("cRILAEvn+9M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3312,7 +3325,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpUnregisterStateCallback);
     LIB_FUNCTION("M3wFXbYQtAA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpUnregisterStateCallbackA);
-    LIB_FUNCTION("jyi5p9XWUSs", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpWaitAsync);
+    LIB_FUNCTION("jyi5p9XWUSs", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpWaitAsync);
     LIB_FUNCTION("BQA2KNZr2H0", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  Func_05003628D66BD87D);
     LIB_FUNCTION("DDiKTyHJivk", "libSceNpManager", 1, "libSceNpManager", 1, 1,

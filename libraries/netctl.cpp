@@ -474,9 +474,9 @@ int PS4_SYSV_ABI sceNetBweUnregisterCallbackIpcInt() {
 }
 
 void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("Jy1EO5GdlcM", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,sceNetCtlGetInfoV6);
-    LIB_FUNCTION("H5yARg37U5g", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,sceNetCtlGetResultV6);
-    LIB_FUNCTION("+lxqIKeU9UY", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,sceNetCtlGetStateV6);
+    LIB_FUNCTION("Jy1EO5GdlcM", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfoV6);
+    LIB_FUNCTION("H5yARg37U5g", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetResultV6);
+    LIB_FUNCTION("+lxqIKeU9UY", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetStateV6);
     LIB_FUNCTION("1NE9OWdBIww", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlRegisterCallbackV6);
     LIB_FUNCTION("hIUVeUNxAwc", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,
@@ -517,55 +517,60 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
                  sceNetCtlApRpStartConf);
     LIB_FUNCTION("9Dxg7XSlr2s", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApRpStartWithRetry);
-    LIB_FUNCTION("6uvAl4RlEyk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,sceNetCtlApRpStop);
+    LIB_FUNCTION("6uvAl4RlEyk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpStop);
     LIB_FUNCTION("8eyH37Ns8tk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApRpUnregisterCallback);
     LIB_FUNCTION("19Ec7WkMFfQ", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApCheckCallback);
-    LIB_FUNCTION("meFMaDpdsVI", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApClearEvent);
+    LIB_FUNCTION("meFMaDpdsVI", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApClearEvent);
     LIB_FUNCTION("hfkLVdXmfnU", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApGetConnectInfo);
-    LIB_FUNCTION("LXADzTIzM9I", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApGetInfo);
-    LIB_FUNCTION("4jkLJc954+Q", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApGetResult);
-    LIB_FUNCTION("AKZOzsb9whc", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApGetState);
-    LIB_FUNCTION("FdN+edNRtiw", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApInit);
+    LIB_FUNCTION("LXADzTIzM9I", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetInfo);
+    LIB_FUNCTION("4jkLJc954+Q", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetResult);
+    LIB_FUNCTION("AKZOzsb9whc", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetState);
+    LIB_FUNCTION("FdN+edNRtiw", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApInit);
     LIB_FUNCTION("pmjobSVHuY0", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApRegisterCallback);
-    LIB_FUNCTION("r-pOyN6AhsM", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApStop);
-    LIB_FUNCTION("cv5Y2efOTeg", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,sceNetCtlApTerm);
+    LIB_FUNCTION("r-pOyN6AhsM", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApStop);
+    LIB_FUNCTION("cv5Y2efOTeg", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApTerm);
     LIB_FUNCTION("NpTcFtaQ-0E", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlApUnregisterCallback);
-    LIB_FUNCTION("iQw3iQPhvUQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlCheckCallback);
+    LIB_FUNCTION("iQw3iQPhvUQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlCheckCallback);
     LIB_FUNCTION("UF6H6+kjyQs", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlCheckCallbackForLibIpcInt);
     LIB_FUNCTION("vv6g8zoanL4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlClearEventForLibIpcInt);
-    LIB_FUNCTION("8OJ86vFucfo", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlClearEventIpcInt);
+    LIB_FUNCTION("8OJ86vFucfo", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlClearEventIpcInt);
     LIB_FUNCTION("HCD46HVTyQg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlConnectConfIpcInt);
-    LIB_FUNCTION("ID+Gq3Ddzbg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlConnectIpcInt);
+    LIB_FUNCTION("ID+Gq3Ddzbg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlConnectIpcInt);
     LIB_FUNCTION("aPpic8K75YA", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlConnectWithRetryIpcInt);
     LIB_FUNCTION("9y4IcsJdTCc", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlDisableBandwidthManagementIpcInt);
-    LIB_FUNCTION("qOefcpoSs0k", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlDisconnectIpcInt);
+    LIB_FUNCTION("qOefcpoSs0k", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlDisconnectIpcInt);
     LIB_FUNCTION("x9bSmRSE+hc", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlEnableBandwidthManagementIpcInt);
     LIB_FUNCTION("eCUIlA2t5CE", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlGetBandwidthInfoIpcInt);
-    LIB_FUNCTION("2EfjPXVPk3s", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetEtherLinkMode);
-    LIB_FUNCTION("teuK4QnJTGg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetIfStat);
-    LIB_FUNCTION("obuxdTiwkF8", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetInfo);
-    LIB_FUNCTION("xstcTqAhTys", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetInfoIpcInt);
-    LIB_FUNCTION("Jy1EO5GdlcM", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetInfoV6);
-    LIB_FUNCTION("arAQRFlwqaA", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetInfoV6IpcInt);
-    LIB_FUNCTION("JO4yuTuMoKI", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetNatInfo);
-    LIB_FUNCTION("x+cnsAxKSHo", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetNatInfoIpcInt);
+    LIB_FUNCTION("2EfjPXVPk3s", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlGetEtherLinkMode);
+    LIB_FUNCTION("teuK4QnJTGg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetIfStat);
+    LIB_FUNCTION("obuxdTiwkF8", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfo);
+    LIB_FUNCTION("xstcTqAhTys", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfoIpcInt);
+    LIB_FUNCTION("Jy1EO5GdlcM", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfoV6);
+    LIB_FUNCTION("arAQRFlwqaA", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfoV6IpcInt);
+    LIB_FUNCTION("JO4yuTuMoKI", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetNatInfo);
+    LIB_FUNCTION("x+cnsAxKSHo", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlGetNatInfoIpcInt);
     LIB_FUNCTION("hhTsdv99azU", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlGetNetEvConfigInfoIpcInt);
-    LIB_FUNCTION("0cBgduPRR+M", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetResult);
-    LIB_FUNCTION("NEtnusbZyAs", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetResultIpcInt);
-    LIB_FUNCTION("H5yARg37U5g", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetResultV6);
+    LIB_FUNCTION("0cBgduPRR+M", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetResult);
+    LIB_FUNCTION("NEtnusbZyAs", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetResultIpcInt);
+    LIB_FUNCTION("H5yARg37U5g", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetResultV6);
     LIB_FUNCTION("vdsTa93atXY", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlGetResultV6IpcInt);
     LIB_FUNCTION("wP0Ab2maR1Y", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
@@ -578,16 +583,18 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
                  sceNetCtlGetScanInfoForSsidListScanIpcInt);
     LIB_FUNCTION("L97eAHI0xxs", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlGetScanInfoForSsidScanIpcInt);
-    LIB_FUNCTION("uBPlr0lbuiI", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetState);
-    LIB_FUNCTION("JXlI9EZVjf4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetState2IpcInt);
-    LIB_FUNCTION("gvnJPMkSoAY", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetStateIpcInt);
-    LIB_FUNCTION("+lxqIKeU9UY", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetStateV6);
-    LIB_FUNCTION("O8Fk4w5MWss", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetStateV6IpcInt);
-    LIB_FUNCTION("BXW9b3R1Nw4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlGetWifiType);
-    LIB_FUNCTION("gky0+oaNM4k", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlInit);
+    LIB_FUNCTION("uBPlr0lbuiI", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetState);
+    LIB_FUNCTION("JXlI9EZVjf4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetState2IpcInt);
+    LIB_FUNCTION("gvnJPMkSoAY", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetStateIpcInt);
+    LIB_FUNCTION("+lxqIKeU9UY", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetStateV6);
+    LIB_FUNCTION("O8Fk4w5MWss", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlGetStateV6IpcInt);
+    LIB_FUNCTION("BXW9b3R1Nw4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlGetWifiType);
+    LIB_FUNCTION("gky0+oaNM4k", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlInit);
     LIB_FUNCTION("YtAnCkTR0K4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlIsBandwidthManagementEnabledIpcInt);
-    LIB_FUNCTION("UJ+Z7Q+4ck0", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlRegisterCallback);
+    LIB_FUNCTION("UJ+Z7Q+4ck0", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlRegisterCallback);
     LIB_FUNCTION("WRvDk2syatE", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlRegisterCallbackForLibIpcInt);
     LIB_FUNCTION("rqkh2kXvLSw", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
@@ -596,12 +603,12 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
                  sceNetCtlRegisterCallbackV6);
     LIB_FUNCTION("ipqlpcIqRsQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlRegisterCallbackV6IpcInt);
-    LIB_FUNCTION("reIsHryCDx4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlScanIpcInt);
+    LIB_FUNCTION("reIsHryCDx4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlScanIpcInt);
     LIB_FUNCTION("LJYiiIS4HB0", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlSetErrorNotificationEnabledIpcInt);
     LIB_FUNCTION("DjuqqqV08Nk", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlSetStunWithPaddingFlagIpcInt);
-    LIB_FUNCTION("Z4wwCFiBELQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,sceNetCtlTerm);
+    LIB_FUNCTION("Z4wwCFiBELQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlTerm);
     LIB_FUNCTION("Rqm2OnZMCz0", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlUnregisterCallback);
     LIB_FUNCTION("urWaUWkEGZg", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
@@ -614,13 +621,14 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
                  sceNetCtlUnregisterCallbackV6IpcInt);
     LIB_FUNCTION("1HSvkN9oxO4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlUnsetStunWithPaddingFlagIpcInt);
-    LIB_FUNCTION("2Ny2lzU3o9w", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,Func_D8DCB6973537A3DC);
+    LIB_FUNCTION("2Ny2lzU3o9w", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, Func_D8DCB6973537A3DC);
     LIB_FUNCTION("XtClSOC1xcU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
                  sceNetBweCheckCallbackIpcInt);
-    LIB_FUNCTION("YALqoY4aeY0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,sceNetBweClearEventIpcInt);
+    LIB_FUNCTION("YALqoY4aeY0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweClearEventIpcInt);
     LIB_FUNCTION("ouyROWhGUbM", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
                  sceNetBweFinishInternetConnectionTestIpcInt);
-    LIB_FUNCTION("G4vltQ0Vs+0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,sceNetBweGetInfoIpcInt);
+    LIB_FUNCTION("G4vltQ0Vs+0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1, sceNetBweGetInfoIpcInt);
     LIB_FUNCTION("GqETL5+INhU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
                  sceNetBweRegisterCallbackIpcInt);
     LIB_FUNCTION("mEUt-phGd5E", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,

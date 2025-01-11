@@ -767,14 +767,14 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutAddBufferHdrPrivilege);
     LIB_FUNCTION("lm+1oyWKwy0", "libSceVideoOutAniso", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddBufferAnisoPrivilege);
-    LIB_FUNCTION("4iy9hG9Du1s", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutAddBuffer);
+    LIB_FUNCTION("4iy9hG9Du1s", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutAddBuffer);
     LIB_FUNCTION("twrSaoZ9cJs", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddBuffer4k2kPrivilege);
     LIB_FUNCTION("D3s8DoEnuR4", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddBufferYccPrivilege);
     LIB_FUNCTION("Cxb2w82t7lw", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddDisplayPositionEvent);
-    LIB_FUNCTION("HtwSd4H2Tws", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutAddDriver);
+    LIB_FUNCTION("HtwSd4H2Tws", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutAddDriver);
     LIB_FUNCTION("HXzjK9yI30k", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddFlipEvent);
     LIB_FUNCTION("keipklF0pMY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -789,7 +789,7 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutAddVblankEvent);
     LIB_FUNCTION("pv9CI5VC+R0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAdjustColor_);
-    LIB_FUNCTION("uquVH4-Du78", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutClose);
+    LIB_FUNCTION("uquVH4-Du78", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutClose);
     LIB_FUNCTION("DYhhWbJSeRg", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutColorSettingsSetGamma_);
     LIB_FUNCTION("ktP9j1fN-zE", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -870,7 +870,8 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutGetEventCount);
     LIB_FUNCTION("rWUTcKdkUzQ", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutGetEventData);
-    LIB_FUNCTION("U2JJtSqNKZI", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutGetEventId);
+    LIB_FUNCTION("U2JJtSqNKZI", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutGetEventId);
     LIB_FUNCTION("SbU3dwp80lQ", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutGetFlipStatus);
     LIB_FUNCTION("hZvzQy2VLKY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -897,10 +898,11 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode_);
     LIB_FUNCTION("zgXifHT9ErY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutIsFlipPending);
-    LIB_FUNCTION("7ifZFxWJ9Q4", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutLockBuffer);
+    LIB_FUNCTION("7ifZFxWJ9Q4", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutLockBuffer);
     LIB_FUNCTION("pjkDsgxli6c", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutModeSetAny_);
-    LIB_FUNCTION("Up36PTk687E", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutOpen);
+    LIB_FUNCTION("Up36PTk687E", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutOpen);
     LIB_FUNCTION("ZX7C79uOujU", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutRazorAddCallback);
     LIB_FUNCTION("hGcTks-qqIU", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -933,12 +935,13 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutSubmitChangeBufferAttribute);
     LIB_FUNCTION("j8xl+92A0q4", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSubmitEopFlip);
-    LIB_FUNCTION("U46NwOiJpys", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutSubmitFlip);
+    LIB_FUNCTION("U46NwOiJpys", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutSubmitFlip);
     LIB_FUNCTION("X8FN-5Nk-yE", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSysAddSetModeEvent);
     LIB_FUNCTION("Ek+VR4lcJQI", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSysAddVblankEvent);
-    LIB_FUNCTION("dIb9LsrpkQM", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutSysClose);
+    LIB_FUNCTION("dIb9LsrpkQM", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutSysClose);
     LIB_FUNCTION("rBDEhJgMruY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSysConfigureOutputMode_);
     LIB_FUNCTION("6L0-A5piudQ", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -975,7 +978,8 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutSysGetVblankStatus);
     LIB_FUNCTION("mfxElr79O7Q", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSysIsSupportedByMonitorInfo_);
-    LIB_FUNCTION("E8C608-pFng", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutSysReadCrc);
+    LIB_FUNCTION("E8C608-pFng", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutSysReadCrc);
     LIB_FUNCTION("eBvoaLwfBBQ", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutSysReadCrc64);
     LIB_FUNCTION("djc8fOzOXxk", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
@@ -1018,17 +1022,28 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  sceVideoOutUnregisterBufferAttribute);
     LIB_FUNCTION("N5KDtkIjjJ4", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutUnregisterBuffers);
-    LIB_FUNCTION("j6RaAUlaLv0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,sceVideoOutWaitVblank);
-    LIB_FUNCTION("Ek7XQBAkFYA", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_124ED74010241580);
-    LIB_FUNCTION("JDjWoYVTvdk", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_2438D6A18553BDD9);
-    LIB_FUNCTION("M4lTPTxoeN0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_3389533D3C6878DD);
-    LIB_FUNCTION("P5a32OulZQk", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_3F96B7D8EBA56509);
-    LIB_FUNCTION("lMkkEv4aaHY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_94C92412FE1A6876);
-    LIB_FUNCTION("oXrnSxFki+c", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_A17AE74B11648BE7);
-    LIB_FUNCTION("vXMpe7Murfc", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_BD73297BB32EADF7);
-    LIB_FUNCTION("wKJpFhCTrX0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_C0A269161093AD7D);
-    LIB_FUNCTION("wZI4fmUJMlw", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_C192387E6509325C);
-    LIB_FUNCTION("-5AIEU9+11g", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,Func_FF9008114F7ED758);
+    LIB_FUNCTION("j6RaAUlaLv0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutWaitVblank);
+    LIB_FUNCTION("Ek7XQBAkFYA", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_124ED74010241580);
+    LIB_FUNCTION("JDjWoYVTvdk", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_2438D6A18553BDD9);
+    LIB_FUNCTION("M4lTPTxoeN0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_3389533D3C6878DD);
+    LIB_FUNCTION("P5a32OulZQk", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_3F96B7D8EBA56509);
+    LIB_FUNCTION("lMkkEv4aaHY", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_94C92412FE1A6876);
+    LIB_FUNCTION("oXrnSxFki+c", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_A17AE74B11648BE7);
+    LIB_FUNCTION("vXMpe7Murfc", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_BD73297BB32EADF7);
+    LIB_FUNCTION("wKJpFhCTrX0", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_C0A269161093AD7D);
+    LIB_FUNCTION("wZI4fmUJMlw", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_C192387E6509325C);
+    LIB_FUNCTION("-5AIEU9+11g", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
+                 Func_FF9008114F7ED758);
     LIB_FUNCTION("3xrSV8U0Hsg", "libSceVideoOutWindow2Pre400", 1, "libSceVideoOut", 0, 0,
                  Func_DF1AD257C5341EC8);
     LIB_FUNCTION("+sXvR1JH9Aw", "libSceVideoOutRawEdid", 1, "libSceVideoOut", 0, 0,

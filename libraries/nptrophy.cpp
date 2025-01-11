@@ -610,10 +610,14 @@ void RegisterlibSceNpTrophy(Core::Loader::SymbolsResolver* sym) {
                  sceNpTrophySystemSetDbgParamInt);
     LIB_FUNCTION("28xmRUFao68", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,
                  sceNpTrophyUnlockTrophy);
-    LIB_FUNCTION("FJZW2oHUHFk", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,Func_149656DA81D41C59);
-    LIB_FUNCTION("n4AHGHb-pfY", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,Func_9F80071876FFA5F6);
-    LIB_FUNCTION("+O9vU1CpGZA", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,Func_F8EF6F5350A91990);
-    LIB_FUNCTION("+not13BEdVI", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,Func_FA7A2DD770447552);
+    LIB_FUNCTION("FJZW2oHUHFk", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,
+                 Func_149656DA81D41C59);
+    LIB_FUNCTION("n4AHGHb-pfY", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,
+                 Func_9F80071876FFA5F6);
+    LIB_FUNCTION("+O9vU1CpGZA", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,
+                 Func_F8EF6F5350A91990);
+    LIB_FUNCTION("+not13BEdVI", "libSceNpTrophy", 1, "libSceNpTrophy", 1, 1,
+                 Func_FA7A2DD770447552);
 };
 
 } // namespace Libraries::NpTrophy

@@ -3170,7 +3170,8 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceLncUtilIsShellUiFgAndGameBgCpuMode);
     LIB_FUNCTION("gNn+EZtm1i0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
                  sceLncUtilKickCoredumpOnlyProcMem);
-    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,sceLncUtilKillApp);
+    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKillApp);
     LIB_FUNCTION("RBlEzB--JeA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
                  sceLncUtilKillAppWithReason);
     LIB_FUNCTION("IhlLdSAX+Jk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,

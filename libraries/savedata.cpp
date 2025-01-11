@@ -484,8 +484,8 @@ int PS4_SYSV_ABI Func_02E4C4D201716422() {
 }
 
 void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("dQ2GohUHXzk", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataAbort);
-    LIB_FUNCTION("z1JA8-iJt3k", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataBackup);
+    LIB_FUNCTION("dQ2GohUHXzk", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataAbort);
+    LIB_FUNCTION("z1JA8-iJt3k", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataBackup);
     LIB_FUNCTION("kLJQ3XioYiU", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataBindPsnAccount);
     LIB_FUNCTION("hHHCPRqA3+g", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -512,10 +512,10 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataCheckSaveDataVersionLatest);
     LIB_FUNCTION("Wz-4JZfeO9g", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataClearProgress);
-    LIB_FUNCTION("YbCO38BOOl4", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataCopy5);
+    LIB_FUNCTION("YbCO38BOOl4", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataCopy5);
     LIB_FUNCTION("kbIIP9aXK9A", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataCreateUploadData);
-    LIB_FUNCTION("gW6G4HxBBXA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDebug);
+    LIB_FUNCTION("gW6G4HxBBXA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDebug);
     LIB_FUNCTION("bYCnxLexU7M", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDebugCleanMount);
     LIB_FUNCTION("hVDqYB8+jkk", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -528,19 +528,21 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataDebugRemoveSaveDataRoot);
     LIB_FUNCTION("AYBQmnRplrg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDebugTarget);
-    LIB_FUNCTION("S1GkePI17zQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDelete);
-    LIB_FUNCTION("SQWusLoK8Pw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDelete5);
+    LIB_FUNCTION("S1GkePI17zQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDelete);
+    LIB_FUNCTION("SQWusLoK8Pw", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDelete5);
     LIB_FUNCTION("pJrlpCgR8h4", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDeleteAllUser);
     LIB_FUNCTION("fU43mJUgKcM", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDeleteCloudData);
-    LIB_FUNCTION("uZqc4JpFdeY", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDeleteUser);
+    LIB_FUNCTION("uZqc4JpFdeY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataDeleteUser);
     LIB_FUNCTION("dyIhnXq-0SM", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDirNameSearch);
     LIB_FUNCTION("xJ5NFWC3m+k", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDirNameSearchInternal);
-    LIB_FUNCTION("h1nP9EYv3uc", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDownload);
-    LIB_FUNCTION("A1ThglSGUwA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetAllSize);
+    LIB_FUNCTION("h1nP9EYv3uc", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDownload);
+    LIB_FUNCTION("A1ThglSGUwA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataGetAllSize);
     LIB_FUNCTION("KuXcrMAQIMQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetAppLaunchedUser);
     LIB_FUNCTION("itZ46iH14Vs", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -561,12 +563,12 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataGetEventInfo);
     LIB_FUNCTION("j8xKtiFj0SY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetEventResult);
-    LIB_FUNCTION("UMpxor4AlKQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetFormat);
+    LIB_FUNCTION("UMpxor4AlKQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataGetFormat);
     LIB_FUNCTION("pc4guaUPVqA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetMountedSaveDataCount);
     LIB_FUNCTION("65VH0Qaaz6s", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetMountInfo);
-    LIB_FUNCTION("XgvSuIdnMlw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetParam);
+    LIB_FUNCTION("XgvSuIdnMlw", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataGetParam);
     LIB_FUNCTION("ANmSWUiyyGQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetProgress);
     LIB_FUNCTION("SN7rTPHS+Cg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -585,7 +587,8 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataGetSavePoint);
     LIB_FUNCTION("OYmnApJ9q+U", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetUpdatedDataCount);
-    LIB_FUNCTION("ZkZhskCPXFw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataInitialize);
+    LIB_FUNCTION("ZkZhskCPXFw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataInitialize);
     LIB_FUNCTION("l1NmDeDpNGU", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataInitialize2);
     LIB_FUNCTION("TywrFKCoLGY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -594,15 +597,15 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataInitializeForCdlg);
     LIB_FUNCTION("voAQW45oKuo", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataIsDeletingUsbDb);
-    LIB_FUNCTION("ieP6jP138Qo", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataIsMounted);
-    LIB_FUNCTION("cGjO3wM3V28", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataLoadIcon);
-    LIB_FUNCTION("32HQAQdwM2o", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount);
-    LIB_FUNCTION("0z45PIH+SNI", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount2);
-    LIB_FUNCTION("xz0YMi6BfNk", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount5);
+    LIB_FUNCTION("ieP6jP138Qo", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataIsMounted);
+    LIB_FUNCTION("cGjO3wM3V28", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataLoadIcon);
+    LIB_FUNCTION("32HQAQdwM2o", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount);
+    LIB_FUNCTION("0z45PIH+SNI", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount2);
+    LIB_FUNCTION("xz0YMi6BfNk", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount5);
     LIB_FUNCTION("msCER7Iibm8", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataMountInternal);
-    LIB_FUNCTION("-XYmdxjOqyA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMountSys);
-    LIB_FUNCTION("uNu7j3pL2mQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataPromote5);
+    LIB_FUNCTION("-XYmdxjOqyA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMountSys);
+    LIB_FUNCTION("uNu7j3pL2mQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataPromote5);
     LIB_FUNCTION("SgIY-XYA2Xg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataRebuildDatabase);
     LIB_FUNCTION("hsKd5c21sQc", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -613,12 +616,12 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataRestoreBackupDataForCdlg);
     LIB_FUNCTION("aoZKKNjlq3Y", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataRestoreLoadSaveDataMemory);
-    LIB_FUNCTION("c88Yy54Mx0w", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataSaveIcon);
+    LIB_FUNCTION("c88Yy54Mx0w", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataSaveIcon);
     LIB_FUNCTION("0VFHv-Fa4w8", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetAutoUploadSetting);
     LIB_FUNCTION("52pL2GKkdjA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetEventInfo);
-    LIB_FUNCTION("85zul--eGXs", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataSetParam);
+    LIB_FUNCTION("85zul--eGXs", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataSetParam);
     LIB_FUNCTION("v3vg2+cooYw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetSaveDataLibraryUser);
     LIB_FUNCTION("h3YURzXGSVQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -637,17 +640,18 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataSyncCloudList);
     LIB_FUNCTION("wiT9jeC7xPw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSyncSaveDataMemory);
-    LIB_FUNCTION("yKDy8S5yLA0", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataTerminate);
+    LIB_FUNCTION("yKDy8S5yLA0", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataTerminate);
     LIB_FUNCTION("WAzWTZm1H+I", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataTransferringMount);
-    LIB_FUNCTION("BMR4F-Uek3E", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUmount);
-    LIB_FUNCTION("2-8NWLS8QSA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUmountSys);
+    LIB_FUNCTION("BMR4F-Uek3E", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUmount);
+    LIB_FUNCTION("2-8NWLS8QSA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUmountSys);
     LIB_FUNCTION("VwadwBBBJ80", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataUmountWithBackup);
     LIB_FUNCTION("v-AK1AxQhS0", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataUnregisterEventCallback);
-    LIB_FUNCTION("COwz3WBj+5s", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUpload);
-    LIB_FUNCTION("AuTE0gFxZCI", "libSceSaveData", 1, "libSceSaveData", 1, 1,Func_02E4C4D201716422);
+    LIB_FUNCTION("COwz3WBj+5s", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUpload);
+    LIB_FUNCTION("AuTE0gFxZCI", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 Func_02E4C4D201716422);
 };
 
 } // namespace Libraries::SaveData

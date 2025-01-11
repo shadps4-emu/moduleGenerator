@@ -155,7 +155,8 @@ void RegisterlibSceSharePlay(Core::Loader::SymbolsResolver* sym) {
                  sceSharePlayServerLock);
     LIB_FUNCTION("3Oaux9ITEtY", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
                  sceSharePlayServerUnLock);
-    LIB_FUNCTION("QZy+KmyqKPU", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,sceSharePlaySetMode);
+    LIB_FUNCTION("QZy+KmyqKPU", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
+                 sceSharePlaySetMode);
     LIB_FUNCTION("co2NCj--pnc", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
                  sceSharePlaySetProhibition);
     LIB_FUNCTION("KADsbjNCgPo", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,

@@ -81,7 +81,7 @@ int PS4_SYSV_ABI sceScreenShotSetParam() {
 void RegisterlibSceScreenShot(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("itlWFWV3Tzc", "libSceScreenShotDrc", 1, "libSceScreenShot", 0, 9,
                  sceScreenShotSetDrcParam);
-    LIB_FUNCTION("AS45QoYHjc4", "libSceScreenShot", 1, "libSceScreenShot", 0, 9,_Z5dummyv);
+    LIB_FUNCTION("AS45QoYHjc4", "libSceScreenShot", 1, "libSceScreenShot", 0, 9, _Z5dummyv);
     LIB_FUNCTION("JuMLLmmvRgk", "libSceScreenShot", 1, "libSceScreenShot", 0, 9,
                  sceScreenShotCapture);
     LIB_FUNCTION("tIYf0W5VTi8", "libSceScreenShot", 1, "libSceScreenShot", 0, 9,
