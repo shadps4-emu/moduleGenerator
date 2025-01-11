@@ -78,8 +78,8 @@ void GenerateCodeFiles(
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
                 const std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "() {\n" +
-                                              "	LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
-                                              "	return ORBIS_OK;\n" +
+                                              "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
+                                              "    return ORBIS_OK;\n" +
                                               "}\n\n");
                 sourceCode += funcDeclare;
                 funcImplementation.insert(func.m_funcName);
