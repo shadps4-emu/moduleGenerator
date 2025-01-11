@@ -34,7 +34,7 @@ void GenerateCodeFiles(
     std::string spdx{SpdxHeader};
     std::string headerCode(spdx);
     headerCode += "\n";
-    headerCode += "#pragma once\n\n#include \"common/types.h\" \n\n";
+    headerCode += "#pragma once\n\n#include \"common/types.h\"\n\n";
     headerCode += "namespace Core::Loader {\nclass SymbolsResolver;\n}\n\n";
     std::string trimmedName = moduleName;
     if (moduleName.find("libSce") != std::string::npos) {
