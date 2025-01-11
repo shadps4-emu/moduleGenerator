@@ -69,9 +69,10 @@ void GenerateCodeFiles(
     std::string sourceName(lowModName + ".cpp");
     std::string sourceCode(spdx);
     sourceCode += "\n";
-    sourceCode += "#include \"" + headerName +
-                  "\"\n\n#include \"common/logging/log.h\"\n#include " + 
-                  "\"core/libraries/error_codes.h\"\n#include \"core/libraries/libs.h\"\n\n";
+    sourceCode += "#include \"common/logging/log.h\"\n";
+    sourceCode += "#include \"core/libraries/error_codes.h\"\n";
+    sourceCode += "#include \"core/libraries/libs.h\"\n";
+    sourceCode += "#include \"core/libraries/" + lowModName + "/" + headerName + "\"\n\n";
 
     sourceCode += "namespace Libraries::" + trimmedName + " {\n\n";
 
