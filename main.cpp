@@ -49,7 +49,10 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
-                const std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                if (funcDeclare.length() > 100) {
+                    funcDeclare = "int PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
+                }
                 headerCode += funcDeclare;
                 funcDeclares.insert(func.m_funcName);
             }
@@ -77,7 +80,11 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
-                const std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "() {\n" +
+                std::string funcHeader = "int PS4_SYSV_ABI " + func.m_funcName + "() {";
+                if (funcHeader.length() > 100) {
+                    funcHeader = "int PS4_SYSV_ABI\n" + func.m_funcName + "() {";
+                }
+                const std::string funcDeclare(funcHeader + "\n" +
                                               "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
                                               "    return ORBIS_OK;\n" +
                                               "}\n\n");
@@ -89,10 +96,18 @@ void GenerateCodeFiles(
     sourceCode += "void Register" + moduleName + "(Core::Loader::SymbolsResolver* sym) {\n";
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
-            sourceCode += "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
+            std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
                           std::to_string(func.m_version_major) + ", " +
-                          std::to_string(func.m_version_minor) + ", " + func.m_funcName + ");\n";
+                          std::to_string(func.m_version_minor) + "," + func.m_funcName + ");\n";
+            if (nextLine.length() > 100) {
+                nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
+                          std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
+                          std::to_string(func.m_version_major) + ", " +
+                          std::to_string(func.m_version_minor) + ",\n" 
+                          + "                 " + func.m_funcName + ");\n";
+            }
+            sourceCode += nextLine;
         }
     }
 
