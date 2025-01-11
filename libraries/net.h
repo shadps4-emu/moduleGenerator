@@ -11,6 +11,8 @@ class SymbolsResolver;
 
 namespace Libraries::Net {
 
+int PS4_SYSV_ABI sceNetEmulationGet();
+int PS4_SYSV_ABI sceNetEmulationSet();
 int PS4_SYSV_ABI in6addr_any();
 int PS4_SYSV_ABI in6addr_loopback();
 int PS4_SYSV_ABI sce_net_dummy();
@@ -228,8 +230,6 @@ int PS4_SYSV_ABI sceNetThreadExit();
 int PS4_SYSV_ABI sceNetThreadJoin();
 int PS4_SYSV_ABI sceNetUsleep();
 int PS4_SYSV_ABI Func_0E707A589F751C68();
-int PS4_SYSV_ABI sceNetEmulationGet();
-int PS4_SYSV_ABI sceNetEmulationSet();
 
 void RegisterlibSceNet(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Net
