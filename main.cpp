@@ -25,6 +25,8 @@ constexpr std::string_view SpdxHeader =
 // SPDX-License-Identifier: GPL-2.0-or-later
 )";
 
+constexpr int MAXIMUM_LINE_LENGTH = 100;
+
 void GenerateCodeFiles(
     const std::unordered_map<std::string, std::vector<NidFuncTable>>& libName2FuncTableMap,
     const std::string& moduleName) {
@@ -82,7 +84,7 @@ void GenerateCodeFiles(
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
                 std::string funcHeader = "int PS4_SYSV_ABI " + func.m_funcName + "() {";
-                if (funcHeader.length() > 100) {
+                if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
                     funcHeader = "int PS4_SYSV_ABI\n" + func.m_funcName + "() {";
                 }
                 const std::string funcDeclare(funcHeader + "\n" +
@@ -101,7 +103,7 @@ void GenerateCodeFiles(
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
                           std::to_string(func.m_version_major) + ", " +
                           std::to_string(func.m_version_minor) + "," + func.m_funcName + ");\n";
-            if (nextLine.length() > 100) {
+            if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
                 nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
                           std::to_string(func.m_version_major) + ", " +
