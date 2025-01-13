@@ -8,357 +8,357 @@
 
 namespace Libraries::AudioOut {
 
-int PS4_SYSV_ABI sceAudioOutSetSystemDebugState() {
+s32 PS4_SYSV_ABI sceAudioOutSetSystemDebugState() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef() {
+s32 PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutDeviceIdOpen() {
+s32 PS4_SYSV_ABI sceAudioOutDeviceIdOpen() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutA3dControl() {
+s32 PS4_SYSV_ABI sceAudioOutA3dControl() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutA3dExit() {
+s32 PS4_SYSV_ABI sceAudioOutA3dExit() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutA3dInit() {
+s32 PS4_SYSV_ABI sceAudioOutA3dInit() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutAttachToApplicationByPid() {
+s32 PS4_SYSV_ABI sceAudioOutAttachToApplicationByPid() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutChangeAppModuleState() {
+s32 PS4_SYSV_ABI sceAudioOutChangeAppModuleState() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutClose() {
+s32 PS4_SYSV_ABI sceAudioOutClose() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutDetachFromApplicationByPid() {
+s32 PS4_SYSV_ABI sceAudioOutDetachFromApplicationByPid() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExConfigureOutputMode() {
+s32 PS4_SYSV_ABI sceAudioOutExConfigureOutputMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExGetSystemInfo() {
+s32 PS4_SYSV_ABI sceAudioOutExGetSystemInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExPtClose() {
+s32 PS4_SYSV_ABI sceAudioOutExPtClose() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExPtGetLastOutputTime() {
+s32 PS4_SYSV_ABI sceAudioOutExPtGetLastOutputTime() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExPtOpen() {
+s32 PS4_SYSV_ABI sceAudioOutExPtOpen() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutExSystemInfoIsSupportedAudioOutExMode() {
+s32 PS4_SYSV_ABI sceAudioOutExSystemInfoIsSupportedAudioOutExMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetFocusEnablePid() {
+s32 PS4_SYSV_ABI sceAudioOutGetFocusEnablePid() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetHandleStatusInfo() {
+s32 PS4_SYSV_ABI sceAudioOutGetHandleStatusInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetInfo() {
+s32 PS4_SYSV_ABI sceAudioOutGetInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetInfoOpenNum() {
+s32 PS4_SYSV_ABI sceAudioOutGetInfoOpenNum() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetLastOutputTime() {
+s32 PS4_SYSV_ABI sceAudioOutGetLastOutputTime() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetPortState() {
+s32 PS4_SYSV_ABI sceAudioOutGetPortState() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetSimulatedBusUsableStatusByBusType() {
+s32 PS4_SYSV_ABI sceAudioOutGetSimulatedBusUsableStatusByBusType() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetSimulatedHandleStatusInfo() {
+s32 PS4_SYSV_ABI sceAudioOutGetSimulatedHandleStatusInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetSimulatedHandleStatusInfo2() {
+s32 PS4_SYSV_ABI sceAudioOutGetSimulatedHandleStatusInfo2() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetSparkVss() {
+s32 PS4_SYSV_ABI sceAudioOutGetSparkVss() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutGetSystemState() {
+s32 PS4_SYSV_ABI sceAudioOutGetSystemState() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutInit() {
+s32 PS4_SYSV_ABI sceAudioOutInit() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutInitIpmiGetSession() {
+s32 PS4_SYSV_ABI sceAudioOutInitIpmiGetSession() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutMasteringGetState() {
+s32 PS4_SYSV_ABI sceAudioOutMasteringGetState() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutMasteringInit() {
+s32 PS4_SYSV_ABI sceAudioOutMasteringInit() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutMasteringSetParam() {
+s32 PS4_SYSV_ABI sceAudioOutMasteringSetParam() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutMasteringTerm() {
+s32 PS4_SYSV_ABI sceAudioOutMasteringTerm() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutMbusInit() {
+s32 PS4_SYSV_ABI sceAudioOutMbusInit() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutOpen() {
+s32 PS4_SYSV_ABI sceAudioOutOpen() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutOpenEx() {
+s32 PS4_SYSV_ABI sceAudioOutOpenEx() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutOutput() {
+s32 PS4_SYSV_ABI sceAudioOutOutput() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutOutputs() {
+s32 PS4_SYSV_ABI sceAudioOutOutputs() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutPtClose() {
+s32 PS4_SYSV_ABI sceAudioOutPtClose() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutPtGetLastOutputTime() {
+s32 PS4_SYSV_ABI sceAudioOutPtGetLastOutputTime() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutPtOpen() {
+s32 PS4_SYSV_ABI sceAudioOutPtOpen() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetConnections() {
+s32 PS4_SYSV_ABI sceAudioOutSetConnections() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetConnectionsForUser() {
+s32 PS4_SYSV_ABI sceAudioOutSetConnectionsForUser() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetDevConnection() {
+s32 PS4_SYSV_ABI sceAudioOutSetDevConnection() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetHeadphoneOutMode() {
+s32 PS4_SYSV_ABI sceAudioOutSetHeadphoneOutMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetJediJackVolume() {
+s32 PS4_SYSV_ABI sceAudioOutSetJediJackVolume() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetJediSpkVolume() {
+s32 PS4_SYSV_ABI sceAudioOutSetJediSpkVolume() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetMainOutput() {
+s32 PS4_SYSV_ABI sceAudioOutSetMainOutput() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetMixLevelPadSpk() {
+s32 PS4_SYSV_ABI sceAudioOutSetMixLevelPadSpk() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetMorpheusParam() {
+s32 PS4_SYSV_ABI sceAudioOutSetMorpheusParam() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetMorpheusWorkingMode() {
+s32 PS4_SYSV_ABI sceAudioOutSetMorpheusWorkingMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetPortConnections() {
+s32 PS4_SYSV_ABI sceAudioOutSetPortConnections() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetPortStatuses() {
+s32 PS4_SYSV_ABI sceAudioOutSetPortStatuses() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetRecMode() {
+s32 PS4_SYSV_ABI sceAudioOutSetRecMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetSparkParam() {
+s32 PS4_SYSV_ABI sceAudioOutSetSparkParam() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetUsbVolume() {
+s32 PS4_SYSV_ABI sceAudioOutSetUsbVolume() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetVolume() {
+s32 PS4_SYSV_ABI sceAudioOutSetVolume() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSetVolumeDown() {
+s32 PS4_SYSV_ABI sceAudioOutSetVolumeDown() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutStartAuxBroadcast() {
+s32 PS4_SYSV_ABI sceAudioOutStartAuxBroadcast() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutStartSharePlay() {
+s32 PS4_SYSV_ABI sceAudioOutStartSharePlay() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutStopAuxBroadcast() {
+s32 PS4_SYSV_ABI sceAudioOutStopAuxBroadcast() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutStopSharePlay() {
+s32 PS4_SYSV_ABI sceAudioOutStopSharePlay() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSuspendResume() {
+s32 PS4_SYSV_ABI sceAudioOutSuspendResume() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSysConfigureOutputMode() {
+s32 PS4_SYSV_ABI sceAudioOutSysConfigureOutputMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSysGetHdmiMonitorInfo() {
+s32 PS4_SYSV_ABI sceAudioOutSysGetHdmiMonitorInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSysGetSystemInfo() {
+s32 PS4_SYSV_ABI sceAudioOutSysGetSystemInfo() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSysHdmiMonitorInfoIsSupportedAudioOutMode() {
+s32 PS4_SYSV_ABI sceAudioOutSysHdmiMonitorInfoIsSupportedAudioOutMode() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSystemControlGet() {
+s32 PS4_SYSV_ABI sceAudioOutSystemControlGet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioOutSystemControlSet() {
+s32 PS4_SYSV_ABI sceAudioOutSystemControlSet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioDeviceControlGet() {
+s32 PS4_SYSV_ABI sceAudioDeviceControlGet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAudioDeviceControlSet() {
+s32 PS4_SYSV_ABI sceAudioDeviceControlSet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -370,31 +370,32 @@ void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
                  sceAudioOutSparkControlSetEqCoef);
     LIB_FUNCTION("cx2dYFbzIAg", "libSceAudioOutDeviceService", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutDeviceIdOpen);
-    LIB_FUNCTION("Iz9X7ISldhs", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutA3dControl);
-    LIB_FUNCTION("9RVIoocOVAo", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutA3dExit);
-    LIB_FUNCTION("n7KgxE8rOuE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutA3dInit);
+    LIB_FUNCTION("Iz9X7ISldhs", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
+                 sceAudioOutA3dControl);
+    LIB_FUNCTION("9RVIoocOVAo", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutA3dExit);
+    LIB_FUNCTION("n7KgxE8rOuE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutA3dInit);
     LIB_FUNCTION("WBAO6-n0-4M", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutAttachToApplicationByPid);
     LIB_FUNCTION("O3FM2WXIJaI", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutChangeAppModuleState);
-    LIB_FUNCTION("s1--uE9mBFw", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutClose);
+    LIB_FUNCTION("s1--uE9mBFw", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutClose);
     LIB_FUNCTION("ol4LbeTG8mc", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutDetachFromApplicationByPid);
     LIB_FUNCTION("r1V9IFEE+Ts", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutExConfigureOutputMode);
     LIB_FUNCTION("wZakRQsWGos", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutExGetSystemInfo);
-    LIB_FUNCTION("xjjhT5uw08o", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutExPtClose);
+    LIB_FUNCTION("xjjhT5uw08o", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutExPtClose);
     LIB_FUNCTION("DsST7TNsyfo", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutExPtGetLastOutputTime);
-    LIB_FUNCTION("4UlW3CSuCa4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutExPtOpen);
+    LIB_FUNCTION("4UlW3CSuCa4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutExPtOpen);
     LIB_FUNCTION("Xcj8VTtnZw0", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutExSystemInfoIsSupportedAudioOutExMode);
     LIB_FUNCTION("I3Fwcmkg5Po", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutGetFocusEnablePid);
     LIB_FUNCTION("Y3lXfCFEWFY", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutGetHandleStatusInfo);
-    LIB_FUNCTION("-00OAutAw+c", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutGetInfo);
+    LIB_FUNCTION("-00OAutAw+c", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutGetInfo);
     LIB_FUNCTION("RqmKxBqB8B4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutGetInfoOpenNum);
     LIB_FUNCTION("Ptlts326pds", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
@@ -411,7 +412,7 @@ void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
                  sceAudioOutGetSparkVss);
     LIB_FUNCTION("R5hemoKKID8", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutGetSystemState);
-    LIB_FUNCTION("JfEPXVxhFqA", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutInit);
+    LIB_FUNCTION("JfEPXVxhFqA", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutInit);
     LIB_FUNCTION("n16Kdoxnvl0", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutInitIpmiGetSession);
     LIB_FUNCTION("r+qKw+ueD+Q", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
@@ -422,15 +423,15 @@ void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
                  sceAudioOutMasteringSetParam);
     LIB_FUNCTION("RVWtUgoif5o", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutMasteringTerm);
-    LIB_FUNCTION("-LXhcGARw3k", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutMbusInit);
-    LIB_FUNCTION("ekNvsT22rsY", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutOpen);
-    LIB_FUNCTION("qLpSK75lXI4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutOpenEx);
-    LIB_FUNCTION("QOQtbeDqsT4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutOutput);
-    LIB_FUNCTION("w3PdaSTSwGE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutOutputs);
-    LIB_FUNCTION("MapHTgeogbk", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutPtClose);
+    LIB_FUNCTION("-LXhcGARw3k", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutMbusInit);
+    LIB_FUNCTION("ekNvsT22rsY", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutOpen);
+    LIB_FUNCTION("qLpSK75lXI4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutOpenEx);
+    LIB_FUNCTION("QOQtbeDqsT4", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutOutput);
+    LIB_FUNCTION("w3PdaSTSwGE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutOutputs);
+    LIB_FUNCTION("MapHTgeogbk", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutPtClose);
     LIB_FUNCTION("YZaq+UKbriQ", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutPtGetLastOutputTime);
-    LIB_FUNCTION("xyT8IUCL3CI", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutPtOpen);
+    LIB_FUNCTION("xyT8IUCL3CI", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutPtOpen);
     LIB_FUNCTION("o4OLQQqqA90", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSetConnections);
     LIB_FUNCTION("QHq2ylFOZ0k", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
@@ -455,12 +456,13 @@ void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
                  sceAudioOutSetPortConnections);
     LIB_FUNCTION("oRBFflIrCg0", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSetPortStatuses);
-    LIB_FUNCTION("ae-IVPMSWjU", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutSetRecMode);
+    LIB_FUNCTION("ae-IVPMSWjU", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
+                 sceAudioOutSetRecMode);
     LIB_FUNCTION("d3WL2uPE1eE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSetSparkParam);
     LIB_FUNCTION("X7Cfsiujm8Y", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSetUsbVolume);
-    LIB_FUNCTION("b+uAV89IlxE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,sceAudioOutSetVolume);
+    LIB_FUNCTION("b+uAV89IlxE", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutSetVolume);
     LIB_FUNCTION("rho9DH-0ehs", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSetVolumeDown);
     LIB_FUNCTION("I91P0HAPpjw", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,

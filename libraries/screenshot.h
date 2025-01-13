@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "common/types.h" 
+#include "common/types.h"
 
 namespace Core::Loader {
 class SymbolsResolver;
@@ -11,20 +11,20 @@ class SymbolsResolver;
 
 namespace Libraries::ScreenShot {
 
-int PS4_SYSV_ABI sceScreenShotSetDrcParam();
-int PS4_SYSV_ABI _Z5dummyv();
-int PS4_SYSV_ABI sceScreenShotCapture();
-int PS4_SYSV_ABI sceScreenShotDisable();
-int PS4_SYSV_ABI sceScreenShotDisableNotification();
-int PS4_SYSV_ABI sceScreenShotEnable();
-int PS4_SYSV_ABI sceScreenShotEnableNotification();
-int PS4_SYSV_ABI sceScreenShotGetAppInfo();
-int PS4_SYSV_ABI sceScreenShotGetDrcParam();
-int PS4_SYSV_ABI sceScreenShotIsDisabled();
-int PS4_SYSV_ABI sceScreenShotIsVshScreenCaptureDisabled();
-int PS4_SYSV_ABI sceScreenShotSetOverlayImage();
-int PS4_SYSV_ABI sceScreenShotSetOverlayImageWithOrigin();
-int PS4_SYSV_ABI sceScreenShotSetParam();
+s32 PS4_SYSV_ABI sceScreenShotSetDrcParam();
+s32 PS4_SYSV_ABI _Z5dummyv();
+s32 PS4_SYSV_ABI sceScreenShotCapture();
+s32 PS4_SYSV_ABI sceScreenShotDisable();
+s32 PS4_SYSV_ABI sceScreenShotDisableNotification();
+s32 PS4_SYSV_ABI sceScreenShotEnable();
+s32 PS4_SYSV_ABI sceScreenShotEnableNotification();
+s32 PS4_SYSV_ABI sceScreenShotGetAppInfo();
+s32 PS4_SYSV_ABI sceScreenShotGetDrcParam();
+s32 PS4_SYSV_ABI sceScreenShotIsDisabled();
+s32 PS4_SYSV_ABI sceScreenShotIsVshScreenCaptureDisabled();
+s32 PS4_SYSV_ABI sceScreenShotSetOverlayImage();
+s32 PS4_SYSV_ABI sceScreenShotSetOverlayImageWithOrigin();
+s32 PS4_SYSV_ABI sceScreenShotSetParam();
 
 void RegisterlibSceScreenShot(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::ScreenShot

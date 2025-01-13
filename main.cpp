@@ -34,7 +34,7 @@ void GenerateCodeFiles(
     std::string spdx{SpdxHeader};
     std::string headerCode(spdx);
     headerCode += "\n";
-    headerCode += "#pragma once\n\n#include \"common/types.h\" \n\n";
+    headerCode += "#pragma once\n\n#include \"common/types.h\"\n\n";
     headerCode += "namespace Core::Loader {\nclass SymbolsResolver;\n}\n\n";
     std::string trimmedName = moduleName;
     if (moduleName.find("libSce") != std::string::npos) {
@@ -51,9 +51,9 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
-                std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
-                if (funcDeclare.length() > 100) {
-                    funcDeclare = "int PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
+                std::string funcDeclare("s32 PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                if (funcDeclare.length() > MAXIMUM_LINE_LENGTH) {
+                    funcDeclare = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
                 }
                 headerCode += funcDeclare;
                 funcDeclares.insert(func.m_funcName);
@@ -83,9 +83,9 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
-                std::string funcHeader = "int PS4_SYSV_ABI " + func.m_funcName + "() {";
+                std::string funcHeader = "s32 PS4_SYSV_ABI " + func.m_funcName + "() {";
                 if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
-                    funcHeader = "int PS4_SYSV_ABI\n" + func.m_funcName + "() {";
+                    funcHeader = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "() {";
                 }
                 const std::string funcDeclare(funcHeader + "\n" +
                                               "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
@@ -102,7 +102,7 @@ void GenerateCodeFiles(
             std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
                           std::to_string(func.m_version_major) + ", " +
-                          std::to_string(func.m_version_minor) + "," + func.m_funcName + ");\n";
+                          std::to_string(func.m_version_minor) + ", " + func.m_funcName + ");\n";
             if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
                 nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
                           std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +

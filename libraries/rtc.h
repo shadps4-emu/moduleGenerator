@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "common/types.h" 
+#include "common/types.h"
 
 namespace Core::Loader {
 class SymbolsResolver;
@@ -11,53 +11,53 @@ class SymbolsResolver;
 
 namespace Libraries::Rtc {
 
-int PS4_SYSV_ABI sceRtcCheckValid();
-int PS4_SYSV_ABI sceRtcCompareTick();
-int PS4_SYSV_ABI sceRtcConvertLocalTimeToUtc();
-int PS4_SYSV_ABI sceRtcConvertUtcToLocalTime();
-int PS4_SYSV_ABI sceRtcEnd();
-int PS4_SYSV_ABI sceRtcFormatRFC2822();
-int PS4_SYSV_ABI sceRtcFormatRFC2822LocalTime();
-int PS4_SYSV_ABI sceRtcFormatRFC3339();
-int PS4_SYSV_ABI sceRtcFormatRFC3339LocalTime();
-int PS4_SYSV_ABI sceRtcFormatRFC3339Precise();
-int PS4_SYSV_ABI sceRtcFormatRFC3339PreciseLocalTime();
-int PS4_SYSV_ABI sceRtcGetCurrentAdNetworkTick();
-int PS4_SYSV_ABI sceRtcGetCurrentClock();
-int PS4_SYSV_ABI sceRtcGetCurrentClockLocalTime();
-int PS4_SYSV_ABI sceRtcGetCurrentDebugNetworkTick();
-int PS4_SYSV_ABI sceRtcGetCurrentNetworkTick();
-int PS4_SYSV_ABI sceRtcGetCurrentRawNetworkTick();
-int PS4_SYSV_ABI sceRtcGetCurrentTick();
-int PS4_SYSV_ABI sceRtcGetDayOfWeek();
-int PS4_SYSV_ABI sceRtcGetDaysInMonth();
-int PS4_SYSV_ABI sceRtcGetDosTime();
-int PS4_SYSV_ABI sceRtcGetTick();
-int PS4_SYSV_ABI sceRtcGetTickResolution();
-int PS4_SYSV_ABI sceRtcGetTime_t();
-int PS4_SYSV_ABI sceRtcGetWin32FileTime();
-int PS4_SYSV_ABI sceRtcInit();
-int PS4_SYSV_ABI sceRtcIsLeapYear();
-int PS4_SYSV_ABI sceRtcParseDateTime();
-int PS4_SYSV_ABI sceRtcParseRFC3339();
-int PS4_SYSV_ABI sceRtcSetConf();
-int PS4_SYSV_ABI sceRtcSetCurrentAdNetworkTick();
-int PS4_SYSV_ABI sceRtcSetCurrentDebugNetworkTick();
-int PS4_SYSV_ABI sceRtcSetCurrentNetworkTick();
-int PS4_SYSV_ABI sceRtcSetCurrentTick();
-int PS4_SYSV_ABI sceRtcSetDosTime();
-int PS4_SYSV_ABI sceRtcSetTick();
-int PS4_SYSV_ABI sceRtcSetTime_t();
-int PS4_SYSV_ABI sceRtcSetWin32FileTime();
-int PS4_SYSV_ABI sceRtcTickAddDays();
-int PS4_SYSV_ABI sceRtcTickAddHours();
-int PS4_SYSV_ABI sceRtcTickAddMicroseconds();
-int PS4_SYSV_ABI sceRtcTickAddMinutes();
-int PS4_SYSV_ABI sceRtcTickAddMonths();
-int PS4_SYSV_ABI sceRtcTickAddSeconds();
-int PS4_SYSV_ABI sceRtcTickAddTicks();
-int PS4_SYSV_ABI sceRtcTickAddWeeks();
-int PS4_SYSV_ABI sceRtcTickAddYears();
+s32 PS4_SYSV_ABI sceRtcCheckValid();
+s32 PS4_SYSV_ABI sceRtcCompareTick();
+s32 PS4_SYSV_ABI sceRtcConvertLocalTimeToUtc();
+s32 PS4_SYSV_ABI sceRtcConvertUtcToLocalTime();
+s32 PS4_SYSV_ABI sceRtcEnd();
+s32 PS4_SYSV_ABI sceRtcFormatRFC2822();
+s32 PS4_SYSV_ABI sceRtcFormatRFC2822LocalTime();
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339();
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339LocalTime();
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339Precise();
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339PreciseLocalTime();
+s32 PS4_SYSV_ABI sceRtcGetCurrentAdNetworkTick();
+s32 PS4_SYSV_ABI sceRtcGetCurrentClock();
+s32 PS4_SYSV_ABI sceRtcGetCurrentClockLocalTime();
+s32 PS4_SYSV_ABI sceRtcGetCurrentDebugNetworkTick();
+s32 PS4_SYSV_ABI sceRtcGetCurrentNetworkTick();
+s32 PS4_SYSV_ABI sceRtcGetCurrentRawNetworkTick();
+s32 PS4_SYSV_ABI sceRtcGetCurrentTick();
+s32 PS4_SYSV_ABI sceRtcGetDayOfWeek();
+s32 PS4_SYSV_ABI sceRtcGetDaysInMonth();
+s32 PS4_SYSV_ABI sceRtcGetDosTime();
+s32 PS4_SYSV_ABI sceRtcGetTick();
+s32 PS4_SYSV_ABI sceRtcGetTickResolution();
+s32 PS4_SYSV_ABI sceRtcGetTime_t();
+s32 PS4_SYSV_ABI sceRtcGetWin32FileTime();
+s32 PS4_SYSV_ABI sceRtcInit();
+s32 PS4_SYSV_ABI sceRtcIsLeapYear();
+s32 PS4_SYSV_ABI sceRtcParseDateTime();
+s32 PS4_SYSV_ABI sceRtcParseRFC3339();
+s32 PS4_SYSV_ABI sceRtcSetConf();
+s32 PS4_SYSV_ABI sceRtcSetCurrentAdNetworkTick();
+s32 PS4_SYSV_ABI sceRtcSetCurrentDebugNetworkTick();
+s32 PS4_SYSV_ABI sceRtcSetCurrentNetworkTick();
+s32 PS4_SYSV_ABI sceRtcSetCurrentTick();
+s32 PS4_SYSV_ABI sceRtcSetDosTime();
+s32 PS4_SYSV_ABI sceRtcSetTick();
+s32 PS4_SYSV_ABI sceRtcSetTime_t();
+s32 PS4_SYSV_ABI sceRtcSetWin32FileTime();
+s32 PS4_SYSV_ABI sceRtcTickAddDays();
+s32 PS4_SYSV_ABI sceRtcTickAddHours();
+s32 PS4_SYSV_ABI sceRtcTickAddMicroseconds();
+s32 PS4_SYSV_ABI sceRtcTickAddMinutes();
+s32 PS4_SYSV_ABI sceRtcTickAddMonths();
+s32 PS4_SYSV_ABI sceRtcTickAddSeconds();
+s32 PS4_SYSV_ABI sceRtcTickAddTicks();
+s32 PS4_SYSV_ABI sceRtcTickAddWeeks();
+s32 PS4_SYSV_ABI sceRtcTickAddYears();
 
 void RegisterlibSceRtc(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Rtc

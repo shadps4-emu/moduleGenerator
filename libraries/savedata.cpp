@@ -8,484 +8,484 @@
 
 namespace Libraries::SaveData {
 
-int PS4_SYSV_ABI sceSaveDataAbort() {
+s32 PS4_SYSV_ABI sceSaveDataAbort() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataBackup() {
+s32 PS4_SYSV_ABI sceSaveDataBackup() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataBindPsnAccount() {
+s32 PS4_SYSV_ABI sceSaveDataBindPsnAccount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataBindPsnAccountForSystemBackup() {
+s32 PS4_SYSV_ABI sceSaveDataBindPsnAccountForSystemBackup() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataChangeDatabase() {
+s32 PS4_SYSV_ABI sceSaveDataChangeDatabase() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataChangeInternal() {
+s32 PS4_SYSV_ABI sceSaveDataChangeInternal() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckBackupData() {
+s32 PS4_SYSV_ABI sceSaveDataCheckBackupData() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckBackupDataForCdlg() {
+s32 PS4_SYSV_ABI sceSaveDataCheckBackupDataForCdlg() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckBackupDataInternal() {
+s32 PS4_SYSV_ABI sceSaveDataCheckBackupDataInternal() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckCloudData() {
+s32 PS4_SYSV_ABI sceSaveDataCheckCloudData() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckIpmiIfSize() {
+s32 PS4_SYSV_ABI sceSaveDataCheckIpmiIfSize() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckSaveDataBroken() {
+s32 PS4_SYSV_ABI sceSaveDataCheckSaveDataBroken() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckSaveDataVersion() {
+s32 PS4_SYSV_ABI sceSaveDataCheckSaveDataVersion() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCheckSaveDataVersionLatest() {
+s32 PS4_SYSV_ABI sceSaveDataCheckSaveDataVersionLatest() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataClearProgress() {
+s32 PS4_SYSV_ABI sceSaveDataClearProgress() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCopy5() {
+s32 PS4_SYSV_ABI sceSaveDataCopy5() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataCreateUploadData() {
+s32 PS4_SYSV_ABI sceSaveDataCreateUploadData() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebug() {
+s32 PS4_SYSV_ABI sceSaveDataDebug() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugCleanMount() {
+s32 PS4_SYSV_ABI sceSaveDataDebugCleanMount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugCompiledSdkVersion() {
+s32 PS4_SYSV_ABI sceSaveDataDebugCompiledSdkVersion() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugCreateSaveDataRoot() {
+s32 PS4_SYSV_ABI sceSaveDataDebugCreateSaveDataRoot() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugGetThreadId() {
+s32 PS4_SYSV_ABI sceSaveDataDebugGetThreadId() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugRemoveSaveDataRoot() {
+s32 PS4_SYSV_ABI sceSaveDataDebugRemoveSaveDataRoot() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDebugTarget() {
+s32 PS4_SYSV_ABI sceSaveDataDebugTarget() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDelete() {
+s32 PS4_SYSV_ABI sceSaveDataDelete() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDelete5() {
+s32 PS4_SYSV_ABI sceSaveDataDelete5() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDeleteAllUser() {
+s32 PS4_SYSV_ABI sceSaveDataDeleteAllUser() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDeleteCloudData() {
+s32 PS4_SYSV_ABI sceSaveDataDeleteCloudData() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDeleteUser() {
+s32 PS4_SYSV_ABI sceSaveDataDeleteUser() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDirNameSearch() {
+s32 PS4_SYSV_ABI sceSaveDataDirNameSearch() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDirNameSearchInternal() {
+s32 PS4_SYSV_ABI sceSaveDataDirNameSearchInternal() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDownload() {
+s32 PS4_SYSV_ABI sceSaveDataDownload() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetAllSize() {
+s32 PS4_SYSV_ABI sceSaveDataGetAllSize() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetAppLaunchedUser() {
+s32 PS4_SYSV_ABI sceSaveDataGetAppLaunchedUser() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetAutoUploadConditions() {
+s32 PS4_SYSV_ABI sceSaveDataGetAutoUploadConditions() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetAutoUploadRequestInfo() {
+s32 PS4_SYSV_ABI sceSaveDataGetAutoUploadRequestInfo() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetAutoUploadSetting() {
+s32 PS4_SYSV_ABI sceSaveDataGetAutoUploadSetting() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetBoundPsnAccountCount() {
+s32 PS4_SYSV_ABI sceSaveDataGetBoundPsnAccountCount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetClientThreadPriority() {
+s32 PS4_SYSV_ABI sceSaveDataGetClientThreadPriority() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetCloudQuotaInfo() {
+s32 PS4_SYSV_ABI sceSaveDataGetCloudQuotaInfo() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetDataBaseFilePath() {
+s32 PS4_SYSV_ABI sceSaveDataGetDataBaseFilePath() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetEventInfo() {
+s32 PS4_SYSV_ABI sceSaveDataGetEventInfo() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetEventResult() {
+s32 PS4_SYSV_ABI sceSaveDataGetEventResult() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetFormat() {
+s32 PS4_SYSV_ABI sceSaveDataGetFormat() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetMountedSaveDataCount() {
+s32 PS4_SYSV_ABI sceSaveDataGetMountedSaveDataCount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetMountInfo() {
+s32 PS4_SYSV_ABI sceSaveDataGetMountInfo() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetParam() {
+s32 PS4_SYSV_ABI sceSaveDataGetParam() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetProgress() {
+s32 PS4_SYSV_ABI sceSaveDataGetProgress() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataCount() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataCount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataMemory() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataMemory() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataMemory2() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataMemory2() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataRootDir() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataRootDir() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataRootPath() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataRootPath() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSaveDataRootUsbPath() {
+s32 PS4_SYSV_ABI sceSaveDataGetSaveDataRootUsbPath() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetSavePoint() {
+s32 PS4_SYSV_ABI sceSaveDataGetSavePoint() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataGetUpdatedDataCount() {
+s32 PS4_SYSV_ABI sceSaveDataGetUpdatedDataCount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataInitialize() {
+s32 PS4_SYSV_ABI sceSaveDataInitialize() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataInitialize2() {
+s32 PS4_SYSV_ABI sceSaveDataInitialize2() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataInitialize3() {
+s32 PS4_SYSV_ABI sceSaveDataInitialize3() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataInitializeForCdlg() {
+s32 PS4_SYSV_ABI sceSaveDataInitializeForCdlg() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataIsDeletingUsbDb() {
+s32 PS4_SYSV_ABI sceSaveDataIsDeletingUsbDb() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataIsMounted() {
+s32 PS4_SYSV_ABI sceSaveDataIsMounted() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataLoadIcon() {
+s32 PS4_SYSV_ABI sceSaveDataLoadIcon() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataMount() {
+s32 PS4_SYSV_ABI sceSaveDataMount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataMount2() {
+s32 PS4_SYSV_ABI sceSaveDataMount2() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataMount5() {
+s32 PS4_SYSV_ABI sceSaveDataMount5() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataMountInternal() {
+s32 PS4_SYSV_ABI sceSaveDataMountInternal() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataMountSys() {
+s32 PS4_SYSV_ABI sceSaveDataMountSys() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataPromote5() {
+s32 PS4_SYSV_ABI sceSaveDataPromote5() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataRebuildDatabase() {
+s32 PS4_SYSV_ABI sceSaveDataRebuildDatabase() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataRegisterEventCallback() {
+s32 PS4_SYSV_ABI sceSaveDataRegisterEventCallback() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataRestoreBackupData() {
+s32 PS4_SYSV_ABI sceSaveDataRestoreBackupData() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataRestoreBackupDataForCdlg() {
+s32 PS4_SYSV_ABI sceSaveDataRestoreBackupDataForCdlg() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataRestoreLoadSaveDataMemory() {
+s32 PS4_SYSV_ABI sceSaveDataRestoreLoadSaveDataMemory() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSaveIcon() {
+s32 PS4_SYSV_ABI sceSaveDataSaveIcon() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetAutoUploadSetting() {
+s32 PS4_SYSV_ABI sceSaveDataSetAutoUploadSetting() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetEventInfo() {
+s32 PS4_SYSV_ABI sceSaveDataSetEventInfo() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetParam() {
+s32 PS4_SYSV_ABI sceSaveDataSetParam() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetSaveDataLibraryUser() {
+s32 PS4_SYSV_ABI sceSaveDataSetSaveDataLibraryUser() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetSaveDataMemory() {
+s32 PS4_SYSV_ABI sceSaveDataSetSaveDataMemory() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetSaveDataMemory2() {
+s32 PS4_SYSV_ABI sceSaveDataSetSaveDataMemory2() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetupSaveDataMemory() {
+s32 PS4_SYSV_ABI sceSaveDataSetupSaveDataMemory() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSetupSaveDataMemory2() {
+s32 PS4_SYSV_ABI sceSaveDataSetupSaveDataMemory2() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataShutdownStart() {
+s32 PS4_SYSV_ABI sceSaveDataShutdownStart() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSupportedFakeBrokenStatus() {
+s32 PS4_SYSV_ABI sceSaveDataSupportedFakeBrokenStatus() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSyncCloudList() {
+s32 PS4_SYSV_ABI sceSaveDataSyncCloudList() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataSyncSaveDataMemory() {
+s32 PS4_SYSV_ABI sceSaveDataSyncSaveDataMemory() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataTerminate() {
+s32 PS4_SYSV_ABI sceSaveDataTerminate() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataTransferringMount() {
+s32 PS4_SYSV_ABI sceSaveDataTransferringMount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataUmount() {
+s32 PS4_SYSV_ABI sceSaveDataUmount() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataUmountSys() {
+s32 PS4_SYSV_ABI sceSaveDataUmountSys() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataUmountWithBackup() {
+s32 PS4_SYSV_ABI sceSaveDataUmountWithBackup() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataUnregisterEventCallback() {
+s32 PS4_SYSV_ABI sceSaveDataUnregisterEventCallback() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataUpload() {
+s32 PS4_SYSV_ABI sceSaveDataUpload() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_02E4C4D201716422() {
+s32 PS4_SYSV_ABI Func_02E4C4D201716422() {
     LOG_ERROR(Lib_SaveData, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("dQ2GohUHXzk", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataAbort);
-    LIB_FUNCTION("z1JA8-iJt3k", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataBackup);
+    LIB_FUNCTION("dQ2GohUHXzk", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataAbort);
+    LIB_FUNCTION("z1JA8-iJt3k", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataBackup);
     LIB_FUNCTION("kLJQ3XioYiU", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataBindPsnAccount);
     LIB_FUNCTION("hHHCPRqA3+g", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -512,10 +512,10 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataCheckSaveDataVersionLatest);
     LIB_FUNCTION("Wz-4JZfeO9g", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataClearProgress);
-    LIB_FUNCTION("YbCO38BOOl4", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataCopy5);
+    LIB_FUNCTION("YbCO38BOOl4", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataCopy5);
     LIB_FUNCTION("kbIIP9aXK9A", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataCreateUploadData);
-    LIB_FUNCTION("gW6G4HxBBXA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDebug);
+    LIB_FUNCTION("gW6G4HxBBXA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDebug);
     LIB_FUNCTION("bYCnxLexU7M", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDebugCleanMount);
     LIB_FUNCTION("hVDqYB8+jkk", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -528,19 +528,21 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataDebugRemoveSaveDataRoot);
     LIB_FUNCTION("AYBQmnRplrg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDebugTarget);
-    LIB_FUNCTION("S1GkePI17zQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDelete);
-    LIB_FUNCTION("SQWusLoK8Pw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDelete5);
+    LIB_FUNCTION("S1GkePI17zQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDelete);
+    LIB_FUNCTION("SQWusLoK8Pw", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDelete5);
     LIB_FUNCTION("pJrlpCgR8h4", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDeleteAllUser);
     LIB_FUNCTION("fU43mJUgKcM", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDeleteCloudData);
-    LIB_FUNCTION("uZqc4JpFdeY", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDeleteUser);
+    LIB_FUNCTION("uZqc4JpFdeY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataDeleteUser);
     LIB_FUNCTION("dyIhnXq-0SM", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDirNameSearch);
     LIB_FUNCTION("xJ5NFWC3m+k", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataDirNameSearchInternal);
-    LIB_FUNCTION("h1nP9EYv3uc", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataDownload);
-    LIB_FUNCTION("A1ThglSGUwA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetAllSize);
+    LIB_FUNCTION("h1nP9EYv3uc", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataDownload);
+    LIB_FUNCTION("A1ThglSGUwA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataGetAllSize);
     LIB_FUNCTION("KuXcrMAQIMQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetAppLaunchedUser);
     LIB_FUNCTION("itZ46iH14Vs", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -561,12 +563,12 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataGetEventInfo);
     LIB_FUNCTION("j8xKtiFj0SY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetEventResult);
-    LIB_FUNCTION("UMpxor4AlKQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetFormat);
+    LIB_FUNCTION("UMpxor4AlKQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataGetFormat);
     LIB_FUNCTION("pc4guaUPVqA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetMountedSaveDataCount);
     LIB_FUNCTION("65VH0Qaaz6s", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetMountInfo);
-    LIB_FUNCTION("XgvSuIdnMlw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataGetParam);
+    LIB_FUNCTION("XgvSuIdnMlw", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataGetParam);
     LIB_FUNCTION("ANmSWUiyyGQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetProgress);
     LIB_FUNCTION("SN7rTPHS+Cg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -585,7 +587,8 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataGetSavePoint);
     LIB_FUNCTION("OYmnApJ9q+U", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataGetUpdatedDataCount);
-    LIB_FUNCTION("ZkZhskCPXFw", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataInitialize);
+    LIB_FUNCTION("ZkZhskCPXFw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 sceSaveDataInitialize);
     LIB_FUNCTION("l1NmDeDpNGU", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataInitialize2);
     LIB_FUNCTION("TywrFKCoLGY", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -594,15 +597,15 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataInitializeForCdlg);
     LIB_FUNCTION("voAQW45oKuo", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataIsDeletingUsbDb);
-    LIB_FUNCTION("ieP6jP138Qo", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataIsMounted);
-    LIB_FUNCTION("cGjO3wM3V28", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataLoadIcon);
-    LIB_FUNCTION("32HQAQdwM2o", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount);
-    LIB_FUNCTION("0z45PIH+SNI", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount2);
-    LIB_FUNCTION("xz0YMi6BfNk", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMount5);
+    LIB_FUNCTION("ieP6jP138Qo", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataIsMounted);
+    LIB_FUNCTION("cGjO3wM3V28", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataLoadIcon);
+    LIB_FUNCTION("32HQAQdwM2o", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount);
+    LIB_FUNCTION("0z45PIH+SNI", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount2);
+    LIB_FUNCTION("xz0YMi6BfNk", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMount5);
     LIB_FUNCTION("msCER7Iibm8", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataMountInternal);
-    LIB_FUNCTION("-XYmdxjOqyA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataMountSys);
-    LIB_FUNCTION("uNu7j3pL2mQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataPromote5);
+    LIB_FUNCTION("-XYmdxjOqyA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataMountSys);
+    LIB_FUNCTION("uNu7j3pL2mQ", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataPromote5);
     LIB_FUNCTION("SgIY-XYA2Xg", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataRebuildDatabase);
     LIB_FUNCTION("hsKd5c21sQc", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -613,12 +616,12 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataRestoreBackupDataForCdlg);
     LIB_FUNCTION("aoZKKNjlq3Y", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataRestoreLoadSaveDataMemory);
-    LIB_FUNCTION("c88Yy54Mx0w", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataSaveIcon);
+    LIB_FUNCTION("c88Yy54Mx0w", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataSaveIcon);
     LIB_FUNCTION("0VFHv-Fa4w8", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetAutoUploadSetting);
     LIB_FUNCTION("52pL2GKkdjA", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetEventInfo);
-    LIB_FUNCTION("85zul--eGXs", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataSetParam);
+    LIB_FUNCTION("85zul--eGXs", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataSetParam);
     LIB_FUNCTION("v3vg2+cooYw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSetSaveDataLibraryUser);
     LIB_FUNCTION("h3YURzXGSVQ", "libSceSaveData", 1, "libSceSaveData", 1, 1,
@@ -637,17 +640,18 @@ void RegisterlibSceSaveData(Core::Loader::SymbolsResolver* sym) {
                  sceSaveDataSyncCloudList);
     LIB_FUNCTION("wiT9jeC7xPw", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataSyncSaveDataMemory);
-    LIB_FUNCTION("yKDy8S5yLA0", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataTerminate);
+    LIB_FUNCTION("yKDy8S5yLA0", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataTerminate);
     LIB_FUNCTION("WAzWTZm1H+I", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataTransferringMount);
-    LIB_FUNCTION("BMR4F-Uek3E", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUmount);
-    LIB_FUNCTION("2-8NWLS8QSA", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUmountSys);
+    LIB_FUNCTION("BMR4F-Uek3E", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUmount);
+    LIB_FUNCTION("2-8NWLS8QSA", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUmountSys);
     LIB_FUNCTION("VwadwBBBJ80", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataUmountWithBackup);
     LIB_FUNCTION("v-AK1AxQhS0", "libSceSaveData", 1, "libSceSaveData", 1, 1,
                  sceSaveDataUnregisterEventCallback);
-    LIB_FUNCTION("COwz3WBj+5s", "libSceSaveData", 1, "libSceSaveData", 1, 1,sceSaveDataUpload);
-    LIB_FUNCTION("AuTE0gFxZCI", "libSceSaveData", 1, "libSceSaveData", 1, 1,Func_02E4C4D201716422);
+    LIB_FUNCTION("COwz3WBj+5s", "libSceSaveData", 1, "libSceSaveData", 1, 1, sceSaveDataUpload);
+    LIB_FUNCTION("AuTE0gFxZCI", "libSceSaveData", 1, "libSceSaveData", 1, 1,
+                 Func_02E4C4D201716422);
 };
 
 } // namespace Libraries::SaveData

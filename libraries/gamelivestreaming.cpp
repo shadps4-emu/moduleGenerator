@@ -8,237 +8,237 @@
 
 namespace Libraries::GameLiveStreaming {
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStartDebugBroadcast() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStartDebugBroadcast() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStopDebugBroadcast() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStopDebugBroadcast() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingApplySocialFeedbackMessageFilter() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingApplySocialFeedbackMessageFilter() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingCheckCallback() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingCheckCallback() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingClearPresetSocialFeedbackCommands() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingClearPresetSocialFeedbackCommands() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingClearSocialFeedbackMessages() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingClearSocialFeedbackMessages() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingClearSpoilerTag() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingClearSpoilerTag() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingEnableLiveStreaming() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingEnableLiveStreaming() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingEnableSocialFeedback() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingEnableSocialFeedback() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentBroadcastScreenLayout() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentBroadcastScreenLayout() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus2() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus2() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetProgramInfo() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetProgramInfo() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessages() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessages() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessagesCount() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessagesCount() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingInitialize() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingInitialize() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewerA() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewerA() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingPermitLiveStreaming() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingPermitLiveStreaming() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingPermitServerSideRecording() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingPermitServerSideRecording() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingPostSocialMessage() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingPostSocialMessage() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingRegisterCallback() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingRegisterCallback() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenCloseSeparateMode() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenCloseSeparateMode() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenConfigureSeparateMode() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenConfigureSeparateMode() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenInitialize() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenInitialize() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenInitializeSeparateModeParameter() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenInitializeSeparateModeParameter() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenOpenSeparateMode() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenOpenSeparateMode() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenSetMode() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenSetMode() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingScreenTerminate() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingScreenTerminate() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetCameraFrameSetting() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetCameraFrameSetting() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetDefaultServiceProviderPermission() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetDefaultServiceProviderPermission() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetGuardAreas() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetGuardAreas() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetInvitationSessionId() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetInvitationSessionId() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetLinkCommentPreset() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetLinkCommentPreset() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetMaxBitrate() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetMaxBitrate() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetMetadata() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetMetadata() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetPresetSocialFeedbackCommands() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetPresetSocialFeedbackCommands() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetPresetSocialFeedbackCommandsDescription() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetServiceProviderPermission() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetServiceProviderPermission() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetSpoilerTag() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetSpoilerTag() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingSetStandbyScreenResource() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingSetStandbyScreenResource() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStartGenerateStandbyScreenResource() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStartGenerateStandbyScreenResource() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStartSocialFeedbackMessageFiltering() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStartSocialFeedbackMessageFiltering() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStopGenerateStandbyScreenResource() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStopGenerateStandbyScreenResource() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingStopSocialFeedbackMessageFiltering() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingStopSocialFeedbackMessageFiltering() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingTerminate() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingTerminate() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGameLiveStreamingUnregisterCallback() {
+s32 PS4_SYSV_ABI sceGameLiveStreamingUnregisterCallback() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }

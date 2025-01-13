@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "common/types.h" 
+#include "common/types.h"
 
 namespace Core::Loader {
 class SymbolsResolver;
@@ -11,22 +11,22 @@ class SymbolsResolver;
 
 namespace Libraries::Sysmodule {
 
-int PS4_SYSV_ABI sceSysmoduleGetModuleHandleInternal();
-int PS4_SYSV_ABI sceSysmoduleGetModuleInfoForUnwind();
-int PS4_SYSV_ABI sceSysmoduleIsCalledFromSysModule();
-int PS4_SYSV_ABI sceSysmoduleIsCameraPreloaded();
-int PS4_SYSV_ABI sceSysmoduleIsLoaded();
-int PS4_SYSV_ABI sceSysmoduleIsLoadedInternal();
-int PS4_SYSV_ABI sceSysmoduleLoadModule();
-int PS4_SYSV_ABI sceSysmoduleLoadModuleByNameInternal();
-int PS4_SYSV_ABI sceSysmoduleLoadModuleInternal();
-int PS4_SYSV_ABI sceSysmoduleLoadModuleInternalWithArg();
-int PS4_SYSV_ABI sceSysmoduleMapLibcForLibkernel();
-int PS4_SYSV_ABI sceSysmodulePreloadModuleForLibkernel();
-int PS4_SYSV_ABI sceSysmoduleUnloadModule();
-int PS4_SYSV_ABI sceSysmoduleUnloadModuleByNameInternal();
-int PS4_SYSV_ABI sceSysmoduleUnloadModuleInternal();
-int PS4_SYSV_ABI sceSysmoduleUnloadModuleInternalWithArg();
+s32 PS4_SYSV_ABI sceSysmoduleGetModuleHandleInternal();
+s32 PS4_SYSV_ABI sceSysmoduleGetModuleInfoForUnwind();
+s32 PS4_SYSV_ABI sceSysmoduleIsCalledFromSysModule();
+s32 PS4_SYSV_ABI sceSysmoduleIsCameraPreloaded();
+s32 PS4_SYSV_ABI sceSysmoduleIsLoaded();
+s32 PS4_SYSV_ABI sceSysmoduleIsLoadedInternal();
+s32 PS4_SYSV_ABI sceSysmoduleLoadModule();
+s32 PS4_SYSV_ABI sceSysmoduleLoadModuleByNameInternal();
+s32 PS4_SYSV_ABI sceSysmoduleLoadModuleInternal();
+s32 PS4_SYSV_ABI sceSysmoduleLoadModuleInternalWithArg();
+s32 PS4_SYSV_ABI sceSysmoduleMapLibcForLibkernel();
+s32 PS4_SYSV_ABI sceSysmodulePreloadModuleForLibkernel();
+s32 PS4_SYSV_ABI sceSysmoduleUnloadModule();
+s32 PS4_SYSV_ABI sceSysmoduleUnloadModuleByNameInternal();
+s32 PS4_SYSV_ABI sceSysmoduleUnloadModuleInternal();
+s32 PS4_SYSV_ABI sceSysmoduleUnloadModuleInternalWithArg();
 
 void RegisterlibSceSysmodule(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Sysmodule

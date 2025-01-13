@@ -8,2347 +8,2347 @@
 
 namespace Libraries::SystemService {
 
-int PS4_SYSV_ABI sceSystemStateMgrCancelShutdownTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrCancelShutdownTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrEnterMediaPlaybackMode() {
+s32 PS4_SYSV_ABI sceSystemStateMgrEnterMediaPlaybackMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrEnterStandby() {
+s32 PS4_SYSV_ABI sceSystemStateMgrEnterStandby() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess() {
+s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrGetCurrentState() {
+s32 PS4_SYSV_ABI sceSystemStateMgrGetCurrentState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrGetTriggerCode() {
+s32 PS4_SYSV_ABI sceSystemStateMgrGetTriggerCode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrIsBdDriveReady() {
+s32 PS4_SYSV_ABI sceSystemStateMgrIsBdDriveReady() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrIsGpuPerformanceNormal() {
+s32 PS4_SYSV_ABI sceSystemStateMgrIsGpuPerformanceNormal() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrIsShellUIShutdownInProgress() {
+s32 PS4_SYSV_ABI sceSystemStateMgrIsShellUIShutdownInProgress() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrIsStandbyModeEnabled() {
+s32 PS4_SYSV_ABI sceSystemStateMgrIsStandbyModeEnabled() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrLeaveMediaPlaybackMode() {
+s32 PS4_SYSV_ABI sceSystemStateMgrLeaveMediaPlaybackMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrNotifySystemSuspendResumeProgress() {
+s32 PS4_SYSV_ABI sceSystemStateMgrNotifySystemSuspendResumeProgress() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrReboot() {
+s32 PS4_SYSV_ABI sceSystemStateMgrReboot() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrSendCecOneTouchPlayCommand() {
+s32 PS4_SYSV_ABI sceSystemStateMgrSendCecOneTouchPlayCommand() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrStartRebootTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrStartRebootTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrStartShutdownTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrStartShutdownTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrStartStadbyTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrStartStadbyTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrStartVshAutoUpdateTimer() {
+s32 PS4_SYSV_ABI sceSystemStateMgrStartVshAutoUpdateTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrTickMusicPlayback() {
+s32 PS4_SYSV_ABI sceSystemStateMgrTickMusicPlayback() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrTickPartyChat() {
+s32 PS4_SYSV_ABI sceSystemStateMgrTickPartyChat() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrTurnOff() {
+s32 PS4_SYSV_ABI sceSystemStateMgrTurnOff() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrVshAutoUpdate() {
+s32 PS4_SYSV_ABI sceSystemStateMgrVshAutoUpdate() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrWaitVshAutoUpdateVerifyDone() {
+s32 PS4_SYSV_ABI sceSystemStateMgrWaitVshAutoUpdateVerifyDone() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemStateMgrWakeUp() {
+s32 PS4_SYSV_ABI sceSystemStateMgrWakeUp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_89F262179C22B49E() {
+s32 PS4_SYSV_ABI Func_89F262179C22B49E() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_AC8A8FAB4A1696B8() {
+s32 PS4_SYSV_ABI Func_AC8A8FAB4A1696B8() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_6B1CDB955F0EBD65() {
+s32 PS4_SYSV_ABI Func_6B1CDB955F0EBD65() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_CB5E885E225F69F0() {
+s32 PS4_SYSV_ABI Func_CB5E885E225F69F0() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchTournamentList() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentList() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C67FC780F5B6F71E() {
+s32 PS4_SYSV_ABI Func_C67FC780F5B6F71E() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2Abort() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Abort() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2GetStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2GetStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2Init() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Init() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2IsActivated() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2IsActivated() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2Start() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Start() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateMpeg2Term() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Term() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetDbgExecutablePath() {
+s32 PS4_SYSV_ABI sceSystemServiceGetDbgExecutablePath() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchWebApp() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchWebApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B8495C766861FDCF() {
+s32 PS4_SYSV_ABI Func_B8495C766861FDCF() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchWebBrowser() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchWebBrowser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceInvokeAppLaunchLink() {
+s32 PS4_SYSV_ABI sceSystemServiceInvokeAppLaunchLink() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoft() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoft() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftAbort() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftAbort() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftGetStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftGetStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftInit() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftInit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftIsActivated() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftIsActivated() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftStart() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcSoftTerm() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftTerm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisablePersonalEyeToEyeDistanceSetting() {
+s32 PS4_SYSV_ABI sceSystemServiceDisablePersonalEyeToEyeDistanceSetting() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceEnablePersonalEyeToEyeDistanceSetting() {
+s32 PS4_SYSV_ABI sceSystemServiceEnablePersonalEyeToEyeDistanceSetting() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowClosedCaptionAdvancedSettings() {
+s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionAdvancedSettings() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowClosedCaptionSettings() {
+s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionSettings() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevc() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevc() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcAbort() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcAbort() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcGetStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcGetStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcInit() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcInit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcIsActivated() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcIsActivated() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcStart() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceActivateHevcTerm() {
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcTerm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceAddLocalProcessForJvm() {
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForJvm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetParentSocketForJvm() {
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForJvm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceKillLocalProcessForJvm() {
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForJvm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_7C1183FC73629929() {
+s32 PS4_SYSV_ABI Func_7C1183FC73629929() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSaveVideoToken() {
+s32 PS4_SYSV_ABI sceSystemServiceSaveVideoToken() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceAcquireFb0() {
+s32 PS4_SYSV_ABI sceSystemServiceAcquireFb0() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceAddLocalProcess() {
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPsmKit() {
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPsmKit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeAcpClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeAcpClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeCpuClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeCpuClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeGpuClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeGpuClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeMemoryClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToBaseMode() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToBaseMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToDefault() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToDefault() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToMultiMediaMode() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToMultiMediaMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeNumberOfGpuCu() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeNumberOfGpuCu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeSamuClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeSamuClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeUvdClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeUvdClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceChangeVceClock() {
+s32 PS4_SYSV_ABI sceSystemServiceChangeVceClock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisableMusicPlayer() {
+s32 PS4_SYSV_ABI sceSystemServiceDisableMusicPlayer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisableSuspendConfirmationDialog() {
+s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendConfirmationDialog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceEnableSuspendConfirmationDialog() {
+s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendConfirmationDialog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetAppFocusedAppStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceGetAppFocusedAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetAppIdOfBigApp() {
+s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetAppIdOfMiniApp() {
+s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfMiniApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetAppStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceGetAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetAppType() {
+s32 PS4_SYSV_ABI sceSystemServiceGetAppType() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetDisplaySafeAreaInfo() {
+s32 PS4_SYSV_ABI sceSystemServiceGetDisplaySafeAreaInfo() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetEventForDaemon() {
+s32 PS4_SYSV_ABI sceSystemServiceGetEventForDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetGpuLoadEmulationMode() {
+s32 PS4_SYSV_ABI sceSystemServiceGetGpuLoadEmulationMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetHdrToneMapLuminance() {
+s32 PS4_SYSV_ABI sceSystemServiceGetHdrToneMapLuminance() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetLocalProcessStatusList() {
+s32 PS4_SYSV_ABI sceSystemServiceGetLocalProcessStatusList() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetParentSocket() {
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocket() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetParentSocketForPsmKit() {
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForPsmKit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetPSButtonEvent() {
+s32 PS4_SYSV_ABI sceSystemServiceGetPSButtonEvent() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetRenderingMode() {
+s32 PS4_SYSV_ABI sceSystemServiceGetRenderingMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetStatus() {
+s32 PS4_SYSV_ABI sceSystemServiceGetStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetTitleWorkaroundInfo() {
+s32 PS4_SYSV_ABI sceSystemServiceGetTitleWorkaroundInfo() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetVersionNumberOfCameraCalibrationData() {
+s32 PS4_SYSV_ABI sceSystemServiceGetVersionNumberOfCameraCalibrationData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceHideSplashScreen() {
+s32 PS4_SYSV_ABI sceSystemServiceHideSplashScreen() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceIsAppSuspended() {
+s32 PS4_SYSV_ABI sceSystemServiceIsAppSuspended() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceIsBgmPlaying() {
+s32 PS4_SYSV_ABI sceSystemServiceIsBgmPlaying() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceIsEyeToEyeDistanceAdjusted() {
+s32 PS4_SYSV_ABI sceSystemServiceIsEyeToEyeDistanceAdjusted() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceIsScreenSaverOn() {
+s32 PS4_SYSV_ABI sceSystemServiceIsScreenSaverOn() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceIsShellUiFgAndGameBgCpuMode() {
+s32 PS4_SYSV_ABI sceSystemServiceIsShellUiFgAndGameBgCpuMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceKillApp() {
+s32 PS4_SYSV_ABI sceSystemServiceKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceKillLocalProcess() {
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPsmKit() {
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPsmKit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchApp() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchEventDetails() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchEventDetails() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchTournamentsTeamProfile() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentsTeamProfile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLoadExec() {
+s32 PS4_SYSV_ABI sceSystemServiceLoadExec() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceNavigateToAnotherApp() {
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToAnotherApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceNavigateToGoBack() {
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBack() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceNavigateToGoBackWithValue() {
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBackWithValue() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceNavigateToGoHome() {
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoHome() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceParamGetInt() {
+s32 PS4_SYSV_ABI sceSystemServiceParamGetInt() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceParamGetString() {
+s32 PS4_SYSV_ABI sceSystemServiceParamGetString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServicePowerTick() {
+s32 PS4_SYSV_ABI sceSystemServicePowerTick() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRaiseExceptionLocalProcess() {
+s32 PS4_SYSV_ABI sceSystemServiceRaiseExceptionLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReceiveEvent() {
+s32 PS4_SYSV_ABI sceSystemServiceReceiveEvent() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReenableMusicPlayer() {
+s32 PS4_SYSV_ABI sceSystemServiceReenableMusicPlayer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRegisterDaemon() {
+s32 PS4_SYSV_ABI sceSystemServiceRegisterDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReleaseFb0() {
+s32 PS4_SYSV_ABI sceSystemServiceReleaseFb0() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReportAbnormalTermination() {
+s32 PS4_SYSV_ABI sceSystemServiceReportAbnormalTermination() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRequestCameraCalibration() {
+s32 PS4_SYSV_ABI sceSystemServiceRequestCameraCalibration() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRequestToChangeRenderingMode() {
+s32 PS4_SYSV_ABI sceSystemServiceRequestToChangeRenderingMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceResumeLocalProcess() {
+s32 PS4_SYSV_ABI sceSystemServiceResumeLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSetControllerFocusPermission() {
+s32 PS4_SYSV_ABI sceSystemServiceSetControllerFocusPermission() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSetGpuLoadEmulationMode() {
+s32 PS4_SYSV_ABI sceSystemServiceSetGpuLoadEmulationMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayAreaFlag() {
+s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayAreaFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayZoneWarning() {
+s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayZoneWarning() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowControllerSettings() {
+s32 PS4_SYSV_ABI sceSystemServiceShowControllerSettings() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowDisplaySafeAreaSettings() {
+s32 PS4_SYSV_ABI sceSystemServiceShowDisplaySafeAreaSettings() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowEyeToEyeDistanceSetting() {
+s32 PS4_SYSV_ABI sceSystemServiceShowEyeToEyeDistanceSetting() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSuspendBackgroundApp() {
+s32 PS4_SYSV_ABI sceSystemServiceSuspendBackgroundApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSuspendLocalProcess() {
+s32 PS4_SYSV_ABI sceSystemServiceSuspendLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceTickVideoPlayback() {
+s32 PS4_SYSV_ABI sceSystemServiceTickVideoPlayback() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceTurnOffScreenSaver() {
+s32 PS4_SYSV_ABI sceSystemServiceTurnOffScreenSaver() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9031A344CB540F1A() {
+s32 PS4_SYSV_ABI Func_9031A344CB540F1A() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_A9D4CF2568EAB837() {
+s32 PS4_SYSV_ABI Func_A9D4CF2568EAB837() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilAccessibilityZoomLock() {
+s32 PS4_SYSV_ABI sceShellCoreUtilAccessibilityZoomLock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilAccessibilityZoomUnlock() {
+s32 PS4_SYSV_ABI sceShellCoreUtilAccessibilityZoomUnlock() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilAcquireBgmCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilAcquireBgmCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilAcquireRemotePlayCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilAcquireRemotePlayCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilAcquireSharePlayCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilAcquireSharePlayCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateAbort() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateAbort() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateGetStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateGetStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateInit() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateInit() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateIsActivated() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateIsActivated() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateRecordActivation() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateRecordActivation() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateStart() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateStartAsync() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateStartAsync() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilActivateTerm() {
+s32 PS4_SYSV_ABI sceShellCoreUtilActivateTerm() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilChangeRunLevel() {
+s32 PS4_SYSV_ABI sceShellCoreUtilChangeRunLevel() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilChangeToStaffModeForIDU() {
+s32 PS4_SYSV_ABI sceShellCoreUtilChangeToStaffModeForIDU() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilCheckerAbort() {
+s32 PS4_SYSV_ABI sceShellCoreUtilCheckerAbort() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilCleanupCrashReport() {
+s32 PS4_SYSV_ABI sceShellCoreUtilCleanupCrashReport() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilClearAppData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilClearAppData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilClearPsnAccountInfo() {
+s32 PS4_SYSV_ABI sceShellCoreUtilClearPsnAccountInfo() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilCrashReportRequestCancel() {
+s32 PS4_SYSV_ABI sceShellCoreUtilCrashReportRequestCancel() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeclareBeginOfExternalStorageAppMove() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeclareBeginOfExternalStorageAppMove() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeclareEndOfExternalStorageAppMove() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeclareEndOfExternalStorageAppMove() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeleteDiscInstalledTitleWorkaroundFile() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeleteDiscInstalledTitleWorkaroundFile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedHidConfigFile() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedHidConfigFile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedNetEvConfigFile() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedNetEvConfigFile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedTitleWorkaroundFile() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeleteDownloadedTitleWorkaroundFile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDeleteSmrHddDummyData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDeleteSmrHddDummyData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDoFsck() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDoFsck() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDownloadHidConfigFileFromServer() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDownloadHidConfigFileFromServer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDownloadNetEvConfigFileFromServer() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDownloadNetEvConfigFileFromServer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilDownloadTitleWorkaroundFileFromServer() {
+s32 PS4_SYSV_ABI sceShellCoreUtilDownloadTitleWorkaroundFileFromServer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilEnterPowerLockSection() {
+s32 PS4_SYSV_ABI sceShellCoreUtilEnterPowerLockSection() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilExecuteCrashReport() {
+s32 PS4_SYSV_ABI sceShellCoreUtilExecuteCrashReport() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilExfatFormatExternalHdd() {
+s32 PS4_SYSV_ABI sceShellCoreUtilExfatFormatExternalHdd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilExitMiniApp() {
+s32 PS4_SYSV_ABI sceShellCoreUtilExitMiniApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilExitMiniAppWithValue() {
+s32 PS4_SYSV_ABI sceShellCoreUtilExitMiniAppWithValue() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilFillUpSpaceOnSmrHdd() {
+s32 PS4_SYSV_ABI sceShellCoreUtilFillUpSpaceOnSmrHdd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilFormatExternalHdd() {
+s32 PS4_SYSV_ABI sceShellCoreUtilFormatExternalHdd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilFormatHddForRestore() {
+s32 PS4_SYSV_ABI sceShellCoreUtilFormatHddForRestore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilFreeUpSpaceOnSmrHdd() {
+s32 PS4_SYSV_ABI sceShellCoreUtilFreeUpSpaceOnSmrHdd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppEnableTTS() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppEnableTTS() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppEnterButtonAssign() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppEnterButtonAssign() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamInt() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamInt() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamIntByBudgetType() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamIntByBudgetType() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamStringByBudgetType() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchedParamStringByBudgetType() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchTypeInfo() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAppLaunchTypeInfo() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetAutoPowerDownRemainingSeconds() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetAutoPowerDownRemainingSeconds() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetBasicProductShape() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetBasicProductShape() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCheckerString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCheckerString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCheckerStringEx() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCheckerStringEx() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCloudClientStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCloudClientStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportCoreFileSetSize() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportCoreFileSetSize() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportFilterInfoStart() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportFilterInfoStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoForBoot() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoForBoot() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoForBootStart() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoForBootStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoStart() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportInfoStart() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreutilGetCrashReportProcessInformation() {
+s32 PS4_SYSV_ABI sceShellCoreutilGetCrashReportProcessInformation() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportResult() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportResult() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetCrashReportUploadStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetCrashReportUploadStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetDeviceIndexBehavior() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetDeviceIndexBehavior() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetDeviceIndexBehaviorWithTimeout() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetDeviceIndexBehaviorWithTimeout() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetEffectiveTotalSizeOfUserPartition() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetEffectiveTotalSizeOfUserPartition() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetFreeSizeOfAvContentsTmp() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetFreeSizeOfAvContentsTmp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetFreeSizeOfUserPartition() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetFreeSizeOfUserPartition() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetFsckProgress() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetFsckProgress() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetGameLiveStreamingStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetGameLiveStreamingStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetGnmCompositorOnScreenProfilerFlag() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetGnmCompositorOnScreenProfilerFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetGpuLoadEmulationMode() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetGpuLoadEmulationMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetGpuLoadEmulationModeByAppId() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetGpuLoadEmulationModeByAppId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetHidConfigFileInfoString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetHidConfigFileInfoString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetHidConfigFileString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetHidConfigFileString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetHidConfigName() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetHidConfigName() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetHidConfigNum() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetHidConfigNum() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetIDUMode() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetIDUMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetImposeMenuFlagForPs2Emu() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetImposeMenuFlagForPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetManifestFileStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetManifestFileStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetNeedSizeOfAppContent() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetNeedSizeOfAppContent() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetNetEvConfigFileInfoString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetNetEvConfigFileInfoString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetOptimizationStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetOptimizationStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetOutOfVrPlayZoneWarning() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetOutOfVrPlayZoneWarning() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPapcGamePcl() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPapcGamePcl() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPbtcUserInfoList() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPbtcUserInfoList() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPlatformPrivacyDefinitionEventData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPlatformPrivacyDefinitionEventData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPlatformPrivacySetting() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPlatformPrivacySetting() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetProgressOfFormatExternalHdd() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetProgressOfFormatExternalHdd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetProgressOfFsck() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetProgressOfFsck() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPsnAccountInfo() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPsnAccountInfo() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPsStoreIconLayout() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPsStoreIconLayout() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetPsStoreIconState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetPsStoreIconState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetRegion() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetRegion() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetRemotePlayStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetRemotePlayStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetRunLevel() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetRunLevel() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSharePlayStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSharePlayStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetShellUIVMStats() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetShellUIVMStats() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSmrHddInfoString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSmrHddInfoString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSocialScreenStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSocialScreenStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSplashScreenState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSplashScreenState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSupportSiteURL() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSupportSiteURL() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSuspendConfirmationDialogFlag() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSuspendConfirmationDialogFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSystemBGState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSystemBGState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSystemBGWaveColor() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSystemBGWaveColor() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetSystemBGWaveState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetSystemBGWaveState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetTitleWorkaroundFileInfoString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetTitleWorkaroundFileInfoString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetTitleWorkaroundFileString() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetTitleWorkaroundFileString() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetUIStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetUIStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetUserFocus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetUserFocus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetUserIdOfMorpheusUser() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetUserIdOfMorpheusUser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGetVersionNumberOfCameraCalibrationData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGetVersionNumberOfCameraCalibrationData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilGoBackToKratosCurrentSessionGame() {
+s32 PS4_SYSV_ABI sceShellCoreUtilGoBackToKratosCurrentSessionGame() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilHideBlocksFromUser() {
+s32 PS4_SYSV_ABI sceShellCoreUtilHideBlocksFromUser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIncrementVersionNumberOfCameraCalibrationData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIncrementVersionNumberOfCameraCalibrationData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsAccessibilityZoomLocked() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsAccessibilityZoomLocked() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsBgmCpuBudgetAcquired() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsBgmCpuBudgetAcquired() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsBgmCpuBudgetAvailable() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsBgmCpuBudgetAvailable() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsBgmPlaying() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsBgmPlaying() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsExternalStorageAppMoveInProgress() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsExternalStorageAppMoveInProgress() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsEyeToEyeDistanceAdjusted() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsEyeToEyeDistanceAdjusted() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsGameLiveStreamingOnAir() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsGameLiveStreamingOnAir() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsImposeScreenOverlaid() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsImposeScreenOverlaid() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsInSystemSuspendBlackList() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsInSystemSuspendBlackList() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsInternalKratosUser() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsInternalKratosUser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsKilledOrSuspendedByLogout() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsKilledOrSuspendedByLogout() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsNeededCrashReport() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsNeededCrashReport() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsPowerSaveAlertRequested() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsPowerSaveAlertRequested() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsRemotePlayCpuBudgetAcquired() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsRemotePlayCpuBudgetAcquired() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsScreenSaverOn() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsScreenSaverOn() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsSharePlayCpuBudgetAcquired() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsSharePlayCpuBudgetAcquired() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsShowCrashReport() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsShowCrashReport() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsTemperatureDanger() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsTemperatureDanger() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsTitleWorkaroundEnabled() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsTitleWorkaroundEnabled() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilIsUsbMassStorageMounted() {
+s32 PS4_SYSV_ABI sceShellCoreUtilIsUsbMassStorageMounted() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilLaunchByUri() {
+s32 PS4_SYSV_ABI sceShellCoreUtilLaunchByUri() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilLeavePowerLockSection() {
+s32 PS4_SYSV_ABI sceShellCoreUtilLeavePowerLockSection() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilLog() {
+s32 PS4_SYSV_ABI sceShellCoreUtilLog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilMakeManifestFile() {
+s32 PS4_SYSV_ABI sceShellCoreUtilMakeManifestFile() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilMountAppRight() {
+s32 PS4_SYSV_ABI sceShellCoreUtilMountAppRight() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilMountDownloadDataForShellUI() {
+s32 PS4_SYSV_ABI sceShellCoreUtilMountDownloadDataForShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilMountHddForBackup() {
+s32 PS4_SYSV_ABI sceShellCoreUtilMountHddForBackup() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilMountHddForRestore() {
+s32 PS4_SYSV_ABI sceShellCoreUtilMountHddForRestore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNavigateToAnotherApp() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNavigateToAnotherApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNavigateToGoHome() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNavigateToGoHome() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNavigateToLaunchedApp() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNavigateToLaunchedApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotificationCancelForIDU() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotificationCancelForIDU() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotificationRequestedForIDU() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotificationRequestedForIDU() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotifyBgmCoreTermination() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotifyBgmCoreTermination() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotifyFarsightUIDone() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotifyFarsightUIDone() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotifyFsReadError() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotifyFsReadError() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotifyPsnAccountInfoReceived() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotifyPsnAccountInfoReceived() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilNotifyYouTubeAccountLinkStatusChanged() {
+s32 PS4_SYSV_ABI sceShellCoreUtilNotifyYouTubeAccountLinkStatusChanged() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPfAuthClientConsoleTokenClearCache() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPfAuthClientConsoleTokenClearCache() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPostActivityForPsNow() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPostActivityForPsNow() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPostErrorLog() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPostErrorLog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPostLaunchConfirmResult() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPostLaunchConfirmResult() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPostPsmEventToShellUI() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPostPsmEventToShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfGameLiveStreaming() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfGameLiveStreaming() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfRemotePlay() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfRemotePlay() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfSharePlay() {
+s32 PS4_SYSV_ABI sceShellCoreUtilPreNotifyOfSharePlay() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilReleaseBgmCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilReleaseBgmCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilReleaseRemotePlayCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilReleaseRemotePlayCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilReleaseSharePlayCpuBudget() {
+s32 PS4_SYSV_ABI sceShellCoreUtilReleaseSharePlayCpuBudget() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilReportSessionErrorToGaikaiController() {
+s32 PS4_SYSV_ABI sceShellCoreUtilReportSessionErrorToGaikaiController() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilReportUnexpectedFatalErrorToSystemTelemetry() {
+s32 PS4_SYSV_ABI sceShellCoreUtilReportUnexpectedFatalErrorToSystemTelemetry() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilRequestCameraCalibration() {
+s32 PS4_SYSV_ABI sceShellCoreUtilRequestCameraCalibration() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilRequestEjectDevice() {
+s32 PS4_SYSV_ABI sceShellCoreUtilRequestEjectDevice() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilRequestRebootApp() {
+s32 PS4_SYSV_ABI sceShellCoreUtilRequestRebootApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilRequestShutdown() {
+s32 PS4_SYSV_ABI sceShellCoreUtilRequestShutdown() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilResetAutoPowerDownTimer() {
+s32 PS4_SYSV_ABI sceShellCoreUtilResetAutoPowerDownTimer() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilResetBgdcConfig() {
+s32 PS4_SYSV_ABI sceShellCoreUtilResetBgdcConfig() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetAppData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetAppData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetBgmProhibition() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetBgmProhibition() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetDeviceIndexBehavior() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetDeviceIndexBehavior() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetGameLiveStreamingOnAirFlag() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetGameLiveStreamingOnAirFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetGameLiveStreamingStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetGameLiveStreamingStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetGnmCompositorOnScreenProfilerFlag() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetGnmCompositorOnScreenProfilerFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetGpuLoadEmulationMode() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetGpuLoadEmulationMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetGpuLoadEmulationModeByAppId() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetGpuLoadEmulationModeByAppId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetIDUMode() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetIDUMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetImposeStatusFlag() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetImposeStatusFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetPsStoreIconLayout() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetPsStoreIconLayout() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetPsStoreIconState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetPsStoreIconState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetRemotePlayStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetRemotePlayStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSharePlayStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSharePlayStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSkipUpdateCheck() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSkipUpdateCheck() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSocialScreenStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSocialScreenStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSplashScreenState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSplashScreenState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSystemBGState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSystemBGState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSystemBGWaveColor() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSystemBGWaveColor() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetSystemBGWaveState() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetSystemBGWaveState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetUIStatus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetUIStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSetUserFocus() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSetUserFocus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilShowCriticalErrorDialog() {
+s32 PS4_SYSV_ABI sceShellCoreUtilShowCriticalErrorDialog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilShowErrorDialog() {
+s32 PS4_SYSV_ABI sceShellCoreUtilShowErrorDialog() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilShowErrorDialogWithFormatArgs() {
+s32 PS4_SYSV_ABI sceShellCoreUtilShowErrorDialogWithFormatArgs() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilShowErrorDialogWithParam() {
+s32 PS4_SYSV_ABI sceShellCoreUtilShowErrorDialogWithParam() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilShowPsUnderLockIndicator() {
+s32 PS4_SYSV_ABI sceShellCoreUtilShowPsUnderLockIndicator() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilSignalUserInput() {
+s32 PS4_SYSV_ABI sceShellCoreUtilSignalUserInput() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilStartOptimization() {
+s32 PS4_SYSV_ABI sceShellCoreUtilStartOptimization() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilStartPsNowGame() {
+s32 PS4_SYSV_ABI sceShellCoreUtilStartPsNowGame() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilStopOptimization() {
+s32 PS4_SYSV_ABI sceShellCoreUtilStopOptimization() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilStopPsNowGame() {
+s32 PS4_SYSV_ABI sceShellCoreUtilStopPsNowGame() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilTestBusTransferSpeed() {
+s32 PS4_SYSV_ABI sceShellCoreUtilTestBusTransferSpeed() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilTickHeartBeat() {
+s32 PS4_SYSV_ABI sceShellCoreUtilTickHeartBeat() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilTriggerPapcRecalculation() {
+s32 PS4_SYSV_ABI sceShellCoreUtilTriggerPapcRecalculation() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilTriggerPapcUpdate() {
+s32 PS4_SYSV_ABI sceShellCoreUtilTriggerPapcUpdate() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilTurnOffScreenSaver() {
+s32 PS4_SYSV_ABI sceShellCoreUtilTurnOffScreenSaver() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilUnmountAppRight() {
+s32 PS4_SYSV_ABI sceShellCoreUtilUnmountAppRight() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilUnmountDownloadDataForShellUI() {
+s32 PS4_SYSV_ABI sceShellCoreUtilUnmountDownloadDataForShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilUnmountHddForBackup() {
+s32 PS4_SYSV_ABI sceShellCoreUtilUnmountHddForBackup() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilUnmountHddForRestore() {
+s32 PS4_SYSV_ABI sceShellCoreUtilUnmountHddForRestore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceShellCoreUtilWriteSmrHddDummyData() {
+s32 PS4_SYSV_ABI sceShellCoreUtilWriteSmrHddDummyData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1E5CA5A71FA7F028() {
+s32 PS4_SYSV_ABI Func_1E5CA5A71FA7F028() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_6D43644F75C38346() {
+s32 PS4_SYSV_ABI Func_6D43644F75C38346() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_739FB849CB28F445() {
+s32 PS4_SYSV_ABI Func_739FB849CB28F445() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B20628FF35C74111() {
+s32 PS4_SYSV_ABI Func_B20628FF35C74111() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceInitializeForShellCore() {
+s32 PS4_SYSV_ABI sceSystemServiceInitializeForShellCore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfExtraAudioDevices() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfExtraAudioDevices() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfImeForBigApp() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfImeForBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfInGameStore() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfInGameStore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilActivateCdlg() {
+s32 PS4_SYSV_ABI sceLncUtilActivateCdlg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilAddLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilAddLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilBlockAppSuspend() {
+s32 PS4_SYSV_ABI sceLncUtilBlockAppSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilBlockingGetEventForDaemon() {
+s32 PS4_SYSV_ABI sceLncUtilBlockingGetEventForDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilContinueApp() {
+s32 PS4_SYSV_ABI sceLncUtilContinueApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilCrashSyscore() {
+s32 PS4_SYSV_ABI sceLncUtilCrashSyscore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilDeactivateCdlg() {
+s32 PS4_SYSV_ABI sceLncUtilDeactivateCdlg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilDeclareReadyForSuspend() {
+s32 PS4_SYSV_ABI sceLncUtilDeclareReadyForSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilDisableSuspendNotification() {
+s32 PS4_SYSV_ABI sceLncUtilDisableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilEnableSuspendNotification() {
+s32 PS4_SYSV_ABI sceLncUtilEnableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilFinishSpecialResume() {
+s32 PS4_SYSV_ABI sceLncUtilFinishSpecialResume() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilForceKillApp() {
+s32 PS4_SYSV_ABI sceLncUtilForceKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilForceKillLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilForceKillLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetApp0DirPath() {
+s32 PS4_SYSV_ABI sceLncUtilGetApp0DirPath() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppCategory() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppCategory() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppFocusedAppStatus() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppFocusedAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppId() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppIdOfBigApp() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppIdOfMiniApp() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfMiniApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppLaunchedUser() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppLaunchedUser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppStatus() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppStatusListForShellUIReboot() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppStatusListForShellUIReboot() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppTitleId() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppTitleId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetAppType() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppType() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetCdlgExec() {
+s32 PS4_SYSV_ABI sceLncUtilGetCdlgExec() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetCoredumpState() {
+s32 PS4_SYSV_ABI sceLncUtilGetCoredumpState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetDbgExecutablePath() {
+s32 PS4_SYSV_ABI sceLncUtilGetDbgExecutablePath() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetEventForDaemon() {
+s32 PS4_SYSV_ABI sceLncUtilGetEventForDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetEventForShellUI() {
+s32 PS4_SYSV_ABI sceLncUtilGetEventForShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetGpuCrashFullDumpAppStatus() {
+s32 PS4_SYSV_ABI sceLncUtilGetGpuCrashFullDumpAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetLocalProcessStatusList() {
+s32 PS4_SYSV_ABI sceLncUtilGetLocalProcessStatusList() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetParentSocket() {
+s32 PS4_SYSV_ABI sceLncUtilGetParentSocket() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetResultKillApp() {
+s32 PS4_SYSV_ABI sceLncUtilGetResultKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilGetResultLaunchAppByTitleId() {
+s32 PS4_SYSV_ABI sceLncUtilGetResultLaunchAppByTitleId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilInitialize() {
+s32 PS4_SYSV_ABI sceLncUtilInitialize() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsActiveCdlg() {
+s32 PS4_SYSV_ABI sceLncUtilIsActiveCdlg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsAppLaunched() {
+s32 PS4_SYSV_ABI sceLncUtilIsAppLaunched() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsAppSuspended() {
+s32 PS4_SYSV_ABI sceLncUtilIsAppSuspended() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable() {
+s32 PS4_SYSV_ABI sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsPs2Emu() {
+s32 PS4_SYSV_ABI sceLncUtilIsPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilIsShellUiFgAndGameBgCpuMode() {
+s32 PS4_SYSV_ABI sceLncUtilIsShellUiFgAndGameBgCpuMode() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilKickCoredumpOnlyProcMem() {
+s32 PS4_SYSV_ABI sceLncUtilKickCoredumpOnlyProcMem() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilKillApp() {
+s32 PS4_SYSV_ABI sceLncUtilKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilKillAppWithReason() {
+s32 PS4_SYSV_ABI sceLncUtilKillAppWithReason() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilKillLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilKillLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilLaunchApp() {
+s32 PS4_SYSV_ABI sceLncUtilLaunchApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilLoadExec() {
+s32 PS4_SYSV_ABI sceLncUtilLoadExec() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestEnd() {
+s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestEnd() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestProgress() {
+s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestProgress() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilNotifyVshReady() {
+s32 PS4_SYSV_ABI sceLncUtilNotifyVshReady() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilRaiseException() {
+s32 PS4_SYSV_ABI sceLncUtilRaiseException() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilRaiseExceptionLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilRaiseExceptionLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilRegisterCdlgSharedMemoryName() {
+s32 PS4_SYSV_ABI sceLncUtilRegisterCdlgSharedMemoryName() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilRegisterDaemon() {
+s32 PS4_SYSV_ABI sceLncUtilRegisterDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilRegisterShellUI() {
+s32 PS4_SYSV_ABI sceLncUtilRegisterShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfExtraAudioDevices() {
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfExtraAudioDevices() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfImeForBigApp() {
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfImeForBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfInGameStore() {
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfInGameStore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilResumeApp() {
+s32 PS4_SYSV_ABI sceLncUtilResumeApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilResumeLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilResumeLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSetAppFocus() {
+s32 PS4_SYSV_ABI sceLncUtilSetAppFocus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSetCdlgExec() {
+s32 PS4_SYSV_ABI sceLncUtilSetCdlgExec() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSetControllerFocus() {
+s32 PS4_SYSV_ABI sceLncUtilSetControllerFocus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSetControllerFocusPermission() {
+s32 PS4_SYSV_ABI sceLncUtilSetControllerFocusPermission() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilStartKillApp() {
+s32 PS4_SYSV_ABI sceLncUtilStartKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilStartLaunchAppByTitleId() {
+s32 PS4_SYSV_ABI sceLncUtilStartLaunchAppByTitleId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSuspendApp() {
+s32 PS4_SYSV_ABI sceLncUtilSuspendApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSuspendBackgroundApp() {
+s32 PS4_SYSV_ABI sceLncUtilSuspendBackgroundApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSuspendLocalProcess() {
+s32 PS4_SYSV_ABI sceLncUtilSuspendLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilSystemSuspend() {
+s32 PS4_SYSV_ABI sceLncUtilSystemSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilTerminate() {
+s32 PS4_SYSV_ABI sceLncUtilTerminate() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilTryBlockAppSuspend() {
+s32 PS4_SYSV_ABI sceLncUtilTryBlockAppSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilUnblockAppSuspend() {
+s32 PS4_SYSV_ABI sceLncUtilUnblockAppSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilUnregisterCdlgSharedMemoryName() {
+s32 PS4_SYSV_ABI sceLncUtilUnregisterCdlgSharedMemoryName() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilUnregisterDaemon() {
+s32 PS4_SYSV_ABI sceLncUtilUnregisterDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLncUtilUnregisterShellUI() {
+s32 PS4_SYSV_ABI sceLncUtilUnregisterShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceTelemetrySetData() {
+s32 PS4_SYSV_ABI sceSystemServiceTelemetrySetData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingClearEventFlag() {
+s32 PS4_SYSV_ABI sceAppMessagingClearEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingReceiveMsg() {
+s32 PS4_SYSV_ABI sceAppMessagingReceiveMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingSendMsg() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingSendMsgToShellCore() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellCore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingSendMsgToShellUI() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingSetEventFlag() {
+s32 PS4_SYSV_ABI sceAppMessagingSetEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingTryGetEventFlag() {
+s32 PS4_SYSV_ABI sceAppMessagingTryGetEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceAppMessagingTryReceiveMsg() {
+s32 PS4_SYSV_ABI sceAppMessagingTryReceiveMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C8E899ABEF7F64C4() {
+s32 PS4_SYSV_ABI Func_C8E899ABEF7F64C4() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F74BA759B9C8D2A1() {
+s32 PS4_SYSV_ABI Func_F74BA759B9C8D2A1() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisablePartyVoice() {
+s32 PS4_SYSV_ABI sceSystemServiceDisablePartyVoice() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReenablePartyVoice() {
+s32 PS4_SYSV_ABI sceSystemServiceReenablePartyVoice() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacyDefinitionData() {
+s32 PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacyDefinitionData() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacyDefinitionVersion() {
+s32 PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacyDefinitionVersion() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacySetting() {
+s32 PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacySetting() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRequestPowerOff() {
+s32 PS4_SYSV_ABI sceSystemServiceRequestPowerOff() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceRequestReboot() {
+s32 PS4_SYSV_ABI sceSystemServiceRequestReboot() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPs2Emu() {
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceGetParentSocketForPs2Emu() {
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPs2Emu() {
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceShowImposeMenuForPs2Emu() {
+s32 PS4_SYSV_ABI sceSystemServiceShowImposeMenuForPs2Emu() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisableVoiceRecognition() {
+s32 PS4_SYSV_ABI sceSystemServiceDisableVoiceRecognition() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceReenableVoiceRecognition() {
+s32 PS4_SYSV_ABI sceSystemServiceReenableVoiceRecognition() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDeclareReadyForSuspend() {
+s32 PS4_SYSV_ABI sceSystemServiceDeclareReadyForSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceDisableSuspendNotification() {
+s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceEnableSuspendNotification() {
+s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchStore() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchStore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceSetPowerSaveLevel() {
+s32 PS4_SYSV_ABI sceSystemServiceSetPowerSaveLevel() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLaunchUdsApp() {
+s32 PS4_SYSV_ABI sceSystemServiceLaunchUdsApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSystemServiceLoadExecVideoServiceWebApp() {
+s32 PS4_SYSV_ABI sceSystemServiceLoadExecVideoServiceWebApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -3170,7 +3170,8 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceLncUtilIsShellUiFgAndGameBgCpuMode);
     LIB_FUNCTION("gNn+EZtm1i0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
                  sceLncUtilKickCoredumpOnlyProcMem);
-    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,sceLncUtilKillApp);
+    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKillApp);
     LIB_FUNCTION("RBlEzB--JeA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
                  sceLncUtilKillAppWithReason);
     LIB_FUNCTION("IhlLdSAX+Jk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,

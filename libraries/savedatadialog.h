@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "common/types.h" 
+#include "common/types.h"
 
 namespace Core::Loader {
 class SymbolsResolver;
@@ -11,16 +11,16 @@ class SymbolsResolver;
 
 namespace Libraries::SaveDataDialog {
 
-int PS4_SYSV_ABI sceSaveDataDialogClose();
-int PS4_SYSV_ABI sceSaveDataDialogGetResult();
-int PS4_SYSV_ABI sceSaveDataDialogGetStatus();
-int PS4_SYSV_ABI sceSaveDataDialogInitialize();
-int PS4_SYSV_ABI sceSaveDataDialogIsReadyToDisplay();
-int PS4_SYSV_ABI sceSaveDataDialogOpen();
-int PS4_SYSV_ABI sceSaveDataDialogProgressBarInc();
-int PS4_SYSV_ABI sceSaveDataDialogProgressBarSetValue();
-int PS4_SYSV_ABI sceSaveDataDialogTerminate();
-int PS4_SYSV_ABI sceSaveDataDialogUpdateStatus();
+s32 PS4_SYSV_ABI sceSaveDataDialogClose();
+s32 PS4_SYSV_ABI sceSaveDataDialogGetResult();
+s32 PS4_SYSV_ABI sceSaveDataDialogGetStatus();
+s32 PS4_SYSV_ABI sceSaveDataDialogInitialize();
+s32 PS4_SYSV_ABI sceSaveDataDialogIsReadyToDisplay();
+s32 PS4_SYSV_ABI sceSaveDataDialogOpen();
+s32 PS4_SYSV_ABI sceSaveDataDialogProgressBarInc();
+s32 PS4_SYSV_ABI sceSaveDataDialogProgressBarSetValue();
+s32 PS4_SYSV_ABI sceSaveDataDialogTerminate();
+s32 PS4_SYSV_ABI sceSaveDataDialogUpdateStatus();
 
 void RegisterlibSceSaveDataDialog(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::SaveDataDialog

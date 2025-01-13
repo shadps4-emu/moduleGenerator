@@ -8,2507 +8,2507 @@
 
 namespace Libraries::NpManager {
 
-int PS4_SYSV_ABI sceNpIsPlusMember() {
+s32 PS4_SYSV_ABI sceNpIsPlusMember() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_EF4378573542A508() {
+s32 PS4_SYSV_ABI Func_EF4378573542A508() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckNpAvailability() {
+s32 PS4_SYSV_ABI sceNpCheckNpAvailability() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountCountry() {
+s32 PS4_SYSV_ABI sceNpGetAccountCountry() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountDateOfBirth() {
+s32 PS4_SYSV_ABI sceNpGetAccountDateOfBirth() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountId() {
+s32 PS4_SYSV_ABI sceNpGetAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountLanguage() {
+s32 PS4_SYSV_ABI sceNpGetAccountLanguage() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetGamePresenceStatus() {
+s32 PS4_SYSV_ABI sceNpGetGamePresenceStatus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetParentalControlInfo() {
+s32 PS4_SYSV_ABI sceNpGetParentalControlInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetUserIdByOnlineId() {
+s32 PS4_SYSV_ABI sceNpGetUserIdByOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessagePrepare() {
+s32 PS4_SYSV_ABI sceNpInGameMessagePrepare() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageSendData() {
+s32 PS4_SYSV_ABI sceNpInGameMessageSendData() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterGamePresenceCallback() {
+s32 PS4_SYSV_ABI sceNpRegisterGamePresenceCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterStateCallback() {
+s32 PS4_SYSV_ABI sceNpRegisterStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetGamePresenceOnline() {
+s32 PS4_SYSV_ABI sceNpSetGamePresenceOnline() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterStateCallback() {
+s32 PS4_SYSV_ABI sceNpUnregisterStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckCallbackForLib() {
+s32 PS4_SYSV_ABI sceNpCheckCallbackForLib() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterStateCallbackForToolkit() {
+s32 PS4_SYSV_ABI sceNpRegisterStateCallbackForToolkit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterStateCallbackForToolkit() {
+s32 PS4_SYSV_ABI sceNpUnregisterStateCallbackForToolkit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcCreateMemoryFromKernel() {
+s32 PS4_SYSV_ABI _sceNpIpcCreateMemoryFromKernel() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcCreateMemoryFromPool() {
+s32 PS4_SYSV_ABI _sceNpIpcCreateMemoryFromPool() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcDestroyMemory() {
+s32 PS4_SYSV_ABI _sceNpIpcDestroyMemory() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcFreeImpl() {
+s32 PS4_SYSV_ABI _sceNpIpcFreeImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcGetNpMemAllocator() {
+s32 PS4_SYSV_ABI _sceNpIpcGetNpMemAllocator() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcMallocImpl() {
+s32 PS4_SYSV_ABI _sceNpIpcMallocImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpIpcReallocImpl() {
+s32 PS4_SYSV_ABI _sceNpIpcReallocImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerCreateMemoryFromKernel() {
+s32 PS4_SYSV_ABI _sceNpManagerCreateMemoryFromKernel() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerCreateMemoryFromPool() {
+s32 PS4_SYSV_ABI _sceNpManagerCreateMemoryFromPool() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerDestroyMemory() {
+s32 PS4_SYSV_ABI _sceNpManagerDestroyMemory() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerFreeImpl() {
+s32 PS4_SYSV_ABI _sceNpManagerFreeImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerGetNpMemAllocator() {
+s32 PS4_SYSV_ABI _sceNpManagerGetNpMemAllocator() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerMallocImpl() {
+s32 PS4_SYSV_ABI _sceNpManagerMallocImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceNpManagerReallocImpl() {
+s32 PS4_SYSV_ABI _sceNpManagerReallocImpl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEP13SceNpOnlineId() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEP13SceNpOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEPS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEPS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineId16SetNpOnlineIdStrEPKc() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineId16SetNpOnlineIdStrEPKc() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineId5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineId5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1ERK13SceNpOnlineId() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1ERK13SceNpOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2ERK13SceNpOnlineId() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2ERK13SceNpOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdC2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np10NpOnlineIdD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans13GetResultCodeEPNS0_6HandleE() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans13GetResultCodeEPNS0_6HandleE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans21SetRequestAccessTokenEPNS0_6HandleE() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans21SetRequestAccessTokenEPNS0_6HandleE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans24BuildAuthorizationHeaderERKNS0_13NpAccessTokenEPcm() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTrans24BuildAuthorizationHeaderERKNS0_13NpAccessTokenEPcm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTransC2EP16SceNpAllocatorEx() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTransC2EP16SceNpAllocatorEx() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np11NpHttpTransD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClient4InitEii() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClient4InitEii() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClientC1EP16SceNpAllocatorEx() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClientC1EP16SceNpAllocatorEx() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClientC2EP16SceNpAllocatorEx() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClientC2EP16SceNpAllocatorEx() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpHttpClientD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleToken5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleToken5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC1ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC1ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC2ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC2ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenC2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np12NpTitleTokenD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessToken14GetAccessTokenEPNS0_6HandleERKNS0_4UserEPS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessToken14GetAccessTokenEPNS0_6HandleERKNS0_4UserEPS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessToken5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessToken5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1ERK16SceNpAccessToken() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1ERK16SceNpAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2ERK16SceNpAccessToken() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2ERK16SceNpAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenC2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np13NpAccessTokenD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client10EndRequestEii() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client10EndRequestEii() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11InitServiceEi() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11InitServiceEi() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11TermServiceEi() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11TermServiceEi() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11WaitRequestEiij() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client11WaitRequestEiij() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client12AbortRequestEii() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client12AbortRequestEii() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client12BeginRequestEii() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client12BeginRequestEii() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13CreateRequestEimPKvPi() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13CreateRequestEimPKvPi() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13DeleteRequestEii() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13DeleteRequestEii() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13GetIpmiClientEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13GetIpmiClientEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13PollEventFlagEijmjPm() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client13PollEventFlagEijmjPm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np3ipc14service_client14PollEventQueueEiPvm() {
+s32 PS4_SYSV_ABI _ZN3sce2np3ipc14service_client14PollEventQueueEiPvm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpId5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpId5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC1ERK7SceNpId() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC1ERK7SceNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC1ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC1ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC2ERK7SceNpId() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC2ERK7SceNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC2ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC2ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdC2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdC2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4NpIdD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4NpIdD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4User5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np4User5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4User7GetUserEiPS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np4User7GetUserEiPS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC1Ei() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC1Ei() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC1ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC1ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC2Ei() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC2Ei() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC2ERKS1_() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC2ERKS1_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserC2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserC2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np4UserD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np4UserD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np8NpTicket5ClearEv() {
+s32 PS4_SYSV_ABI _ZN3sce2np8NpTicket5ClearEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np8NpTicketD0Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np8NpTicketD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np8NpTicketD1Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np8NpTicketD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2np8NpTicketD2Ev() {
+s32 PS4_SYSV_ABI _ZN3sce2np8NpTicketD2Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npeqERK13SceNpOnlineIdRKNS0_10NpOnlineIdE() {
+s32 PS4_SYSV_ABI _ZN3sce2npeqERK13SceNpOnlineIdRKNS0_10NpOnlineIdE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npeqERKNS0_10NpOnlineIdERK13SceNpOnlineId() {
+s32 PS4_SYSV_ABI _ZN3sce2npeqERKNS0_10NpOnlineIdERK13SceNpOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npeqERKNS0_10NpOnlineIdES3_() {
+s32 PS4_SYSV_ABI _ZN3sce2npeqERKNS0_10NpOnlineIdES3_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npeqERKNS0_4UserERKi() {
+s32 PS4_SYSV_ABI _ZN3sce2npeqERKNS0_4UserERKi() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npeqERKNS0_4UserES3_() {
+s32 PS4_SYSV_ABI _ZN3sce2npeqERKNS0_4UserES3_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npneERK13SceNpOnlineIdRKNS0_10NpOnlineIdE() {
+s32 PS4_SYSV_ABI _ZN3sce2npneERK13SceNpOnlineIdRKNS0_10NpOnlineIdE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npneERKNS0_10NpOnlineIdERK13SceNpOnlineId() {
+s32 PS4_SYSV_ABI _ZN3sce2npneERKNS0_10NpOnlineIdERK13SceNpOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npneERKNS0_10NpOnlineIdES3_() {
+s32 PS4_SYSV_ABI _ZN3sce2npneERKNS0_10NpOnlineIdES3_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npneERKNS0_4UserERKi() {
+s32 PS4_SYSV_ABI _ZN3sce2npneERKNS0_4UserERKi() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN3sce2npneERKNS0_4UserES3_() {
+s32 PS4_SYSV_ABI _ZN3sce2npneERKNS0_4UserES3_() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np10NpOnlineId7IsEmptyEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np10NpOnlineId7IsEmptyEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np12NpTitleToken6GetStrEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np12NpTitleToken6GetStrEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np13NpAccessToken7IsEmptyEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np13NpAccessToken7IsEmptyEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User10IsLoggedInEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User10IsLoggedInEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User12GetAccountIdEPm() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User12GetAccountIdEPm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User12HasAccountIdEPb() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User12HasAccountIdEPb() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User25GetAccountIdFromRegistoryEPm() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User25GetAccountIdFromRegistoryEPm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User7IsEmptyEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User7IsEmptyEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User7IsGuestEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User7IsGuestEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np4User9GetUserIdEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np4User9GetUserIdEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np8NpTicket13GetTicketDataEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np8NpTicket13GetTicketDataEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNK3sce2np8NpTicket13GetTicketSizeEv() {
+s32 PS4_SYSV_ABI _ZNK3sce2np8NpTicket13GetTicketSizeEv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZThn16_N3sce2np11NpHttpTransD0Ev() {
+s32 PS4_SYSV_ABI _ZThn16_N3sce2np11NpHttpTransD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZThn16_N3sce2np11NpHttpTransD1Ev() {
+s32 PS4_SYSV_ABI _ZThn16_N3sce2np11NpHttpTransD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZThn8_N3sce2np11NpHttpTransD0Ev() {
+s32 PS4_SYSV_ABI _ZThn8_N3sce2np11NpHttpTransD0Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZThn8_N3sce2np11NpHttpTransD1Ev() {
+s32 PS4_SYSV_ABI _ZThn8_N3sce2np11NpHttpTransD1Ev() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAbortRequest() {
+s32 PS4_SYSV_ABI sceNpAbortRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmAbort() {
+s32 PS4_SYSV_ABI sceNpAsmAbort() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientAbortRequest() {
+s32 PS4_SYSV_ABI sceNpAsmClientAbortRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientClearNpTitleToken() {
+s32 PS4_SYSV_ABI sceNpAsmClientClearNpTitleToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientClearNpTitleTokenA() {
+s32 PS4_SYSV_ABI sceNpAsmClientClearNpTitleTokenA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientCreateRequest2() {
+s32 PS4_SYSV_ABI sceNpAsmClientCreateRequest2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientCreateResourceContext() {
+s32 PS4_SYSV_ABI sceNpAsmClientCreateResourceContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientCreateResourceContext2() {
+s32 PS4_SYSV_ABI sceNpAsmClientCreateResourceContext2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientDeleteRequest() {
+s32 PS4_SYSV_ABI sceNpAsmClientDeleteRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientDeleteResourceContext() {
+s32 PS4_SYSV_ABI sceNpAsmClientDeleteResourceContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientDeleteResourceContext2() {
+s32 PS4_SYSV_ABI sceNpAsmClientDeleteResourceContext2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetAppId() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetAppId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetCacheControlMaxAge() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetCacheControlMaxAge() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetGameNpTitleInfo() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetGameNpTitleInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetGameNpTitleToken() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetGameNpTitleToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetGameTitleBanInfo() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetGameTitleBanInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2A() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2A() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2WithHmac() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpComInfo2WithHmac() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpComInfo3() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpComInfo3() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpComInfo4() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpComInfo4() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpTitleId() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpTitleId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpTitleToken() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpTitleToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpTitleToken2() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpTitleToken2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetNpTitleTokenA() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetNpTitleTokenA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIds() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIds() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIdsA() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIdsA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIdsResult() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetRelatedGameNpTitleIdsResult() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrl() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlA() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlWithNpTitleId() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlWithNpTitleId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlWithNpTitleIdA() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceBaseUrlWithNpTitleIdA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceIdInfo() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceIdInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientGetServiceIdInfoA() {
+s32 PS4_SYSV_ABI sceNpAsmClientGetServiceIdInfoA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientInitialize() {
+s32 PS4_SYSV_ABI sceNpAsmClientInitialize() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientSetNpTitleId() {
+s32 PS4_SYSV_ABI sceNpAsmClientSetNpTitleId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmClientTerminate() {
+s32 PS4_SYSV_ABI sceNpAsmClientTerminate() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmCreateConnection() {
+s32 PS4_SYSV_ABI sceNpAsmCreateConnection() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmCreateRequest() {
+s32 PS4_SYSV_ABI sceNpAsmCreateRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmDeleteConnection() {
+s32 PS4_SYSV_ABI sceNpAsmDeleteConnection() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmDeleteRequest() {
+s32 PS4_SYSV_ABI sceNpAsmDeleteRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGenerateNpTitleToken() {
+s32 PS4_SYSV_ABI sceNpAsmGenerateNpTitleToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGenerateNpTitleToken2() {
+s32 PS4_SYSV_ABI sceNpAsmGenerateNpTitleToken2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGetNpCommInfo() {
+s32 PS4_SYSV_ABI sceNpAsmGetNpCommInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGetNpCommInfo2() {
+s32 PS4_SYSV_ABI sceNpAsmGetNpCommInfo2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGetRelatedGameNpTitleIds() {
+s32 PS4_SYSV_ABI sceNpAsmGetRelatedGameNpTitleIds() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGetServiceBaseUrl() {
+s32 PS4_SYSV_ABI sceNpAsmGetServiceBaseUrl() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmGetServiceIdInfo() {
+s32 PS4_SYSV_ABI sceNpAsmGetServiceIdInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmInitialize() {
+s32 PS4_SYSV_ABI sceNpAsmInitialize() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpAsmTerminate() {
+s32 PS4_SYSV_ABI sceNpAsmTerminate() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckCallback() {
+s32 PS4_SYSV_ABI sceNpCheckCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckNpAvailabilityA() {
+s32 PS4_SYSV_ABI sceNpCheckNpAvailabilityA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckNpReachability() {
+s32 PS4_SYSV_ABI sceNpCheckNpReachability() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCheckPlus() {
+s32 PS4_SYSV_ABI sceNpCheckPlus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCreateAsyncRequest() {
+s32 PS4_SYSV_ABI sceNpCreateAsyncRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpCreateRequest() {
+s32 PS4_SYSV_ABI sceNpCreateRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpDeleteRequest() {
+s32 PS4_SYSV_ABI sceNpDeleteRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountAge() {
+s32 PS4_SYSV_ABI sceNpGetAccountAge() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountCountryA() {
+s32 PS4_SYSV_ABI sceNpGetAccountCountryA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountDateOfBirthA() {
+s32 PS4_SYSV_ABI sceNpGetAccountDateOfBirthA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountIdA() {
+s32 PS4_SYSV_ABI sceNpGetAccountIdA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountLanguage2() {
+s32 PS4_SYSV_ABI sceNpGetAccountLanguage2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetAccountLanguageA() {
+s32 PS4_SYSV_ABI sceNpGetAccountLanguageA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetGamePresenceStatusA() {
+s32 PS4_SYSV_ABI sceNpGetGamePresenceStatusA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetNpId() {
+s32 PS4_SYSV_ABI sceNpGetNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetNpReachabilityState() {
+s32 PS4_SYSV_ABI sceNpGetNpReachabilityState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetOnlineId() {
+s32 PS4_SYSV_ABI sceNpGetOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetParentalControlInfoA() {
+s32 PS4_SYSV_ABI sceNpGetParentalControlInfoA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetState() {
+s32 PS4_SYSV_ABI sceNpGetState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpGetUserIdByAccountId() {
+s32 PS4_SYSV_ABI sceNpGetUserIdByAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpHasSignedUp() {
+s32 PS4_SYSV_ABI sceNpHasSignedUp() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperAbortRequest() {
+s32 PS4_SYSV_ABI sceNpIdMapperAbortRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperAccountIdToNpId() {
+s32 PS4_SYSV_ABI sceNpIdMapperAccountIdToNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperAccountIdToOnlineId() {
+s32 PS4_SYSV_ABI sceNpIdMapperAccountIdToOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperCreateRequest() {
+s32 PS4_SYSV_ABI sceNpIdMapperCreateRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperDeleteRequest() {
+s32 PS4_SYSV_ABI sceNpIdMapperDeleteRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperNpIdToAccountId() {
+s32 PS4_SYSV_ABI sceNpIdMapperNpIdToAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIdMapperOnlineIdToAccountId() {
+s32 PS4_SYSV_ABI sceNpIdMapperOnlineIdToAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageAbortHandle() {
+s32 PS4_SYSV_ABI sceNpInGameMessageAbortHandle() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageCheckCallback() {
+s32 PS4_SYSV_ABI sceNpInGameMessageCheckCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageCreateHandle() {
+s32 PS4_SYSV_ABI sceNpInGameMessageCreateHandle() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageDeleteHandle() {
+s32 PS4_SYSV_ABI sceNpInGameMessageDeleteHandle() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageGetMemoryPoolStatistics() {
+s32 PS4_SYSV_ABI sceNpInGameMessageGetMemoryPoolStatistics() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageInitialize() {
+s32 PS4_SYSV_ABI sceNpInGameMessageInitialize() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessagePrepareA() {
+s32 PS4_SYSV_ABI sceNpInGameMessagePrepareA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageSendDataA() {
+s32 PS4_SYSV_ABI sceNpInGameMessageSendDataA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpInGameMessageTerminate() {
+s32 PS4_SYSV_ABI sceNpInGameMessageTerminate() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntCheckPlus() {
+s32 PS4_SYSV_ABI sceNpIntCheckPlus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntGetAppType() {
+s32 PS4_SYSV_ABI sceNpIntGetAppType() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntGetGamePresenceStatus() {
+s32 PS4_SYSV_ABI sceNpIntGetGamePresenceStatus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntGetNpTitleId() {
+s32 PS4_SYSV_ABI sceNpIntGetNpTitleId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntGetNpTitleIdSecret() {
+s32 PS4_SYSV_ABI sceNpIntGetNpTitleIdSecret() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpIntRegisterGamePresenceCallback() {
+s32 PS4_SYSV_ABI sceNpIntRegisterGamePresenceCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAbortRequest() {
+s32 PS4_SYSV_ABI sceNpManagerIntAbortRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAddActiveSigninStateCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntAddActiveSigninStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAddOnlineIdChangeCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntAddOnlineIdChangeCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAddPlusMemberTypeCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntAddPlusMemberTypeCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAddSigninStateCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntAddSigninStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAuthGetAuthorizationCode() {
+s32 PS4_SYSV_ABI sceNpManagerIntAuthGetAuthorizationCode() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntAuthGetIdToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntAuthGetIdToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntBindOfflineAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntBindOfflineAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCheckGameNpAvailability() {
+s32 PS4_SYSV_ABI sceNpManagerIntCheckGameNpAvailability() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCheckNpAvailability() {
+s32 PS4_SYSV_ABI sceNpManagerIntCheckNpAvailability() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCheckNpAvailabilityByPid() {
+s32 PS4_SYSV_ABI sceNpManagerIntCheckNpAvailabilityByPid() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCheckNpState() {
+s32 PS4_SYSV_ABI sceNpManagerIntCheckNpState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCheckNpStateA() {
+s32 PS4_SYSV_ABI sceNpManagerIntCheckNpStateA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntClearGameAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntClearGameAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntClearOnlineIdChangeFlag() {
+s32 PS4_SYSV_ABI sceNpManagerIntClearOnlineIdChangeFlag() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntClearTicket() {
+s32 PS4_SYSV_ABI sceNpManagerIntClearTicket() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntClearUsedFlag() {
+s32 PS4_SYSV_ABI sceNpManagerIntClearUsedFlag() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntClearVshAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntClearVshAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCreateLoginContext() {
+s32 PS4_SYSV_ABI sceNpManagerIntCreateLoginContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCreateLoginRequest() {
+s32 PS4_SYSV_ABI sceNpManagerIntCreateLoginRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntCreateRequest() {
+s32 PS4_SYSV_ABI sceNpManagerIntCreateRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntDeleteLoginContext() {
+s32 PS4_SYSV_ABI sceNpManagerIntDeleteLoginContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntDeleteRequest() {
+s32 PS4_SYSV_ABI sceNpManagerIntDeleteRequest() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountCountry() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountCountry() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountCountryA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountCountryA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountCountrySdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountCountrySdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountDateOfBirthA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountDateOfBirthA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountDateOfBirthSdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountDateOfBirthSdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountIdSdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountIdSdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountLanguage() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountLanguage() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountLanguageA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountLanguageA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountNpEnv() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountNpEnv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAccountType() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAccountType() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetActiveSigninState() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetActiveSigninState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAuthorizationCodeA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAuthorizationCodeA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAuthorizationCodeWithPsnoUri() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAuthorizationCodeWithPsnoUri() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetAuthServerErrorFlag() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetAuthServerErrorFlag() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetClientCredentialAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetClientCredentialAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetCommunicationRestrictionStatus() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetCommunicationRestrictionStatus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetGameAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetGameAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetIssuerId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetIssuerId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetLastAccountLanguage() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetLastAccountLanguage() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetMAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetMAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetNpEnv() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetNpEnv() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetNpId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetNpIdByOnlineId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetNpIdByOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetNpIdSdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetNpIdSdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetOfflineAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetOfflineAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetOnlineIdByAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetOnlineIdByAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetOnlineIdChangeFlag() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetOnlineIdChangeFlag() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetOnlineIdInternal() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetOnlineIdInternal() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetOnlineIdSdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetOnlineIdSdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetParentalControlFlag() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetParentalControlFlag() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetParentalControlInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetParentalControlInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetParentalControlInfoA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetParentalControlInfoA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetPlusMemberType() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetPlusMemberType() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetPlusMemberTypeNB() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetPlusMemberTypeNB() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetServerError() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetServerError() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetSigninState() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetSigninState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetTicket() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetTicket() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetTicketA() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetTicketA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetTitleTokenWithCheck() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetTitleTokenWithCheck() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByMAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByMAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByNpId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByNpId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByOfflineAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByOfflineAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByOnlineId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserIdByOnlineIdSdk() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserIdByOnlineIdSdk() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserList() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserList() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetUserNum() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetUserNum() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetVshAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetVshAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetVshAccessTokenWithCheck() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetVshAccessTokenWithCheck() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntGetVshClientId() {
+s32 PS4_SYSV_ABI sceNpManagerIntGetVshClientId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntIsSubAccount() {
+s32 PS4_SYSV_ABI sceNpManagerIntIsSubAccount() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntIsTemporarySignout() {
+s32 PS4_SYSV_ABI sceNpManagerIntIsTemporarySignout() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntIsUnregisteredClientError() {
+s32 PS4_SYSV_ABI sceNpManagerIntIsUnregisteredClientError() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginAddJsonInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginAddJsonInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginAuthenticate() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginAuthenticate() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginBind() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginBind() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGet2svInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGet2svInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetAccessTokenViaImplicitFlow() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetAccessTokenViaImplicitFlow() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetAuthenticateResponse() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetAuthenticateResponse() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetAuthorizationCode() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetAuthorizationCode() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetDeviceCodeInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetDeviceCodeInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetEmail() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetEmail() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetOnlineId() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginGetUserId() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginGetUserId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginParseJsonUserInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginParseJsonUserInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginResetSsoToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginResetSsoToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginRevalidatePassword() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginRevalidatePassword() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginSetAccountInfo() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginSetAccountInfo() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginSetSsoToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginSetSsoToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginSignin() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginSignin() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginValidateCredential() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginValidateCredential() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginValidateKratosAuthCode() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginValidateKratosAuthCode() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntLoginVerifyDeviceCode() {
+s32 PS4_SYSV_ABI sceNpManagerIntLoginVerifyDeviceCode() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntPfAuth() {
+s32 PS4_SYSV_ABI sceNpManagerIntPfAuth() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntRemoveActiveSigninStateCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntRemoveActiveSigninStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntRemoveOnlineIdChangeCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntRemoveOnlineIdChangeCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntRemovePlusMemberTypeCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntRemovePlusMemberTypeCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntRemoveSigninStateCallback() {
+s32 PS4_SYSV_ABI sceNpManagerIntRemoveSigninStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntRevalidatePassword() {
+s32 PS4_SYSV_ABI sceNpManagerIntRevalidatePassword() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntSetPlusMemberTypeNB() {
+s32 PS4_SYSV_ABI sceNpManagerIntSetPlusMemberTypeNB() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntSetTimeout() {
+s32 PS4_SYSV_ABI sceNpManagerIntSetTimeout() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntSignout() {
+s32 PS4_SYSV_ABI sceNpManagerIntSignout() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntSubmitUserCode() {
+s32 PS4_SYSV_ABI sceNpManagerIntSubmitUserCode() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntTemporarySignout() {
+s32 PS4_SYSV_ABI sceNpManagerIntTemporarySignout() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntUnbindOfflineAccountId() {
+s32 PS4_SYSV_ABI sceNpManagerIntUnbindOfflineAccountId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntUpdateVshAccessToken() {
+s32 PS4_SYSV_ABI sceNpManagerIntUpdateVshAccessToken() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerIntWebLoginRequired() {
+s32 PS4_SYSV_ABI sceNpManagerIntWebLoginRequired() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerPrxStartVsh() {
+s32 PS4_SYSV_ABI sceNpManagerPrxStartVsh() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpManagerPrxStopVsh() {
+s32 PS4_SYSV_ABI sceNpManagerPrxStopVsh() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpNotifyPlusFeature() {
+s32 PS4_SYSV_ABI sceNpNotifyPlusFeature() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPollAsync() {
+s32 PS4_SYSV_ABI sceNpPollAsync() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2CreateUserContext() {
+s32 PS4_SYSV_ABI sceNpPush2CreateUserContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2DeleteUserContext() {
+s32 PS4_SYSV_ABI sceNpPush2DeleteUserContext() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2Init() {
+s32 PS4_SYSV_ABI sceNpPush2Init() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2IsInit() {
+s32 PS4_SYSV_ABI sceNpPush2IsInit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2OptionalCheckCallback() {
+s32 PS4_SYSV_ABI sceNpPush2OptionalCheckCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2RegisterDataType() {
+s32 PS4_SYSV_ABI sceNpPush2RegisterDataType() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2RegisterExtendedDataFilter() {
+s32 PS4_SYSV_ABI sceNpPush2RegisterExtendedDataFilter() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2RegisterNotificationExCallback() {
+s32 PS4_SYSV_ABI sceNpPush2RegisterNotificationExCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2SendPushStatisticsDataSystemTelemetry() {
+s32 PS4_SYSV_ABI sceNpPush2SendPushStatisticsDataSystemTelemetry() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2SetGlobalMutex() {
+s32 PS4_SYSV_ABI sceNpPush2SetGlobalMutex() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2SetNpCommunicationId() {
+s32 PS4_SYSV_ABI sceNpPush2SetNpCommunicationId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2Term() {
+s32 PS4_SYSV_ABI sceNpPush2Term() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2TriggerEmptyUserEvent() {
+s32 PS4_SYSV_ABI sceNpPush2TriggerEmptyUserEvent() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2UnregisterDataType() {
+s32 PS4_SYSV_ABI sceNpPush2UnregisterDataType() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2UnregisterExtendedDataFilter() {
+s32 PS4_SYSV_ABI sceNpPush2UnregisterExtendedDataFilter() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2UnregisterNotificationExCallback() {
+s32 PS4_SYSV_ABI sceNpPush2UnregisterNotificationExCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2UnsetNpCommunicationId() {
+s32 PS4_SYSV_ABI sceNpPush2UnsetNpCommunicationId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPush2WaitCallback() {
+s32 PS4_SYSV_ABI sceNpPush2WaitCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushCheckCallback() {
+s32 PS4_SYSV_ABI sceNpPushCheckCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushInit() {
+s32 PS4_SYSV_ABI sceNpPushInit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntBeginInactive() {
+s32 PS4_SYSV_ABI sceNpPushIntBeginInactive() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntEndInactive() {
+s32 PS4_SYSV_ABI sceNpPushIntEndInactive() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntGetBindUserState() {
+s32 PS4_SYSV_ABI sceNpPushIntGetBindUserState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntGetConnectionState() {
+s32 PS4_SYSV_ABI sceNpPushIntGetConnectionState() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntRegisterNotificationPacketCallback() {
+s32 PS4_SYSV_ABI sceNpPushIntRegisterNotificationPacketCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushIntUnregisterNotificationPacketCallback() {
+s32 PS4_SYSV_ABI sceNpPushIntUnregisterNotificationPacketCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushRegisterExtendedDataFilter() {
+s32 PS4_SYSV_ABI sceNpPushRegisterExtendedDataFilter() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushRegisterNotificationExCallback() {
+s32 PS4_SYSV_ABI sceNpPushRegisterNotificationExCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushSetNpCommunicationId() {
+s32 PS4_SYSV_ABI sceNpPushSetNpCommunicationId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushStartNotification() {
+s32 PS4_SYSV_ABI sceNpPushStartNotification() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushStartNotificationA() {
+s32 PS4_SYSV_ABI sceNpPushStartNotificationA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushStopNotification() {
+s32 PS4_SYSV_ABI sceNpPushStopNotification() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushStopNotificationA() {
+s32 PS4_SYSV_ABI sceNpPushStopNotificationA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushTerm() {
+s32 PS4_SYSV_ABI sceNpPushTerm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushUnregisterExtendedDataFilter() {
+s32 PS4_SYSV_ABI sceNpPushUnregisterExtendedDataFilter() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushUnregisterNotificationCallback() {
+s32 PS4_SYSV_ABI sceNpPushUnregisterNotificationCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpPushUnsetNpCommunicationId() {
+s32 PS4_SYSV_ABI sceNpPushUnsetNpCommunicationId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterGamePresenceCallbackA() {
+s32 PS4_SYSV_ABI sceNpRegisterGamePresenceCallbackA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterNpReachabilityStateCallback() {
+s32 PS4_SYSV_ABI sceNpRegisterNpReachabilityStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterPlusEventCallback() {
+s32 PS4_SYSV_ABI sceNpRegisterPlusEventCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpRegisterStateCallbackA() {
+s32 PS4_SYSV_ABI sceNpRegisterStateCallbackA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpServiceClientInit() {
+s32 PS4_SYSV_ABI sceNpServiceClientInit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpServiceClientTerm() {
+s32 PS4_SYSV_ABI sceNpServiceClientTerm() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetAdditionalScope() {
+s32 PS4_SYSV_ABI sceNpSetAdditionalScope() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetContentRestriction() {
+s32 PS4_SYSV_ABI sceNpSetContentRestriction() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetGamePresenceOnlineA() {
+s32 PS4_SYSV_ABI sceNpSetGamePresenceOnlineA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetNpTitleId() {
+s32 PS4_SYSV_ABI sceNpSetNpTitleId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetNpTitleIdVsh() {
+s32 PS4_SYSV_ABI sceNpSetNpTitleIdVsh() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpSetTimeout() {
+s32 PS4_SYSV_ABI sceNpSetTimeout() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterGamePresenceCallbackA() {
+s32 PS4_SYSV_ABI sceNpUnregisterGamePresenceCallbackA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterNpReachabilityStateCallback() {
+s32 PS4_SYSV_ABI sceNpUnregisterNpReachabilityStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterPlusEventCallback() {
+s32 PS4_SYSV_ABI sceNpUnregisterPlusEventCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpUnregisterStateCallbackA() {
+s32 PS4_SYSV_ABI sceNpUnregisterStateCallbackA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNpWaitAsync() {
+s32 PS4_SYSV_ABI sceNpWaitAsync() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_05003628D66BD87D() {
+s32 PS4_SYSV_ABI Func_05003628D66BD87D() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0C388A4F21C98AF9() {
+s32 PS4_SYSV_ABI Func_0C388A4F21C98AF9() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0CECC7A08A3E50AF() {
+s32 PS4_SYSV_ABI Func_0CECC7A08A3E50AF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0D17030A1DA18EEB() {
+s32 PS4_SYSV_ABI Func_0D17030A1DA18EEB() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0F0F320B6AD8A53D() {
+s32 PS4_SYSV_ABI Func_0F0F320B6AD8A53D() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_113C477090F9A174() {
+s32 PS4_SYSV_ABI Func_113C477090F9A174() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_12D367D5C727F008() {
+s32 PS4_SYSV_ABI Func_12D367D5C727F008() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1640120BD475931E() {
+s32 PS4_SYSV_ABI Func_1640120BD475931E() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1AFE1C07C95E65A5() {
+s32 PS4_SYSV_ABI Func_1AFE1C07C95E65A5() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1D983C7E0C28AC72() {
+s32 PS4_SYSV_ABI Func_1D983C7E0C28AC72() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_208943695A3B58FE() {
+s32 PS4_SYSV_ABI Func_208943695A3B58FE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_258A3D10C99A43BB() {
+s32 PS4_SYSV_ABI Func_258A3D10C99A43BB() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_263E325794B412AC() {
+s32 PS4_SYSV_ABI Func_263E325794B412AC() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_2B6A4BF35C5E240D() {
+s32 PS4_SYSV_ABI Func_2B6A4BF35C5E240D() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_2B707FFE05ACB009() {
+s32 PS4_SYSV_ABI Func_2B707FFE05ACB009() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_2CE5AB230EBAF8B4() {
+s32 PS4_SYSV_ABI Func_2CE5AB230EBAF8B4() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3237EE3C3AFC187B() {
+s32 PS4_SYSV_ABI Func_3237EE3C3AFC187B() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_33D4DFB2A1603BFF() {
+s32 PS4_SYSV_ABI Func_33D4DFB2A1603BFF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3821D79C1ED86F33() {
+s32 PS4_SYSV_ABI Func_3821D79C1ED86F33() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3F431997C7105BBF() {
+s32 PS4_SYSV_ABI Func_3F431997C7105BBF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_4192797C2D2D3FC3() {
+s32 PS4_SYSV_ABI Func_4192797C2D2D3FC3() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_41C7E3D88BBB7F75() {
+s32 PS4_SYSV_ABI Func_41C7E3D88BBB7F75() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_438F60858A883FCF() {
+s32 PS4_SYSV_ABI Func_438F60858A883FCF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_4C4A062E5660FABD() {
+s32 PS4_SYSV_ABI Func_4C4A062E5660FABD() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_4C808F7A4EFA36A7() {
+s32 PS4_SYSV_ABI Func_4C808F7A4EFA36A7() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_4E1CED7E62F68F46() {
+s32 PS4_SYSV_ABI Func_4E1CED7E62F68F46() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5161A48C6A61C4BF() {
+s32 PS4_SYSV_ABI Func_5161A48C6A61C4BF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_542603999CA0AEE9() {
+s32 PS4_SYSV_ABI Func_542603999CA0AEE9() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_54690B41C1128799() {
+s32 PS4_SYSV_ABI Func_54690B41C1128799() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_55A76C7C29521FAD() {
+s32 PS4_SYSV_ABI Func_55A76C7C29521FAD() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_562B234AAE25F80C() {
+s32 PS4_SYSV_ABI Func_562B234AAE25F80C() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_58D1975026DD864A() {
+s32 PS4_SYSV_ABI Func_58D1975026DD864A() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5A60395F8C3FE128() {
+s32 PS4_SYSV_ABI Func_5A60395F8C3FE128() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5B382777E9B5F294() {
+s32 PS4_SYSV_ABI Func_5B382777E9B5F294() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5DB301F9CD649671() {
+s32 PS4_SYSV_ABI Func_5DB301F9CD649671() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_6441D55869D8D6F2() {
+s32 PS4_SYSV_ABI Func_6441D55869D8D6F2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_69068E18854284DE() {
+s32 PS4_SYSV_ABI Func_69068E18854284DE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_6F59C3B00B03E05A() {
+s32 PS4_SYSV_ABI Func_6F59C3B00B03E05A() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_724CCE7F78A1356B() {
+s32 PS4_SYSV_ABI Func_724CCE7F78A1356B() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_750F1B053C243308() {
+s32 PS4_SYSV_ABI Func_750F1B053C243308() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_760F079BB91DE258() {
+s32 PS4_SYSV_ABI Func_760F079BB91DE258() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_78657523221556EF() {
+s32 PS4_SYSV_ABI Func_78657523221556EF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8089888BD363EDA6() {
+s32 PS4_SYSV_ABI Func_8089888BD363EDA6() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_810CA029B6F7C3A1() {
+s32 PS4_SYSV_ABI Func_810CA029B6F7C3A1() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8253B94686A8D3FD() {
+s32 PS4_SYSV_ABI Func_8253B94686A8D3FD() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8665138A709E1654() {
+s32 PS4_SYSV_ABI Func_8665138A709E1654() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_882F48FAE6097C0C() {
+s32 PS4_SYSV_ABI Func_882F48FAE6097C0C() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_89DBE4B3303FF888() {
+s32 PS4_SYSV_ABI Func_89DBE4B3303FF888() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8BD3E57620BDDC38() {
+s32 PS4_SYSV_ABI Func_8BD3E57620BDDC38() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8F0A74013AD633EC() {
+s32 PS4_SYSV_ABI Func_8F0A74013AD633EC() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8FA6264BF3F6CC00() {
+s32 PS4_SYSV_ABI Func_8FA6264BF3F6CC00() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9292E87C2C0971E4() {
+s32 PS4_SYSV_ABI Func_9292E87C2C0971E4() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_92CA292318CA03A8() {
+s32 PS4_SYSV_ABI Func_92CA292318CA03A8() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9348596C2B17F662() {
+s32 PS4_SYSV_ABI Func_9348596C2B17F662() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9507E9B321A5E0D7() {
+s32 PS4_SYSV_ABI Func_9507E9B321A5E0D7() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_98CA95E231980731() {
+s32 PS4_SYSV_ABI Func_98CA95E231980731() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9E66CC4BBF2C1990() {
+s32 PS4_SYSV_ABI Func_9E66CC4BBF2C1990() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9E6CEF7064891F84() {
+s32 PS4_SYSV_ABI Func_9E6CEF7064891F84() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_A7BC2C792E9522C5() {
+s32 PS4_SYSV_ABI Func_A7BC2C792E9522C5() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_ABBA0F809548CB02() {
+s32 PS4_SYSV_ABI Func_ABBA0F809548CB02() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B14A27A4CEDE020F() {
+s32 PS4_SYSV_ABI Func_B14A27A4CEDE020F() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B323EE1C23AB97F3() {
+s32 PS4_SYSV_ABI Func_B323EE1C23AB97F3() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B429819DAEF40BAC() {
+s32 PS4_SYSV_ABI Func_B429819DAEF40BAC() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B54B9571BEAD82C5() {
+s32 PS4_SYSV_ABI Func_B54B9571BEAD82C5() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B5ACB5CF4A4114A6() {
+s32 PS4_SYSV_ABI Func_B5ACB5CF4A4114A6() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BA41BE0F44157EE4() {
+s32 PS4_SYSV_ABI Func_BA41BE0F44157EE4() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BAA1DEC848D99690() {
+s32 PS4_SYSV_ABI Func_BAA1DEC848D99690() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BB8CCCD6C9480EB2() {
+s32 PS4_SYSV_ABI Func_BB8CCCD6C9480EB2() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BEC25DAAE8B8B81F() {
+s32 PS4_SYSV_ABI Func_BEC25DAAE8B8B81F() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BFEE936391AB0C70() {
+s32 PS4_SYSV_ABI Func_BFEE936391AB0C70() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C0DD2DBE2EA66F7A() {
+s32 PS4_SYSV_ABI Func_C0DD2DBE2EA66F7A() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C1F858BF5B86C2A1() {
+s32 PS4_SYSV_ABI Func_C1F858BF5B86C2A1() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C240618E6FC39206() {
+s32 PS4_SYSV_ABI Func_C240618E6FC39206() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C338A34450310E79() {
+s32 PS4_SYSV_ABI Func_C338A34450310E79() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C91EE3603D966909() {
+s32 PS4_SYSV_ABI Func_C91EE3603D966909() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_CB67035ED668CF6B() {
+s32 PS4_SYSV_ABI Func_CB67035ED668CF6B() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D5A5A28B7351A9BE() {
+s32 PS4_SYSV_ABI Func_D5A5A28B7351A9BE() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DA8426059F1D5A2D() {
+s32 PS4_SYSV_ABI Func_DA8426059F1D5A2D() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DA8E15DD00AF9DF8() {
+s32 PS4_SYSV_ABI Func_DA8E15DD00AF9DF8() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DB86987643BB5DD7() {
+s32 PS4_SYSV_ABI Func_DB86987643BB5DD7() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DEC53D7165C137DF() {
+s32 PS4_SYSV_ABI Func_DEC53D7165C137DF() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DFDEEE26F2EB96B3() {
+s32 PS4_SYSV_ABI Func_DFDEEE26F2EB96B3() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E2056A6F01642866() {
+s32 PS4_SYSV_ABI Func_E2056A6F01642866() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E240E9B8597EE56E() {
+s32 PS4_SYSV_ABI Func_E240E9B8597EE56E() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E32CE33B706F05F7() {
+s32 PS4_SYSV_ABI Func_E32CE33B706F05F7() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E4F67EFC91C84F87() {
+s32 PS4_SYSV_ABI Func_E4F67EFC91C84F87() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E6F041A2660F83EB() {
+s32 PS4_SYSV_ABI Func_E6F041A2660F83EB() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E979BA413BD84D38() {
+s32 PS4_SYSV_ABI Func_E979BA413BD84D38() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_EDDDF2D305DB7866() {
+s32 PS4_SYSV_ABI Func_EDDDF2D305DB7866() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F08EC7725B42E2F9() {
+s32 PS4_SYSV_ABI Func_F08EC7725B42E2F9() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F3595D8EFFF26EC0() {
+s32 PS4_SYSV_ABI Func_F3595D8EFFF26EC0() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F3DF5271142F155D() {
+s32 PS4_SYSV_ABI Func_F3DF5271142F155D() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F89997168DC987A8() {
+s32 PS4_SYSV_ABI Func_F89997168DC987A8() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F91B5B25CC9B30D9() {
+s32 PS4_SYSV_ABI Func_F91B5B25CC9B30D9() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FC335B7102A585B3() {
+s32 PS4_SYSV_ABI Func_FC335B7102A585B3() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FCEAC354CA8B206E() {
+s32 PS4_SYSV_ABI Func_FCEAC354CA8B206E() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FF966E4351E564D6() {
+s32 PS4_SYSV_ABI Func_FF966E4351E564D6() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2558,10 +2558,11 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _sceNpIpcCreateMemoryFromPool);
     LIB_FUNCTION("hyuye+88uPo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcDestroyMemory);
-    LIB_FUNCTION("VY8Xji9cAFA", "libSceNpManager", 1, "libSceNpManager", 1, 1,_sceNpIpcFreeImpl);
+    LIB_FUNCTION("VY8Xji9cAFA", "libSceNpManager", 1, "libSceNpManager", 1, 1, _sceNpIpcFreeImpl);
     LIB_FUNCTION("V38nfJwXYhg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcGetNpMemAllocator);
-    LIB_FUNCTION("VBZtcFn7+aY", "libSceNpManager", 1, "libSceNpManager", 1, 1,_sceNpIpcMallocImpl);
+    LIB_FUNCTION("VBZtcFn7+aY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _sceNpIpcMallocImpl);
     LIB_FUNCTION("TyACAxDH3Uw", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcReallocImpl);
     LIB_FUNCTION("fHGhS3uP52k", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2696,30 +2697,42 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _ZN3sce2np4NpIdC1ERK7SceNpId);
     LIB_FUNCTION("SuCCD+AZwCc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC1ERKS1_);
-    LIB_FUNCTION("YU-PxwZq21U", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdC1Ev);
+    LIB_FUNCTION("YU-PxwZq21U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdC1Ev);
     LIB_FUNCTION("ZHZ6QZ8xHLE", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC2ERK7SceNpId);
     LIB_FUNCTION("qBlMzJbMa7c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4NpIdC2ERKS1_);
-    LIB_FUNCTION("OIdCMA7vGHA", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdC2Ev);
-    LIB_FUNCTION("lUXyFGSFXKo", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD0Ev);
-    LIB_FUNCTION("WcfJXQ2NFP4", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD1Ev);
-    LIB_FUNCTION("ya+s8zGxVQQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4NpIdD2Ev);
+    LIB_FUNCTION("OIdCMA7vGHA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdC2Ev);
+    LIB_FUNCTION("lUXyFGSFXKo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD0Ev);
+    LIB_FUNCTION("WcfJXQ2NFP4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD1Ev);
+    LIB_FUNCTION("ya+s8zGxVQQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4NpIdD2Ev);
     LIB_FUNCTION("GtMgx4YcBuo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4User5ClearEv);
     LIB_FUNCTION("bwwspVgS4hQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4User7GetUserEiPS1_);
-    LIB_FUNCTION("Z4wnPrd9jIE", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC1Ei);
+    LIB_FUNCTION("Z4wnPrd9jIE", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC1Ei);
     LIB_FUNCTION("rgtbpTzx0RA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4UserC1ERKS1_);
-    LIB_FUNCTION("S7Afe0llsL8", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC1Ev);
-    LIB_FUNCTION("i2KGykoRA-4", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC2Ei);
+    LIB_FUNCTION("S7Afe0llsL8", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC1Ev);
+    LIB_FUNCTION("i2KGykoRA-4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC2Ei);
     LIB_FUNCTION("YvL0D8Vg6VM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np4UserC2ERKS1_);
-    LIB_FUNCTION("F-AkFa9cABI", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserC2Ev);
-    LIB_FUNCTION("HhKQodH164k", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD0Ev);
-    LIB_FUNCTION("gQFyT9aIsOk", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD1Ev);
-    LIB_FUNCTION("itBuc3IIDaY", "libSceNpManager", 1, "libSceNpManager", 1, 1,_ZN3sce2np4UserD2Ev);
+    LIB_FUNCTION("F-AkFa9cABI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserC2Ev);
+    LIB_FUNCTION("HhKQodH164k", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD0Ev);
+    LIB_FUNCTION("gQFyT9aIsOk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD1Ev);
+    LIB_FUNCTION("itBuc3IIDaY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
+                 _ZN3sce2np4UserD2Ev);
     LIB_FUNCTION("BI3Wo2RpVmA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZN3sce2np8NpTicket5ClearEv);
     LIB_FUNCTION("KjXpVcQXaYc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2780,8 +2793,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  _ZThn8_N3sce2np11NpHttpTransD0Ev);
     LIB_FUNCTION("mHE2Hk9Ki80", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _ZThn8_N3sce2np11NpHttpTransD1Ev);
-    LIB_FUNCTION("OzKvTvg3ZYU", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAbortRequest);
-    LIB_FUNCTION("JrXA7baBMPQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmAbort);
+    LIB_FUNCTION("OzKvTvg3ZYU", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAbortRequest);
+    LIB_FUNCTION("JrXA7baBMPQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmAbort);
     LIB_FUNCTION("0cn2c-bk8wA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpAsmClientAbortRequest);
     LIB_FUNCTION("coT6qsU5t9M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2874,9 +2887,9 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpAsmGetServiceBaseUrl);
     LIB_FUNCTION("1Xe+XZ1oI28", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpAsmGetServiceIdInfo);
-    LIB_FUNCTION("j2dSNi+SJro", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmInitialize);
-    LIB_FUNCTION("Dt2rEe-d5c0", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpAsmTerminate);
-    LIB_FUNCTION("3Zl8BePTh9Y", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCheckCallback);
+    LIB_FUNCTION("j2dSNi+SJro", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmInitialize);
+    LIB_FUNCTION("Dt2rEe-d5c0", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpAsmTerminate);
+    LIB_FUNCTION("3Zl8BePTh9Y", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCheckCallback);
     LIB_FUNCTION("JELHf4xPufo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCheckCallbackForLib);
     LIB_FUNCTION("2rsFmlGWleQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2885,12 +2898,12 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpCheckNpAvailabilityA);
     LIB_FUNCTION("KfGZg2y73oM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCheckNpReachability);
-    LIB_FUNCTION("r6MyYJkryz8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCheckPlus);
+    LIB_FUNCTION("r6MyYJkryz8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCheckPlus);
     LIB_FUNCTION("eiqMCt9UshI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpCreateAsyncRequest);
-    LIB_FUNCTION("GpLQDNKICac", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpCreateRequest);
-    LIB_FUNCTION("S7QTn72PrDw", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpDeleteRequest);
-    LIB_FUNCTION("+4DegjBqV1g", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountAge);
+    LIB_FUNCTION("GpLQDNKICac", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpCreateRequest);
+    LIB_FUNCTION("S7QTn72PrDw", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpDeleteRequest);
+    LIB_FUNCTION("+4DegjBqV1g", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountAge);
     LIB_FUNCTION("Ghz9iWDUtC4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountCountry);
     LIB_FUNCTION("JT+t00a3TxA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2899,8 +2912,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpGetAccountDateOfBirth);
     LIB_FUNCTION("q3M7XzBKC3s", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountDateOfBirthA);
-    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountId);
-    LIB_FUNCTION("rbknaUjpqWo", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetAccountIdA);
+    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountId);
+    LIB_FUNCTION("rbknaUjpqWo", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetAccountIdA);
     LIB_FUNCTION("KZ1Mj9yEGYc", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetAccountLanguage);
     LIB_FUNCTION("3Tcz5bNCfZQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2911,20 +2924,20 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpGetGamePresenceStatus);
     LIB_FUNCTION("oPO9U42YpgI", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetGamePresenceStatusA);
-    LIB_FUNCTION("p-o74CnoNzY", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetNpId);
+    LIB_FUNCTION("p-o74CnoNzY", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetNpId);
     LIB_FUNCTION("e-ZuhGEoeC4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetNpReachabilityState);
-    LIB_FUNCTION("XDncXQIJUSk", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetOnlineId);
+    LIB_FUNCTION("XDncXQIJUSk", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetOnlineId);
     LIB_FUNCTION("ilwLM4zOmu4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetParentalControlInfo);
     LIB_FUNCTION("m9L3O6yst-U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetParentalControlInfoA);
-    LIB_FUNCTION("eQH7nWPcAgc", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpGetState);
+    LIB_FUNCTION("eQH7nWPcAgc", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpGetState);
     LIB_FUNCTION("VgYczPGB5ss", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetUserIdByAccountId);
     LIB_FUNCTION("F6E4ycq9Dbg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpGetUserIdByOnlineId);
-    LIB_FUNCTION("Oad3rvY-NJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpHasSignedUp);
+    LIB_FUNCTION("Oad3rvY-NJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpHasSignedUp);
     LIB_FUNCTION("fJuQuipzW10", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIdMapperAbortRequest);
     LIB_FUNCTION("alNLle2vACg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2961,8 +2974,8 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpInGameMessageSendDataA);
     LIB_FUNCTION("bMG3cVmUmuk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpInGameMessageTerminate);
-    LIB_FUNCTION("GsWjzRU7AWA", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIntCheckPlus);
-    LIB_FUNCTION("H6xqSNWg0wM", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIntGetAppType);
+    LIB_FUNCTION("GsWjzRU7AWA", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIntCheckPlus);
+    LIB_FUNCTION("H6xqSNWg0wM", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIntGetAppType);
     LIB_FUNCTION("SdNiYQWjU6E", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIntGetGamePresenceStatus);
     LIB_FUNCTION("H0n1QHWdVwQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -2971,7 +2984,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpIntGetNpTitleIdSecret);
     LIB_FUNCTION("bZ2mBvP79d8", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpIntRegisterGamePresenceCallback);
-    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpIsPlusMember);
+    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpIsPlusMember);
     LIB_FUNCTION("AUuzKQIwhXY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpManagerIntAbortRequest);
     LIB_FUNCTION("J0MUxuo9H9c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3204,13 +3217,13 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpManagerPrxStopVsh);
     LIB_FUNCTION("Gaxrp3EWY-M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpNotifyPlusFeature);
-    LIB_FUNCTION("uqcPJLWL08M", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPollAsync);
+    LIB_FUNCTION("uqcPJLWL08M", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPollAsync);
     LIB_FUNCTION("QGN2n4c8na4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2CreateUserContext);
     LIB_FUNCTION("HnV+y1xVP2c", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2DeleteUserContext);
-    LIB_FUNCTION("sDqpKnwnAJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2Init);
-    LIB_FUNCTION("i1lhp0Wlu+k", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2IsInit);
+    LIB_FUNCTION("sDqpKnwnAJQ", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2Init);
+    LIB_FUNCTION("i1lhp0Wlu+k", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2IsInit);
     LIB_FUNCTION("KnOXRM1i6KM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2OptionalCheckCallback);
     LIB_FUNCTION("CsIrEmYADDo", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3225,7 +3238,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPush2SetGlobalMutex);
     LIB_FUNCTION("Y1EmilNpj3Y", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2SetNpCommunicationId);
-    LIB_FUNCTION("KjAjcg3W7F8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPush2Term);
+    LIB_FUNCTION("KjAjcg3W7F8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPush2Term);
     LIB_FUNCTION("i9NM4gcpZhk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPush2TriggerEmptyUserEvent);
     LIB_FUNCTION("rwM99K5fzIk", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3240,7 +3253,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPush2WaitCallback);
     LIB_FUNCTION("kdrdY-BEJMw", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushCheckCallback);
-    LIB_FUNCTION("DkN+WBclFps", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPushInit);
+    LIB_FUNCTION("DkN+WBclFps", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPushInit);
     LIB_FUNCTION("1S2urF24zNQ", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushIntBeginInactive);
     LIB_FUNCTION("XyvQv2qjUng", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3267,7 +3280,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpPushStopNotification);
     LIB_FUNCTION("Xa1igyHioag", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushStopNotificationA);
-    LIB_FUNCTION("qo5mH49gnDA", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpPushTerm);
+    LIB_FUNCTION("qo5mH49gnDA", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpPushTerm);
     LIB_FUNCTION("VxjXt8G-9Ns", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpPushUnregisterExtendedDataFilter);
     LIB_FUNCTION("6MuJ-vnDk6A", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3298,10 +3311,10 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpSetGamePresenceOnline);
     LIB_FUNCTION("C0gNCiRIi4U", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpSetGamePresenceOnlineA);
-    LIB_FUNCTION("Ec63y59l9tw", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpSetNpTitleId);
+    LIB_FUNCTION("Ec63y59l9tw", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpSetNpTitleId);
     LIB_FUNCTION("TJqSgUEzexM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpSetNpTitleIdVsh);
-    LIB_FUNCTION("-QglDeRr8D8", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpSetTimeout);
+    LIB_FUNCTION("-QglDeRr8D8", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpSetTimeout);
     LIB_FUNCTION("aJZyCcHxzu4", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpUnregisterGamePresenceCallbackA);
     LIB_FUNCTION("cRILAEvn+9M", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3312,7 +3325,7 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  sceNpUnregisterStateCallback);
     LIB_FUNCTION("M3wFXbYQtAA", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  sceNpUnregisterStateCallbackA);
-    LIB_FUNCTION("jyi5p9XWUSs", "libSceNpManager", 1, "libSceNpManager", 1, 1,sceNpWaitAsync);
+    LIB_FUNCTION("jyi5p9XWUSs", "libSceNpManager", 1, "libSceNpManager", 1, 1, sceNpWaitAsync);
     LIB_FUNCTION("BQA2KNZr2H0", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  Func_05003628D66BD87D);
     LIB_FUNCTION("DDiKTyHJivk", "libSceNpManager", 1, "libSceNpManager", 1, 1,

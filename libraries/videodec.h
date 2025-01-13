@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include "common/types.h" 
+#include "common/types.h"
 
 namespace Core::Loader {
 class SymbolsResolver;
@@ -11,13 +11,13 @@ class SymbolsResolver;
 
 namespace Libraries::Videodec {
 
-int PS4_SYSV_ABI sceVideodecCreateDecoder();
-int PS4_SYSV_ABI sceVideodecDecode();
-int PS4_SYSV_ABI sceVideodecDeleteDecoder();
-int PS4_SYSV_ABI sceVideodecFlush();
-int PS4_SYSV_ABI sceVideodecMapMemory();
-int PS4_SYSV_ABI sceVideodecQueryResourceInfo();
-int PS4_SYSV_ABI sceVideodecReset();
+s32 PS4_SYSV_ABI sceVideodecCreateDecoder();
+s32 PS4_SYSV_ABI sceVideodecDecode();
+s32 PS4_SYSV_ABI sceVideodecDeleteDecoder();
+s32 PS4_SYSV_ABI sceVideodecFlush();
+s32 PS4_SYSV_ABI sceVideodecMapMemory();
+s32 PS4_SYSV_ABI sceVideodecQueryResourceInfo();
+s32 PS4_SYSV_ABI sceVideodecReset();
 
 void RegisterlibSceVideodec(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Videodec
