@@ -8,752 +8,752 @@
 
 namespace Libraries::VideoOut {
 
-int PS4_SYSV_ABI sceVideoOutAdjustColor2_() {
+s32 PS4_SYSV_ABI sceVideoOutAdjustColor2_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddBuffer() {
+s32 PS4_SYSV_ABI sceVideoOutAddBuffer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddBufferYccPrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutAddBufferYccPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddDisplayPositionEvent() {
+s32 PS4_SYSV_ABI sceVideoOutAddDisplayPositionEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddDriver() {
+s32 PS4_SYSV_ABI sceVideoOutAddDriver() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddFlipEvent() {
+s32 PS4_SYSV_ABI sceVideoOutAddFlipEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddPreVblankStartEvent() {
+s32 PS4_SYSV_ABI sceVideoOutAddPreVblankStartEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddS3dHmdPrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutAddS3dHmdPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddSetModeEvent() {
+s32 PS4_SYSV_ABI sceVideoOutAddSetModeEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddStereoBuffer() {
+s32 PS4_SYSV_ABI sceVideoOutAddStereoBuffer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAddVblankEvent() {
+s32 PS4_SYSV_ABI sceVideoOutAddVblankEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutAdjustColor_() {
+s32 PS4_SYSV_ABI sceVideoOutAdjustColor_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutClose() {
+s32 PS4_SYSV_ABI sceVideoOutClose() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutColorSettingsSetGamma_() {
+s32 PS4_SYSV_ABI sceVideoOutColorSettingsSetGamma_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutConfigureOptionsInitialize_() {
+s32 PS4_SYSV_ABI sceVideoOutConfigureOptionsInitialize_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutConfigureOutputMode_() {
+s32 PS4_SYSV_ABI sceVideoOutConfigureOutputMode_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutConfigureOutputModeEx_() {
+s32 PS4_SYSV_ABI sceVideoOutConfigureOutputModeEx_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutConfigureOutputModeExSubmitDoneUnsafe_() {
+s32 PS4_SYSV_ABI sceVideoOutConfigureOutputModeExSubmitDoneUnsafe_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutControlHdcpEncryption() {
+s32 PS4_SYSV_ABI sceVideoOutControlHdcpEncryption() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorDisable() {
+s32 PS4_SYSV_ABI sceVideoOutCursorDisable() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorEnable() {
+s32 PS4_SYSV_ABI sceVideoOutCursorEnable() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorIsUpdatePending() {
+s32 PS4_SYSV_ABI sceVideoOutCursorIsUpdatePending() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorSet2xMagnify() {
+s32 PS4_SYSV_ABI sceVideoOutCursorSet2xMagnify() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorSetHotSpot() {
+s32 PS4_SYSV_ABI sceVideoOutCursorSetHotSpot() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorSetImageAddress() {
+s32 PS4_SYSV_ABI sceVideoOutCursorSetImageAddress() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorSetPosition() {
+s32 PS4_SYSV_ABI sceVideoOutCursorSetPosition() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCursorSetPositionStereo() {
+s32 PS4_SYSV_ABI sceVideoOutCursorSetPositionStereo() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutCurveSamplePointsCalc_() {
+s32 PS4_SYSV_ABI sceVideoOutCurveSamplePointsCalc_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeleteDisplayPositionEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDeleteDisplayPositionEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeleteDriver() {
+s32 PS4_SYSV_ABI sceVideoOutDeleteDriver() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeleteFlipEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDeleteFlipEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeletePreVblankStartEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDeletePreVblankStartEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeleteSetModeEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDeleteSetModeEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDeleteVblankEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDeleteVblankEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverAddEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDriverAddEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverDecrementBufferLabel() {
+s32 PS4_SYSV_ABI sceVideoOutDriverDecrementBufferLabel() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverDeleteEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDriverDeleteEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverGetBufferLabelAddress() {
+s32 PS4_SYSV_ABI sceVideoOutDriverGetBufferLabelAddress() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverGetEopHandle() {
+s32 PS4_SYSV_ABI sceVideoOutDriverGetEopHandle() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverGetFinishedEopHandle() {
+s32 PS4_SYSV_ABI sceVideoOutDriverGetFinishedEopHandle() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverGetLatestEopHandle() {
+s32 PS4_SYSV_ABI sceVideoOutDriverGetLatestEopHandle() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverIncrementBufferLabel() {
+s32 PS4_SYSV_ABI sceVideoOutDriverIncrementBufferLabel() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverResetBufferLabel() {
+s32 PS4_SYSV_ABI sceVideoOutDriverResetBufferLabel() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutDriverTriggerEvent() {
+s32 PS4_SYSV_ABI sceVideoOutDriverTriggerEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetBufferInformation() {
+s32 PS4_SYSV_ABI sceVideoOutGetBufferInformation() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetBufferLabelAddress() {
+s32 PS4_SYSV_ABI sceVideoOutGetBufferLabelAddress() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetCoredumpOutputMode() {
+s32 PS4_SYSV_ABI sceVideoOutGetCoredumpOutputMode() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetCurrentOutputMode_() {
+s32 PS4_SYSV_ABI sceVideoOutGetCurrentOutputMode_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetDeviceCapabilityInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutGetDeviceCapabilityInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetDeviceInfoEx_() {
+s32 PS4_SYSV_ABI sceVideoOutGetDeviceInfoEx_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetDeviceInfoExOts_() {
+s32 PS4_SYSV_ABI sceVideoOutGetDeviceInfoExOts_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetEventCount() {
+s32 PS4_SYSV_ABI sceVideoOutGetEventCount() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetEventData() {
+s32 PS4_SYSV_ABI sceVideoOutGetEventData() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetEventId() {
+s32 PS4_SYSV_ABI sceVideoOutGetEventId() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetFlipStatus() {
+s32 PS4_SYSV_ABI sceVideoOutGetFlipStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetHdmiKsvList_() {
+s32 PS4_SYSV_ABI sceVideoOutGetHdmiKsvList_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetHdmiMonitorInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutGetHdmiMonitorInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetHdmiMonitorInfoNoMask_() {
+s32 PS4_SYSV_ABI sceVideoOutGetHdmiMonitorInfoNoMask_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetPortStatusInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutGetPortStatusInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetPortStatusInfoByBusSpecifier_() {
+s32 PS4_SYSV_ABI sceVideoOutGetPortStatusInfoByBusSpecifier_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetResolutionStatus() {
+s32 PS4_SYSV_ABI sceVideoOutGetResolutionStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetStatusForWebcore() {
+s32 PS4_SYSV_ABI sceVideoOutGetStatusForWebcore() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetVblankStatus() {
+s32 PS4_SYSV_ABI sceVideoOutGetVblankStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetVideoOutModeByBusSpecifier_() {
+s32 PS4_SYSV_ABI sceVideoOutGetVideoOutModeByBusSpecifier_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutHdmiMonitorInfoIsSupportedHdcpVersion_() {
+s32 PS4_SYSV_ABI sceVideoOutHdmiMonitorInfoIsSupportedHdcpVersion_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode_() {
+s32 PS4_SYSV_ABI sceVideoOutHdmiMonitorInfoIsSupportedVideoOutMode_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutIsFlipPending() {
+s32 PS4_SYSV_ABI sceVideoOutIsFlipPending() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutLockBuffer() {
+s32 PS4_SYSV_ABI sceVideoOutLockBuffer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutModeSetAny_() {
+s32 PS4_SYSV_ABI sceVideoOutModeSetAny_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutOpen() {
+s32 PS4_SYSV_ABI sceVideoOutOpen() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRazorAddCallback() {
+s32 PS4_SYSV_ABI sceVideoOutRazorAddCallback() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRazorRecallCallbacks() {
+s32 PS4_SYSV_ABI sceVideoOutRazorRecallCallbacks() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRazorRemoveCallback() {
+s32 PS4_SYSV_ABI sceVideoOutRazorRemoveCallback() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRegisterBufferAttribute() {
+s32 PS4_SYSV_ABI sceVideoOutRegisterBufferAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRegisterBuffers() {
+s32 PS4_SYSV_ABI sceVideoOutRegisterBuffers() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRegisterStereoBuffers() {
+s32 PS4_SYSV_ABI sceVideoOutRegisterStereoBuffers() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutRemoveBuffer() {
+s32 PS4_SYSV_ABI sceVideoOutRemoveBuffer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetBlankAfterResume() {
+s32 PS4_SYSV_ABI sceVideoOutSetBlankAfterResume() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetBufferAttribute() {
+s32 PS4_SYSV_ABI sceVideoOutSetBufferAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetDisplayEventPosition() {
+s32 PS4_SYSV_ABI sceVideoOutSetDisplayEventPosition() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetFlipRate() {
+s32 PS4_SYSV_ABI sceVideoOutSetFlipRate() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetGamutMetadata_() {
+s32 PS4_SYSV_ABI sceVideoOutSetGamutMetadata_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetToneMap_() {
+s32 PS4_SYSV_ABI sceVideoOutSetToneMap_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSetWindowModeMargins() {
+s32 PS4_SYSV_ABI sceVideoOutSetWindowModeMargins() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSubmitChangeBufferAttribute() {
+s32 PS4_SYSV_ABI sceVideoOutSubmitChangeBufferAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSubmitEopFlip() {
+s32 PS4_SYSV_ABI sceVideoOutSubmitEopFlip() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSubmitFlip() {
+s32 PS4_SYSV_ABI sceVideoOutSubmitFlip() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysAddSetModeEvent() {
+s32 PS4_SYSV_ABI sceVideoOutSysAddSetModeEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysAddVblankEvent() {
+s32 PS4_SYSV_ABI sceVideoOutSysAddVblankEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysClose() {
+s32 PS4_SYSV_ABI sceVideoOutSysClose() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysConfigureOutputMode_() {
+s32 PS4_SYSV_ABI sceVideoOutSysConfigureOutputMode_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorDisable() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorDisable() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorEnable() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorEnable() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorIsUpdatePending() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorIsUpdatePending() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorObtain() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorObtain() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorRelease() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorRelease() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysCursorSetPosition() {
+s32 PS4_SYSV_ABI sceVideoOutSysCursorSetPosition() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysDeleteVblankEvent() {
+s32 PS4_SYSV_ABI sceVideoOutSysDeleteVblankEvent() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetColorConversionStatus() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetColorConversionStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetCurrentOutputMode_() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetCurrentOutputMode_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetDeviceCapabilityInfoByBusSpecifier_() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetDeviceCapabilityInfoByBusSpecifier_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetFlipStatus() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetFlipStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetMonitorInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetMonitorInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetPortStatusInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetPortStatusInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetPortStatusInfoByBusSpecifier_() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetPortStatusInfoByBusSpecifier_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetResolutionStatus() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetResolutionStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysGetVblankStatus() {
+s32 PS4_SYSV_ABI sceVideoOutSysGetVblankStatus() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysIsSupportedByMonitorInfo_() {
+s32 PS4_SYSV_ABI sceVideoOutSysIsSupportedByMonitorInfo_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysReadCrc() {
+s32 PS4_SYSV_ABI sceVideoOutSysReadCrc() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysReadCrc64() {
+s32 PS4_SYSV_ABI sceVideoOutSysReadCrc64() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysResetAtGpuReset() {
+s32 PS4_SYSV_ABI sceVideoOutSysResetAtGpuReset() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysResetZoomBuffers() {
+s32 PS4_SYSV_ABI sceVideoOutSysResetZoomBuffers() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetBlackLevel() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetBlackLevel() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetDcePipeMode() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetDcePipeMode() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetDimmer() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetDimmer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetDisplayParameters() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetDisplayParameters() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetHdrScopeCallbacks() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetHdrScopeCallbacks() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetInvertedColors() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetInvertedColors() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetOutputCsc() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetOutputCsc() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetOverscanRatio() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetOverscanRatio() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetRedirectFlip() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetRedirectFlip() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSetZoomBuffers() {
+s32 PS4_SYSV_ABI sceVideoOutSysSetZoomBuffers() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysSubmitSubWindowLayout() {
+s32 PS4_SYSV_ABI sceVideoOutSysSubmitSubWindowLayout() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysUpdateDisplayParameter_() {
+s32 PS4_SYSV_ABI sceVideoOutSysUpdateDisplayParameter_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysUpdatePrivilege() {
+s32 PS4_SYSV_ABI sceVideoOutSysUpdatePrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysUpdateRenderingMode() {
+s32 PS4_SYSV_ABI sceVideoOutSysUpdateRenderingMode() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutSysUpdateScalerParameters() {
+s32 PS4_SYSV_ABI sceVideoOutSysUpdateScalerParameters() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutUnlockBuffer() {
+s32 PS4_SYSV_ABI sceVideoOutUnlockBuffer() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutUnregisterBufferAttribute() {
+s32 PS4_SYSV_ABI sceVideoOutUnregisterBufferAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutUnregisterBuffers() {
+s32 PS4_SYSV_ABI sceVideoOutUnregisterBuffers() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutWaitVblank() {
+s32 PS4_SYSV_ABI sceVideoOutWaitVblank() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_124ED74010241580() {
+s32 PS4_SYSV_ABI Func_124ED74010241580() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_2438D6A18553BDD9() {
+s32 PS4_SYSV_ABI Func_2438D6A18553BDD9() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3389533D3C6878DD() {
+s32 PS4_SYSV_ABI Func_3389533D3C6878DD() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3F96B7D8EBA56509() {
+s32 PS4_SYSV_ABI Func_3F96B7D8EBA56509() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_94C92412FE1A6876() {
+s32 PS4_SYSV_ABI Func_94C92412FE1A6876() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_A17AE74B11648BE7() {
+s32 PS4_SYSV_ABI Func_A17AE74B11648BE7() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BD73297BB32EADF7() {
+s32 PS4_SYSV_ABI Func_BD73297BB32EADF7() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C0A269161093AD7D() {
+s32 PS4_SYSV_ABI Func_C0A269161093AD7D() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C192387E6509325C() {
+s32 PS4_SYSV_ABI Func_C192387E6509325C() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FF9008114F7ED758() {
+s32 PS4_SYSV_ABI Func_FF9008114F7ED758() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DF1AD257C5341EC8() {
+s32 PS4_SYSV_ABI Func_DF1AD257C5341EC8() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_() {
+s32 PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_87DE0FA368680D98() {
+s32 PS4_SYSV_ABI Func_87DE0FA368680D98() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege() {
+s32 PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute() {
+s32 PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute() {
+s32 PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }

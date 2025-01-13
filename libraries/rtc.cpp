@@ -8,237 +8,237 @@
 
 namespace Libraries::Rtc {
 
-int PS4_SYSV_ABI sceRtcCheckValid() {
+s32 PS4_SYSV_ABI sceRtcCheckValid() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcCompareTick() {
+s32 PS4_SYSV_ABI sceRtcCompareTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcConvertLocalTimeToUtc() {
+s32 PS4_SYSV_ABI sceRtcConvertLocalTimeToUtc() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcConvertUtcToLocalTime() {
+s32 PS4_SYSV_ABI sceRtcConvertUtcToLocalTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcEnd() {
+s32 PS4_SYSV_ABI sceRtcEnd() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC2822() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC2822() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC2822LocalTime() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC2822LocalTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC3339() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC3339LocalTime() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339LocalTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC3339Precise() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339Precise() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcFormatRFC3339PreciseLocalTime() {
+s32 PS4_SYSV_ABI sceRtcFormatRFC3339PreciseLocalTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentAdNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentAdNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentClock() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentClock() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentClockLocalTime() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentClockLocalTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentDebugNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentDebugNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentRawNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentRawNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetCurrentTick() {
+s32 PS4_SYSV_ABI sceRtcGetCurrentTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetDayOfWeek() {
+s32 PS4_SYSV_ABI sceRtcGetDayOfWeek() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetDaysInMonth() {
+s32 PS4_SYSV_ABI sceRtcGetDaysInMonth() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetDosTime() {
+s32 PS4_SYSV_ABI sceRtcGetDosTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetTick() {
+s32 PS4_SYSV_ABI sceRtcGetTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetTickResolution() {
+s32 PS4_SYSV_ABI sceRtcGetTickResolution() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetTime_t() {
+s32 PS4_SYSV_ABI sceRtcGetTime_t() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcGetWin32FileTime() {
+s32 PS4_SYSV_ABI sceRtcGetWin32FileTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcInit() {
+s32 PS4_SYSV_ABI sceRtcInit() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcIsLeapYear() {
+s32 PS4_SYSV_ABI sceRtcIsLeapYear() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcParseDateTime() {
+s32 PS4_SYSV_ABI sceRtcParseDateTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcParseRFC3339() {
+s32 PS4_SYSV_ABI sceRtcParseRFC3339() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetConf() {
+s32 PS4_SYSV_ABI sceRtcSetConf() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetCurrentAdNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcSetCurrentAdNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetCurrentDebugNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcSetCurrentDebugNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetCurrentNetworkTick() {
+s32 PS4_SYSV_ABI sceRtcSetCurrentNetworkTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetCurrentTick() {
+s32 PS4_SYSV_ABI sceRtcSetCurrentTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetDosTime() {
+s32 PS4_SYSV_ABI sceRtcSetDosTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetTick() {
+s32 PS4_SYSV_ABI sceRtcSetTick() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetTime_t() {
+s32 PS4_SYSV_ABI sceRtcSetTime_t() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcSetWin32FileTime() {
+s32 PS4_SYSV_ABI sceRtcSetWin32FileTime() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddDays() {
+s32 PS4_SYSV_ABI sceRtcTickAddDays() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddHours() {
+s32 PS4_SYSV_ABI sceRtcTickAddHours() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddMicroseconds() {
+s32 PS4_SYSV_ABI sceRtcTickAddMicroseconds() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddMinutes() {
+s32 PS4_SYSV_ABI sceRtcTickAddMinutes() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddMonths() {
+s32 PS4_SYSV_ABI sceRtcTickAddMonths() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddSeconds() {
+s32 PS4_SYSV_ABI sceRtcTickAddSeconds() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddTicks() {
+s32 PS4_SYSV_ABI sceRtcTickAddTicks() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddWeeks() {
+s32 PS4_SYSV_ABI sceRtcTickAddWeeks() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRtcTickAddYears() {
+s32 PS4_SYSV_ABI sceRtcTickAddYears() {
     LOG_ERROR(Lib_Rtc, "(STUBBED) called");
     return ORBIS_OK;
 }

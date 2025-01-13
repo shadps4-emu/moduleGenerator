@@ -8,1097 +8,1097 @@
 
 namespace Libraries::Net {
 
-int PS4_SYSV_ABI sceNetEmulationGet() {
+s32 PS4_SYSV_ABI sceNetEmulationGet() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEmulationSet() {
+s32 PS4_SYSV_ABI sceNetEmulationSet() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI in6addr_any() {
+s32 PS4_SYSV_ABI in6addr_any() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI in6addr_loopback() {
+s32 PS4_SYSV_ABI in6addr_loopback() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_dummy() {
+s32 PS4_SYSV_ABI sce_net_dummy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_in6addr_any() {
+s32 PS4_SYSV_ABI sce_net_in6addr_any() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_in6addr_linklocal_allnodes() {
+s32 PS4_SYSV_ABI sce_net_in6addr_linklocal_allnodes() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_in6addr_linklocal_allrouters() {
+s32 PS4_SYSV_ABI sce_net_in6addr_linklocal_allrouters() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_in6addr_loopback() {
+s32 PS4_SYSV_ABI sce_net_in6addr_loopback() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sce_net_in6addr_nodelocal_allnodes() {
+s32 PS4_SYSV_ABI sce_net_in6addr_nodelocal_allnodes() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetAccept() {
+s32 PS4_SYSV_ABI sceNetAccept() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetAddrConfig6GetInfo() {
+s32 PS4_SYSV_ABI sceNetAddrConfig6GetInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetAddrConfig6Start() {
+s32 PS4_SYSV_ABI sceNetAddrConfig6Start() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetAddrConfig6Stop() {
+s32 PS4_SYSV_ABI sceNetAddrConfig6Stop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetAllocateAllRouteInfo() {
+s32 PS4_SYSV_ABI sceNetAllocateAllRouteInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlGetDataTraffic() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlGetDataTraffic() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlGetDefaultParam() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlGetDefaultParam() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlGetIfParam() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlGetIfParam() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlGetPolicy() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlGetPolicy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlSetDefaultParam() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlSetDefaultParam() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlSetIfParam() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlSetIfParam() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBandwidthControlSetPolicy() {
+s32 PS4_SYSV_ABI sceNetBandwidthControlSetPolicy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetBind() {
+s32 PS4_SYSV_ABI sceNetBind() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetClearDnsCache() {
+s32 PS4_SYSV_ABI sceNetClearDnsCache() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddArp() {
+s32 PS4_SYSV_ABI sceNetConfigAddArp() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddArpWithInterface() {
+s32 PS4_SYSV_ABI sceNetConfigAddArpWithInterface() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddIfaddr() {
+s32 PS4_SYSV_ABI sceNetConfigAddIfaddr() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddMRoute() {
+s32 PS4_SYSV_ABI sceNetConfigAddMRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddRoute() {
+s32 PS4_SYSV_ABI sceNetConfigAddRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddRoute6() {
+s32 PS4_SYSV_ABI sceNetConfigAddRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigAddRouteWithInterface() {
+s32 PS4_SYSV_ABI sceNetConfigAddRouteWithInterface() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigCleanUpAllInterfaces() {
+s32 PS4_SYSV_ABI sceNetConfigCleanUpAllInterfaces() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelArp() {
+s32 PS4_SYSV_ABI sceNetConfigDelArp() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelArpWithInterface() {
+s32 PS4_SYSV_ABI sceNetConfigDelArpWithInterface() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelDefaultRoute() {
+s32 PS4_SYSV_ABI sceNetConfigDelDefaultRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelDefaultRoute6() {
+s32 PS4_SYSV_ABI sceNetConfigDelDefaultRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelIfaddr() {
+s32 PS4_SYSV_ABI sceNetConfigDelIfaddr() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelIfaddr6() {
+s32 PS4_SYSV_ABI sceNetConfigDelIfaddr6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelMRoute() {
+s32 PS4_SYSV_ABI sceNetConfigDelMRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelRoute() {
+s32 PS4_SYSV_ABI sceNetConfigDelRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDelRoute6() {
+s32 PS4_SYSV_ABI sceNetConfigDelRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigDownInterface() {
+s32 PS4_SYSV_ABI sceNetConfigDownInterface() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigEtherGetLinkMode() {
+s32 PS4_SYSV_ABI sceNetConfigEtherGetLinkMode() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigEtherPostPlugInOutEvent() {
+s32 PS4_SYSV_ABI sceNetConfigEtherPostPlugInOutEvent() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigEtherSetLinkMode() {
+s32 PS4_SYSV_ABI sceNetConfigEtherSetLinkMode() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigFlushRoute() {
+s32 PS4_SYSV_ABI sceNetConfigFlushRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigGetDefaultRoute() {
+s32 PS4_SYSV_ABI sceNetConfigGetDefaultRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigGetDefaultRoute6() {
+s32 PS4_SYSV_ABI sceNetConfigGetDefaultRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigGetIfaddr() {
+s32 PS4_SYSV_ABI sceNetConfigGetIfaddr() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigGetIfaddr6() {
+s32 PS4_SYSV_ABI sceNetConfigGetIfaddr6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigRoutingShowRoutingConfig() {
+s32 PS4_SYSV_ABI sceNetConfigRoutingShowRoutingConfig() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigRoutingShowtCtlVar() {
+s32 PS4_SYSV_ABI sceNetConfigRoutingShowtCtlVar() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigRoutingStart() {
+s32 PS4_SYSV_ABI sceNetConfigRoutingStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigRoutingStop() {
+s32 PS4_SYSV_ABI sceNetConfigRoutingStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetDefaultRoute() {
+s32 PS4_SYSV_ABI sceNetConfigSetDefaultRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetDefaultRoute6() {
+s32 PS4_SYSV_ABI sceNetConfigSetDefaultRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetDefaultScope() {
+s32 PS4_SYSV_ABI sceNetConfigSetDefaultScope() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfaddr() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfaddr() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfaddr6() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfaddr6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfaddr6WithFlags() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfaddr6WithFlags() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfFlags() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfFlags() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfLinkLocalAddr6() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfLinkLocalAddr6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigSetIfmtu() {
+s32 PS4_SYSV_ABI sceNetConfigSetIfmtu() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigUnsetIfFlags() {
+s32 PS4_SYSV_ABI sceNetConfigUnsetIfFlags() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigUpInterface() {
+s32 PS4_SYSV_ABI sceNetConfigUpInterface() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigUpInterfaceWithFlags() {
+s32 PS4_SYSV_ABI sceNetConfigUpInterfaceWithFlags() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocClearWakeOnWlan() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocClearWakeOnWlan() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocCreate() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocGetWakeOnWlanInfo() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocGetWakeOnWlanInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocJoin() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocJoin() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocLeave() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocLeave() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuClearWakeOnWlan() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuClearWakeOnWlan() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuGetWakeOnWlanInfo() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuGetWakeOnWlanInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuSetWakeOnWlan() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocPspEmuSetWakeOnWlan() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocScanJoin() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocScanJoin() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocSetExtInfoElement() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocSetExtInfoElement() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanAdhocSetWakeOnWlan() {
+s32 PS4_SYSV_ABI sceNetConfigWlanAdhocSetWakeOnWlan() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanApStart() {
+s32 PS4_SYSV_ABI sceNetConfigWlanApStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanApStop() {
+s32 PS4_SYSV_ABI sceNetConfigWlanApStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanBackgroundScanQuery() {
+s32 PS4_SYSV_ABI sceNetConfigWlanBackgroundScanQuery() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanBackgroundScanStart() {
+s32 PS4_SYSV_ABI sceNetConfigWlanBackgroundScanStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanBackgroundScanStop() {
+s32 PS4_SYSV_ABI sceNetConfigWlanBackgroundScanStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanDiagGetDeviceInfo() {
+s32 PS4_SYSV_ABI sceNetConfigWlanDiagGetDeviceInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanDiagSetAntenna() {
+s32 PS4_SYSV_ABI sceNetConfigWlanDiagSetAntenna() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanDiagSetTxFixedRate() {
+s32 PS4_SYSV_ABI sceNetConfigWlanDiagSetTxFixedRate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanGetDeviceConfig() {
+s32 PS4_SYSV_ABI sceNetConfigWlanGetDeviceConfig() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanInfraGetRssiInfo() {
+s32 PS4_SYSV_ABI sceNetConfigWlanInfraGetRssiInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanInfraLeave() {
+s32 PS4_SYSV_ABI sceNetConfigWlanInfraLeave() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanInfraScanJoin() {
+s32 PS4_SYSV_ABI sceNetConfigWlanInfraScanJoin() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanScan() {
+s32 PS4_SYSV_ABI sceNetConfigWlanScan() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConfigWlanSetDeviceConfig() {
+s32 PS4_SYSV_ABI sceNetConfigWlanSetDeviceConfig() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetConnect() {
+s32 PS4_SYSV_ABI sceNetConnect() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetControl() {
+s32 PS4_SYSV_ABI sceNetControl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpdStart() {
+s32 PS4_SYSV_ABI sceNetDhcpdStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpdStop() {
+s32 PS4_SYSV_ABI sceNetDhcpdStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpGetAutoipInfo() {
+s32 PS4_SYSV_ABI sceNetDhcpGetAutoipInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpGetInfo() {
+s32 PS4_SYSV_ABI sceNetDhcpGetInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpGetInfoEx() {
+s32 PS4_SYSV_ABI sceNetDhcpGetInfoEx() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpStart() {
+s32 PS4_SYSV_ABI sceNetDhcpStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDhcpStop() {
+s32 PS4_SYSV_ABI sceNetDhcpStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDumpAbort() {
+s32 PS4_SYSV_ABI sceNetDumpAbort() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDumpCreate() {
+s32 PS4_SYSV_ABI sceNetDumpCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDumpDestroy() {
+s32 PS4_SYSV_ABI sceNetDumpDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDumpRead() {
+s32 PS4_SYSV_ABI sceNetDumpRead() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDuplicateIpStart() {
+s32 PS4_SYSV_ABI sceNetDuplicateIpStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetDuplicateIpStop() {
+s32 PS4_SYSV_ABI sceNetDuplicateIpStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEpollAbort() {
+s32 PS4_SYSV_ABI sceNetEpollAbort() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEpollControl() {
+s32 PS4_SYSV_ABI sceNetEpollControl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEpollCreate() {
+s32 PS4_SYSV_ABI sceNetEpollCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEpollDestroy() {
+s32 PS4_SYSV_ABI sceNetEpollDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEpollWait() {
+s32 PS4_SYSV_ABI sceNetEpollWait() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetErrnoLoc() {
+s32 PS4_SYSV_ABI sceNetErrnoLoc() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEtherNtostr() {
+s32 PS4_SYSV_ABI sceNetEtherNtostr() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEtherStrton() {
+s32 PS4_SYSV_ABI sceNetEtherStrton() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEventCallbackCreate() {
+s32 PS4_SYSV_ABI sceNetEventCallbackCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEventCallbackDestroy() {
+s32 PS4_SYSV_ABI sceNetEventCallbackDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEventCallbackGetError() {
+s32 PS4_SYSV_ABI sceNetEventCallbackGetError() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetEventCallbackWaitCB() {
+s32 PS4_SYSV_ABI sceNetEventCallbackWaitCB() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetFreeAllRouteInfo() {
+s32 PS4_SYSV_ABI sceNetFreeAllRouteInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetArpInfo() {
+s32 PS4_SYSV_ABI sceNetGetArpInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetDns6Info() {
+s32 PS4_SYSV_ABI sceNetGetDns6Info() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetDnsInfo() {
+s32 PS4_SYSV_ABI sceNetGetDnsInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetIfList() {
+s32 PS4_SYSV_ABI sceNetGetIfList() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetIfListOnce() {
+s32 PS4_SYSV_ABI sceNetGetIfListOnce() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetIfName() {
+s32 PS4_SYSV_ABI sceNetGetIfName() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetIfnameNumList() {
+s32 PS4_SYSV_ABI sceNetGetIfnameNumList() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetMacAddress() {
+s32 PS4_SYSV_ABI sceNetGetMacAddress() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetMemoryPoolStats() {
+s32 PS4_SYSV_ABI sceNetGetMemoryPoolStats() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetNameToIndex() {
+s32 PS4_SYSV_ABI sceNetGetNameToIndex() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetpeername() {
+s32 PS4_SYSV_ABI sceNetGetpeername() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetRandom() {
+s32 PS4_SYSV_ABI sceNetGetRandom() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetRouteInfo() {
+s32 PS4_SYSV_ABI sceNetGetRouteInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetSockInfo() {
+s32 PS4_SYSV_ABI sceNetGetSockInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetSockInfo6() {
+s32 PS4_SYSV_ABI sceNetGetSockInfo6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetsockname() {
+s32 PS4_SYSV_ABI sceNetGetsockname() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetsockopt() {
+s32 PS4_SYSV_ABI sceNetGetsockopt() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetStatisticsInfo() {
+s32 PS4_SYSV_ABI sceNetGetStatisticsInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetStatisticsInfoInternal() {
+s32 PS4_SYSV_ABI sceNetGetStatisticsInfoInternal() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetGetSystemTime() {
+s32 PS4_SYSV_ABI sceNetGetSystemTime() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetHtonl() {
+s32 PS4_SYSV_ABI sceNetHtonl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetHtonll() {
+s32 PS4_SYSV_ABI sceNetHtonll() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetHtons() {
+s32 PS4_SYSV_ABI sceNetHtons() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInetNtop() {
+s32 PS4_SYSV_ABI sceNetInetNtop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInetNtopWithScopeId() {
+s32 PS4_SYSV_ABI sceNetInetNtopWithScopeId() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInetPton() {
+s32 PS4_SYSV_ABI sceNetInetPton() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInetPtonEx() {
+s32 PS4_SYSV_ABI sceNetInetPtonEx() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInetPtonWithScopeId() {
+s32 PS4_SYSV_ABI sceNetInetPtonWithScopeId() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInfoDumpStart() {
+s32 PS4_SYSV_ABI sceNetInfoDumpStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInfoDumpStop() {
+s32 PS4_SYSV_ABI sceNetInfoDumpStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInit() {
+s32 PS4_SYSV_ABI sceNetInit() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetInitParam() {
+s32 PS4_SYSV_ABI sceNetInitParam() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetIoctl() {
+s32 PS4_SYSV_ABI sceNetIoctl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetListen() {
+s32 PS4_SYSV_ABI sceNetListen() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetMemoryAllocate() {
+s32 PS4_SYSV_ABI sceNetMemoryAllocate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetMemoryFree() {
+s32 PS4_SYSV_ABI sceNetMemoryFree() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetNtohl() {
+s32 PS4_SYSV_ABI sceNetNtohl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetNtohll() {
+s32 PS4_SYSV_ABI sceNetNtohll() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetNtohs() {
+s32 PS4_SYSV_ABI sceNetNtohs() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetPoolCreate() {
+s32 PS4_SYSV_ABI sceNetPoolCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetPoolDestroy() {
+s32 PS4_SYSV_ABI sceNetPoolDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetPppoeStart() {
+s32 PS4_SYSV_ABI sceNetPppoeStart() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetPppoeStop() {
+s32 PS4_SYSV_ABI sceNetPppoeStop() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetRecv() {
+s32 PS4_SYSV_ABI sceNetRecv() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetRecvfrom() {
+s32 PS4_SYSV_ABI sceNetRecvfrom() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetRecvmsg() {
+s32 PS4_SYSV_ABI sceNetRecvmsg() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverAbort() {
+s32 PS4_SYSV_ABI sceNetResolverAbort() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverConnect() {
+s32 PS4_SYSV_ABI sceNetResolverConnect() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverConnectAbort() {
+s32 PS4_SYSV_ABI sceNetResolverConnectAbort() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverConnectCreate() {
+s32 PS4_SYSV_ABI sceNetResolverConnectCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverConnectDestroy() {
+s32 PS4_SYSV_ABI sceNetResolverConnectDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverCreate() {
+s32 PS4_SYSV_ABI sceNetResolverCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverDestroy() {
+s32 PS4_SYSV_ABI sceNetResolverDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverGetError() {
+s32 PS4_SYSV_ABI sceNetResolverGetError() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartAton() {
+s32 PS4_SYSV_ABI sceNetResolverStartAton() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartAton6() {
+s32 PS4_SYSV_ABI sceNetResolverStartAton6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartNtoa() {
+s32 PS4_SYSV_ABI sceNetResolverStartNtoa() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartNtoa6() {
+s32 PS4_SYSV_ABI sceNetResolverStartNtoa6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartNtoaMultipleRecords() {
+s32 PS4_SYSV_ABI sceNetResolverStartNtoaMultipleRecords() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetResolverStartNtoaMultipleRecordsEx() {
+s32 PS4_SYSV_ABI sceNetResolverStartNtoaMultipleRecordsEx() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSend() {
+s32 PS4_SYSV_ABI sceNetSend() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSendmsg() {
+s32 PS4_SYSV_ABI sceNetSendmsg() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSendto() {
+s32 PS4_SYSV_ABI sceNetSendto() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSetDns6Info() {
+s32 PS4_SYSV_ABI sceNetSetDns6Info() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSetDns6InfoToKernel() {
+s32 PS4_SYSV_ABI sceNetSetDns6InfoToKernel() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSetDnsInfo() {
+s32 PS4_SYSV_ABI sceNetSetDnsInfo() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSetDnsInfoToKernel() {
+s32 PS4_SYSV_ABI sceNetSetDnsInfoToKernel() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSetsockopt() {
+s32 PS4_SYSV_ABI sceNetSetsockopt() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowIfconfig() {
+s32 PS4_SYSV_ABI sceNetShowIfconfig() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowIfconfigForBuffer() {
+s32 PS4_SYSV_ABI sceNetShowIfconfigForBuffer() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowIfconfigWithMemory() {
+s32 PS4_SYSV_ABI sceNetShowIfconfigWithMemory() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowNetstat() {
+s32 PS4_SYSV_ABI sceNetShowNetstat() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowNetstatEx() {
+s32 PS4_SYSV_ABI sceNetShowNetstatEx() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowNetstatExForBuffer() {
+s32 PS4_SYSV_ABI sceNetShowNetstatExForBuffer() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowNetstatForBuffer() {
+s32 PS4_SYSV_ABI sceNetShowNetstatForBuffer() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowNetstatWithMemory() {
+s32 PS4_SYSV_ABI sceNetShowNetstatWithMemory() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowPolicy() {
+s32 PS4_SYSV_ABI sceNetShowPolicy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowPolicyWithMemory() {
+s32 PS4_SYSV_ABI sceNetShowPolicyWithMemory() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRoute() {
+s32 PS4_SYSV_ABI sceNetShowRoute() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRoute6() {
+s32 PS4_SYSV_ABI sceNetShowRoute6() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRoute6ForBuffer() {
+s32 PS4_SYSV_ABI sceNetShowRoute6ForBuffer() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRoute6WithMemory() {
+s32 PS4_SYSV_ABI sceNetShowRoute6WithMemory() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRouteForBuffer() {
+s32 PS4_SYSV_ABI sceNetShowRouteForBuffer() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShowRouteWithMemory() {
+s32 PS4_SYSV_ABI sceNetShowRouteWithMemory() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetShutdown() {
+s32 PS4_SYSV_ABI sceNetShutdown() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSocket() {
+s32 PS4_SYSV_ABI sceNetSocket() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSocketAbort() {
+s32 PS4_SYSV_ABI sceNetSocketAbort() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSocketClose() {
+s32 PS4_SYSV_ABI sceNetSocketClose() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSyncCreate() {
+s32 PS4_SYSV_ABI sceNetSyncCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSyncDestroy() {
+s32 PS4_SYSV_ABI sceNetSyncDestroy() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSyncGet() {
+s32 PS4_SYSV_ABI sceNetSyncGet() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSyncSignal() {
+s32 PS4_SYSV_ABI sceNetSyncSignal() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSyncWait() {
+s32 PS4_SYSV_ABI sceNetSyncWait() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetSysctl() {
+s32 PS4_SYSV_ABI sceNetSysctl() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetTerm() {
+s32 PS4_SYSV_ABI sceNetTerm() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetThreadCreate() {
+s32 PS4_SYSV_ABI sceNetThreadCreate() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetThreadExit() {
+s32 PS4_SYSV_ABI sceNetThreadExit() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetThreadJoin() {
+s32 PS4_SYSV_ABI sceNetThreadJoin() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceNetUsleep() {
+s32 PS4_SYSV_ABI sceNetUsleep() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0E707A589F751C68() {
+s32 PS4_SYSV_ABI Func_0E707A589F751C68() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
 }

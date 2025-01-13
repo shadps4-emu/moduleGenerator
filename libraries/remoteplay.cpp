@@ -8,212 +8,212 @@
 
 namespace Libraries::Remoteplay {
 
-int PS4_SYSV_ABI sceRemoteplayApprove() {
+s32 PS4_SYSV_ABI sceRemoteplayApprove() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayChangeEnterKey() {
+s32 PS4_SYSV_ABI sceRemoteplayChangeEnterKey() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayClearAllRegistData() {
+s32 PS4_SYSV_ABI sceRemoteplayClearAllRegistData() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayClearConnectHistory() {
+s32 PS4_SYSV_ABI sceRemoteplayClearConnectHistory() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayConfirmDeviceRegist() {
+s32 PS4_SYSV_ABI sceRemoteplayConfirmDeviceRegist() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayDisconnect() {
+s32 PS4_SYSV_ABI sceRemoteplayDisconnect() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGeneratePinCode() {
+s32 PS4_SYSV_ABI sceRemoteplayGeneratePinCode() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetApMode() {
+s32 PS4_SYSV_ABI sceRemoteplayGetApMode() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetConnectHistory() {
+s32 PS4_SYSV_ABI sceRemoteplayGetConnectHistory() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetConnectionStatus() {
+s32 PS4_SYSV_ABI sceRemoteplayGetConnectionStatus() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetConnectUserId() {
+s32 PS4_SYSV_ABI sceRemoteplayGetConnectUserId() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetMbusDeviceInfo() {
+s32 PS4_SYSV_ABI sceRemoteplayGetMbusDeviceInfo() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetOperationStatus() {
+s32 PS4_SYSV_ABI sceRemoteplayGetOperationStatus() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetRemoteplayStatus() {
+s32 PS4_SYSV_ABI sceRemoteplayGetRemoteplayStatus() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayGetRpMode() {
+s32 PS4_SYSV_ABI sceRemoteplayGetRpMode() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeClose() {
+s32 PS4_SYSV_ABI sceRemoteplayImeClose() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeFilterResult() {
+s32 PS4_SYSV_ABI sceRemoteplayImeFilterResult() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeGetEvent() {
+s32 PS4_SYSV_ABI sceRemoteplayImeGetEvent() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeNotify() {
+s32 PS4_SYSV_ABI sceRemoteplayImeNotify() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeNotifyEventResult() {
+s32 PS4_SYSV_ABI sceRemoteplayImeNotifyEventResult() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeOpen() {
+s32 PS4_SYSV_ABI sceRemoteplayImeOpen() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeSetCaret() {
+s32 PS4_SYSV_ABI sceRemoteplayImeSetCaret() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayImeSetText() {
+s32 PS4_SYSV_ABI sceRemoteplayImeSetText() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayInitialize() {
+s32 PS4_SYSV_ABI sceRemoteplayInitialize() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayIsRemoteOskReady() {
+s32 PS4_SYSV_ABI sceRemoteplayIsRemoteOskReady() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayIsRemotePlaying() {
+s32 PS4_SYSV_ABI sceRemoteplayIsRemotePlaying() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayNotifyMbusDeviceRegistComplete() {
+s32 PS4_SYSV_ABI sceRemoteplayNotifyMbusDeviceRegistComplete() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayNotifyNpPushWakeup() {
+s32 PS4_SYSV_ABI sceRemoteplayNotifyNpPushWakeup() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayNotifyPinCodeError() {
+s32 PS4_SYSV_ABI sceRemoteplayNotifyPinCodeError() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayNotifyUserDelete() {
+s32 PS4_SYSV_ABI sceRemoteplayNotifyUserDelete() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayPrintAllRegistData() {
+s32 PS4_SYSV_ABI sceRemoteplayPrintAllRegistData() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayProhibit() {
+s32 PS4_SYSV_ABI sceRemoteplayProhibit() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayProhibitStreaming() {
+s32 PS4_SYSV_ABI sceRemoteplayProhibitStreaming() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayServerLock() {
+s32 PS4_SYSV_ABI sceRemoteplayServerLock() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayServerUnLock() {
+s32 PS4_SYSV_ABI sceRemoteplayServerUnLock() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplaySetApMode() {
+s32 PS4_SYSV_ABI sceRemoteplaySetApMode() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplaySetLogLevel() {
+s32 PS4_SYSV_ABI sceRemoteplaySetLogLevel() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplaySetProhibition() {
+s32 PS4_SYSV_ABI sceRemoteplaySetProhibition() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplaySetProhibitionForVsh() {
+s32 PS4_SYSV_ABI sceRemoteplaySetProhibitionForVsh() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplaySetRpMode() {
+s32 PS4_SYSV_ABI sceRemoteplaySetRpMode() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRemoteplayTerminate() {
+s32 PS4_SYSV_ABI sceRemoteplayTerminate() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1D5EE365ED5FADB3() {
+s32 PS4_SYSV_ABI Func_1D5EE365ED5FADB3() {
     LOG_ERROR(Lib_Remoteplay, "(STUBBED) called");
     return ORBIS_OK;
 }

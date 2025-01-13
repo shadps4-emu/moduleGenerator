@@ -8,5247 +8,5247 @@
 
 namespace Libraries::Kernel {
 
-int PS4_SYSV_ABI sceKernelGetOpenPsId() {
+s32 PS4_SYSV_ABI sceKernelGetOpenPsId() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpAttachMemoryRegion() {
+s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpAttachMemoryRegionAsUserFile() {
+s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegionAsUserFile() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpAttachUserFile() {
+s32 PS4_SYSV_ABI sceCoredumpAttachUserFile() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpAttachUserMemoryFile() {
+s32 PS4_SYSV_ABI sceCoredumpAttachUserMemoryFile() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpConfigDumpMode() {
+s32 PS4_SYSV_ABI sceCoredumpConfigDumpMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpDebugTextOut() {
+s32 PS4_SYSV_ABI sceCoredumpDebugTextOut() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpGetStopInfoCpu() {
+s32 PS4_SYSV_ABI sceCoredumpGetStopInfoCpu() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpGetStopInfoGpu() {
+s32 PS4_SYSV_ABI sceCoredumpGetStopInfoGpu() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpGetThreadContextInfo() {
+s32 PS4_SYSV_ABI sceCoredumpGetThreadContextInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpInternalGetThreadContextInfo() {
+s32 PS4_SYSV_ABI sceCoredumpInternalGetThreadContextInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpRegisterCoredumpHandler() {
+s32 PS4_SYSV_ABI sceCoredumpRegisterCoredumpHandler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpSetUserDataType() {
+s32 PS4_SYSV_ABI sceCoredumpSetUserDataType() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpUnregisterCoredumpHandler() {
+s32 PS4_SYSV_ABI sceCoredumpUnregisterCoredumpHandler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpWriteUserData() {
+s32 PS4_SYSV_ABI sceCoredumpWriteUserData() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9889095293F9BCAA() {
+s32 PS4_SYSV_ABI Func_9889095293F9BCAA() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __freeze() {
+s32 PS4_SYSV_ABI __freeze() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysc_e00() {
+s32 PS4_SYSV_ABI sysc_e00() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysc_s00() {
+s32 PS4_SYSV_ABI sysc_s00() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI access() {
+s32 PS4_SYSV_ABI access() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI chdir() {
+s32 PS4_SYSV_ABI chdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dup() {
+s32 PS4_SYSV_ABI dup() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dup2() {
+s32 PS4_SYSV_ABI dup2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ioctl() {
+s32 PS4_SYSV_ABI ioctl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lstat() {
+s32 PS4_SYSV_ABI lstat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pipe() {
+s32 PS4_SYSV_ABI pipe() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI poll() {
+s32 PS4_SYSV_ABI poll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_setname_np() {
+s32 PS4_SYSV_ABI pthread_cond_setname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_get_user_context_np() {
+s32 PS4_SYSV_ABI pthread_get_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_kill() {
+s32 PS4_SYSV_ABI pthread_kill() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_reltimedlock_np() {
+s32 PS4_SYSV_ABI pthread_mutex_reltimedlock_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_setname_np() {
+s32 PS4_SYSV_ABI pthread_mutex_setname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_resume_user_context_np() {
+s32 PS4_SYSV_ABI pthread_resume_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_suspend_user_context_np() {
+s32 PS4_SYSV_ABI pthread_suspend_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugRaiseException() {
+s32 PS4_SYSV_ABI sceKernelDebugRaiseException() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithContext() {
+s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithContext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetFsSandboxRandomWord() {
+s32 PS4_SYSV_ABI sceKernelGetFsSandboxRandomWord() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleInfoFromAddr() {
+s32 PS4_SYSV_ABI sceKernelGetModuleInfoFromAddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelJitCreateAliasOfSharedMemory() {
+s32 PS4_SYSV_ABI sceKernelJitCreateAliasOfSharedMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelJitCreateSharedMemory() {
+s32 PS4_SYSV_ABI sceKernelJitCreateSharedMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelJitMapSharedMemory() {
+s32 PS4_SYSV_ABI sceKernelJitMapSharedMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelOpenSema() {
+s32 PS4_SYSV_ABI sceKernelOpenSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetProcessProperty() {
+s32 PS4_SYSV_ABI sceKernelSetProcessProperty() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_setname() {
+s32 PS4_SYSV_ABI sem_setname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigaction() {
+s32 PS4_SYSV_ABI sigaction() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigaddset() {
+s32 PS4_SYSV_ABI sigaddset() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigaltstack() {
+s32 PS4_SYSV_ABI sigaltstack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigdelset() {
+s32 PS4_SYSV_ABI sigdelset() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigemptyset() {
+s32 PS4_SYSV_ABI sigemptyset() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigfillset() {
+s32 PS4_SYSV_ABI sigfillset() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigismember() {
+s32 PS4_SYSV_ABI sigismember() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI signal() {
+s32 PS4_SYSV_ABI signal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigprocmask() {
+s32 PS4_SYSV_ABI sigprocmask() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigsuspend() {
+s32 PS4_SYSV_ABI sigsuspend() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI socketpair() {
+s32 PS4_SYSV_ABI socketpair() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysconf() {
+s32 PS4_SYSV_ABI sysconf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelJitGetSharedMemoryInfo() {
+s32 PS4_SYSV_ABI sceKernelJitGetSharedMemoryInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpDebugForceCoredumpOnAppClose() {
+s32 PS4_SYSV_ABI sceCoredumpDebugForceCoredumpOnAppClose() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceCoredumpDebugTriggerCoredump() {
+s32 PS4_SYSV_ABI sceCoredumpDebugTriggerCoredump() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSocPowerConsumption() {
+s32 PS4_SYSV_ABI sceKernelGetSocPowerConsumption() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetCountTime() {
+s32 PS4_SYSV_ABI sceKernelIccGetCountTime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetErrLog() {
+s32 PS4_SYSV_ABI sceKernelIccGetErrLog() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetHwInfo() {
+s32 PS4_SYSV_ABI sceKernelIccGetHwInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetSysEventLog() {
+s32 PS4_SYSV_ABI sceKernelIccGetSysEventLog() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_829822FC6C04D88B() {
+s32 PS4_SYSV_ABI Func_829822FC6C04D88B() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B95F988A5707A80B() {
+s32 PS4_SYSV_ABI Func_B95F988A5707A80B() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __elf_phdr_match_addr() {
+s32 PS4_SYSV_ABI __elf_phdr_match_addr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __error() {
+s32 PS4_SYSV_ABI __error() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_ntop() {
+s32 PS4_SYSV_ABI __inet_ntop() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_pton() {
+s32 PS4_SYSV_ABI __inet_pton() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __progname() {
+s32 PS4_SYSV_ABI __progname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __pthread_cleanup_pop_imp() {
+s32 PS4_SYSV_ABI __pthread_cleanup_pop_imp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __pthread_cleanup_push_imp() {
+s32 PS4_SYSV_ABI __pthread_cleanup_push_imp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __pthread_cxa_finalize() {
+s32 PS4_SYSV_ABI __pthread_cxa_finalize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sceKernelGetGPI() {
+s32 PS4_SYSV_ABI __sceKernelGetGPI() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __stack_chk_fail() {
+s32 PS4_SYSV_ABI __stack_chk_fail() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __stack_chk_guard() {
+s32 PS4_SYSV_ABI __stack_chk_guard() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_debug_init() {
+s32 PS4_SYSV_ABI __sys_debug_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dl_get_info() {
+s32 PS4_SYSV_ABI __sys_dl_get_info() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dl_get_list() {
+s32 PS4_SYSV_ABI __sys_dl_get_list() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dl_get_metadata() {
+s32 PS4_SYSV_ABI __sys_dl_get_metadata() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dynlib_get_info_for_libdbg() {
+s32 PS4_SYSV_ABI __sys_dynlib_get_info_for_libdbg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dynlib_get_info2() {
+s32 PS4_SYSV_ABI __sys_dynlib_get_info2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dynlib_get_list_for_libdbg() {
+s32 PS4_SYSV_ABI __sys_dynlib_get_list_for_libdbg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dynlib_get_list2() {
+s32 PS4_SYSV_ABI __sys_dynlib_get_list2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_dynlib_load_prx() {
+s32 PS4_SYSV_ABI __sys_dynlib_load_prx() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_get_proc_type_info() {
+s32 PS4_SYSV_ABI __sys_get_proc_type_info() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_is_development_mode() {
+s32 PS4_SYSV_ABI __sys_is_development_mode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_kqueueex() {
+s32 PS4_SYSV_ABI __sys_kqueueex() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_namedobj_create() {
+s32 PS4_SYSV_ABI __sys_namedobj_create() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_namedobj_delete() {
+s32 PS4_SYSV_ABI __sys_namedobj_delete() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_netabort() {
+s32 PS4_SYSV_ABI __sys_netabort() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_netcontrol() {
+s32 PS4_SYSV_ABI __sys_netcontrol() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_netgetiflist() {
+s32 PS4_SYSV_ABI __sys_netgetiflist() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_netgetsockinfo() {
+s32 PS4_SYSV_ABI __sys_netgetsockinfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_disable() {
+s32 PS4_SYSV_ABI __sys_opmc_disable() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_enable() {
+s32 PS4_SYSV_ABI __sys_opmc_enable() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_get_ctr() {
+s32 PS4_SYSV_ABI __sys_opmc_get_ctr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_get_hw() {
+s32 PS4_SYSV_ABI __sys_opmc_get_hw() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_set_ctl() {
+s32 PS4_SYSV_ABI __sys_opmc_set_ctl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_set_ctr() {
+s32 PS4_SYSV_ABI __sys_opmc_set_ctr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_opmc_set_hw() {
+s32 PS4_SYSV_ABI __sys_opmc_set_hw() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_osem_close() {
+s32 PS4_SYSV_ABI __sys_osem_close() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_osem_open() {
+s32 PS4_SYSV_ABI __sys_osem_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_randomized_path() {
+s32 PS4_SYSV_ABI __sys_randomized_path() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_rdup() {
+s32 PS4_SYSV_ABI __sys_rdup() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_regmgr_call() {
+s32 PS4_SYSV_ABI __sys_regmgr_call() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_set_uevt() {
+s32 PS4_SYSV_ABI __sys_set_uevt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_socketclose() {
+s32 PS4_SYSV_ABI __sys_socketclose() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_socketex() {
+s32 PS4_SYSV_ABI __sys_socketex() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_test_debug_rwmem() {
+s32 PS4_SYSV_ABI __sys_test_debug_rwmem() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sys_workaround8849() {
+s32 PS4_SYSV_ABI __sys_workaround8849() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __tls_get_addr() {
+s32 PS4_SYSV_ABI __tls_get_addr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __Ux86_64_setcontext() {
+s32 PS4_SYSV_ABI __Ux86_64_setcontext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _accept() {
+s32 PS4_SYSV_ABI _accept() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _bind() {
+s32 PS4_SYSV_ABI _bind() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _close() {
+s32 PS4_SYSV_ABI _close() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _connect() {
+s32 PS4_SYSV_ABI _connect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _dup2() {
+s32 PS4_SYSV_ABI _dup2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _execve() {
+s32 PS4_SYSV_ABI _execve() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _execvpe() {
+s32 PS4_SYSV_ABI _execvpe() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _exit() {
+s32 PS4_SYSV_ABI _exit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _fcntl() {
+s32 PS4_SYSV_ABI _fcntl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _fpathconf() {
+s32 PS4_SYSV_ABI _fpathconf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _fstat() {
+s32 PS4_SYSV_ABI _fstat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _fstatfs() {
+s32 PS4_SYSV_ABI _fstatfs() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _getdirentries() {
+s32 PS4_SYSV_ABI _getdirentries() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _getpeername() {
+s32 PS4_SYSV_ABI _getpeername() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _getsockname() {
+s32 PS4_SYSV_ABI _getsockname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _getsockopt() {
+s32 PS4_SYSV_ABI _getsockopt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ioctl() {
+s32 PS4_SYSV_ABI _ioctl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _is_signal_return() {
+s32 PS4_SYSV_ABI _is_signal_return() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _listen() {
+s32 PS4_SYSV_ABI _listen() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _nanosleep() {
+s32 PS4_SYSV_ABI _nanosleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _open() {
+s32 PS4_SYSV_ABI _open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _openat() {
+s32 PS4_SYSV_ABI _openat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _read() {
+s32 PS4_SYSV_ABI _read() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _readv() {
+s32 PS4_SYSV_ABI _readv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _recvfrom() {
+s32 PS4_SYSV_ABI _recvfrom() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _recvmsg() {
+s32 PS4_SYSV_ABI _recvmsg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelRtldSetApplicationHeapAPI() {
+s32 PS4_SYSV_ABI _sceKernelRtldSetApplicationHeapAPI() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelRtldThreadAtexitDecrement() {
+s32 PS4_SYSV_ABI _sceKernelRtldThreadAtexitDecrement() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelRtldThreadAtexitIncrement() {
+s32 PS4_SYSV_ABI _sceKernelRtldThreadAtexitIncrement() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelSetThreadAtexitCount() {
+s32 PS4_SYSV_ABI _sceKernelSetThreadAtexitCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelSetThreadAtexitReport() {
+s32 PS4_SYSV_ABI _sceKernelSetThreadAtexitReport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceKernelSetThreadDtors() {
+s32 PS4_SYSV_ABI _sceKernelSetThreadDtors() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sendmsg() {
+s32 PS4_SYSV_ABI _sendmsg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sendto() {
+s32 PS4_SYSV_ABI _sendto() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _setsockopt() {
+s32 PS4_SYSV_ABI _setsockopt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sigaction() {
+s32 PS4_SYSV_ABI _sigaction() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sigintr() {
+s32 PS4_SYSV_ABI _sigintr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sigprocmask() {
+s32 PS4_SYSV_ABI _sigprocmask() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sigsuspend() {
+s32 PS4_SYSV_ABI _sigsuspend() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _umtx_op() {
+s32 PS4_SYSV_ABI _umtx_op() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _wait4() {
+s32 PS4_SYSV_ABI _wait4() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _write() {
+s32 PS4_SYSV_ABI _write() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _writev() {
+s32 PS4_SYSV_ABI _writev() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI accept() {
+s32 PS4_SYSV_ABI accept() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI amd64_set_fsbase() {
+s32 PS4_SYSV_ABI amd64_set_fsbase() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bind() {
+s32 PS4_SYSV_ABI bind() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI blockpool_batch() {
+s32 PS4_SYSV_ABI blockpool_batch() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI blockpool_map() {
+s32 PS4_SYSV_ABI blockpool_map() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI blockpool_open() {
+s32 PS4_SYSV_ABI blockpool_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI blockpool_unmap() {
+s32 PS4_SYSV_ABI blockpool_unmap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI chflags() {
+s32 PS4_SYSV_ABI chflags() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI chmod() {
+s32 PS4_SYSV_ABI chmod() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clock_getres() {
+s32 PS4_SYSV_ABI clock_getres() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clock_gettime() {
+s32 PS4_SYSV_ABI clock_gettime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clock_settime() {
+s32 PS4_SYSV_ABI clock_settime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI close() {
+s32 PS4_SYSV_ABI close() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI connect() {
+s32 PS4_SYSV_ABI connect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cpuset_getaffinity() {
+s32 PS4_SYSV_ABI cpuset_getaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cpuset_getid() {
+s32 PS4_SYSV_ABI cpuset_getid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cpuset_setaffinity() {
+s32 PS4_SYSV_ABI cpuset_setaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI creat() {
+s32 PS4_SYSV_ABI creat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dlclose() {
+s32 PS4_SYSV_ABI dlclose() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dlerror() {
+s32 PS4_SYSV_ABI dlerror() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dlopen() {
+s32 PS4_SYSV_ABI dlopen() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dlsym() {
+s32 PS4_SYSV_ABI dlsym() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dynlib_get_obj_member() {
+s32 PS4_SYSV_ABI dynlib_get_obj_member() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI environ() {
+s32 PS4_SYSV_ABI environ() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI errno() {
+s32 PS4_SYSV_ABI errno() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI execv() {
+s32 PS4_SYSV_ABI execv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI execve() {
+s32 PS4_SYSV_ABI execve() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI execvp() {
+s32 PS4_SYSV_ABI execvp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fchflags() {
+s32 PS4_SYSV_ABI fchflags() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fchmod() {
+s32 PS4_SYSV_ABI fchmod() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fcntl() {
+s32 PS4_SYSV_ABI fcntl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdatasync() {
+s32 PS4_SYSV_ABI fdatasync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI flock() {
+s32 PS4_SYSV_ABI flock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fstat() {
+s32 PS4_SYSV_ABI fstat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fsync() {
+s32 PS4_SYSV_ABI fsync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ftruncate() {
+s32 PS4_SYSV_ABI ftruncate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI futimes() {
+s32 PS4_SYSV_ABI futimes() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_authinfo() {
+s32 PS4_SYSV_ABI get_authinfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_module_info_list() {
+s32 PS4_SYSV_ABI get_module_info_list() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_page_table_stats() {
+s32 PS4_SYSV_ABI get_page_table_stats() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_sdk_compiled_version() {
+s32 PS4_SYSV_ABI get_sdk_compiled_version() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_self_auth_info() {
+s32 PS4_SYSV_ABI get_self_auth_info() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI get_vm_map_timestamp() {
+s32 PS4_SYSV_ABI get_vm_map_timestamp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getargc() {
+s32 PS4_SYSV_ABI getargc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getargv() {
+s32 PS4_SYSV_ABI getargv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getcontext() {
+s32 PS4_SYSV_ABI getcontext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getdents() {
+s32 PS4_SYSV_ABI getdents() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getdirentries() {
+s32 PS4_SYSV_ABI getdirentries() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getdtablesize() {
+s32 PS4_SYSV_ABI getdtablesize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getegid() {
+s32 PS4_SYSV_ABI getegid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI geteuid() {
+s32 PS4_SYSV_ABI geteuid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getgid() {
+s32 PS4_SYSV_ABI getgid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getgroups() {
+s32 PS4_SYSV_ABI getgroups() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getitimer() {
+s32 PS4_SYSV_ABI getitimer() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getlogin() {
+s32 PS4_SYSV_ABI getlogin() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getlogin_r() {
+s32 PS4_SYSV_ABI getlogin_r() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getpagesize() {
+s32 PS4_SYSV_ABI getpagesize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getpeername() {
+s32 PS4_SYSV_ABI getpeername() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getpid() {
+s32 PS4_SYSV_ABI getpid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getppid() {
+s32 PS4_SYSV_ABI getppid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getpriority() {
+s32 PS4_SYSV_ABI getpriority() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getrlimit() {
+s32 PS4_SYSV_ABI getrlimit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getrusage() {
+s32 PS4_SYSV_ABI getrusage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getsid() {
+s32 PS4_SYSV_ABI getsid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getsockname() {
+s32 PS4_SYSV_ABI getsockname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getsockopt() {
+s32 PS4_SYSV_ABI getsockopt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gettimeofday() {
+s32 PS4_SYSV_ABI gettimeofday() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getuid() {
+s32 PS4_SYSV_ABI getuid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI htonl() {
+s32 PS4_SYSV_ABI htonl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI htons() {
+s32 PS4_SYSV_ABI htons() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_ntop() {
+s32 PS4_SYSV_ABI inet_ntop() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_pton() {
+s32 PS4_SYSV_ABI inet_pton() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ipmimgr_call() {
+s32 PS4_SYSV_ABI ipmimgr_call() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI is_in_sandbox() {
+s32 PS4_SYSV_ABI is_in_sandbox() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI issetugid() {
+s32 PS4_SYSV_ABI issetugid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI kevent() {
+s32 PS4_SYSV_ABI kevent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI kill() {
+s32 PS4_SYSV_ABI kill() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI kqueue() {
+s32 PS4_SYSV_ABI kqueue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_close() {
+s32 PS4_SYSV_ABI ksem_close() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_destroy() {
+s32 PS4_SYSV_ABI ksem_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_getvalue() {
+s32 PS4_SYSV_ABI ksem_getvalue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_init() {
+s32 PS4_SYSV_ABI ksem_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_open() {
+s32 PS4_SYSV_ABI ksem_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_post() {
+s32 PS4_SYSV_ABI ksem_post() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_timedwait() {
+s32 PS4_SYSV_ABI ksem_timedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_trywait() {
+s32 PS4_SYSV_ABI ksem_trywait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_unlink() {
+s32 PS4_SYSV_ABI ksem_unlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ksem_wait() {
+s32 PS4_SYSV_ABI ksem_wait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ktimer_create() {
+s32 PS4_SYSV_ABI ktimer_create() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ktimer_delete() {
+s32 PS4_SYSV_ABI ktimer_delete() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ktimer_getoverrun() {
+s32 PS4_SYSV_ABI ktimer_getoverrun() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ktimer_gettime() {
+s32 PS4_SYSV_ABI ktimer_gettime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ktimer_settime() {
+s32 PS4_SYSV_ABI ktimer_settime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI listen() {
+s32 PS4_SYSV_ABI listen() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lseek() {
+s32 PS4_SYSV_ABI lseek() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI madvise() {
+s32 PS4_SYSV_ABI madvise() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mdbg_service() {
+s32 PS4_SYSV_ABI mdbg_service() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mincore() {
+s32 PS4_SYSV_ABI mincore() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mkdir() {
+s32 PS4_SYSV_ABI mkdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mlock() {
+s32 PS4_SYSV_ABI mlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mlockall() {
+s32 PS4_SYSV_ABI mlockall() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mmap() {
+s32 PS4_SYSV_ABI mmap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mprotect() {
+s32 PS4_SYSV_ABI mprotect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI msync() {
+s32 PS4_SYSV_ABI msync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI munlock() {
+s32 PS4_SYSV_ABI munlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI munlockall() {
+s32 PS4_SYSV_ABI munlockall() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI munmap() {
+s32 PS4_SYSV_ABI munmap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nanosleep() {
+s32 PS4_SYSV_ABI nanosleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ntohl() {
+s32 PS4_SYSV_ABI ntohl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ntohs() {
+s32 PS4_SYSV_ABI ntohs() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI open() {
+s32 PS4_SYSV_ABI open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pause() {
+s32 PS4_SYSV_ABI pause() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI physhm_open() {
+s32 PS4_SYSV_ABI physhm_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI physhm_unlink() {
+s32 PS4_SYSV_ABI physhm_unlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pread() {
+s32 PS4_SYSV_ABI pread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI preadv() {
+s32 PS4_SYSV_ABI preadv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI profil() {
+s32 PS4_SYSV_ABI profil() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pselect() {
+s32 PS4_SYSV_ABI pselect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_atfork() {
+s32 PS4_SYSV_ABI pthread_atfork() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_destroy() {
+s32 PS4_SYSV_ABI pthread_attr_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_get_np() {
+s32 PS4_SYSV_ABI pthread_attr_get_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getaffinity_np() {
+s32 PS4_SYSV_ABI pthread_attr_getaffinity_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getdetachstate() {
+s32 PS4_SYSV_ABI pthread_attr_getdetachstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getguardsize() {
+s32 PS4_SYSV_ABI pthread_attr_getguardsize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getinheritsched() {
+s32 PS4_SYSV_ABI pthread_attr_getinheritsched() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getschedparam() {
+s32 PS4_SYSV_ABI pthread_attr_getschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getschedpolicy() {
+s32 PS4_SYSV_ABI pthread_attr_getschedpolicy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getscope() {
+s32 PS4_SYSV_ABI pthread_attr_getscope() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getstack() {
+s32 PS4_SYSV_ABI pthread_attr_getstack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getstackaddr() {
+s32 PS4_SYSV_ABI pthread_attr_getstackaddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_getstacksize() {
+s32 PS4_SYSV_ABI pthread_attr_getstacksize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_init() {
+s32 PS4_SYSV_ABI pthread_attr_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setaffinity_np() {
+s32 PS4_SYSV_ABI pthread_attr_setaffinity_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setcreatesuspend_np() {
+s32 PS4_SYSV_ABI pthread_attr_setcreatesuspend_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setdetachstate() {
+s32 PS4_SYSV_ABI pthread_attr_setdetachstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setguardsize() {
+s32 PS4_SYSV_ABI pthread_attr_setguardsize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setinheritsched() {
+s32 PS4_SYSV_ABI pthread_attr_setinheritsched() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setschedparam() {
+s32 PS4_SYSV_ABI pthread_attr_setschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setschedpolicy() {
+s32 PS4_SYSV_ABI pthread_attr_setschedpolicy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setscope() {
+s32 PS4_SYSV_ABI pthread_attr_setscope() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setstack() {
+s32 PS4_SYSV_ABI pthread_attr_setstack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setstackaddr() {
+s32 PS4_SYSV_ABI pthread_attr_setstackaddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_attr_setstacksize() {
+s32 PS4_SYSV_ABI pthread_attr_setstacksize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrier_destroy() {
+s32 PS4_SYSV_ABI pthread_barrier_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrier_init() {
+s32 PS4_SYSV_ABI pthread_barrier_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrier_setname_np() {
+s32 PS4_SYSV_ABI pthread_barrier_setname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrier_wait() {
+s32 PS4_SYSV_ABI pthread_barrier_wait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrierattr_destroy() {
+s32 PS4_SYSV_ABI pthread_barrierattr_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrierattr_getpshared() {
+s32 PS4_SYSV_ABI pthread_barrierattr_getpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrierattr_init() {
+s32 PS4_SYSV_ABI pthread_barrierattr_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_barrierattr_setpshared() {
+s32 PS4_SYSV_ABI pthread_barrierattr_setpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cancel() {
+s32 PS4_SYSV_ABI pthread_cancel() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cleanup_pop() {
+s32 PS4_SYSV_ABI pthread_cleanup_pop() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cleanup_push() {
+s32 PS4_SYSV_ABI pthread_cleanup_push() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_broadcast() {
+s32 PS4_SYSV_ABI pthread_cond_broadcast() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_destroy() {
+s32 PS4_SYSV_ABI pthread_cond_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_init() {
+s32 PS4_SYSV_ABI pthread_cond_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_reltimedwait_np() {
+s32 PS4_SYSV_ABI pthread_cond_reltimedwait_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_signal() {
+s32 PS4_SYSV_ABI pthread_cond_signal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_signalto_np() {
+s32 PS4_SYSV_ABI pthread_cond_signalto_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_timedwait() {
+s32 PS4_SYSV_ABI pthread_cond_timedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_cond_wait() {
+s32 PS4_SYSV_ABI pthread_cond_wait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_destroy() {
+s32 PS4_SYSV_ABI pthread_condattr_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_getclock() {
+s32 PS4_SYSV_ABI pthread_condattr_getclock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_getpshared() {
+s32 PS4_SYSV_ABI pthread_condattr_getpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_init() {
+s32 PS4_SYSV_ABI pthread_condattr_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_setclock() {
+s32 PS4_SYSV_ABI pthread_condattr_setclock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_condattr_setpshared() {
+s32 PS4_SYSV_ABI pthread_condattr_setpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_create() {
+s32 PS4_SYSV_ABI pthread_create() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_create_name_np() {
+s32 PS4_SYSV_ABI pthread_create_name_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_detach() {
+s32 PS4_SYSV_ABI pthread_detach() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_equal() {
+s32 PS4_SYSV_ABI pthread_equal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_exit() {
+s32 PS4_SYSV_ABI pthread_exit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_get_specificarray_np() {
+s32 PS4_SYSV_ABI pthread_get_specificarray_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getaffinity_np() {
+s32 PS4_SYSV_ABI pthread_getaffinity_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getconcurrency() {
+s32 PS4_SYSV_ABI pthread_getconcurrency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getcpuclockid() {
+s32 PS4_SYSV_ABI pthread_getcpuclockid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getname_np() {
+s32 PS4_SYSV_ABI pthread_getname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getprio() {
+s32 PS4_SYSV_ABI pthread_getprio() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getschedparam() {
+s32 PS4_SYSV_ABI pthread_getschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getspecific() {
+s32 PS4_SYSV_ABI pthread_getspecific() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getstack_np() {
+s32 PS4_SYSV_ABI pthread_getstack_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_getthreadid_np() {
+s32 PS4_SYSV_ABI pthread_getthreadid_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_join() {
+s32 PS4_SYSV_ABI pthread_join() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_key_create() {
+s32 PS4_SYSV_ABI pthread_key_create() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_key_delete() {
+s32 PS4_SYSV_ABI pthread_key_delete() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_main_np() {
+s32 PS4_SYSV_ABI pthread_main_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_multi_np() {
+s32 PS4_SYSV_ABI pthread_multi_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_destroy() {
+s32 PS4_SYSV_ABI pthread_mutex_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_getprioceiling() {
+s32 PS4_SYSV_ABI pthread_mutex_getprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_getspinloops_np() {
+s32 PS4_SYSV_ABI pthread_mutex_getspinloops_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_getyieldloops_np() {
+s32 PS4_SYSV_ABI pthread_mutex_getyieldloops_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_init() {
+s32 PS4_SYSV_ABI pthread_mutex_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_init_for_mono() {
+s32 PS4_SYSV_ABI pthread_mutex_init_for_mono() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_isowned_np() {
+s32 PS4_SYSV_ABI pthread_mutex_isowned_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_lock() {
+s32 PS4_SYSV_ABI pthread_mutex_lock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_setprioceiling() {
+s32 PS4_SYSV_ABI pthread_mutex_setprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_setspinloops_np() {
+s32 PS4_SYSV_ABI pthread_mutex_setspinloops_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_setyieldloops_np() {
+s32 PS4_SYSV_ABI pthread_mutex_setyieldloops_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_timedlock() {
+s32 PS4_SYSV_ABI pthread_mutex_timedlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_trylock() {
+s32 PS4_SYSV_ABI pthread_mutex_trylock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutex_unlock() {
+s32 PS4_SYSV_ABI pthread_mutex_unlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_destroy() {
+s32 PS4_SYSV_ABI pthread_mutexattr_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_getkind_np() {
+s32 PS4_SYSV_ABI pthread_mutexattr_getkind_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_getprioceiling() {
+s32 PS4_SYSV_ABI pthread_mutexattr_getprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_getprotocol() {
+s32 PS4_SYSV_ABI pthread_mutexattr_getprotocol() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_getpshared() {
+s32 PS4_SYSV_ABI pthread_mutexattr_getpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_gettype() {
+s32 PS4_SYSV_ABI pthread_mutexattr_gettype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_init() {
+s32 PS4_SYSV_ABI pthread_mutexattr_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_setkind_np() {
+s32 PS4_SYSV_ABI pthread_mutexattr_setkind_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_setprioceiling() {
+s32 PS4_SYSV_ABI pthread_mutexattr_setprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_setprotocol() {
+s32 PS4_SYSV_ABI pthread_mutexattr_setprotocol() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_setpshared() {
+s32 PS4_SYSV_ABI pthread_mutexattr_setpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_mutexattr_settype() {
+s32 PS4_SYSV_ABI pthread_mutexattr_settype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_once() {
+s32 PS4_SYSV_ABI pthread_once() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rename_np() {
+s32 PS4_SYSV_ABI pthread_rename_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_resume_all_np() {
+s32 PS4_SYSV_ABI pthread_resume_all_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_resume_np() {
+s32 PS4_SYSV_ABI pthread_resume_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_destroy() {
+s32 PS4_SYSV_ABI pthread_rwlock_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_init() {
+s32 PS4_SYSV_ABI pthread_rwlock_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_rdlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_rdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_reltimedrdlock_np() {
+s32 PS4_SYSV_ABI pthread_rwlock_reltimedrdlock_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_reltimedwrlock_np() {
+s32 PS4_SYSV_ABI pthread_rwlock_reltimedwrlock_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_setname_np() {
+s32 PS4_SYSV_ABI pthread_rwlock_setname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_timedrdlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_timedrdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_timedwrlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_timedwrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_tryrdlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_tryrdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_trywrlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_trywrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_unlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_unlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlock_wrlock() {
+s32 PS4_SYSV_ABI pthread_rwlock_wrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_destroy() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_getpshared() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_getpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_gettype_np() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_gettype_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_init() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_setpshared() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_setpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_rwlockattr_settype_np() {
+s32 PS4_SYSV_ABI pthread_rwlockattr_settype_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_self() {
+s32 PS4_SYSV_ABI pthread_self() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_set_defaultstacksize_np() {
+s32 PS4_SYSV_ABI pthread_set_defaultstacksize_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_set_name_np() {
+s32 PS4_SYSV_ABI pthread_set_name_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_set_user_context_np() {
+s32 PS4_SYSV_ABI pthread_set_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setaffinity_np() {
+s32 PS4_SYSV_ABI pthread_setaffinity_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setcancelstate() {
+s32 PS4_SYSV_ABI pthread_setcancelstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setcanceltype() {
+s32 PS4_SYSV_ABI pthread_setcanceltype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setconcurrency() {
+s32 PS4_SYSV_ABI pthread_setconcurrency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setprio() {
+s32 PS4_SYSV_ABI pthread_setprio() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setschedparam() {
+s32 PS4_SYSV_ABI pthread_setschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_setspecific() {
+s32 PS4_SYSV_ABI pthread_setspecific() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_sigmask() {
+s32 PS4_SYSV_ABI pthread_sigmask() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_single_np() {
+s32 PS4_SYSV_ABI pthread_single_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_spin_destroy() {
+s32 PS4_SYSV_ABI pthread_spin_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_spin_init() {
+s32 PS4_SYSV_ABI pthread_spin_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_spin_lock() {
+s32 PS4_SYSV_ABI pthread_spin_lock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_spin_trylock() {
+s32 PS4_SYSV_ABI pthread_spin_trylock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_spin_unlock() {
+s32 PS4_SYSV_ABI pthread_spin_unlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_suspend_all_np() {
+s32 PS4_SYSV_ABI pthread_suspend_all_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_suspend_np() {
+s32 PS4_SYSV_ABI pthread_suspend_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_switch_add_np() {
+s32 PS4_SYSV_ABI pthread_switch_add_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_switch_delete_np() {
+s32 PS4_SYSV_ABI pthread_switch_delete_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_testcancel() {
+s32 PS4_SYSV_ABI pthread_testcancel() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_timedjoin_np() {
+s32 PS4_SYSV_ABI pthread_timedjoin_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pthread_yield() {
+s32 PS4_SYSV_ABI pthread_yield() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pwrite() {
+s32 PS4_SYSV_ABI pwrite() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pwritev() {
+s32 PS4_SYSV_ABI pwritev() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI raise() {
+s32 PS4_SYSV_ABI raise() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI read() {
+s32 PS4_SYSV_ABI read() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI readv() {
+s32 PS4_SYSV_ABI readv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI recv() {
+s32 PS4_SYSV_ABI recv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI recvfrom() {
+s32 PS4_SYSV_ABI recvfrom() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI recvmsg() {
+s32 PS4_SYSV_ABI recvmsg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rename() {
+s32 PS4_SYSV_ABI rename() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rfork_thread() {
+s32 PS4_SYSV_ABI rfork_thread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rmdir() {
+s32 PS4_SYSV_ABI rmdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rtld_printf() {
+s32 PS4_SYSV_ABI rtld_printf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rtprio_thread() {
+s32 PS4_SYSV_ABI rtprio_thread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddCpumodeEvent() {
+s32 PS4_SYSV_ABI sceKernelAddCpumodeEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddFileEvent() {
+s32 PS4_SYSV_ABI sceKernelAddFileEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddGpuExceptionEvent() {
+s32 PS4_SYSV_ABI sceKernelAddGpuExceptionEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddHRTimerEvent() {
+s32 PS4_SYSV_ABI sceKernelAddHRTimerEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddReadEvent() {
+s32 PS4_SYSV_ABI sceKernelAddReadEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddTimerEvent() {
+s32 PS4_SYSV_ABI sceKernelAddTimerEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddUserEvent() {
+s32 PS4_SYSV_ABI sceKernelAddUserEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddUserEventEdge() {
+s32 PS4_SYSV_ABI sceKernelAddUserEventEdge() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAddWriteEvent() {
+s32 PS4_SYSV_ABI sceKernelAddWriteEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioCancelRequest() {
+s32 PS4_SYSV_ABI sceKernelAioCancelRequest() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioCancelRequests() {
+s32 PS4_SYSV_ABI sceKernelAioCancelRequests() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioDeleteRequest() {
+s32 PS4_SYSV_ABI sceKernelAioDeleteRequest() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioDeleteRequests() {
+s32 PS4_SYSV_ABI sceKernelAioDeleteRequests() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioInitializeImpl() {
+s32 PS4_SYSV_ABI sceKernelAioInitializeImpl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioInitializeParam() {
+s32 PS4_SYSV_ABI sceKernelAioInitializeParam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioPollRequest() {
+s32 PS4_SYSV_ABI sceKernelAioPollRequest() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioPollRequests() {
+s32 PS4_SYSV_ABI sceKernelAioPollRequests() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioSetParam() {
+s32 PS4_SYSV_ABI sceKernelAioSetParam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioSubmitReadCommands() {
+s32 PS4_SYSV_ABI sceKernelAioSubmitReadCommands() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioSubmitReadCommandsMultiple() {
+s32 PS4_SYSV_ABI sceKernelAioSubmitReadCommandsMultiple() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioSubmitWriteCommands() {
+s32 PS4_SYSV_ABI sceKernelAioSubmitWriteCommands() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioSubmitWriteCommandsMultiple() {
+s32 PS4_SYSV_ABI sceKernelAioSubmitWriteCommandsMultiple() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioWaitRequest() {
+s32 PS4_SYSV_ABI sceKernelAioWaitRequest() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAioWaitRequests() {
+s32 PS4_SYSV_ABI sceKernelAioWaitRequests() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAllocateDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelAllocateDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAllocateDirectMemoryForMiniApp() {
+s32 PS4_SYSV_ABI sceKernelAllocateDirectMemoryForMiniApp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAllocateMainDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelAllocateMainDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAllocateTraceDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelAllocateTraceDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAvailableDirectMemorySize() {
+s32 PS4_SYSV_ABI sceKernelAvailableDirectMemorySize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelAvailableFlexibleMemorySize() {
+s32 PS4_SYSV_ABI sceKernelAvailableFlexibleMemorySize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelBacktraceSelf() {
+s32 PS4_SYSV_ABI sceKernelBacktraceSelf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelBatchMap() {
+s32 PS4_SYSV_ABI sceKernelBatchMap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelBatchMap2() {
+s32 PS4_SYSV_ABI sceKernelBatchMap2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCancelEventFlag() {
+s32 PS4_SYSV_ABI sceKernelCancelEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCancelSema() {
+s32 PS4_SYSV_ABI sceKernelCancelSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCheckedReleaseDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelCheckedReleaseDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCheckReachability() {
+s32 PS4_SYSV_ABI sceKernelCheckReachability() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelChmod() {
+s32 PS4_SYSV_ABI sceKernelChmod() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClearBootReqNotifyCount() {
+s32 PS4_SYSV_ABI sceKernelClearBootReqNotifyCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClearEventFlag() {
+s32 PS4_SYSV_ABI sceKernelClearEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClearGameDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelClearGameDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClockGetres() {
+s32 PS4_SYSV_ABI sceKernelClockGetres() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClockGettime() {
+s32 PS4_SYSV_ABI sceKernelClockGettime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelClose() {
+s32 PS4_SYSV_ABI sceKernelClose() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCloseEport() {
+s32 PS4_SYSV_ABI sceKernelCloseEport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCloseEventFlag() {
+s32 PS4_SYSV_ABI sceKernelCloseEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCloseSema() {
+s32 PS4_SYSV_ABI sceKernelCloseSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelConfiguredFlexibleMemorySize() {
+s32 PS4_SYSV_ABI sceKernelConfiguredFlexibleMemorySize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelConvertLocaltimeToUtc() {
+s32 PS4_SYSV_ABI sceKernelConvertLocaltimeToUtc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelConvertUtcToLocaltime() {
+s32 PS4_SYSV_ABI sceKernelConvertUtcToLocaltime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCreateEport() {
+s32 PS4_SYSV_ABI sceKernelCreateEport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCreateEqueue() {
+s32 PS4_SYSV_ABI sceKernelCreateEqueue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCreateEventFlag() {
+s32 PS4_SYSV_ABI sceKernelCreateEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelCreateSema() {
+s32 PS4_SYSV_ABI sceKernelCreateSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugAcquireAndUpdateDebugRegister() {
+s32 PS4_SYSV_ABI sceKernelDebugAcquireAndUpdateDebugRegister() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugGetAppStatus() {
+s32 PS4_SYSV_ABI sceKernelDebugGetAppStatus() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugGetPauseCount() {
+s32 PS4_SYSV_ABI sceKernelDebugGetPauseCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugGpuPaDebugIsInProgress() {
+s32 PS4_SYSV_ABI sceKernelDebugGpuPaDebugIsInProgress() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugOutText() {
+s32 PS4_SYSV_ABI sceKernelDebugOutText() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugRaiseExceptionOnReleaseMode() {
+s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionOnReleaseMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithInfo() {
+s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDebugReleaseDebugContext() {
+s32 PS4_SYSV_ABI sceKernelDebugReleaseDebugContext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteCpumodeEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteCpumodeEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteEport() {
+s32 PS4_SYSV_ABI sceKernelDeleteEport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteEqueue() {
+s32 PS4_SYSV_ABI sceKernelDeleteEqueue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteEventFlag() {
+s32 PS4_SYSV_ABI sceKernelDeleteEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteFileEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteFileEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteGpuExceptionEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteGpuExceptionEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteHRTimerEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteHRTimerEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteReadEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteReadEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteSema() {
+s32 PS4_SYSV_ABI sceKernelDeleteSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteTimerEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteTimerEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteUserEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteUserEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDeleteWriteEvent() {
+s32 PS4_SYSV_ABI sceKernelDeleteWriteEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDirectMemoryQuery() {
+s32 PS4_SYSV_ABI sceKernelDirectMemoryQuery() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDirectMemoryQueryForId() {
+s32 PS4_SYSV_ABI sceKernelDirectMemoryQueryForId() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelDlsym() {
+s32 PS4_SYSV_ABI sceKernelDlsym() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEnableDmemAliasing() {
+s32 PS4_SYSV_ABI sceKernelEnableDmemAliasing() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEnableDmemAliasing2() {
+s32 PS4_SYSV_ABI sceKernelEnableDmemAliasing2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEnablePthreadObjectCheck() {
+s32 PS4_SYSV_ABI sceKernelEnablePthreadObjectCheck() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelError() {
+s32 PS4_SYSV_ABI sceKernelError() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEventLogInit() {
+s32 PS4_SYSV_ABI sceKernelEventLogInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEventLogPread() {
+s32 PS4_SYSV_ABI sceKernelEventLogPread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEventLogRead() {
+s32 PS4_SYSV_ABI sceKernelEventLogRead() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelEventLogWrite() {
+s32 PS4_SYSV_ABI sceKernelEventLogWrite() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFchmod() {
+s32 PS4_SYSV_ABI sceKernelFchmod() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFcntl() {
+s32 PS4_SYSV_ABI sceKernelFcntl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFdatasync() {
+s32 PS4_SYSV_ABI sceKernelFdatasync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFlock() {
+s32 PS4_SYSV_ABI sceKernelFlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFstat() {
+s32 PS4_SYSV_ABI sceKernelFstat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFsync() {
+s32 PS4_SYSV_ABI sceKernelFsync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFtruncate() {
+s32 PS4_SYSV_ABI sceKernelFtruncate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelFutimes() {
+s32 PS4_SYSV_ABI sceKernelFutimes() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetAllowedSdkVersionOnSystem() {
+s32 PS4_SYSV_ABI sceKernelGetAllowedSdkVersionOnSystem() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetAppInfo() {
+s32 PS4_SYSV_ABI sceKernelGetAppInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetAslrStatus() {
+s32 PS4_SYSV_ABI sceKernelGetAslrStatus() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBackupRestoreMode() {
+s32 PS4_SYSV_ABI sceKernelGetBackupRestoreMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBackupRestoreModeOfNextBoot() {
+s32 PS4_SYSV_ABI sceKernelGetBackupRestoreModeOfNextBoot() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBasicProductShape() {
+s32 PS4_SYSV_ABI sceKernelGetBasicProductShape() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBetaUpdateTestForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetBetaUpdateTestForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBioUsageAll() {
+s32 PS4_SYSV_ABI sceKernelGetBioUsageAll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetBootReqNotifyCount() {
+s32 PS4_SYSV_ABI sceKernelGetBootReqNotifyCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCallRecord() {
+s32 PS4_SYSV_ABI sceKernelGetCallRecord() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCompiledSdkVersion() {
+s32 PS4_SYSV_ABI sceKernelGetCompiledSdkVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCompiledSdkVersionByPath() {
+s32 PS4_SYSV_ABI sceKernelGetCompiledSdkVersionByPath() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCompiledSdkVersionByPid() {
+s32 PS4_SYSV_ABI sceKernelGetCompiledSdkVersionByPid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuFrequency() {
+s32 PS4_SYSV_ABI sceKernelGetCpuFrequency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpumode() {
+s32 PS4_SYSV_ABI sceKernelGetCpumode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpumodeGame() {
+s32 PS4_SYSV_ABI sceKernelGetCpumodeGame() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuTemperature() {
+s32 PS4_SYSV_ABI sceKernelGetCpuTemperature() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuUsage() {
+s32 PS4_SYSV_ABI sceKernelGetCpuUsage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuUsageAll() {
+s32 PS4_SYSV_ABI sceKernelGetCpuUsageAll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuUsageProc() {
+s32 PS4_SYSV_ABI sceKernelGetCpuUsageProc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuUsageProc2() {
+s32 PS4_SYSV_ABI sceKernelGetCpuUsageProc2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCpuUsageThread() {
+s32 PS4_SYSV_ABI sceKernelGetCpuUsageThread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetCurrentCpu() {
+s32 PS4_SYSV_ABI sceKernelGetCurrentCpu() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDataTransferMode() {
+s32 PS4_SYSV_ABI sceKernelGetDataTransferMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDebugMenuMiniModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetDebugMenuMiniModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDebugMenuModeForPsmForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetDebugMenuModeForPsmForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDebugMenuModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetDebugMenuModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetdents() {
+s32 PS4_SYSV_ABI sceKernelGetdents() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDirectMemorySize() {
+s32 PS4_SYSV_ABI sceKernelGetDirectMemorySize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetDirectMemoryType() {
+s32 PS4_SYSV_ABI sceKernelGetDirectMemoryType() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetdirentries() {
+s32 PS4_SYSV_ABI sceKernelGetdirentries() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventData() {
+s32 PS4_SYSV_ABI sceKernelGetEventData() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventError() {
+s32 PS4_SYSV_ABI sceKernelGetEventError() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventFflags() {
+s32 PS4_SYSV_ABI sceKernelGetEventFflags() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventFilter() {
+s32 PS4_SYSV_ABI sceKernelGetEventFilter() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventId() {
+s32 PS4_SYSV_ABI sceKernelGetEventId() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetEventUserData() {
+s32 PS4_SYSV_ABI sceKernelGetEventUserData() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetExecutableModuleHandle() {
+s32 PS4_SYSV_ABI sceKernelGetExecutableModuleHandle() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetExtLibcHandle() {
+s32 PS4_SYSV_ABI sceKernelGetExtLibcHandle() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetFakeFinalizeMenuForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetFakeFinalizeMenuForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetFlagedUpdaterForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetFlagedUpdaterForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetForceUpdateModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetForceUpdateModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetGPI() {
+s32 PS4_SYSV_ABI sceKernelGetGPI() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetGPO() {
+s32 PS4_SYSV_ABI sceKernelGetGPO() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetHwFeatureInfoForDecid() {
+s32 PS4_SYSV_ABI sceKernelGetHwFeatureInfoForDecid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetIdPs() {
+s32 PS4_SYSV_ABI sceKernelGetIdPs() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetIdTableCurrentCount() {
+s32 PS4_SYSV_ABI sceKernelGetIdTableCurrentCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetIpcPath() {
+s32 PS4_SYSV_ABI sceKernelGetIpcPath() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetLibkernelTextLocation() {
+s32 PS4_SYSV_ABI sceKernelGetLibkernelTextLocation() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetMainSocId() {
+s32 PS4_SYSV_ABI sceKernelGetMainSocId() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleInfo() {
+s32 PS4_SYSV_ABI sceKernelGetModuleInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleInfoForUnwind() {
+s32 PS4_SYSV_ABI sceKernelGetModuleInfoForUnwind() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleInfoInternal() {
+s32 PS4_SYSV_ABI sceKernelGetModuleInfoInternal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleList() {
+s32 PS4_SYSV_ABI sceKernelGetModuleList() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleListInternal() {
+s32 PS4_SYSV_ABI sceKernelGetModuleListInternal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetOpenPsIdForSystem() {
+s32 PS4_SYSV_ABI sceKernelGetOpenPsIdForSystem() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPageTableStats() {
+s32 PS4_SYSV_ABI sceKernelGetPageTableStats() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPagingStatsOfAllObjects() {
+s32 PS4_SYSV_ABI sceKernelGetPagingStatsOfAllObjects() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPagingStatsOfAllThreads() {
+s32 PS4_SYSV_ABI sceKernelGetPagingStatsOfAllThreads() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPhysPageSize() {
+s32 PS4_SYSV_ABI sceKernelGetPhysPageSize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcessName() {
+s32 PS4_SYSV_ABI sceKernelGetProcessName() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcessTime() {
+s32 PS4_SYSV_ABI sceKernelGetProcessTime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcessTimeCounter() {
+s32 PS4_SYSV_ABI sceKernelGetProcessTimeCounter() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcessTimeCounterFrequency() {
+s32 PS4_SYSV_ABI sceKernelGetProcessTimeCounterFrequency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcessType() {
+s32 PS4_SYSV_ABI sceKernelGetProcessType() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProcParam() {
+s32 PS4_SYSV_ABI sceKernelGetProcParam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProductCode() {
+s32 PS4_SYSV_ABI sceKernelGetProductCode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetProductStr() {
+s32 PS4_SYSV_ABI sceKernelGetProductStr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPrtAperture() {
+s32 PS4_SYSV_ABI sceKernelGetPrtAperture() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPsmIntdevModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetPsmIntdevModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetPsnAccessTraceLogForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetPsnAccessTraceLogForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetQafExpirationTimeNotafterForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetQafExpirationTimeNotafterForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetQafExpirationTimeNotbeforeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetQafExpirationTimeNotbeforeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetQafGenerationForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetQafGenerationForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetQafNameForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetQafNameForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetRenderingMode() {
+s32 PS4_SYSV_ABI sceKernelGetRenderingMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetResidentCount() {
+s32 PS4_SYSV_ABI sceKernelGetResidentCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetResidentFmemCount() {
+s32 PS4_SYSV_ABI sceKernelGetResidentFmemCount() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSafemode() {
+s32 PS4_SYSV_ABI sceKernelGetSafemode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSanitizerMallocReplace() {
+s32 PS4_SYSV_ABI sceKernelGetSanitizerMallocReplace() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSanitizerMallocReplaceExternal() {
+s32 PS4_SYSV_ABI sceKernelGetSanitizerMallocReplaceExternal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSanitizerNewReplace() {
+s32 PS4_SYSV_ABI sceKernelGetSanitizerNewReplace() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSanitizerNewReplaceExternal() {
+s32 PS4_SYSV_ABI sceKernelGetSanitizerNewReplaceExternal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSocSensorTemperature() {
+s32 PS4_SYSV_ABI sceKernelGetSocSensorTemperature() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSpecialIForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetSpecialIForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSubsysId() {
+s32 PS4_SYSV_ABI sceKernelGetSubsysId() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSystemExVersion() {
+s32 PS4_SYSV_ABI sceKernelGetSystemExVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSystemLevelDebuggerModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetSystemLevelDebuggerModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSystemSwBeta() {
+s32 PS4_SYSV_ABI sceKernelGetSystemSwBeta() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetSystemSwVersion() {
+s32 PS4_SYSV_ABI sceKernelGetSystemSwVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetThreadName() {
+s32 PS4_SYSV_ABI sceKernelGetThreadName() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGettimeofday() {
+s32 PS4_SYSV_ABI sceKernelGettimeofday() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGettimezone() {
+s32 PS4_SYSV_ABI sceKernelGettimezone() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetTraceMemoryStats() {
+s32 PS4_SYSV_ABI sceKernelGetTraceMemoryStats() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetTscFrequency() {
+s32 PS4_SYSV_ABI sceKernelGetTscFrequency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenDataExecutionForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenDataExecutionForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenExpirationTimeNotafterForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenExpirationTimeNotafterForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenExpirationTimeNotbeforeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenExpirationTimeNotbeforeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenFakeSharefactoryForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenFakeSharefactoryForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenFlagedUpdaterForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenFlagedUpdaterForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenNpEnvSwitchingForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenNpEnvSwitchingForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenSaveDataRepairForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenSaveDataRepairForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenStoreModeForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenStoreModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenUseSoftwagnerForAcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenUseSoftwagnerForAcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenUseSoftwagnerForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenUseSoftwagnerForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetUtokenWeakenedPortRestrictionForRcmgr() {
+s32 PS4_SYSV_ABI sceKernelGetUtokenWeakenedPortRestrictionForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetVrCaptureSize() {
+s32 PS4_SYSV_ABI sceKernelGetVrCaptureSize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelHasNeoMode() {
+s32 PS4_SYSV_ABI sceKernelHasNeoMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelHwHasOpticalOut() {
+s32 PS4_SYSV_ABI sceKernelHwHasOpticalOut() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelHwHasWlanBt() {
+s32 PS4_SYSV_ABI sceKernelHwHasWlanBt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccControlBDPowerState() {
+s32 PS4_SYSV_ABI sceKernelIccControlBDPowerState() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccControlUSBPowerState() {
+s32 PS4_SYSV_ABI sceKernelIccControlUSBPowerState() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetBDPowerState() {
+s32 PS4_SYSV_ABI sceKernelIccGetBDPowerState() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetCPMode() {
+s32 PS4_SYSV_ABI sceKernelIccGetCPMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetCpuInfoBit() {
+s32 PS4_SYSV_ABI sceKernelIccGetCpuInfoBit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetPowerNumberOfBootShutdown() {
+s32 PS4_SYSV_ABI sceKernelIccGetPowerNumberOfBootShutdown() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetPowerOperatingTime() {
+s32 PS4_SYSV_ABI sceKernelIccGetPowerOperatingTime() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetPowerUpCause() {
+s32 PS4_SYSV_ABI sceKernelIccGetPowerUpCause() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetThermalAlert() {
+s32 PS4_SYSV_ABI sceKernelIccGetThermalAlert() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccGetUSBPowerState() {
+s32 PS4_SYSV_ABI sceKernelIccGetUSBPowerState() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccIndicatorBootDone() {
+s32 PS4_SYSV_ABI sceKernelIccIndicatorBootDone() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccIndicatorShutdown() {
+s32 PS4_SYSV_ABI sceKernelIccIndicatorShutdown() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccIndicatorStandby() {
+s32 PS4_SYSV_ABI sceKernelIccIndicatorStandby() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccIndicatorStandbyBoot() {
+s32 PS4_SYSV_ABI sceKernelIccIndicatorStandbyBoot() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccIndicatorStandbyShutdown() {
+s32 PS4_SYSV_ABI sceKernelIccIndicatorStandbyShutdown() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccNotifyBootStatus() {
+s32 PS4_SYSV_ABI sceKernelIccNotifyBootStatus() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccNvsFlush() {
+s32 PS4_SYSV_ABI sceKernelIccNvsFlush() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccReadPowerBootMessage() {
+s32 PS4_SYSV_ABI sceKernelIccReadPowerBootMessage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccSetBuzzer() {
+s32 PS4_SYSV_ABI sceKernelIccSetBuzzer() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccSetCPMode() {
+s32 PS4_SYSV_ABI sceKernelIccSetCPMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccSetCpuInfoBit() {
+s32 PS4_SYSV_ABI sceKernelIccSetCpuInfoBit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIccSetDownloadMode() {
+s32 PS4_SYSV_ABI sceKernelIccSetDownloadMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInstallExceptionHandler() {
+s32 PS4_SYSV_ABI sceKernelInstallExceptionHandler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalGetKmemStatistics() {
+s32 PS4_SYSV_ABI sceKernelInternalGetKmemStatistics() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalGetMapStatistics() {
+s32 PS4_SYSV_ABI sceKernelInternalGetMapStatistics() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalHeapPrintBacktraceWithModuleInfo() {
+s32 PS4_SYSV_ABI sceKernelInternalHeapPrintBacktraceWithModuleInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalMapDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelInternalMapDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalMapNamedDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelInternalMapNamedDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalMemoryGetAvailableSize() {
+s32 PS4_SYSV_ABI sceKernelInternalMemoryGetAvailableSize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalMemoryGetModuleSegmentInfo() {
+s32 PS4_SYSV_ABI sceKernelInternalMemoryGetModuleSegmentInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalResumeDirectMemoryRelease() {
+s32 PS4_SYSV_ABI sceKernelInternalResumeDirectMemoryRelease() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelInternalSuspendDirectMemoryRelease() {
+s32 PS4_SYSV_ABI sceKernelInternalSuspendDirectMemoryRelease() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsAddressSanitizerEnabled() {
+s32 PS4_SYSV_ABI sceKernelIsAddressSanitizerEnabled() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsAllowedToSelectDvdRegion() {
+s32 PS4_SYSV_ABI sceKernelIsAllowedToSelectDvdRegion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsAuthenticNeo() {
+s32 PS4_SYSV_ABI sceKernelIsAuthenticNeo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsCEX() {
+s32 PS4_SYSV_ABI sceKernelIsCEX() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsDebuggerAttached() {
+s32 PS4_SYSV_ABI sceKernelIsDebuggerAttached() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsDevKit() {
+s32 PS4_SYSV_ABI sceKernelIsDevKit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsExperimentalBeta() {
+s32 PS4_SYSV_ABI sceKernelIsExperimentalBeta() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsGenuineCEX() {
+s32 PS4_SYSV_ABI sceKernelIsGenuineCEX() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsGenuineDevKit() {
+s32 PS4_SYSV_ABI sceKernelIsGenuineDevKit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsGenuineKratosCex() {
+s32 PS4_SYSV_ABI sceKernelIsGenuineKratosCex() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsGenuineN() {
+s32 PS4_SYSV_ABI sceKernelIsGenuineN() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsGenuineTestKit() {
+s32 PS4_SYSV_ABI sceKernelIsGenuineTestKit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsInSandbox() {
+s32 PS4_SYSV_ABI sceKernelIsInSandbox() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsKratos() {
+s32 PS4_SYSV_ABI sceKernelIsKratos() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsMainOnStanbyMode() {
+s32 PS4_SYSV_ABI sceKernelIsMainOnStanbyMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsMainOnStandbyMode() {
+s32 PS4_SYSV_ABI sceKernelIsMainOnStandbyMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsNeoMode() {
+s32 PS4_SYSV_ABI sceKernelIsNeoMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsStack() {
+s32 PS4_SYSV_ABI sceKernelIsStack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsTestKit() {
+s32 PS4_SYSV_ABI sceKernelIsTestKit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelKernelHeapUsage() {
+s32 PS4_SYSV_ABI sceKernelKernelHeapUsage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLoadStartModule() {
+s32 PS4_SYSV_ABI sceKernelLoadStartModule() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLoadStartModuleForSysmodule() {
+s32 PS4_SYSV_ABI sceKernelLoadStartModuleForSysmodule() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLseek() {
+s32 PS4_SYSV_ABI sceKernelLseek() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLwfsAllocateBlock() {
+s32 PS4_SYSV_ABI sceKernelLwfsAllocateBlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLwfsLseek() {
+s32 PS4_SYSV_ABI sceKernelLwfsLseek() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLwfsSetAttribute() {
+s32 PS4_SYSV_ABI sceKernelLwfsSetAttribute() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLwfsTrimBlock() {
+s32 PS4_SYSV_ABI sceKernelLwfsTrimBlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelLwfsWrite() {
+s32 PS4_SYSV_ABI sceKernelLwfsWrite() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelMapDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapDirectMemory2() {
+s32 PS4_SYSV_ABI sceKernelMapDirectMemory2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapFlexibleMemory() {
+s32 PS4_SYSV_ABI sceKernelMapFlexibleMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapNamedDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelMapNamedDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapNamedFlexibleMemory() {
+s32 PS4_SYSV_ABI sceKernelMapNamedFlexibleMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapNamedSystemFlexibleMemory() {
+s32 PS4_SYSV_ABI sceKernelMapNamedSystemFlexibleMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapSanitizerShadowMemory() {
+s32 PS4_SYSV_ABI sceKernelMapSanitizerShadowMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMapTraceMemory() {
+s32 PS4_SYSV_ABI sceKernelMapTraceMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolBatch() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolBatch() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolCommit() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolCommit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolDecommit() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolDecommit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolExpand() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolExpand() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolGetBlockStats() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolGetBlockStats() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolMove() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolMove() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMemoryPoolReserve() {
+s32 PS4_SYSV_ABI sceKernelMemoryPoolReserve() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMkdir() {
+s32 PS4_SYSV_ABI sceKernelMkdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMlock() {
+s32 PS4_SYSV_ABI sceKernelMlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMlockall() {
+s32 PS4_SYSV_ABI sceKernelMlockall() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMmap() {
+s32 PS4_SYSV_ABI sceKernelMmap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMprotect() {
+s32 PS4_SYSV_ABI sceKernelMprotect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMsync() {
+s32 PS4_SYSV_ABI sceKernelMsync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMtypeprotect() {
+s32 PS4_SYSV_ABI sceKernelMtypeprotect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMunlock() {
+s32 PS4_SYSV_ABI sceKernelMunlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMunlockall() {
+s32 PS4_SYSV_ABI sceKernelMunlockall() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelMunmap() {
+s32 PS4_SYSV_ABI sceKernelMunmap() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelNanosleep() {
+s32 PS4_SYSV_ABI sceKernelNanosleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelNormalizePath() {
+s32 PS4_SYSV_ABI sceKernelNormalizePath() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelNotifyAppStateChanged() {
+s32 PS4_SYSV_ABI sceKernelNotifyAppStateChanged() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelNotifySystemSuspendResumeProgress() {
+s32 PS4_SYSV_ABI sceKernelNotifySystemSuspendResumeProgress() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelNotifySystemSuspendStart() {
+s32 PS4_SYSV_ABI sceKernelNotifySystemSuspendStart() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelOpen() {
+s32 PS4_SYSV_ABI sceKernelOpen() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelOpenEport() {
+s32 PS4_SYSV_ABI sceKernelOpenEport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelOpenEventFlag() {
+s32 PS4_SYSV_ABI sceKernelOpenEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPollEventFlag() {
+s32 PS4_SYSV_ABI sceKernelPollEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPollSema() {
+s32 PS4_SYSV_ABI sceKernelPollSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPread() {
+s32 PS4_SYSV_ABI sceKernelPread() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPreadv() {
+s32 PS4_SYSV_ABI sceKernelPreadv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPrintBacktraceWithModuleInfo() {
+s32 PS4_SYSV_ABI sceKernelPrintBacktraceWithModuleInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelProtectDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelProtectDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelProtectDirectMemoryForPID() {
+s32 PS4_SYSV_ABI sceKernelProtectDirectMemoryForPID() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPwrite() {
+s32 PS4_SYSV_ABI sceKernelPwrite() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelPwritev() {
+s32 PS4_SYSV_ABI sceKernelPwritev() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelQueryMemoryProtection() {
+s32 PS4_SYSV_ABI sceKernelQueryMemoryProtection() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelQueryTraceMemory() {
+s32 PS4_SYSV_ABI sceKernelQueryTraceMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRaiseException() {
+s32 PS4_SYSV_ABI sceKernelRaiseException() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRandomizedPath() {
+s32 PS4_SYSV_ABI sceKernelRandomizedPath() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRdup() {
+s32 PS4_SYSV_ABI sceKernelRdup() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRead() {
+s32 PS4_SYSV_ABI sceKernelRead() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReadTsc() {
+s32 PS4_SYSV_ABI sceKernelReadTsc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReadv() {
+s32 PS4_SYSV_ABI sceKernelReadv() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReboot() {
+s32 PS4_SYSV_ABI sceKernelReboot() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReleaseDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelReleaseDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReleaseFlexibleMemory() {
+s32 PS4_SYSV_ABI sceKernelReleaseFlexibleMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReleaseTraceDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelReleaseTraceDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRemoveExceptionHandler() {
+s32 PS4_SYSV_ABI sceKernelRemoveExceptionHandler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRename() {
+s32 PS4_SYSV_ABI sceKernelRename() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReportUnpatchedFunctionCall() {
+s32 PS4_SYSV_ABI sceKernelReportUnpatchedFunctionCall() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReserve2mbPage() {
+s32 PS4_SYSV_ABI sceKernelReserve2mbPage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReserveSystemDirectMemory() {
+s32 PS4_SYSV_ABI sceKernelReserveSystemDirectMemory() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelReserveVirtualRange() {
+s32 PS4_SYSV_ABI sceKernelReserveVirtualRange() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelResumeDirectMemoryRelease() {
+s32 PS4_SYSV_ABI sceKernelResumeDirectMemoryRelease() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRmdir() {
+s32 PS4_SYSV_ABI sceKernelRmdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelRtldControl() {
+s32 PS4_SYSV_ABI sceKernelRtldControl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSandboxPath() {
+s32 PS4_SYSV_ABI sceKernelSandboxPath() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSendNotificationRequest() {
+s32 PS4_SYSV_ABI sceKernelSendNotificationRequest() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetAppInfo() {
+s32 PS4_SYSV_ABI sceKernelSetAppInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetBackupRestoreMode() {
+s32 PS4_SYSV_ABI sceKernelSetBackupRestoreMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetBaseModeClock() {
+s32 PS4_SYSV_ABI sceKernelSetBaseModeClock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetBesteffort() {
+s32 PS4_SYSV_ABI sceKernelSetBesteffort() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetBootReqNotify() {
+s32 PS4_SYSV_ABI sceKernelSetBootReqNotify() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetCallRecord() {
+s32 PS4_SYSV_ABI sceKernelSetCallRecord() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetCompressionAttribute() {
+s32 PS4_SYSV_ABI sceKernelSetCompressionAttribute() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetCpumodeGame() {
+s32 PS4_SYSV_ABI sceKernelSetCpumodeGame() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetDataTransferMode() {
+s32 PS4_SYSV_ABI sceKernelSetDataTransferMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetEventFlag() {
+s32 PS4_SYSV_ABI sceKernelSetEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetFsstParam() {
+s32 PS4_SYSV_ABI sceKernelSetFsstParam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetGameDirectMemoryLimit() {
+s32 PS4_SYSV_ABI sceKernelSetGameDirectMemoryLimit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetGPI() {
+s32 PS4_SYSV_ABI sceKernelSetGPI() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetGPO() {
+s32 PS4_SYSV_ABI sceKernelSetGPO() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetGpuCu() {
+s32 PS4_SYSV_ABI sceKernelSetGpuCu() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetMemoryPstate() {
+s32 PS4_SYSV_ABI sceKernelSetMemoryPstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetNeoModeClock() {
+s32 PS4_SYSV_ABI sceKernelSetNeoModeClock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetPhysFmemLimit() {
+s32 PS4_SYSV_ABI sceKernelSetPhysFmemLimit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetProcessName() {
+s32 PS4_SYSV_ABI sceKernelSetProcessName() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetProcessPropertyString() {
+s32 PS4_SYSV_ABI sceKernelSetProcessPropertyString() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetPrtAperture() {
+s32 PS4_SYSV_ABI sceKernelSetPrtAperture() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetSafemode() {
+s32 PS4_SYSV_ABI sceKernelSetSafemode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSettimeofday() {
+s32 PS4_SYSV_ABI sceKernelSettimeofday() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetTimezoneInfo() {
+s32 PS4_SYSV_ABI sceKernelSetTimezoneInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetVirtualRangeName() {
+s32 PS4_SYSV_ABI sceKernelSetVirtualRangeName() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSetVmContainer() {
+s32 PS4_SYSV_ABI sceKernelSetVmContainer() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSignalSema() {
+s32 PS4_SYSV_ABI sceKernelSignalSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSleep() {
+s32 PS4_SYSV_ABI sceKernelSleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSlvNotifyError() {
+s32 PS4_SYSV_ABI sceKernelSlvNotifyError() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelStat() {
+s32 PS4_SYSV_ABI sceKernelStat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelStopUnloadModule() {
+s32 PS4_SYSV_ABI sceKernelStopUnloadModule() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSuspendDirectMemoryRelease() {
+s32 PS4_SYSV_ABI sceKernelSuspendDirectMemoryRelease() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSwitchToBaseMode() {
+s32 PS4_SYSV_ABI sceKernelSwitchToBaseMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSwitchToNeoMode() {
+s32 PS4_SYSV_ABI sceKernelSwitchToNeoMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelSync() {
+s32 PS4_SYSV_ABI sceKernelSync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTerminateSysCore() {
+s32 PS4_SYSV_ABI sceKernelTerminateSysCore() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTitleWorkaroundIsEnabled() {
+s32 PS4_SYSV_ABI sceKernelTitleWorkaroundIsEnabled() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTitleWorkdaroundIsEnabled() {
+s32 PS4_SYSV_ABI sceKernelTitleWorkdaroundIsEnabled() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTraceMemoryTypeProtect() {
+s32 PS4_SYSV_ABI sceKernelTraceMemoryTypeProtect() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTriggerEport() {
+s32 PS4_SYSV_ABI sceKernelTriggerEport() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTriggerUserEvent() {
+s32 PS4_SYSV_ABI sceKernelTriggerUserEvent() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelTruncate() {
+s32 PS4_SYSV_ABI sceKernelTruncate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelUnlink() {
+s32 PS4_SYSV_ABI sceKernelUnlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelUsleep() {
+s32 PS4_SYSV_ABI sceKernelUsleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelUtimes() {
+s32 PS4_SYSV_ABI sceKernelUtimes() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelUuidCreate() {
+s32 PS4_SYSV_ABI sceKernelUuidCreate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelVirtualQuery() {
+s32 PS4_SYSV_ABI sceKernelVirtualQuery() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelVirtualQueryAll() {
+s32 PS4_SYSV_ABI sceKernelVirtualQueryAll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWaitEqueue() {
+s32 PS4_SYSV_ABI sceKernelWaitEqueue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWaitEventFlag() {
+s32 PS4_SYSV_ABI sceKernelWaitEventFlag() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWaitSema() {
+s32 PS4_SYSV_ABI sceKernelWaitSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWrite() {
+s32 PS4_SYSV_ABI sceKernelWrite() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWriteSdkEventLog() {
+s32 PS4_SYSV_ABI sceKernelWriteSdkEventLog() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelWritev() {
+s32 PS4_SYSV_ABI sceKernelWritev() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelYieldCpumode() {
+s32 PS4_SYSV_ABI sceKernelYieldCpumode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceCreateForMonoMutex() {
+s32 PS4_SYSV_ABI sceLibcMspaceCreateForMonoMutex() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAtfork() {
+s32 PS4_SYSV_ABI scePthreadAtfork() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrDestroy() {
+s32 PS4_SYSV_ABI scePthreadAttrDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGet() {
+s32 PS4_SYSV_ABI scePthreadAttrGet() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetaffinity() {
+s32 PS4_SYSV_ABI scePthreadAttrGetaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetdetachstate() {
+s32 PS4_SYSV_ABI scePthreadAttrGetdetachstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetguardsize() {
+s32 PS4_SYSV_ABI scePthreadAttrGetguardsize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetinheritsched() {
+s32 PS4_SYSV_ABI scePthreadAttrGetinheritsched() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetschedparam() {
+s32 PS4_SYSV_ABI scePthreadAttrGetschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetschedpolicy() {
+s32 PS4_SYSV_ABI scePthreadAttrGetschedpolicy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetscope() {
+s32 PS4_SYSV_ABI scePthreadAttrGetscope() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetstack() {
+s32 PS4_SYSV_ABI scePthreadAttrGetstack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetstackaddr() {
+s32 PS4_SYSV_ABI scePthreadAttrGetstackaddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrGetstacksize() {
+s32 PS4_SYSV_ABI scePthreadAttrGetstacksize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrInit() {
+s32 PS4_SYSV_ABI scePthreadAttrInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetaffinity() {
+s32 PS4_SYSV_ABI scePthreadAttrSetaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetcreatesuspend() {
+s32 PS4_SYSV_ABI scePthreadAttrSetcreatesuspend() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetdetachstate() {
+s32 PS4_SYSV_ABI scePthreadAttrSetdetachstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetguardsize() {
+s32 PS4_SYSV_ABI scePthreadAttrSetguardsize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetinheritsched() {
+s32 PS4_SYSV_ABI scePthreadAttrSetinheritsched() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetschedparam() {
+s32 PS4_SYSV_ABI scePthreadAttrSetschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetschedpolicy() {
+s32 PS4_SYSV_ABI scePthreadAttrSetschedpolicy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetscope() {
+s32 PS4_SYSV_ABI scePthreadAttrSetscope() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetstack() {
+s32 PS4_SYSV_ABI scePthreadAttrSetstack() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetstackaddr() {
+s32 PS4_SYSV_ABI scePthreadAttrSetstackaddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadAttrSetstacksize() {
+s32 PS4_SYSV_ABI scePthreadAttrSetstacksize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierattrDestroy() {
+s32 PS4_SYSV_ABI scePthreadBarrierattrDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierattrGetpshared() {
+s32 PS4_SYSV_ABI scePthreadBarrierattrGetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierattrInit() {
+s32 PS4_SYSV_ABI scePthreadBarrierattrInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierattrSetpshared() {
+s32 PS4_SYSV_ABI scePthreadBarrierattrSetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierDestroy() {
+s32 PS4_SYSV_ABI scePthreadBarrierDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierInit() {
+s32 PS4_SYSV_ABI scePthreadBarrierInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadBarrierWait() {
+s32 PS4_SYSV_ABI scePthreadBarrierWait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCancel() {
+s32 PS4_SYSV_ABI scePthreadCancel() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrDestroy() {
+s32 PS4_SYSV_ABI scePthreadCondattrDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrGetclock() {
+s32 PS4_SYSV_ABI scePthreadCondattrGetclock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrGetpshared() {
+s32 PS4_SYSV_ABI scePthreadCondattrGetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrInit() {
+s32 PS4_SYSV_ABI scePthreadCondattrInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrSetclock() {
+s32 PS4_SYSV_ABI scePthreadCondattrSetclock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondattrSetpshared() {
+s32 PS4_SYSV_ABI scePthreadCondattrSetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondBroadcast() {
+s32 PS4_SYSV_ABI scePthreadCondBroadcast() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondDestroy() {
+s32 PS4_SYSV_ABI scePthreadCondDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondInit() {
+s32 PS4_SYSV_ABI scePthreadCondInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondSignal() {
+s32 PS4_SYSV_ABI scePthreadCondSignal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondSignalto() {
+s32 PS4_SYSV_ABI scePthreadCondSignalto() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondTimedwait() {
+s32 PS4_SYSV_ABI scePthreadCondTimedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCondWait() {
+s32 PS4_SYSV_ABI scePthreadCondWait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadCreate() {
+s32 PS4_SYSV_ABI scePthreadCreate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadDetach() {
+s32 PS4_SYSV_ABI scePthreadDetach() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadEqual() {
+s32 PS4_SYSV_ABI scePthreadEqual() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadExit() {
+s32 PS4_SYSV_ABI scePthreadExit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetaffinity() {
+s32 PS4_SYSV_ABI scePthreadGetaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetconcurrency() {
+s32 PS4_SYSV_ABI scePthreadGetconcurrency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetcpuclockid() {
+s32 PS4_SYSV_ABI scePthreadGetcpuclockid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetname() {
+s32 PS4_SYSV_ABI scePthreadGetname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetprio() {
+s32 PS4_SYSV_ABI scePthreadGetprio() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetschedparam() {
+s32 PS4_SYSV_ABI scePthreadGetschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetspecific() {
+s32 PS4_SYSV_ABI scePthreadGetspecific() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadGetthreadid() {
+s32 PS4_SYSV_ABI scePthreadGetthreadid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadJoin() {
+s32 PS4_SYSV_ABI scePthreadJoin() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadKeyCreate() {
+s32 PS4_SYSV_ABI scePthreadKeyCreate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadKeyDelete() {
+s32 PS4_SYSV_ABI scePthreadKeyDelete() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMain() {
+s32 PS4_SYSV_ABI scePthreadMain() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMulti() {
+s32 PS4_SYSV_ABI scePthreadMulti() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrDestroy() {
+s32 PS4_SYSV_ABI scePthreadMutexattrDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrGetkind() {
+s32 PS4_SYSV_ABI scePthreadMutexattrGetkind() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrGetprioceiling() {
+s32 PS4_SYSV_ABI scePthreadMutexattrGetprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrGetprotocol() {
+s32 PS4_SYSV_ABI scePthreadMutexattrGetprotocol() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrGetpshared() {
+s32 PS4_SYSV_ABI scePthreadMutexattrGetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrGettype() {
+s32 PS4_SYSV_ABI scePthreadMutexattrGettype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrInit() {
+s32 PS4_SYSV_ABI scePthreadMutexattrInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrInitForInternalLibc() {
+s32 PS4_SYSV_ABI scePthreadMutexattrInitForInternalLibc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrSetkind() {
+s32 PS4_SYSV_ABI scePthreadMutexattrSetkind() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrSetprioceiling() {
+s32 PS4_SYSV_ABI scePthreadMutexattrSetprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrSetprotocol() {
+s32 PS4_SYSV_ABI scePthreadMutexattrSetprotocol() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrSetpshared() {
+s32 PS4_SYSV_ABI scePthreadMutexattrSetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexattrSettype() {
+s32 PS4_SYSV_ABI scePthreadMutexattrSettype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexDestroy() {
+s32 PS4_SYSV_ABI scePthreadMutexDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexGetprioceiling() {
+s32 PS4_SYSV_ABI scePthreadMutexGetprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexGetspinloops() {
+s32 PS4_SYSV_ABI scePthreadMutexGetspinloops() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexGetyieldloops() {
+s32 PS4_SYSV_ABI scePthreadMutexGetyieldloops() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexInit() {
+s32 PS4_SYSV_ABI scePthreadMutexInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexInitForInternalLibc() {
+s32 PS4_SYSV_ABI scePthreadMutexInitForInternalLibc() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexIsowned() {
+s32 PS4_SYSV_ABI scePthreadMutexIsowned() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexLock() {
+s32 PS4_SYSV_ABI scePthreadMutexLock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexSetprioceiling() {
+s32 PS4_SYSV_ABI scePthreadMutexSetprioceiling() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexSetspinloops() {
+s32 PS4_SYSV_ABI scePthreadMutexSetspinloops() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexSetyieldloops() {
+s32 PS4_SYSV_ABI scePthreadMutexSetyieldloops() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexTimedlock() {
+s32 PS4_SYSV_ABI scePthreadMutexTimedlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexTrylock() {
+s32 PS4_SYSV_ABI scePthreadMutexTrylock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadMutexUnlock() {
+s32 PS4_SYSV_ABI scePthreadMutexUnlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadOnce() {
+s32 PS4_SYSV_ABI scePthreadOnce() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRename() {
+s32 PS4_SYSV_ABI scePthreadRename() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadResume() {
+s32 PS4_SYSV_ABI scePthreadResume() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadResumeAll() {
+s32 PS4_SYSV_ABI scePthreadResumeAll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrDestroy() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrGetpshared() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrGetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrGettype() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrGettype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrInit() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrSetpshared() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrSetpshared() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockattrSettype() {
+s32 PS4_SYSV_ABI scePthreadRwlockattrSettype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockDestroy() {
+s32 PS4_SYSV_ABI scePthreadRwlockDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockInit() {
+s32 PS4_SYSV_ABI scePthreadRwlockInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockRdlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockRdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockTimedrdlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockTimedrdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockTimedwrlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockTimedwrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockTryrdlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockTryrdlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockTrywrlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockTrywrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockUnlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockUnlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadRwlockWrlock() {
+s32 PS4_SYSV_ABI scePthreadRwlockWrlock() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSelf() {
+s32 PS4_SYSV_ABI scePthreadSelf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemDestroy() {
+s32 PS4_SYSV_ABI scePthreadSemDestroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemGetvalue() {
+s32 PS4_SYSV_ABI scePthreadSemGetvalue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemInit() {
+s32 PS4_SYSV_ABI scePthreadSemInit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemPost() {
+s32 PS4_SYSV_ABI scePthreadSemPost() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemTimedwait() {
+s32 PS4_SYSV_ABI scePthreadSemTimedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemTrywait() {
+s32 PS4_SYSV_ABI scePthreadSemTrywait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSemWait() {
+s32 PS4_SYSV_ABI scePthreadSemWait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetaffinity() {
+s32 PS4_SYSV_ABI scePthreadSetaffinity() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetBesteffort() {
+s32 PS4_SYSV_ABI scePthreadSetBesteffort() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetcancelstate() {
+s32 PS4_SYSV_ABI scePthreadSetcancelstate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetcanceltype() {
+s32 PS4_SYSV_ABI scePthreadSetcanceltype() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetconcurrency() {
+s32 PS4_SYSV_ABI scePthreadSetconcurrency() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetDefaultstacksize() {
+s32 PS4_SYSV_ABI scePthreadSetDefaultstacksize() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetName() {
+s32 PS4_SYSV_ABI scePthreadSetName() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetprio() {
+s32 PS4_SYSV_ABI scePthreadSetprio() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetschedparam() {
+s32 PS4_SYSV_ABI scePthreadSetschedparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSetspecific() {
+s32 PS4_SYSV_ABI scePthreadSetspecific() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSingle() {
+s32 PS4_SYSV_ABI scePthreadSingle() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSuspend() {
+s32 PS4_SYSV_ABI scePthreadSuspend() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadSuspendAll() {
+s32 PS4_SYSV_ABI scePthreadSuspendAll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadTestcancel() {
+s32 PS4_SYSV_ABI scePthreadTestcancel() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadTimedjoin() {
+s32 PS4_SYSV_ABI scePthreadTimedjoin() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePthreadYield() {
+s32 PS4_SYSV_ABI scePthreadYield() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_get_priority_max() {
+s32 PS4_SYSV_ABI sched_get_priority_max() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_get_priority_min() {
+s32 PS4_SYSV_ABI sched_get_priority_min() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_getparam() {
+s32 PS4_SYSV_ABI sched_getparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_getscheduler() {
+s32 PS4_SYSV_ABI sched_getscheduler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_rr_get_interval() {
+s32 PS4_SYSV_ABI sched_rr_get_interval() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_setparam() {
+s32 PS4_SYSV_ABI sched_setparam() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_setscheduler() {
+s32 PS4_SYSV_ABI sched_setscheduler() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sched_yield() {
+s32 PS4_SYSV_ABI sched_yield() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI select() {
+s32 PS4_SYSV_ABI select() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_close() {
+s32 PS4_SYSV_ABI sem_close() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_destroy() {
+s32 PS4_SYSV_ABI sem_destroy() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_getvalue() {
+s32 PS4_SYSV_ABI sem_getvalue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_init() {
+s32 PS4_SYSV_ABI sem_init() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_open() {
+s32 PS4_SYSV_ABI sem_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_post() {
+s32 PS4_SYSV_ABI sem_post() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_reltimedwait_np() {
+s32 PS4_SYSV_ABI sem_reltimedwait_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_timedwait() {
+s32 PS4_SYSV_ABI sem_timedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_trywait() {
+s32 PS4_SYSV_ABI sem_trywait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_unlink() {
+s32 PS4_SYSV_ABI sem_unlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sem_wait() {
+s32 PS4_SYSV_ABI sem_wait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI send() {
+s32 PS4_SYSV_ABI send() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sendfile() {
+s32 PS4_SYSV_ABI sendfile() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sendmsg() {
+s32 PS4_SYSV_ABI sendmsg() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sendto() {
+s32 PS4_SYSV_ABI sendto() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI set_phys_fmem_limit() {
+s32 PS4_SYSV_ABI set_phys_fmem_limit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setcontext() {
+s32 PS4_SYSV_ABI setcontext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setegid() {
+s32 PS4_SYSV_ABI setegid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI seteuid() {
+s32 PS4_SYSV_ABI seteuid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setgroups() {
+s32 PS4_SYSV_ABI setgroups() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setitimer() {
+s32 PS4_SYSV_ABI setitimer() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setpriority() {
+s32 PS4_SYSV_ABI setpriority() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setregid() {
+s32 PS4_SYSV_ABI setregid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setreuid() {
+s32 PS4_SYSV_ABI setreuid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setrlimit() {
+s32 PS4_SYSV_ABI setrlimit() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setsockopt() {
+s32 PS4_SYSV_ABI setsockopt() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI settimeofday() {
+s32 PS4_SYSV_ABI settimeofday() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setuid() {
+s32 PS4_SYSV_ABI setuid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI shm_open() {
+s32 PS4_SYSV_ABI shm_open() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI shm_unlink() {
+s32 PS4_SYSV_ABI shm_unlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI shutdown() {
+s32 PS4_SYSV_ABI shutdown() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI siglongjmp() {
+s32 PS4_SYSV_ABI siglongjmp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigpending() {
+s32 PS4_SYSV_ABI sigpending() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigqueue() {
+s32 PS4_SYSV_ABI sigqueue() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigreturn() {
+s32 PS4_SYSV_ABI sigreturn() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigsetjmp() {
+s32 PS4_SYSV_ABI sigsetjmp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigtimedwait() {
+s32 PS4_SYSV_ABI sigtimedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigwait() {
+s32 PS4_SYSV_ABI sigwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigwaitinfo() {
+s32 PS4_SYSV_ABI sigwaitinfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sleep() {
+s32 PS4_SYSV_ABI sleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI socket() {
+s32 PS4_SYSV_ABI socket() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI stat() {
+s32 PS4_SYSV_ABI stat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI swapcontext() {
+s32 PS4_SYSV_ABI swapcontext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sync() {
+s32 PS4_SYSV_ABI sync() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysarch() {
+s32 PS4_SYSV_ABI sysarch() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysctl() {
+s32 PS4_SYSV_ABI sysctl() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysctlbyname() {
+s32 PS4_SYSV_ABI sysctlbyname() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysctlnametomib() {
+s32 PS4_SYSV_ABI sysctlnametomib() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysKernelGetIntdevModeForRcmgr() {
+s32 PS4_SYSV_ABI sysKernelGetIntdevModeForRcmgr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysKernelGetLowerLimitSysexVersion() {
+s32 PS4_SYSV_ABI sysKernelGetLowerLimitSysexVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysKernelGetLowerLimitUpdVersion() {
+s32 PS4_SYSV_ABI sysKernelGetLowerLimitUpdVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysKernelGetManufacturingMode() {
+s32 PS4_SYSV_ABI sysKernelGetManufacturingMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sysKernelGetUpdVersion() {
+s32 PS4_SYSV_ABI sysKernelGetUpdVersion() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI system() {
+s32 PS4_SYSV_ABI system() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcdrain() {
+s32 PS4_SYSV_ABI tcdrain() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcflow() {
+s32 PS4_SYSV_ABI tcflow() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcflush() {
+s32 PS4_SYSV_ABI tcflush() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcgetattr() {
+s32 PS4_SYSV_ABI tcgetattr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcgetpgrp() {
+s32 PS4_SYSV_ABI tcgetpgrp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcgetsid() {
+s32 PS4_SYSV_ABI tcgetsid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcsendbreak() {
+s32 PS4_SYSV_ABI tcsendbreak() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcsetattr() {
+s32 PS4_SYSV_ABI tcsetattr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcsetpgrp() {
+s32 PS4_SYSV_ABI tcsetpgrp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tcsetsid() {
+s32 PS4_SYSV_ABI tcsetsid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI truncate() {
+s32 PS4_SYSV_ABI truncate() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI unlink() {
+s32 PS4_SYSV_ABI unlink() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI usleep() {
+s32 PS4_SYSV_ABI usleep() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI utimes() {
+s32 PS4_SYSV_ABI utimes() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI uuidgen() {
+s32 PS4_SYSV_ABI uuidgen() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wait() {
+s32 PS4_SYSV_ABI wait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wait3() {
+s32 PS4_SYSV_ABI wait3() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI waitpid() {
+s32 PS4_SYSV_ABI waitpid() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI write() {
+s32 PS4_SYSV_ABI write() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI writev() {
+s32 PS4_SYSV_ABI writev() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_37DE1AD13E05E3E5() {
+s32 PS4_SYSV_ABI Func_37DE1AD13E05E3E5() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_71A7C3C5AEB8B0EE() {
+s32 PS4_SYSV_ABI Func_71A7C3C5AEB8B0EE() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_866AB0F0694DFAD2() {
+s32 PS4_SYSV_ABI Func_866AB0F0694DFAD2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8CCB8DA014423D48() {
+s32 PS4_SYSV_ABI Func_8CCB8DA014423D48() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_AAD1CE2ED156ABB6() {
+s32 PS4_SYSV_ABI Func_AAD1CE2ED156ABB6() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BDF61AC64C672574() {
+s32 PS4_SYSV_ABI Func_BDF61AC64C672574() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BFEA9394D8C5EA41() {
+s32 PS4_SYSV_ABI Func_BFEA9394D8C5EA41() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C740D02B44D70E4D() {
+s32 PS4_SYSV_ABI Func_C740D02B44D70E4D() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D6FDB7C3B4679227() {
+s32 PS4_SYSV_ABI Func_D6FDB7C3B4679227() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DB02A3203D221953() {
+s32 PS4_SYSV_ABI Func_DB02A3203D221953() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DB1838257BDA27A9() {
+s32 PS4_SYSV_ABI Func_DB1838257BDA27A9() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FCF341DED7E70FC7() {
+s32 PS4_SYSV_ABI Func_FCF341DED7E70FC7() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_FEE3EAF3655B44C2() {
+s32 PS4_SYSV_ABI Func_FEE3EAF3655B44C2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0A531D1EEBBE4750() {
+s32 PS4_SYSV_ABI Func_0A531D1EEBBE4750() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleInfo2() {
+s32 PS4_SYSV_ABI sceKernelGetModuleInfo2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelGetModuleList2() {
+s32 PS4_SYSV_ABI sceKernelGetModuleList2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsProspero() {
+s32 PS4_SYSV_ABI sceKernelIsProspero() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceKernelIsModuleLoaded() {
+s32 PS4_SYSV_ABI sceKernelIsModuleLoaded() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }

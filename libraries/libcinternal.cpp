@@ -8,15317 +8,15317 @@
 
 namespace Libraries::LibcInternal {
 
-int PS4_SYSV_ABI sceLibcHeapGetTraceInfo() {
+s32 PS4_SYSV_ABI sceLibcHeapGetTraceInfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __absvdi2() {
+s32 PS4_SYSV_ABI __absvdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __absvsi2() {
+s32 PS4_SYSV_ABI __absvsi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __absvti2() {
+s32 PS4_SYSV_ABI __absvti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __adddf3() {
+s32 PS4_SYSV_ABI __adddf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __addsf3() {
+s32 PS4_SYSV_ABI __addsf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __addvdi3() {
+s32 PS4_SYSV_ABI __addvdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __addvsi3() {
+s32 PS4_SYSV_ABI __addvsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __addvti3() {
+s32 PS4_SYSV_ABI __addvti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ashldi3() {
+s32 PS4_SYSV_ABI __ashldi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ashlti3() {
+s32 PS4_SYSV_ABI __ashlti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ashrdi3() {
+s32 PS4_SYSV_ABI __ashrdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ashrti3() {
+s32 PS4_SYSV_ABI __ashrti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange_1() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange_2() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange_4() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange_8() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_compare_exchange_n() {
+s32 PS4_SYSV_ABI __atomic_compare_exchange_n() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange() {
+s32 PS4_SYSV_ABI __atomic_exchange() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange_1() {
+s32 PS4_SYSV_ABI __atomic_exchange_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange_2() {
+s32 PS4_SYSV_ABI __atomic_exchange_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange_4() {
+s32 PS4_SYSV_ABI __atomic_exchange_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange_8() {
+s32 PS4_SYSV_ABI __atomic_exchange_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_exchange_n() {
+s32 PS4_SYSV_ABI __atomic_exchange_n() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_add_1() {
+s32 PS4_SYSV_ABI __atomic_fetch_add_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_add_2() {
+s32 PS4_SYSV_ABI __atomic_fetch_add_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_add_4() {
+s32 PS4_SYSV_ABI __atomic_fetch_add_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_add_8() {
+s32 PS4_SYSV_ABI __atomic_fetch_add_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_and_1() {
+s32 PS4_SYSV_ABI __atomic_fetch_and_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_and_2() {
+s32 PS4_SYSV_ABI __atomic_fetch_and_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_and_4() {
+s32 PS4_SYSV_ABI __atomic_fetch_and_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_and_8() {
+s32 PS4_SYSV_ABI __atomic_fetch_and_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_or_1() {
+s32 PS4_SYSV_ABI __atomic_fetch_or_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_or_2() {
+s32 PS4_SYSV_ABI __atomic_fetch_or_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_or_4() {
+s32 PS4_SYSV_ABI __atomic_fetch_or_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_or_8() {
+s32 PS4_SYSV_ABI __atomic_fetch_or_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_sub_1() {
+s32 PS4_SYSV_ABI __atomic_fetch_sub_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_sub_2() {
+s32 PS4_SYSV_ABI __atomic_fetch_sub_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_sub_4() {
+s32 PS4_SYSV_ABI __atomic_fetch_sub_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_sub_8() {
+s32 PS4_SYSV_ABI __atomic_fetch_sub_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_xor_1() {
+s32 PS4_SYSV_ABI __atomic_fetch_xor_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_xor_2() {
+s32 PS4_SYSV_ABI __atomic_fetch_xor_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_xor_4() {
+s32 PS4_SYSV_ABI __atomic_fetch_xor_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_fetch_xor_8() {
+s32 PS4_SYSV_ABI __atomic_fetch_xor_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_is_lock_free() {
+s32 PS4_SYSV_ABI __atomic_is_lock_free() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load() {
+s32 PS4_SYSV_ABI __atomic_load() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load_1() {
+s32 PS4_SYSV_ABI __atomic_load_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load_2() {
+s32 PS4_SYSV_ABI __atomic_load_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load_4() {
+s32 PS4_SYSV_ABI __atomic_load_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load_8() {
+s32 PS4_SYSV_ABI __atomic_load_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_load_n() {
+s32 PS4_SYSV_ABI __atomic_load_n() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store() {
+s32 PS4_SYSV_ABI __atomic_store() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store_1() {
+s32 PS4_SYSV_ABI __atomic_store_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store_2() {
+s32 PS4_SYSV_ABI __atomic_store_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store_4() {
+s32 PS4_SYSV_ABI __atomic_store_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store_8() {
+s32 PS4_SYSV_ABI __atomic_store_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __atomic_store_n() {
+s32 PS4_SYSV_ABI __atomic_store_n() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cleanup() {
+s32 PS4_SYSV_ABI __cleanup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __clzdi2() {
+s32 PS4_SYSV_ABI __clzdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __clzsi2() {
+s32 PS4_SYSV_ABI __clzsi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __clzti2() {
+s32 PS4_SYSV_ABI __clzti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cmpdi2() {
+s32 PS4_SYSV_ABI __cmpdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cmpti2() {
+s32 PS4_SYSV_ABI __cmpti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ctzdi2() {
+s32 PS4_SYSV_ABI __ctzdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ctzsi2() {
+s32 PS4_SYSV_ABI __ctzsi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ctzti2() {
+s32 PS4_SYSV_ABI __ctzti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_allocate_dependent_exception() {
+s32 PS4_SYSV_ABI __cxa_allocate_dependent_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_allocate_exception() {
+s32 PS4_SYSV_ABI __cxa_allocate_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_atexit() {
+s32 PS4_SYSV_ABI __cxa_atexit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_bad_cast() {
+s32 PS4_SYSV_ABI __cxa_bad_cast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_bad_typeid() {
+s32 PS4_SYSV_ABI __cxa_bad_typeid() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_begin_catch() {
+s32 PS4_SYSV_ABI __cxa_begin_catch() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_call_unexpected() {
+s32 PS4_SYSV_ABI __cxa_call_unexpected() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_current_exception_type() {
+s32 PS4_SYSV_ABI __cxa_current_exception_type() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_current_primary_exception() {
+s32 PS4_SYSV_ABI __cxa_current_primary_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_decrement_exception_refcount() {
+s32 PS4_SYSV_ABI __cxa_decrement_exception_refcount() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_demangle() {
+s32 PS4_SYSV_ABI __cxa_demangle() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_end_catch() {
+s32 PS4_SYSV_ABI __cxa_end_catch() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_finalize() {
+s32 PS4_SYSV_ABI __cxa_finalize() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_free_dependent_exception() {
+s32 PS4_SYSV_ABI __cxa_free_dependent_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_free_exception() {
+s32 PS4_SYSV_ABI __cxa_free_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_get_exception_ptr() {
+s32 PS4_SYSV_ABI __cxa_get_exception_ptr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_get_globals() {
+s32 PS4_SYSV_ABI __cxa_get_globals() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_get_globals_fast() {
+s32 PS4_SYSV_ABI __cxa_get_globals_fast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_guard_abort() {
+s32 PS4_SYSV_ABI __cxa_guard_abort() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_guard_acquire() {
+s32 PS4_SYSV_ABI __cxa_guard_acquire() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_guard_release() {
+s32 PS4_SYSV_ABI __cxa_guard_release() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_increment_exception_refcount() {
+s32 PS4_SYSV_ABI __cxa_increment_exception_refcount() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_pure_virtual() {
+s32 PS4_SYSV_ABI __cxa_pure_virtual() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_rethrow() {
+s32 PS4_SYSV_ABI __cxa_rethrow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_rethrow_primary_exception() {
+s32 PS4_SYSV_ABI __cxa_rethrow_primary_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __cxa_throw() {
+s32 PS4_SYSV_ABI __cxa_throw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divdc3() {
+s32 PS4_SYSV_ABI __divdc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divdf3() {
+s32 PS4_SYSV_ABI __divdf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divdi3() {
+s32 PS4_SYSV_ABI __divdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divmoddi4() {
+s32 PS4_SYSV_ABI __divmoddi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divmodsi4() {
+s32 PS4_SYSV_ABI __divmodsi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divsc3() {
+s32 PS4_SYSV_ABI __divsc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divsf3() {
+s32 PS4_SYSV_ABI __divsf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divsi3() {
+s32 PS4_SYSV_ABI __divsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divti3() {
+s32 PS4_SYSV_ABI __divti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __divxc3() {
+s32 PS4_SYSV_ABI __divxc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __dynamic_cast() {
+s32 PS4_SYSV_ABI __dynamic_cast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __eqdf2() {
+s32 PS4_SYSV_ABI __eqdf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __eqsf2() {
+s32 PS4_SYSV_ABI __eqsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __extendsfdf2() {
+s32 PS4_SYSV_ABI __extendsfdf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fe_dfl_env() {
+s32 PS4_SYSV_ABI __fe_dfl_env() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fedisableexcept() {
+s32 PS4_SYSV_ABI __fedisableexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __feenableexcept() {
+s32 PS4_SYSV_ABI __feenableexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fflush() {
+s32 PS4_SYSV_ABI __fflush() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ffsdi2() {
+s32 PS4_SYSV_ABI __ffsdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ffsti2() {
+s32 PS4_SYSV_ABI __ffsti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixdfdi() {
+s32 PS4_SYSV_ABI __fixdfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixdfsi() {
+s32 PS4_SYSV_ABI __fixdfsi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixdfti() {
+s32 PS4_SYSV_ABI __fixdfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixsfdi() {
+s32 PS4_SYSV_ABI __fixsfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixsfsi() {
+s32 PS4_SYSV_ABI __fixsfsi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixsfti() {
+s32 PS4_SYSV_ABI __fixsfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsdfdi() {
+s32 PS4_SYSV_ABI __fixunsdfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsdfsi() {
+s32 PS4_SYSV_ABI __fixunsdfsi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsdfti() {
+s32 PS4_SYSV_ABI __fixunsdfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunssfdi() {
+s32 PS4_SYSV_ABI __fixunssfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunssfsi() {
+s32 PS4_SYSV_ABI __fixunssfsi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunssfti() {
+s32 PS4_SYSV_ABI __fixunssfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsxfdi() {
+s32 PS4_SYSV_ABI __fixunsxfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsxfsi() {
+s32 PS4_SYSV_ABI __fixunsxfsi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixunsxfti() {
+s32 PS4_SYSV_ABI __fixunsxfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixxfdi() {
+s32 PS4_SYSV_ABI __fixxfdi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fixxfti() {
+s32 PS4_SYSV_ABI __fixxfti() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatdidf() {
+s32 PS4_SYSV_ABI __floatdidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatdisf() {
+s32 PS4_SYSV_ABI __floatdisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatdixf() {
+s32 PS4_SYSV_ABI __floatdixf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatsidf() {
+s32 PS4_SYSV_ABI __floatsidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatsisf() {
+s32 PS4_SYSV_ABI __floatsisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floattidf() {
+s32 PS4_SYSV_ABI __floattidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floattisf() {
+s32 PS4_SYSV_ABI __floattisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floattixf() {
+s32 PS4_SYSV_ABI __floattixf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatundidf() {
+s32 PS4_SYSV_ABI __floatundidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatundisf() {
+s32 PS4_SYSV_ABI __floatundisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatundixf() {
+s32 PS4_SYSV_ABI __floatundixf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatunsidf() {
+s32 PS4_SYSV_ABI __floatunsidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatunsisf() {
+s32 PS4_SYSV_ABI __floatunsisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatuntidf() {
+s32 PS4_SYSV_ABI __floatuntidf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatuntisf() {
+s32 PS4_SYSV_ABI __floatuntisf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __floatuntixf() {
+s32 PS4_SYSV_ABI __floatuntixf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fpclassifyd() {
+s32 PS4_SYSV_ABI __fpclassifyd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fpclassifyf() {
+s32 PS4_SYSV_ABI __fpclassifyf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __fpclassifyl() {
+s32 PS4_SYSV_ABI __fpclassifyl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __gedf2() {
+s32 PS4_SYSV_ABI __gedf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __gesf2() {
+s32 PS4_SYSV_ABI __gesf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __gtdf2() {
+s32 PS4_SYSV_ABI __gtdf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __gtsf2() {
+s32 PS4_SYSV_ABI __gtsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __gxx_personality_v0() {
+s32 PS4_SYSV_ABI __gxx_personality_v0() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_addr() {
+s32 PS4_SYSV_ABI __inet_addr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_aton() {
+s32 PS4_SYSV_ABI __inet_aton() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_ntoa() {
+s32 PS4_SYSV_ABI __inet_ntoa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __inet_ntoa_r() {
+s32 PS4_SYSV_ABI __inet_ntoa_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isfinite() {
+s32 PS4_SYSV_ABI __isfinite() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isfinitef() {
+s32 PS4_SYSV_ABI __isfinitef() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isfinitel() {
+s32 PS4_SYSV_ABI __isfinitel() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isinf() {
+s32 PS4_SYSV_ABI __isinf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isinff() {
+s32 PS4_SYSV_ABI __isinff() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isinfl() {
+s32 PS4_SYSV_ABI __isinfl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnan() {
+s32 PS4_SYSV_ABI __isnan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnanf() {
+s32 PS4_SYSV_ABI __isnanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnanl() {
+s32 PS4_SYSV_ABI __isnanl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnormal() {
+s32 PS4_SYSV_ABI __isnormal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnormalf() {
+s32 PS4_SYSV_ABI __isnormalf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isnormall() {
+s32 PS4_SYSV_ABI __isnormall() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __isthreaded() {
+s32 PS4_SYSV_ABI __isthreaded() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __kernel_cos() {
+s32 PS4_SYSV_ABI __kernel_cos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __kernel_cosdf() {
+s32 PS4_SYSV_ABI __kernel_cosdf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __kernel_rem_pio2() {
+s32 PS4_SYSV_ABI __kernel_rem_pio2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __kernel_sin() {
+s32 PS4_SYSV_ABI __kernel_sin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __kernel_sindf() {
+s32 PS4_SYSV_ABI __kernel_sindf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ledf2() {
+s32 PS4_SYSV_ABI __ledf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __lesf2() {
+s32 PS4_SYSV_ABI __lesf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __longjmp() {
+s32 PS4_SYSV_ABI __longjmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __lshrdi3() {
+s32 PS4_SYSV_ABI __lshrdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __lshrti3() {
+s32 PS4_SYSV_ABI __lshrti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ltdf2() {
+s32 PS4_SYSV_ABI __ltdf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ltsf2() {
+s32 PS4_SYSV_ABI __ltsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mb_cur_max() {
+s32 PS4_SYSV_ABI __mb_cur_max() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mb_sb_limit() {
+s32 PS4_SYSV_ABI __mb_sb_limit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __moddi3() {
+s32 PS4_SYSV_ABI __moddi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __modsi3() {
+s32 PS4_SYSV_ABI __modsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __modti3() {
+s32 PS4_SYSV_ABI __modti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __muldc3() {
+s32 PS4_SYSV_ABI __muldc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __muldf3() {
+s32 PS4_SYSV_ABI __muldf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __muldi3() {
+s32 PS4_SYSV_ABI __muldi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulodi4() {
+s32 PS4_SYSV_ABI __mulodi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulosi4() {
+s32 PS4_SYSV_ABI __mulosi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __muloti4() {
+s32 PS4_SYSV_ABI __muloti4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulsc3() {
+s32 PS4_SYSV_ABI __mulsc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulsf3() {
+s32 PS4_SYSV_ABI __mulsf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __multi3() {
+s32 PS4_SYSV_ABI __multi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulvdi3() {
+s32 PS4_SYSV_ABI __mulvdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulvsi3() {
+s32 PS4_SYSV_ABI __mulvsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulvti3() {
+s32 PS4_SYSV_ABI __mulvti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __mulxc3() {
+s32 PS4_SYSV_ABI __mulxc3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __nedf2() {
+s32 PS4_SYSV_ABI __nedf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negdf2() {
+s32 PS4_SYSV_ABI __negdf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negdi2() {
+s32 PS4_SYSV_ABI __negdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negsf2() {
+s32 PS4_SYSV_ABI __negsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negti2() {
+s32 PS4_SYSV_ABI __negti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negvdi2() {
+s32 PS4_SYSV_ABI __negvdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negvsi2() {
+s32 PS4_SYSV_ABI __negvsi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __negvti2() {
+s32 PS4_SYSV_ABI __negvti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __nesf2() {
+s32 PS4_SYSV_ABI __nesf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __opendir2() {
+s32 PS4_SYSV_ABI __opendir2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __paritydi2() {
+s32 PS4_SYSV_ABI __paritydi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __paritysi2() {
+s32 PS4_SYSV_ABI __paritysi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __parityti2() {
+s32 PS4_SYSV_ABI __parityti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __popcountdi2() {
+s32 PS4_SYSV_ABI __popcountdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __popcountsi2() {
+s32 PS4_SYSV_ABI __popcountsi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __popcountti2() {
+s32 PS4_SYSV_ABI __popcountti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __powidf2() {
+s32 PS4_SYSV_ABI __powidf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __powisf2() {
+s32 PS4_SYSV_ABI __powisf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __powixf2() {
+s32 PS4_SYSV_ABI __powixf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __signbit() {
+s32 PS4_SYSV_ABI __signbit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __signbitf() {
+s32 PS4_SYSV_ABI __signbitf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __signbitl() {
+s32 PS4_SYSV_ABI __signbitl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __srefill() {
+s32 PS4_SYSV_ABI __srefill() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __srget() {
+s32 PS4_SYSV_ABI __srget() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __stderrp() {
+s32 PS4_SYSV_ABI __stderrp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __stdinp() {
+s32 PS4_SYSV_ABI __stdinp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __stdoutp() {
+s32 PS4_SYSV_ABI __stdoutp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __subdf3() {
+s32 PS4_SYSV_ABI __subdf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __subsf3() {
+s32 PS4_SYSV_ABI __subsf3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __subvdi3() {
+s32 PS4_SYSV_ABI __subvdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __subvsi3() {
+s32 PS4_SYSV_ABI __subvsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __subvti3() {
+s32 PS4_SYSV_ABI __subvti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __swbuf() {
+s32 PS4_SYSV_ABI __swbuf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_fetch_and_add_16() {
+s32 PS4_SYSV_ABI __sync_fetch_and_add_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_fetch_and_and_16() {
+s32 PS4_SYSV_ABI __sync_fetch_and_and_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_fetch_and_or_16() {
+s32 PS4_SYSV_ABI __sync_fetch_and_or_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_fetch_and_sub_16() {
+s32 PS4_SYSV_ABI __sync_fetch_and_sub_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_fetch_and_xor_16() {
+s32 PS4_SYSV_ABI __sync_fetch_and_xor_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __sync_lock_test_and_set_16() {
+s32 PS4_SYSV_ABI __sync_lock_test_and_set_16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __truncdfsf2() {
+s32 PS4_SYSV_ABI __truncdfsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ucmpdi2() {
+s32 PS4_SYSV_ABI __ucmpdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __ucmpti2() {
+s32 PS4_SYSV_ABI __ucmpti2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivdi3() {
+s32 PS4_SYSV_ABI __udivdi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivmoddi4() {
+s32 PS4_SYSV_ABI __udivmoddi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivmodsi4() {
+s32 PS4_SYSV_ABI __udivmodsi4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivmodti4() {
+s32 PS4_SYSV_ABI __udivmodti4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivsi3() {
+s32 PS4_SYSV_ABI __udivsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __udivti3() {
+s32 PS4_SYSV_ABI __udivti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __umoddi3() {
+s32 PS4_SYSV_ABI __umoddi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __umodsi3() {
+s32 PS4_SYSV_ABI __umodsi3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __umodti3() {
+s32 PS4_SYSV_ABI __umodti3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __unorddf2() {
+s32 PS4_SYSV_ABI __unorddf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __unordsf2() {
+s32 PS4_SYSV_ABI __unordsf2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI __vfprintf() {
+s32 PS4_SYSV_ABI __vfprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Assert() {
+s32 PS4_SYSV_ABI _Assert() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atan() {
+s32 PS4_SYSV_ABI _Atan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_strong() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_strong() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_strong_1() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_strong_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_strong_2() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_strong_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_strong_4() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_strong_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_strong_8() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_strong_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_weak() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_weak() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_weak_1() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_weak_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_weak_2() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_weak_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_weak_4() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_weak_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_compare_exchange_weak_8() {
+s32 PS4_SYSV_ABI _Atomic_compare_exchange_weak_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_copy() {
+s32 PS4_SYSV_ABI _Atomic_copy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_exchange() {
+s32 PS4_SYSV_ABI _Atomic_exchange() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_exchange_1() {
+s32 PS4_SYSV_ABI _Atomic_exchange_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_exchange_2() {
+s32 PS4_SYSV_ABI _Atomic_exchange_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_exchange_4() {
+s32 PS4_SYSV_ABI _Atomic_exchange_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_exchange_8() {
+s32 PS4_SYSV_ABI _Atomic_exchange_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_add_1() {
+s32 PS4_SYSV_ABI _Atomic_fetch_add_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_add_2() {
+s32 PS4_SYSV_ABI _Atomic_fetch_add_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_add_4() {
+s32 PS4_SYSV_ABI _Atomic_fetch_add_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_add_8() {
+s32 PS4_SYSV_ABI _Atomic_fetch_add_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_and_1() {
+s32 PS4_SYSV_ABI _Atomic_fetch_and_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_and_2() {
+s32 PS4_SYSV_ABI _Atomic_fetch_and_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_and_4() {
+s32 PS4_SYSV_ABI _Atomic_fetch_and_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_and_8() {
+s32 PS4_SYSV_ABI _Atomic_fetch_and_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_or_1() {
+s32 PS4_SYSV_ABI _Atomic_fetch_or_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_or_2() {
+s32 PS4_SYSV_ABI _Atomic_fetch_or_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_or_4() {
+s32 PS4_SYSV_ABI _Atomic_fetch_or_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_or_8() {
+s32 PS4_SYSV_ABI _Atomic_fetch_or_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_sub_1() {
+s32 PS4_SYSV_ABI _Atomic_fetch_sub_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_sub_2() {
+s32 PS4_SYSV_ABI _Atomic_fetch_sub_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_sub_4() {
+s32 PS4_SYSV_ABI _Atomic_fetch_sub_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_sub_8() {
+s32 PS4_SYSV_ABI _Atomic_fetch_sub_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_xor_1() {
+s32 PS4_SYSV_ABI _Atomic_fetch_xor_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_xor_2() {
+s32 PS4_SYSV_ABI _Atomic_fetch_xor_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_xor_4() {
+s32 PS4_SYSV_ABI _Atomic_fetch_xor_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_fetch_xor_8() {
+s32 PS4_SYSV_ABI _Atomic_fetch_xor_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_flag_clear() {
+s32 PS4_SYSV_ABI _Atomic_flag_clear() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_flag_test_and_set() {
+s32 PS4_SYSV_ABI _Atomic_flag_test_and_set() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_is_lock_free_1() {
+s32 PS4_SYSV_ABI _Atomic_is_lock_free_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_is_lock_free_2() {
+s32 PS4_SYSV_ABI _Atomic_is_lock_free_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_is_lock_free_4() {
+s32 PS4_SYSV_ABI _Atomic_is_lock_free_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_is_lock_free_8() {
+s32 PS4_SYSV_ABI _Atomic_is_lock_free_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_load_1() {
+s32 PS4_SYSV_ABI _Atomic_load_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_load_2() {
+s32 PS4_SYSV_ABI _Atomic_load_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_load_4() {
+s32 PS4_SYSV_ABI _Atomic_load_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_load_8() {
+s32 PS4_SYSV_ABI _Atomic_load_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_signal_fence() {
+s32 PS4_SYSV_ABI _Atomic_signal_fence() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_store_1() {
+s32 PS4_SYSV_ABI _Atomic_store_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_store_2() {
+s32 PS4_SYSV_ABI _Atomic_store_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_store_4() {
+s32 PS4_SYSV_ABI _Atomic_store_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_store_8() {
+s32 PS4_SYSV_ABI _Atomic_store_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atomic_thread_fence() {
+s32 PS4_SYSV_ABI _Atomic_thread_fence() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atqexit() {
+s32 PS4_SYSV_ABI _Atqexit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Atthreadexit() {
+s32 PS4_SYSV_ABI _Atthreadexit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Btowc() {
+s32 PS4_SYSV_ABI _Btowc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Call_once() {
+s32 PS4_SYSV_ABI _Call_once() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Call_onceEx() {
+s32 PS4_SYSV_ABI _Call_onceEx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Clocale() {
+s32 PS4_SYSV_ABI _Clocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Closreg() {
+s32 PS4_SYSV_ABI _Closreg() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_broadcast() {
+s32 PS4_SYSV_ABI _Cnd_broadcast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_destroy() {
+s32 PS4_SYSV_ABI _Cnd_destroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_do_broadcast_at_thread_exit() {
+s32 PS4_SYSV_ABI _Cnd_do_broadcast_at_thread_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_init() {
+s32 PS4_SYSV_ABI _Cnd_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_init_with_name() {
+s32 PS4_SYSV_ABI _Cnd_init_with_name() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_register_at_thread_exit() {
+s32 PS4_SYSV_ABI _Cnd_register_at_thread_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_signal() {
+s32 PS4_SYSV_ABI _Cnd_signal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_timedwait() {
+s32 PS4_SYSV_ABI _Cnd_timedwait() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_unregister_at_thread_exit() {
+s32 PS4_SYSV_ABI _Cnd_unregister_at_thread_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cnd_wait() {
+s32 PS4_SYSV_ABI _Cnd_wait() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Cosh() {
+s32 PS4_SYSV_ABI _Cosh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Costate() {
+s32 PS4_SYSV_ABI _Costate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _CStrftime() {
+s32 PS4_SYSV_ABI _CStrftime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _CStrxfrm() {
+s32 PS4_SYSV_ABI _CStrxfrm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _CTinfo() {
+s32 PS4_SYSV_ABI _CTinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Ctype() {
+s32 PS4_SYSV_ABI _Ctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _CurrentRuneLocale() {
+s32 PS4_SYSV_ABI _CurrentRuneLocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _CWcsxfrm() {
+s32 PS4_SYSV_ABI _CWcsxfrm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Daysto() {
+s32 PS4_SYSV_ABI _Daysto() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dbl() {
+s32 PS4_SYSV_ABI _Dbl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dclass() {
+s32 PS4_SYSV_ABI _Dclass() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _DefaultRuneLocale() {
+s32 PS4_SYSV_ABI _DefaultRuneLocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Deletegloballocale() {
+s32 PS4_SYSV_ABI _Deletegloballocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Denorm() {
+s32 PS4_SYSV_ABI _Denorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dint() {
+s32 PS4_SYSV_ABI _Dint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Divide() {
+s32 PS4_SYSV_ABI _Divide() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dnorm() {
+s32 PS4_SYSV_ABI _Dnorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Do_call() {
+s32 PS4_SYSV_ABI _Do_call() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dscale() {
+s32 PS4_SYSV_ABI _Dscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dsign() {
+s32 PS4_SYSV_ABI _Dsign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dtento() {
+s32 PS4_SYSV_ABI _Dtento() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dtest() {
+s32 PS4_SYSV_ABI _Dtest() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Dunscale() {
+s32 PS4_SYSV_ABI _Dunscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Eps() {
+s32 PS4_SYSV_ABI _Eps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Erf_one() {
+s32 PS4_SYSV_ABI _Erf_one() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Erf_small() {
+s32 PS4_SYSV_ABI _Erf_small() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Erfc() {
+s32 PS4_SYSV_ABI _Erfc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _err() {
+s32 PS4_SYSV_ABI _err() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Errno() {
+s32 PS4_SYSV_ABI _Errno() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Exit() {
+s32 PS4_SYSV_ABI _Exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Exp() {
+s32 PS4_SYSV_ABI _Exp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fac_tidy() {
+s32 PS4_SYSV_ABI _Fac_tidy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fail_s() {
+s32 PS4_SYSV_ABI _Fail_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FAtan() {
+s32 PS4_SYSV_ABI _FAtan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FCosh() {
+s32 PS4_SYSV_ABI _FCosh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDclass() {
+s32 PS4_SYSV_ABI _FDclass() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDenorm() {
+s32 PS4_SYSV_ABI _FDenorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDint() {
+s32 PS4_SYSV_ABI _FDint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDivide() {
+s32 PS4_SYSV_ABI _FDivide() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDnorm() {
+s32 PS4_SYSV_ABI _FDnorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDscale() {
+s32 PS4_SYSV_ABI _FDscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDsign() {
+s32 PS4_SYSV_ABI _FDsign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDtento() {
+s32 PS4_SYSV_ABI _FDtento() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDtest() {
+s32 PS4_SYSV_ABI _FDtest() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FDunscale() {
+s32 PS4_SYSV_ABI _FDunscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FEps() {
+s32 PS4_SYSV_ABI _FEps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Feraise() {
+s32 PS4_SYSV_ABI _Feraise() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FErf_one() {
+s32 PS4_SYSV_ABI _FErf_one() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FErf_small() {
+s32 PS4_SYSV_ABI _FErf_small() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FErfc() {
+s32 PS4_SYSV_ABI _FErfc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_add_8() {
+s32 PS4_SYSV_ABI _Fetch_add_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_and_8() {
+s32 PS4_SYSV_ABI _Fetch_and_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_and_seq_cst_1() {
+s32 PS4_SYSV_ABI _Fetch_and_seq_cst_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_and_seq_cst_2() {
+s32 PS4_SYSV_ABI _Fetch_and_seq_cst_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_and_seq_cst_4() {
+s32 PS4_SYSV_ABI _Fetch_and_seq_cst_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_or_8() {
+s32 PS4_SYSV_ABI _Fetch_or_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_or_seq_cst_1() {
+s32 PS4_SYSV_ABI _Fetch_or_seq_cst_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_or_seq_cst_2() {
+s32 PS4_SYSV_ABI _Fetch_or_seq_cst_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_or_seq_cst_4() {
+s32 PS4_SYSV_ABI _Fetch_or_seq_cst_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_xor_8() {
+s32 PS4_SYSV_ABI _Fetch_xor_8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_xor_seq_cst_1() {
+s32 PS4_SYSV_ABI _Fetch_xor_seq_cst_1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_xor_seq_cst_2() {
+s32 PS4_SYSV_ABI _Fetch_xor_seq_cst_2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fetch_xor_seq_cst_4() {
+s32 PS4_SYSV_ABI _Fetch_xor_seq_cst_4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FExp() {
+s32 PS4_SYSV_ABI _FExp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FFpcomp() {
+s32 PS4_SYSV_ABI _FFpcomp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FGamma_big() {
+s32 PS4_SYSV_ABI _FGamma_big() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fgpos() {
+s32 PS4_SYSV_ABI _Fgpos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FHypot() {
+s32 PS4_SYSV_ABI _FHypot() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Files() {
+s32 PS4_SYSV_ABI _Files() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FInf() {
+s32 PS4_SYSV_ABI _FInf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FLog() {
+s32 PS4_SYSV_ABI _FLog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FLogpoly() {
+s32 PS4_SYSV_ABI _FLogpoly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Flt() {
+s32 PS4_SYSV_ABI _Flt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fltrounds() {
+s32 PS4_SYSV_ABI _Fltrounds() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FNan() {
+s32 PS4_SYSV_ABI _FNan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fofind() {
+s32 PS4_SYSV_ABI _Fofind() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fofree() {
+s32 PS4_SYSV_ABI _Fofree() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fopen() {
+s32 PS4_SYSV_ABI _Fopen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Foprep() {
+s32 PS4_SYSV_ABI _Foprep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fpcomp() {
+s32 PS4_SYSV_ABI _Fpcomp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FPlsw() {
+s32 PS4_SYSV_ABI _FPlsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FPmsw() {
+s32 PS4_SYSV_ABI _FPmsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FPoly() {
+s32 PS4_SYSV_ABI _FPoly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FPow() {
+s32 PS4_SYSV_ABI _FPow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FQuad() {
+s32 PS4_SYSV_ABI _FQuad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FQuadph() {
+s32 PS4_SYSV_ABI _FQuadph() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FRecip() {
+s32 PS4_SYSV_ABI _FRecip() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FRint() {
+s32 PS4_SYSV_ABI _FRint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Frprep() {
+s32 PS4_SYSV_ABI _Frprep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FRteps() {
+s32 PS4_SYSV_ABI _FRteps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FSin() {
+s32 PS4_SYSV_ABI _FSin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FSincos() {
+s32 PS4_SYSV_ABI _FSincos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FSinh() {
+s32 PS4_SYSV_ABI _FSinh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FSnan() {
+s32 PS4_SYSV_ABI _FSnan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fspos() {
+s32 PS4_SYSV_ABI _Fspos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FTan() {
+s32 PS4_SYSV_ABI _FTan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FTgamma() {
+s32 PS4_SYSV_ABI _FTgamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Fwprep() {
+s32 PS4_SYSV_ABI _Fwprep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXbig() {
+s32 PS4_SYSV_ABI _FXbig() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_addh() {
+s32 PS4_SYSV_ABI _FXp_addh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_addx() {
+s32 PS4_SYSV_ABI _FXp_addx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_getw() {
+s32 PS4_SYSV_ABI _FXp_getw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_invx() {
+s32 PS4_SYSV_ABI _FXp_invx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_ldexpx() {
+s32 PS4_SYSV_ABI _FXp_ldexpx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_movx() {
+s32 PS4_SYSV_ABI _FXp_movx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_mulh() {
+s32 PS4_SYSV_ABI _FXp_mulh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_mulx() {
+s32 PS4_SYSV_ABI _FXp_mulx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_setn() {
+s32 PS4_SYSV_ABI _FXp_setn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_setw() {
+s32 PS4_SYSV_ABI _FXp_setw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_sqrtx() {
+s32 PS4_SYSV_ABI _FXp_sqrtx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FXp_subx() {
+s32 PS4_SYSV_ABI _FXp_subx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _FZero() {
+s32 PS4_SYSV_ABI _FZero() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Gamma_big() {
+s32 PS4_SYSV_ABI _Gamma_big() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Genld() {
+s32 PS4_SYSV_ABI _Genld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Gentime() {
+s32 PS4_SYSV_ABI _Gentime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getcloc() {
+s32 PS4_SYSV_ABI _Getcloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getctyptab() {
+s32 PS4_SYSV_ABI _Getctyptab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getdst() {
+s32 PS4_SYSV_ABI _Getdst() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Geterrno() {
+s32 PS4_SYSV_ABI _Geterrno() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getfld() {
+s32 PS4_SYSV_ABI _Getfld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getfloat() {
+s32 PS4_SYSV_ABI _Getfloat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getgloballocale() {
+s32 PS4_SYSV_ABI _Getgloballocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getint() {
+s32 PS4_SYSV_ABI _Getint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getmbcurmax() {
+s32 PS4_SYSV_ABI _Getmbcurmax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpcostate() {
+s32 PS4_SYSV_ABI _Getpcostate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpctype() {
+s32 PS4_SYSV_ABI _Getpctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpmbstate() {
+s32 PS4_SYSV_ABI _Getpmbstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _getprogname() {
+s32 PS4_SYSV_ABI _getprogname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getptimes() {
+s32 PS4_SYSV_ABI _Getptimes() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getptolower() {
+s32 PS4_SYSV_ABI _Getptolower() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getptoupper() {
+s32 PS4_SYSV_ABI _Getptoupper() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpwcostate() {
+s32 PS4_SYSV_ABI _Getpwcostate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpwcstate() {
+s32 PS4_SYSV_ABI _Getpwcstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpwctrtab() {
+s32 PS4_SYSV_ABI _Getpwctrtab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getpwctytab() {
+s32 PS4_SYSV_ABI _Getpwctytab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getstr() {
+s32 PS4_SYSV_ABI _Getstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Gettime() {
+s32 PS4_SYSV_ABI _Gettime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Getzone() {
+s32 PS4_SYSV_ABI _Getzone() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Hugeval() {
+s32 PS4_SYSV_ABI _Hugeval() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Hypot() {
+s32 PS4_SYSV_ABI _Hypot() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Inf() {
+s32 PS4_SYSV_ABI _Inf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _init_env() {
+s32 PS4_SYSV_ABI _init_env() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _init_tls() {
+s32 PS4_SYSV_ABI _init_tls() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Isdst() {
+s32 PS4_SYSV_ABI _Isdst() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Iswctype() {
+s32 PS4_SYSV_ABI _Iswctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LAtan() {
+s32 PS4_SYSV_ABI _LAtan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LCosh() {
+s32 PS4_SYSV_ABI _LCosh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Ldbl() {
+s32 PS4_SYSV_ABI _Ldbl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDclass() {
+s32 PS4_SYSV_ABI _LDclass() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDenorm() {
+s32 PS4_SYSV_ABI _LDenorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDint() {
+s32 PS4_SYSV_ABI _LDint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDivide() {
+s32 PS4_SYSV_ABI _LDivide() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDnorm() {
+s32 PS4_SYSV_ABI _LDnorm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDscale() {
+s32 PS4_SYSV_ABI _LDscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDsign() {
+s32 PS4_SYSV_ABI _LDsign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDtento() {
+s32 PS4_SYSV_ABI _LDtento() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDtest() {
+s32 PS4_SYSV_ABI _LDtest() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Ldtob() {
+s32 PS4_SYSV_ABI _Ldtob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LDunscale() {
+s32 PS4_SYSV_ABI _LDunscale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LEps() {
+s32 PS4_SYSV_ABI _LEps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LErf_one() {
+s32 PS4_SYSV_ABI _LErf_one() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LErf_small() {
+s32 PS4_SYSV_ABI _LErf_small() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LErfc() {
+s32 PS4_SYSV_ABI _LErfc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LExp() {
+s32 PS4_SYSV_ABI _LExp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LFpcomp() {
+s32 PS4_SYSV_ABI _LFpcomp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LGamma_big() {
+s32 PS4_SYSV_ABI _LGamma_big() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LHypot() {
+s32 PS4_SYSV_ABI _LHypot() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LInf() {
+s32 PS4_SYSV_ABI _LInf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Litob() {
+s32 PS4_SYSV_ABI _Litob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LLog() {
+s32 PS4_SYSV_ABI _LLog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LLogpoly() {
+s32 PS4_SYSV_ABI _LLogpoly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LNan() {
+s32 PS4_SYSV_ABI _LNan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Locale() {
+s32 PS4_SYSV_ABI _Locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Lock_shared_ptr_spin_lock() {
+s32 PS4_SYSV_ABI _Lock_shared_ptr_spin_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Lock_spin_lock() {
+s32 PS4_SYSV_ABI _Lock_spin_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Lockfilelock() {
+s32 PS4_SYSV_ABI _Lockfilelock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Locksyslock() {
+s32 PS4_SYSV_ABI _Locksyslock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Locsum() {
+s32 PS4_SYSV_ABI _Locsum() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Loctab() {
+s32 PS4_SYSV_ABI _Loctab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Locterm() {
+s32 PS4_SYSV_ABI _Locterm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Locvar() {
+s32 PS4_SYSV_ABI _Locvar() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Log() {
+s32 PS4_SYSV_ABI _Log() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Logpoly() {
+s32 PS4_SYSV_ABI _Logpoly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LPlsw() {
+s32 PS4_SYSV_ABI _LPlsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LPmsw() {
+s32 PS4_SYSV_ABI _LPmsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LPoly() {
+s32 PS4_SYSV_ABI _LPoly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LPow() {
+s32 PS4_SYSV_ABI _LPow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LQuad() {
+s32 PS4_SYSV_ABI _LQuad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LQuadph() {
+s32 PS4_SYSV_ABI _LQuadph() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LRecip() {
+s32 PS4_SYSV_ABI _LRecip() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LRint() {
+s32 PS4_SYSV_ABI _LRint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LRteps() {
+s32 PS4_SYSV_ABI _LRteps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LSin() {
+s32 PS4_SYSV_ABI _LSin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LSincos() {
+s32 PS4_SYSV_ABI _LSincos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LSinh() {
+s32 PS4_SYSV_ABI _LSinh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LSnan() {
+s32 PS4_SYSV_ABI _LSnan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LTan() {
+s32 PS4_SYSV_ABI _LTan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LTgamma() {
+s32 PS4_SYSV_ABI _LTgamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXbig() {
+s32 PS4_SYSV_ABI _LXbig() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_addh() {
+s32 PS4_SYSV_ABI _LXp_addh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_addx() {
+s32 PS4_SYSV_ABI _LXp_addx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_getw() {
+s32 PS4_SYSV_ABI _LXp_getw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_invx() {
+s32 PS4_SYSV_ABI _LXp_invx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_ldexpx() {
+s32 PS4_SYSV_ABI _LXp_ldexpx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_movx() {
+s32 PS4_SYSV_ABI _LXp_movx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_mulh() {
+s32 PS4_SYSV_ABI _LXp_mulh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_mulx() {
+s32 PS4_SYSV_ABI _LXp_mulx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_setn() {
+s32 PS4_SYSV_ABI _LXp_setn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_setw() {
+s32 PS4_SYSV_ABI _LXp_setw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_sqrtx() {
+s32 PS4_SYSV_ABI _LXp_sqrtx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LXp_subx() {
+s32 PS4_SYSV_ABI _LXp_subx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _LZero() {
+s32 PS4_SYSV_ABI _LZero() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Makeloc() {
+s32 PS4_SYSV_ABI _Makeloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Makestab() {
+s32 PS4_SYSV_ABI _Makestab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Makewct() {
+s32 PS4_SYSV_ABI _Makewct() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_finalize_lv2() {
+s32 PS4_SYSV_ABI _malloc_finalize_lv2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_fini() {
+s32 PS4_SYSV_ABI _malloc_fini() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_init() {
+s32 PS4_SYSV_ABI _malloc_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_init_lv2() {
+s32 PS4_SYSV_ABI _malloc_init_lv2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_postfork() {
+s32 PS4_SYSV_ABI _malloc_postfork() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_prefork() {
+s32 PS4_SYSV_ABI _malloc_prefork() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _malloc_thread_cleanup() {
+s32 PS4_SYSV_ABI _malloc_thread_cleanup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mbcurmax() {
+s32 PS4_SYSV_ABI _Mbcurmax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mbstate() {
+s32 PS4_SYSV_ABI _Mbstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mbtowc() {
+s32 PS4_SYSV_ABI _Mbtowc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mbtowcx() {
+s32 PS4_SYSV_ABI _Mbtowcx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_current_owns() {
+s32 PS4_SYSV_ABI _Mtx_current_owns() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_destroy() {
+s32 PS4_SYSV_ABI _Mtx_destroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_init() {
+s32 PS4_SYSV_ABI _Mtx_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_init_with_name() {
+s32 PS4_SYSV_ABI _Mtx_init_with_name() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_lock() {
+s32 PS4_SYSV_ABI _Mtx_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_timedlock() {
+s32 PS4_SYSV_ABI _Mtx_timedlock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_trylock() {
+s32 PS4_SYSV_ABI _Mtx_trylock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtx_unlock() {
+s32 PS4_SYSV_ABI _Mtx_unlock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtxdst() {
+s32 PS4_SYSV_ABI _Mtxdst() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtxinit() {
+s32 PS4_SYSV_ABI _Mtxinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtxlock() {
+s32 PS4_SYSV_ABI _Mtxlock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Mtxunlock() {
+s32 PS4_SYSV_ABI _Mtxunlock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Nan() {
+s32 PS4_SYSV_ABI _Nan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _new_setup() {
+s32 PS4_SYSV_ABI _new_setup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Nnl() {
+s32 PS4_SYSV_ABI _Nnl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _PathLocale() {
+s32 PS4_SYSV_ABI _PathLocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _PJP_C_Copyright() {
+s32 PS4_SYSV_ABI _PJP_C_Copyright() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _PJP_CPP_Copyright() {
+s32 PS4_SYSV_ABI _PJP_CPP_Copyright() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Plsw() {
+s32 PS4_SYSV_ABI _Plsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Pmsw() {
+s32 PS4_SYSV_ABI _Pmsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Poly() {
+s32 PS4_SYSV_ABI _Poly() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Pow() {
+s32 PS4_SYSV_ABI _Pow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Printf() {
+s32 PS4_SYSV_ABI _Printf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Putfld() {
+s32 PS4_SYSV_ABI _Putfld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Putstr() {
+s32 PS4_SYSV_ABI _Putstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Puttxt() {
+s32 PS4_SYSV_ABI _Puttxt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Quad() {
+s32 PS4_SYSV_ABI _Quad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Quadph() {
+s32 PS4_SYSV_ABI _Quadph() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Randseed() {
+s32 PS4_SYSV_ABI _Randseed() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _readdir_unlocked() {
+s32 PS4_SYSV_ABI _readdir_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Readloc() {
+s32 PS4_SYSV_ABI _Readloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Recip() {
+s32 PS4_SYSV_ABI _Recip() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _reclaim_telldir() {
+s32 PS4_SYSV_ABI _reclaim_telldir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Restore_state() {
+s32 PS4_SYSV_ABI _Restore_state() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Rint() {
+s32 PS4_SYSV_ABI _Rint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Rteps() {
+s32 PS4_SYSV_ABI _Rteps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_addr_phdr() {
+s32 PS4_SYSV_ABI _rtld_addr_phdr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_atfork_post() {
+s32 PS4_SYSV_ABI _rtld_atfork_post() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_atfork_pre() {
+s32 PS4_SYSV_ABI _rtld_atfork_pre() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_error() {
+s32 PS4_SYSV_ABI _rtld_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_get_stack_prot() {
+s32 PS4_SYSV_ABI _rtld_get_stack_prot() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _rtld_thread_init() {
+s32 PS4_SYSV_ABI _rtld_thread_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Save_state() {
+s32 PS4_SYSV_ABI _Save_state() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Scanf() {
+s32 PS4_SYSV_ABI _Scanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _SceLibcDebugOut() {
+s32 PS4_SYSV_ABI _SceLibcDebugOut() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _sceLibcGetMallocParam() {
+s32 PS4_SYSV_ABI _sceLibcGetMallocParam() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _SceLibcTelemetoryOut() {
+s32 PS4_SYSV_ABI _SceLibcTelemetoryOut() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _seekdir() {
+s32 PS4_SYSV_ABI _seekdir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Setgloballocale() {
+s32 PS4_SYSV_ABI _Setgloballocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Shared_ptr_flag() {
+s32 PS4_SYSV_ABI _Shared_ptr_flag() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Sin() {
+s32 PS4_SYSV_ABI _Sin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Sincos() {
+s32 PS4_SYSV_ABI _Sincos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Sinh() {
+s32 PS4_SYSV_ABI _Sinh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Skip() {
+s32 PS4_SYSV_ABI _Skip() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Snan() {
+s32 PS4_SYSV_ABI _Snan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stderr() {
+s32 PS4_SYSV_ABI _Stderr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stdin() {
+s32 PS4_SYSV_ABI _Stdin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stdout() {
+s32 PS4_SYSV_ABI _Stdout() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stod() {
+s32 PS4_SYSV_ABI _Stod() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stodx() {
+s32 PS4_SYSV_ABI _Stodx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stof() {
+s32 PS4_SYSV_ABI _Stof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoflt() {
+s32 PS4_SYSV_ABI _Stoflt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stofx() {
+s32 PS4_SYSV_ABI _Stofx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stold() {
+s32 PS4_SYSV_ABI _Stold() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoldx() {
+s32 PS4_SYSV_ABI _Stoldx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoll() {
+s32 PS4_SYSV_ABI _Stoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stollx() {
+s32 PS4_SYSV_ABI _Stollx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stolx() {
+s32 PS4_SYSV_ABI _Stolx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stopfx() {
+s32 PS4_SYSV_ABI _Stopfx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoul() {
+s32 PS4_SYSV_ABI _Stoul() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoull() {
+s32 PS4_SYSV_ABI _Stoull() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoullx() {
+s32 PS4_SYSV_ABI _Stoullx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoulx() {
+s32 PS4_SYSV_ABI _Stoulx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Stoxflt() {
+s32 PS4_SYSV_ABI _Stoxflt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Strcollx() {
+s32 PS4_SYSV_ABI _Strcollx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Strerror() {
+s32 PS4_SYSV_ABI _Strerror() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Strxfrmx() {
+s32 PS4_SYSV_ABI _Strxfrmx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tan() {
+s32 PS4_SYSV_ABI _Tan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tgamma() {
+s32 PS4_SYSV_ABI _Tgamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_abort() {
+s32 PS4_SYSV_ABI _Thrd_abort() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_create() {
+s32 PS4_SYSV_ABI _Thrd_create() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_current() {
+s32 PS4_SYSV_ABI _Thrd_current() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_detach() {
+s32 PS4_SYSV_ABI _Thrd_detach() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_equal() {
+s32 PS4_SYSV_ABI _Thrd_equal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_exit() {
+s32 PS4_SYSV_ABI _Thrd_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_id() {
+s32 PS4_SYSV_ABI _Thrd_id() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_join() {
+s32 PS4_SYSV_ABI _Thrd_join() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_lt() {
+s32 PS4_SYSV_ABI _Thrd_lt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_sleep() {
+s32 PS4_SYSV_ABI _Thrd_sleep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_start() {
+s32 PS4_SYSV_ABI _Thrd_start() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_start_with_attr() {
+s32 PS4_SYSV_ABI _Thrd_start_with_attr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_start_with_name() {
+s32 PS4_SYSV_ABI _Thrd_start_with_name() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_start_with_name_attr() {
+s32 PS4_SYSV_ABI _Thrd_start_with_name_attr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Thrd_yield() {
+s32 PS4_SYSV_ABI _Thrd_yield() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _thread_autoinit_dummy_decl() {
+s32 PS4_SYSV_ABI _thread_autoinit_dummy_decl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _thread_autoinit_dummy_decl_stub() {
+s32 PS4_SYSV_ABI _thread_autoinit_dummy_decl_stub() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _thread_init() {
+s32 PS4_SYSV_ABI _thread_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _thread_init_stub() {
+s32 PS4_SYSV_ABI _thread_init_stub() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Times() {
+s32 PS4_SYSV_ABI _Times() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Costate() {
+s32 PS4_SYSV_ABI _Tls_setup__Costate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Ctype() {
+s32 PS4_SYSV_ABI _Tls_setup__Ctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Errno() {
+s32 PS4_SYSV_ABI _Tls_setup__Errno() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Locale() {
+s32 PS4_SYSV_ABI _Tls_setup__Locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Mbcurmax() {
+s32 PS4_SYSV_ABI _Tls_setup__Mbcurmax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Mbstate() {
+s32 PS4_SYSV_ABI _Tls_setup__Mbstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Times() {
+s32 PS4_SYSV_ABI _Tls_setup__Times() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Tolotab() {
+s32 PS4_SYSV_ABI _Tls_setup__Tolotab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Touptab() {
+s32 PS4_SYSV_ABI _Tls_setup__Touptab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__WCostate() {
+s32 PS4_SYSV_ABI _Tls_setup__WCostate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Wcstate() {
+s32 PS4_SYSV_ABI _Tls_setup__Wcstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Wctrans() {
+s32 PS4_SYSV_ABI _Tls_setup__Wctrans() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tls_setup__Wctype() {
+s32 PS4_SYSV_ABI _Tls_setup__Wctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tolotab() {
+s32 PS4_SYSV_ABI _Tolotab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Touptab() {
+s32 PS4_SYSV_ABI _Touptab() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Towctrans() {
+s32 PS4_SYSV_ABI _Towctrans() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tss_create() {
+s32 PS4_SYSV_ABI _Tss_create() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tss_delete() {
+s32 PS4_SYSV_ABI _Tss_delete() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tss_get() {
+s32 PS4_SYSV_ABI _Tss_get() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tss_set() {
+s32 PS4_SYSV_ABI _Tss_set() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Ttotm() {
+s32 PS4_SYSV_ABI _Ttotm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Tzoff() {
+s32 PS4_SYSV_ABI _Tzoff() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unlock_shared_ptr_spin_lock() {
+s32 PS4_SYSV_ABI _Unlock_shared_ptr_spin_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unlock_spin_lock() {
+s32 PS4_SYSV_ABI _Unlock_spin_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unlockfilelock() {
+s32 PS4_SYSV_ABI _Unlockfilelock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unlocksyslock() {
+s32 PS4_SYSV_ABI _Unlocksyslock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unwind_Backtrace() {
+s32 PS4_SYSV_ABI _Unwind_Backtrace() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unwind_GetIP() {
+s32 PS4_SYSV_ABI _Unwind_GetIP() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unwind_Resume() {
+s32 PS4_SYSV_ABI _Unwind_Resume() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Unwind_Resume_or_Rethrow() {
+s32 PS4_SYSV_ABI _Unwind_Resume_or_Rethrow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Vacopy() {
+s32 PS4_SYSV_ABI _Vacopy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _warn() {
+s32 PS4_SYSV_ABI _warn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WCostate() {
+s32 PS4_SYSV_ABI _WCostate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wcscollx() {
+s32 PS4_SYSV_ABI _Wcscollx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wcsftime() {
+s32 PS4_SYSV_ABI _Wcsftime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wcstate() {
+s32 PS4_SYSV_ABI _Wcstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wcsxfrmx() {
+s32 PS4_SYSV_ABI _Wcsxfrmx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wctob() {
+s32 PS4_SYSV_ABI _Wctob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wctomb() {
+s32 PS4_SYSV_ABI _Wctomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wctombx() {
+s32 PS4_SYSV_ABI _Wctombx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wctrans() {
+s32 PS4_SYSV_ABI _Wctrans() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Wctype() {
+s32 PS4_SYSV_ABI _Wctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WFrprep() {
+s32 PS4_SYSV_ABI _WFrprep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WFwprep() {
+s32 PS4_SYSV_ABI _WFwprep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WGenld() {
+s32 PS4_SYSV_ABI _WGenld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WGetfld() {
+s32 PS4_SYSV_ABI _WGetfld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WGetfloat() {
+s32 PS4_SYSV_ABI _WGetfloat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WGetint() {
+s32 PS4_SYSV_ABI _WGetint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WGetstr() {
+s32 PS4_SYSV_ABI _WGetstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WLdtob() {
+s32 PS4_SYSV_ABI _WLdtob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WLitob() {
+s32 PS4_SYSV_ABI _WLitob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WPrintf() {
+s32 PS4_SYSV_ABI _WPrintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WPutfld() {
+s32 PS4_SYSV_ABI _WPutfld() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WPutstr() {
+s32 PS4_SYSV_ABI _WPutstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WPuttxt() {
+s32 PS4_SYSV_ABI _WPuttxt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WScanf() {
+s32 PS4_SYSV_ABI _WScanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStod() {
+s32 PS4_SYSV_ABI _WStod() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStodx() {
+s32 PS4_SYSV_ABI _WStodx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStof() {
+s32 PS4_SYSV_ABI _WStof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoflt() {
+s32 PS4_SYSV_ABI _WStoflt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStofx() {
+s32 PS4_SYSV_ABI _WStofx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStold() {
+s32 PS4_SYSV_ABI _WStold() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoldx() {
+s32 PS4_SYSV_ABI _WStoldx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoll() {
+s32 PS4_SYSV_ABI _WStoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStopfx() {
+s32 PS4_SYSV_ABI _WStopfx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoul() {
+s32 PS4_SYSV_ABI _WStoul() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoull() {
+s32 PS4_SYSV_ABI _WStoull() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _WStoxflt() {
+s32 PS4_SYSV_ABI _WStoxflt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xbig() {
+s32 PS4_SYSV_ABI _Xbig() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_addh() {
+s32 PS4_SYSV_ABI _Xp_addh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_addx() {
+s32 PS4_SYSV_ABI _Xp_addx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_getw() {
+s32 PS4_SYSV_ABI _Xp_getw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_invx() {
+s32 PS4_SYSV_ABI _Xp_invx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_ldexpx() {
+s32 PS4_SYSV_ABI _Xp_ldexpx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_movx() {
+s32 PS4_SYSV_ABI _Xp_movx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_mulh() {
+s32 PS4_SYSV_ABI _Xp_mulh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_mulx() {
+s32 PS4_SYSV_ABI _Xp_mulx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_setn() {
+s32 PS4_SYSV_ABI _Xp_setn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_setw() {
+s32 PS4_SYSV_ABI _Xp_setw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_sqrtx() {
+s32 PS4_SYSV_ABI _Xp_sqrtx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xp_subx() {
+s32 PS4_SYSV_ABI _Xp_subx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xtime_diff_to_ts() {
+s32 PS4_SYSV_ABI _Xtime_diff_to_ts() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xtime_get_ticks() {
+s32 PS4_SYSV_ABI _Xtime_get_ticks() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Xtime_to_ts() {
+s32 PS4_SYSV_ABI _Xtime_to_ts() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPv() {
+s32 PS4_SYSV_ABI _ZdaPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvm() {
+s32 PS4_SYSV_ABI _ZdaPvm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvmRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdaPvmRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvmSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZdaPvmSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdaPvRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvS_() {
+s32 PS4_SYSV_ABI _ZdaPvS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZdaPvSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdaPvSt11align_val_tRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdaPvSt11align_val_tRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPv() {
+s32 PS4_SYSV_ABI _ZdlPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvm() {
+s32 PS4_SYSV_ABI _ZdlPvm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvmRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdlPvmRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvmSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZdlPvmSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdlPvRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvS_() {
+s32 PS4_SYSV_ABI _ZdlPvS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZdlPvSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZdlPvSt11align_val_tRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZdlPvSt11align_val_tRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Zero() {
+s32 PS4_SYSV_ABI _Zero() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt10moneypunctIcLb0EE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt10moneypunctIcLb0EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt10moneypunctIcLb1EE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt10moneypunctIcLb1EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt10moneypunctIwLb0EE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt10moneypunctIwLb0EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt10moneypunctIwLb1EE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt10moneypunctIwLb1EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE14_System_objectE() {
+s32 PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE14_System_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE15_Generic_objectE() {
+s32 PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE15_Generic_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE16_Iostream_objectE() {
+s32 PS4_SYSV_ABI _ZGVNSt14_Error_objectsIiE16_Iostream_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt20_Future_error_objectIiE14_Future_objectE() {
+s32 PS4_SYSV_ABI _ZGVNSt20_Future_error_objectIiE14_Future_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7codecvtIcc9_MbstatetE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7codecvtIcc9_MbstatetE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7collateIcE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7collateIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7collateIwE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7collateIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8messagesIcE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8messagesIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8messagesIwE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8messagesIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8numpunctIcE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8numpunctIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8numpunctIwE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8numpunctIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZGVNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZGVNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZGVZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZGVZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv116__enum_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__array_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__class_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv117__pbase_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv119__pointer_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__function_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv120__si_class_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv121__vmi_class_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv123__fundamental_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZN10__cxxabiv129__pointer_to_member_type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7codecvt10_Cvt_checkEmm() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7codecvt10_Cvt_checkEmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads10lock_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads10lock_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads10lock_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads10lock_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads17_Throw_lock_errorEv() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads17_Throw_lock_errorEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads21_Throw_resource_errorEv() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads21_Throw_resource_errorEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads21thread_resource_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads21thread_resource_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZN6Dinkum7threads21thread_resource_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZN6Dinkum7threads21thread_resource_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Znam() {
+s32 PS4_SYSV_ABI _Znam() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnamRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZnamRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnamSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZnamSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnamSt11align_val_tRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZnamSt11align_val_tRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSbIwSt11char_traitsIwESaIwEE5_XlenEv() {
+s32 PS4_SYSV_ABI _ZNKSbIwSt11char_traitsIwESaIwEE5_XlenEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSbIwSt11char_traitsIwESaIwEE5_XranEv() {
+s32 PS4_SYSV_ABI _ZNKSbIwSt11char_traitsIwESaIwEE5_XranEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSs5_XlenEv() {
+s32 PS4_SYSV_ABI _ZNKSs5_XlenEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSs5_XranEv() {
+s32 PS4_SYSV_ABI _ZNKSs5_XranEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt10bad_typeid4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt10bad_typeid4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt10bad_typeid8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt10bad_typeid8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt11logic_error4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt11logic_error4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt11logic_error8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt11logic_error8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12bad_weak_ptr4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt12bad_weak_ptr4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12codecvt_base11do_encodingEv() {
+s32 PS4_SYSV_ABI _ZNKSt12codecvt_base11do_encodingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12codecvt_base13do_max_lengthEv() {
+s32 PS4_SYSV_ABI _ZNKSt12codecvt_base13do_max_lengthEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12future_error4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt12future_error4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12future_error8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt12future_error8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt12system_error8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt12system_error8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt13bad_exception8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt13bad_exception8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt13runtime_error4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt13runtime_error4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt14error_category10equivalentEiRKSt15error_condition() {
+s32 PS4_SYSV_ABI _ZNKSt14error_category10equivalentEiRKSt15error_condition() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt14error_category10equivalentERKSt10error_codei() {
+s32 PS4_SYSV_ABI _ZNKSt14error_category10equivalentERKSt10error_codei() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt14error_category23default_error_conditionEi() {
+s32 PS4_SYSV_ABI _ZNKSt14error_category23default_error_conditionEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt17bad_function_call4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt17bad_function_call4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt18bad_variant_access4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt18bad_variant_access4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt19istreambuf_iteratorIcSt11char_traitsIcEE5equalERKS2_() {
+s32 PS4_SYSV_ABI _ZNKSt19istreambuf_iteratorIcSt11char_traitsIcEE5equalERKS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt19istreambuf_iteratorIwSt11char_traitsIwEE5equalERKS2_() {
+s32 PS4_SYSV_ABI _ZNKSt19istreambuf_iteratorIwSt11char_traitsIwEE5equalERKS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt22_Future_error_category4nameEv() {
+s32 PS4_SYSV_ABI _ZNKSt22_Future_error_category4nameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt22_Future_error_category7messageEi() {
+s32 PS4_SYSV_ABI _ZNKSt22_Future_error_category7messageEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt22_System_error_category23default_error_conditionEi() {
+s32 PS4_SYSV_ABI _ZNKSt22_System_error_category23default_error_conditionEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt22_System_error_category4nameEv() {
+s32 PS4_SYSV_ABI _ZNKSt22_System_error_category4nameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt22_System_error_category7messageEi() {
+s32 PS4_SYSV_ABI _ZNKSt22_System_error_category7messageEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt23_Generic_error_category4nameEv() {
+s32 PS4_SYSV_ABI _ZNKSt23_Generic_error_category4nameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt23_Generic_error_category7messageEi() {
+s32 PS4_SYSV_ABI _ZNKSt23_Generic_error_category7messageEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt24_Iostream_error_category4nameEv() {
+s32 PS4_SYSV_ABI _ZNKSt24_Iostream_error_category4nameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt24_Iostream_error_category7messageEi() {
+s32 PS4_SYSV_ABI _ZNKSt24_Iostream_error_category7messageEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_tolowerEc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_tolowerEc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_tolowerEPcPKc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_tolowerEPcPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_toupperEc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_toupperEc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_toupperEPcPKc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE10do_toupperEPcPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE8do_widenEc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE8do_widenEc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE8do_widenEPKcS2_Pc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE8do_widenEPKcS2_Pc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE9do_narrowEcc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE9do_narrowEcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIcE9do_narrowEPKcS2_cPc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_scan_isEsPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_scan_isEsPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_tolowerEPwPKw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_tolowerEPwPKw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_tolowerEw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_tolowerEw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_toupperEPwPKw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_toupperEPwPKw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_toupperEw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE10do_toupperEw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE11do_scan_notEsPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE11do_scan_notEsPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE5do_isEPKwS2_Ps() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE5do_isEPKwS2_Ps() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE5do_isEsw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE5do_isEsw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE8do_widenEc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE8do_widenEc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE8do_widenEPKcS2_Pw() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE8do_widenEPKcS2_Pw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE9do_narrowEPKwS2_cPc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt5ctypeIwE9do_narrowEwc() {
+s32 PS4_SYSV_ABI _ZNKSt5ctypeIwE9do_narrowEwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE11do_groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE11do_groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE13do_neg_formatEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE13do_neg_formatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE13do_pos_formatEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE13do_pos_formatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE14do_curr_symbolEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE14do_curr_symbolEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE14do_frac_digitsEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE14do_frac_digitsEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_negative_signEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_negative_signEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_positive_signEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_positive_signEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIcE16do_thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE11do_groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE11do_groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE13do_neg_formatEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE13do_neg_formatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE13do_pos_formatEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE13do_pos_formatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE14do_curr_symbolEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE14do_curr_symbolEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE14do_frac_digitsEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE14do_frac_digitsEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_negative_signEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_negative_signEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_positive_signEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_positive_signEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt7_MpunctIwE16do_thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE16do_always_noconvEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE16do_always_noconvEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE2inERS0_PKcS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE2inERS0_PKcS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE3outERS0_PKcS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE3outERS0_PKcS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE5do_inERS0_PKcS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE5do_inERS0_PKcS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE6do_outERS0_PKcS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE6do_outERS0_PKcS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE6lengthERS0_PKcS4_m() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE6lengthERS0_PKcS4_m() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE7unshiftERS0_PcS3_RS3_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE7unshiftERS0_PcS3_RS3_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE9do_lengthERS0_PKcS4_m() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIcc9_MbstatetE9do_lengthERS0_PKcS4_m() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE11do_encodingEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE11do_encodingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE13do_max_lengthEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE13do_max_lengthEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE16do_always_noconvEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE16do_always_noconvEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE5do_inERS0_PKcS4_RS4_PDiS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE5do_inERS0_PKcS4_RS4_PDiS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE6do_outERS0_PKDiS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE6do_outERS0_PKDiS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE9do_lengthERS0_PKcS4_m() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDic9_MbstatetE9do_lengthERS0_PKcS4_m() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE11do_encodingEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE11do_encodingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE13do_max_lengthEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE13do_max_lengthEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE16do_always_noconvEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE16do_always_noconvEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE5do_inERS0_PKcS4_RS4_PDsS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE5do_inERS0_PKcS4_RS4_PDsS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE6do_outERS0_PKDsS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE6do_outERS0_PKDsS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE9do_lengthERS0_PKcS4_m() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIDsc9_MbstatetE9do_lengthERS0_PKcS4_m() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE10do_unshiftERS0_PcS3_RS3_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE11do_encodingEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE11do_encodingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE13do_max_lengthEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE13do_max_lengthEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE16do_always_noconvEv() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE16do_always_noconvEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE5do_inERS0_PKcS4_RS4_PwS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE5do_inERS0_PKcS4_RS4_PwS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE6do_outERS0_PKwS4_RS4_PcS6_RS6_() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE6do_outERS0_PKwS4_RS4_PcS6_RS6_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE9do_lengthERS0_PKcS4_m() {
+s32 PS4_SYSV_ABI _ZNKSt7codecvtIwc9_MbstatetE9do_lengthERS0_PKcS4_m() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE10do_compareEPKcS2_S2_S2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE10do_compareEPKcS2_S2_S2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE12do_transformEPKcS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE12do_transformEPKcS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE4hashEPKcS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE4hashEPKcS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE7compareEPKcS2_S2_S2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE7compareEPKcS2_S2_S2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE7do_hashEPKcS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE7do_hashEPKcS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIcE9transformEPKcS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIcE9transformEPKcS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE10do_compareEPKwS2_S2_S2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE10do_compareEPKwS2_S2_S2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE12do_transformEPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE12do_transformEPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE4hashEPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE4hashEPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE7compareEPKwS2_S2_S2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE7compareEPKwS2_S2_S2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE7do_hashEPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE7do_hashEPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7collateIwE9transformEPKwS2_() {
+s32 PS4_SYSV_ABI _ZNKSt7collateIwE9transformEPKwS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateERy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basece() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_PutES3_PKcm() {
+s32 PS4_SYSV_ABI _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_PutES3_PKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_RepES3_cm() {
+s32 PS4_SYSV_ABI _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_RepES3_cm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_FfmtEPccNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_FputES3_RSt8ios_basecPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_FputES3_RSt8ios_basecPKcmmmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_IfmtEPcPKcNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_IputES3_RSt8ios_basecPcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basece() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_PutES3_PKwm() {
+s32 PS4_SYSV_ABI _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_PutES3_PKwm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_RepES3_wm() {
+s32 PS4_SYSV_ABI _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_RepES3_wm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_FfmtEPccNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_FputES3_RSt8ios_basewPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_FputES3_RSt8ios_basewPKcmmmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_IfmtEPcPKcNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_IputES3_RSt8ios_basewPcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8bad_cast4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt8bad_cast4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8bad_cast8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt8bad_cast8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8ios_base7failure8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt8ios_base7failure8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE3getEiiiRKSs() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE3getEiiiRKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE4openERKSsRKSt6locale() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE4openERKSsRKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE5closeEi() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE5closeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE6do_getEiiiRKSs() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE6do_getEiiiRKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE7do_openERKSsRKSt6locale() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE7do_openERKSsRKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIcE8do_closeEi() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIcE8do_closeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE3getEiiiRKSbIwSt11char_traitsIwESaIwEE() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE3getEiiiRKSbIwSt11char_traitsIwESaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE4openERKSsRKSt6locale() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE4openERKSsRKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE5closeEi() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE5closeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE6do_getEiiiRKSbIwSt11char_traitsIwESaIwEE() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE6do_getEiiiRKSbIwSt11char_traitsIwESaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE7do_openERKSsRKSt6locale() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE7do_openERKSsRKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8messagesIwE8do_closeEi() {
+s32 PS4_SYSV_ABI _ZNKSt8messagesIwE8do_closeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE11do_groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE11do_groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE11do_truenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE11do_truenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE12do_falsenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE12do_falsenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE13decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE13decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE13thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE13thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE16do_decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE16do_decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE16do_thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE16do_thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE8groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE8groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE8truenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE8truenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIcE9falsenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIcE9falsenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE11do_groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE11do_groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE11do_truenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE11do_truenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE12do_falsenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE12do_falsenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE13decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE13decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE13thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE13thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE16do_decimal_pointEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE16do_decimal_pointEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE16do_thousands_sepEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE16do_thousands_sepEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE8groupingEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE8groupingEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE8truenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE8truenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8numpunctIwE9falsenameEv() {
+s32 PS4_SYSV_ABI _ZNKSt8numpunctIwE9falsenameEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE10date_orderEv() {
+s32 PS4_SYSV_ABI _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE10date_orderEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13do_date_orderEv() {
+s32 PS4_SYSV_ABI _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13do_date_orderEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKcSE_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetintERS3_S5_iiRiRKSt5ctypeIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE10date_orderEv() {
+s32 PS4_SYSV_ABI _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE10date_orderEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11do_get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE11get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13do_date_orderEv() {
+s32 PS4_SYSV_ABI _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13do_date_orderEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE13get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE14do_get_weekdayES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE16do_get_monthnameES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKwSE_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetfmtES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tmPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetintERS3_S5_iiRiRKSt5ctypeIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_dateES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_timeES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8get_yearES3_S3_RSt8ios_baseRNSt5_IosbIiE8_IostateEP2tm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_RSt8ios_basecPK2tmPKcSB_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_RSt8ios_basecPK2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_RSt8ios_basewPK2tmPKwSB_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_RSt8ios_basewPK2tmcc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt9bad_alloc4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt9bad_alloc4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt9bad_alloc8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt9bad_alloc8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt9exception4whatEv() {
+s32 PS4_SYSV_ABI _ZNKSt9exception4whatEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt9exception6_RaiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt9exception6_RaiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNKSt9exception8_DoraiseEv() {
+s32 PS4_SYSV_ABI _ZNKSt9exception8_DoraiseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE3getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE6do_getES3_S3_bRSt8ios_baseRNSt5_IosbIiE8_IostateERSbIwS2_SaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basece() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE3putES3_bRSt8ios_basecRKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basece() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE8_PutmfldES3_bRSt8ios_basecbSsc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE3putES3_bRSt8ios_basewRKSbIwS2_SaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE8_PutmfldES3_bRSt8ios_basewbSbIwS2_SaIwEEw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE5_CopyEmm() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE5_CopyEmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE5eraseEmm() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE5eraseEmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6appendEmw() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6appendEmw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6appendERKS2_mm() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6appendERKS2_mm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignEmw() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignEmw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwm() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_mm() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_mm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6insertEmmw() {
+s32 PS4_SYSV_ABI _ZNSbIwSt11char_traitsIwESaIwEE6insertEmmw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSiD0Ev() {
+s32 PS4_SYSV_ABI _ZNSiD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSiD1Ev() {
+s32 PS4_SYSV_ABI _ZNSiD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSo6sentryC2ERSo() {
+s32 PS4_SYSV_ABI _ZNSo6sentryC2ERSo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSo6sentryD2Ev() {
+s32 PS4_SYSV_ABI _ZNSo6sentryD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSoD0Ev() {
+s32 PS4_SYSV_ABI _ZNSoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSoD1Ev() {
+s32 PS4_SYSV_ABI _ZNSoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs5_CopyEmm() {
+s32 PS4_SYSV_ABI _ZNSs5_CopyEmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs5eraseEmm() {
+s32 PS4_SYSV_ABI _ZNSs5eraseEmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6appendEmc() {
+s32 PS4_SYSV_ABI _ZNSs6appendEmc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6appendERKSsmm() {
+s32 PS4_SYSV_ABI _ZNSs6appendERKSsmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6assignEmc() {
+s32 PS4_SYSV_ABI _ZNSs6assignEmc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6assignEPKcm() {
+s32 PS4_SYSV_ABI _ZNSs6assignEPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6assignERKSsmm() {
+s32 PS4_SYSV_ABI _ZNSs6assignERKSsmm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSs6insertEmmc() {
+s32 PS4_SYSV_ABI _ZNSs6insertEmmc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10bad_typeidD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt10bad_typeidD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10bad_typeidD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt10bad_typeidD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10bad_typeidD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt10bad_typeidD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem10_Close_dirEPv() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem10_Close_dirEPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem10_Copy_fileEPKcS1_() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem10_Copy_fileEPKcS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem10_File_sizeEPKc() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem10_File_sizeEPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem11_EquivalentEPKcS1_() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem11_EquivalentEPKcS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem11_Remove_dirEPKc() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem11_Remove_dirEPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem12_Current_getERA260_c() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem12_Current_getERA260_c() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem12_Current_setEPKc() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem12_Current_setEPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem16_Last_write_timeEPKc() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem16_Last_write_timeEPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcRKNS_4pathES4_St10error_code() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcRKNS_4pathES4_St10error_code() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcRKNS_4pathESt10error_code() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcRKNS_4pathESt10error_code() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcSt10error_code() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem18_Xfilesystem_errorEPKcSt10error_code() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem20_Set_last_write_timeEPKcl() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem20_Set_last_write_timeEPKcl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem5_StatEPKcPNS_5permsE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem5_StatEPKcPNS_5permsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem6_ChmodEPKcNS_5permsE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem6_ChmodEPKcNS_5permsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem6_LstatEPKcPNS_5permsE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem6_LstatEPKcPNS_5permsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem7_RenameEPKcS1_() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem7_RenameEPKcS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem7_ResizeEPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem7_ResizeEPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem7_UnlinkEPKc() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem7_UnlinkEPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem8_StatvfsEPKcRNS_10space_infoE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem8_StatvfsEPKcRNS_10space_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem9_Make_dirEPKcS1_() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem9_Make_dirEPKcS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem9_Open_dirERA260_cPKcRiRNS_9file_typeE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem9_Open_dirERA260_cPKcRiRNS_9file_typeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10filesystem9_Read_dirERA260_cPvRNS_9file_typeE() {
+s32 PS4_SYSV_ABI _ZNSt10filesystem9_Read_dirERA260_cPvRNS_9file_typeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE2idE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE4intlE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE4intlE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb0EED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE2idE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE4intlE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE4intlE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIcLb1EED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE2idE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE4intlE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE4intlE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb0EED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE2idE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE4intlE() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE4intlE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt10moneypunctIwLb1EED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11logic_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt11logic_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11logic_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt11logic_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11logic_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt11logic_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11range_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt11range_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11range_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt11range_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11range_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt11range_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11regex_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt11regex_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11regex_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt11regex_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt11regex_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt11regex_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12bad_weak_ptrD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12bad_weak_ptrD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12bad_weak_ptrD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12bad_weak_ptrD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12bad_weak_ptrD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12bad_weak_ptrD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12domain_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12domain_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12domain_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12domain_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12domain_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12domain_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12future_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12future_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12future_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12future_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12future_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12future_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12length_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12length_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12length_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12length_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12length_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12length_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12out_of_rangeD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12out_of_rangeD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12out_of_rangeD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12out_of_rangeD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12out_of_rangeD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12out_of_rangeD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_1E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_1E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_2E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_2E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_3E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_3E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_4E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_4E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_5E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_5E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_6E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_6E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_7E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_7E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_8E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_8E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders2_9E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders2_9E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_10E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_11E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_11E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_12E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_12E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_13E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_13E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_14E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_14E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_15E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_15E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_16E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_16E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_17E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_17E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_18E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_18E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_19E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_19E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12placeholders3_20E() {
+s32 PS4_SYSV_ABI _ZNSt12placeholders3_20E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12system_errorC2ESt10error_codePKc() {
+s32 PS4_SYSV_ABI _ZNSt12system_errorC2ESt10error_codePKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12system_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt12system_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12system_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt12system_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt12system_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt12system_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base10is_boundedE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base10is_boundedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base10is_integerE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base10is_integerE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base14is_specializedE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base14is_specializedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base5radixE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base5radixE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base8is_exactE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base8is_exactE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Num_int_base9is_moduloE() {
+s32 PS4_SYSV_ABI _ZNSt13_Num_int_base9is_moduloE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Regex_traitsIcE6_NamesE() {
+s32 PS4_SYSV_ABI _ZNSt13_Regex_traitsIcE6_NamesE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13_Regex_traitsIwE6_NamesE() {
+s32 PS4_SYSV_ABI _ZNSt13_Regex_traitsIwE6_NamesE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13bad_exceptionD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13bad_exceptionD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13bad_exceptionD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13bad_exceptionD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13bad_exceptionD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt13bad_exceptionD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE4syncEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5_LockEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5_LockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5imbueERKSt6locale() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5imbueERKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5uflowEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE5uflowEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE6setbufEPci() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE6setbufEPci() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE7_UnlockEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE7_UnlockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt13basic_filebufIcSt11char_traitsIcEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt13basic_filebufIcSt11char_traitsIcEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE8overflowEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9_EndwriteEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9_EndwriteEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9pbackfailEi() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9pbackfailEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9underflowEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEE9underflowEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIcSt11char_traitsIcEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE4syncEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE4syncEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5_LockEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5_LockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5imbueERKSt6locale() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5imbueERKSt6locale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5uflowEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE5uflowEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE6setbufEPwi() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE6setbufEPwi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE7_UnlockEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE7_UnlockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt13basic_filebufIwSt11char_traitsIwEE7seekoffElNSt5_IosbIiE8_SeekdirENS4_9_OpenmodeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt13basic_filebufIwSt11char_traitsIwEE7seekposESt4fposI9_MbstatetENSt5_IosbIiE9_OpenmodeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE8overflowEi() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE8overflowEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9_EndwriteEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9_EndwriteEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9pbackfailEi() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9pbackfailEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9underflowEv() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEE9underflowEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_filebufIwSt11char_traitsIwEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_istreamIwSt11char_traitsIwEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_istreamIwSt11char_traitsIwEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_istreamIwSt11char_traitsIwEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_istreamIwSt11char_traitsIwEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryC2ERS2_() {
+s32 PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryC2ERS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEE6sentryD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13basic_ostreamIwSt11char_traitsIwEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13runtime_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt13runtime_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13runtime_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt13runtime_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt13runtime_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt13runtime_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Error_objectsIiE14_System_objectE() {
+s32 PS4_SYSV_ABI _ZNSt14_Error_objectsIiE14_System_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Error_objectsIiE15_Generic_objectE() {
+s32 PS4_SYSV_ABI _ZNSt14_Error_objectsIiE15_Generic_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Error_objectsIiE16_Iostream_objectE() {
+s32 PS4_SYSV_ABI _ZNSt14_Error_objectsIiE16_Iostream_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10has_denormE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10has_denormE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10is_boundedE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10is_boundedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10is_integerE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base10is_integerE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base11round_styleE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base11round_styleE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base12has_infinityE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base12has_infinityE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base13has_quiet_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base13has_quiet_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base14is_specializedE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base14is_specializedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base15has_denorm_lossE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base15has_denorm_lossE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base15tinyness_beforeE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base15tinyness_beforeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base17has_signaling_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base17has_signaling_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base5radixE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base5radixE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base5trapsE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base5trapsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base8is_exactE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base8is_exactE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_iec559E() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_iec559E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_moduloE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_moduloE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14_Num_ldbl_base9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14error_categoryD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt14error_categoryD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIaE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIaE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIaE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIaE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIaE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIaE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIbE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIbE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIbE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIbE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIbE9is_moduloE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIbE9is_moduloE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIbE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIbE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIcE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIcE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIcE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIcE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIcE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIcE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12max_digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12max_digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12max_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12max_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12min_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE12min_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE14max_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE14max_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE14min_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE14min_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIdE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIdE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDiE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIDsE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12max_digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12max_digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12max_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12max_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12min_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE12min_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE14max_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE14max_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE14min_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE14min_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIeE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIeE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12max_digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12max_digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12max_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12max_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12min_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE12min_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE14max_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE14max_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE14min_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE14min_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIfE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIfE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIhE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIhE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIhE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIhE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIhE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIhE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIiE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIiE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIiE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIiE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIiE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIiE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIjE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIjE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIjE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIjE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIjE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIjE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIlE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIlE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIlE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIlE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIlE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIlE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsImE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsImE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsImE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsImE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsImE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsImE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIsE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIsE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIsE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIsE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIsE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIsE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsItE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsItE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsItE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsItE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsItE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsItE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIwE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIwE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIwE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIwE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIwE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIwE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIxE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIxE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIxE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIxE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIxE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIxE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIyE6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIyE6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIyE8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIyE8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14numeric_limitsIyE9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt14numeric_limitsIyE9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14overflow_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt14overflow_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14overflow_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt14overflow_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt14overflow_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt14overflow_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base10has_denormE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base10has_denormE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base10is_boundedE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base10is_boundedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base10is_integerE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base10is_integerE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base11round_styleE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base11round_styleE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base12has_infinityE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base12has_infinityE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base13has_quiet_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base13has_quiet_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base14is_specializedE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base14is_specializedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base15has_denorm_lossE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base15has_denorm_lossE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base15tinyness_beforeE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base15tinyness_beforeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base17has_signaling_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base17has_signaling_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base5radixE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base5radixE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base5trapsE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base5trapsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base8is_exactE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base8is_exactE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base9is_iec559E() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base9is_iec559E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base9is_moduloE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base9is_moduloE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15_Num_float_base9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt15_Num_float_base9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPci() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsgetnEPci() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsputnEPKci() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE6xsputnEPKci() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIcSt11char_traitsIcEE9showmanycEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsgetnEPwi() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsgetnEPwi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsputnEPKwi() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE6xsputnEPKwi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE9showmanycEv() {
+s32 PS4_SYSV_ABI _ZNSt15basic_streambufIwSt11char_traitsIwEE9showmanycEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15underflow_errorD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt15underflow_errorD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15underflow_errorD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt15underflow_errorD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt15underflow_errorD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt15underflow_errorD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16invalid_argumentD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt16invalid_argumentD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16invalid_argumentD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt16invalid_argumentD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16invalid_argumentD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt16invalid_argumentD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16nested_exceptionD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt16nested_exceptionD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16nested_exceptionD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt16nested_exceptionD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt16nested_exceptionD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt16nested_exceptionD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt17bad_function_callD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt17bad_function_callD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt17bad_function_callD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt17bad_function_callD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt17bad_function_callD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt17bad_function_callD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt18bad_variant_accessD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt18bad_variant_accessD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt18bad_variant_accessD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt18bad_variant_accessD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt20_Future_error_objectIiE14_Future_objectE() {
+s32 PS4_SYSV_ABI _ZNSt20_Future_error_objectIiE14_Future_objectE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt20bad_array_new_lengthD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt22_Future_error_categoryD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt22_Future_error_categoryD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt22_Future_error_categoryD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt22_Future_error_categoryD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt22_System_error_categoryD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt22_System_error_categoryD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt22_System_error_categoryD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt22_System_error_categoryD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt23_Generic_error_categoryD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt23_Generic_error_categoryD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt23_Generic_error_categoryD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt23_Generic_error_categoryD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt24_Iostream_error_categoryD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt24_Iostream_error_categoryD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt24_Iostream_error_categoryD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt24_Iostream_error_categoryD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt3pmr19new_delete_resourceEv() {
+s32 PS4_SYSV_ABI _ZNSt3pmr19new_delete_resourceEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt3pmr20get_default_resourceEv() {
+s32 PS4_SYSV_ABI _ZNSt3pmr20get_default_resourceEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt3pmr20null_memory_resourceEv() {
+s32 PS4_SYSV_ABI _ZNSt3pmr20null_memory_resourceEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt3pmr20set_default_resourceEPNS_15memory_resourceE() {
+s32 PS4_SYSV_ABI _ZNSt3pmr20set_default_resourceEPNS_15memory_resourceE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPKcPP12pthread_attrPP7pthread() {
+s32 PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPKcPP12pthread_attrPP7pthread() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPKcPP7pthread() {
+s32 PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPKcPP7pthread() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPP12pthread_attrPP7pthread() {
+s32 PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPP12pthread_attrPP7pthread() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPP7pthread() {
+s32 PS4_SYSV_ABI _ZNSt4_Pad7_LaunchEPP7pthread() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_Pad8_ReleaseEv() {
+s32 PS4_SYSV_ABI _ZNSt4_Pad8_ReleaseEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_PadC2EPKc() {
+s32 PS4_SYSV_ABI _ZNSt4_PadC2EPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_PadC2Ev() {
+s32 PS4_SYSV_ABI _ZNSt4_PadC2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_PadD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt4_PadD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt4_PadD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt4_PadD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIcE10table_sizeE() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIcE10table_sizeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIcE2idE() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIcED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIcED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIcED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIcED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIwE2idE() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIwED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIwED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt5ctypeIwED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt5ctypeIwED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_Mutex5_LockEv() {
+s32 PS4_SYSV_ABI _ZNSt6_Mutex5_LockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_Mutex7_UnlockEv() {
+s32 PS4_SYSV_ABI _ZNSt6_Mutex7_UnlockEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_MutexC1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_MutexC1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_MutexC2Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_MutexC2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_MutexD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_MutexD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_MutexD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_MutexD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_Winit9_Init_cntE() {
+s32 PS4_SYSV_ABI _ZNSt6_Winit9_Init_cntE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_WinitC1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_WinitC1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_WinitC2Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_WinitC2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_WinitD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_WinitD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6_WinitD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt6_WinitD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6chrono12steady_clock12is_monotonicE() {
+s32 PS4_SYSV_ABI _ZNSt6chrono12steady_clock12is_monotonicE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6chrono12steady_clock9is_steadyE() {
+s32 PS4_SYSV_ABI _ZNSt6chrono12steady_clock9is_steadyE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6chrono12system_clock12is_monotonicE() {
+s32 PS4_SYSV_ABI _ZNSt6chrono12system_clock12is_monotonicE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6chrono12system_clock9is_steadyE() {
+s32 PS4_SYSV_ABI _ZNSt6chrono12system_clock9is_steadyE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale16_GetgloballocaleEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale16_GetgloballocaleEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale16_SetgloballocaleEPv() {
+s32 PS4_SYSV_ABI _ZNSt6locale16_SetgloballocaleEPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale2id7_Id_cntE() {
+s32 PS4_SYSV_ABI _ZNSt6locale2id7_Id_cntE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale5_InitEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale5_InitEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale5emptyEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale5emptyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale5facet7_DecrefEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale5facet7_DecrefEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale5facet7_IncrefEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale5facet7_IncrefEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale5facet9_RegisterEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale5facet9_RegisterEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale6globalERKS_() {
+s32 PS4_SYSV_ABI _ZNSt6locale6globalERKS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_Locimp7_AddfacEPNS_5facetEm() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_Locimp7_AddfacEPNS_5facetEm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_Locimp8_ClocptrE() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_Locimp8_ClocptrE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_Locimp8_MakelocERKSt8_LocinfoiPS0_PKS_() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_Locimp8_MakelocERKSt8_LocinfoiPS0_PKS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_Locimp9_MakewlocERKSt8_LocinfoiPS0_PKS_() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_Locimp9_MakewlocERKSt8_LocinfoiPS0_PKS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_Locimp9_MakexlocERKSt8_LocinfoiPS0_PKS_() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_Locimp9_MakexlocERKSt8_LocinfoiPS0_PKS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpC1Eb() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpC1Eb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpC1ERKS0_() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpC1ERKS0_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpC2Eb() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpC2Eb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpC2ERKS0_() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpC2ERKS0_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7_LocimpD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt6locale7_LocimpD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6locale7classicEv() {
+s32 PS4_SYSV_ABI _ZNSt6locale7classicEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6localeD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt6localeD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt6thread20hardware_concurrencyEv() {
+s32 PS4_SYSV_ABI _ZNSt6thread20hardware_concurrencyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIcE5_InitERKSt8_Locinfob() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIcE5_InitERKSt8_Locinfob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIcEC2Emb() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIcEC2Emb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIcEC2EPKcmbb() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIcEC2EPKcmbb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIcED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIcED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIcED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIcED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIwE5_InitERKSt8_Locinfob() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIwE5_InitERKSt8_Locinfob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIwEC2Emb() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIwEC2Emb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIwEC2EPKcmbb() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIwEC2EPKcmbb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIwED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIwED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7_MpunctIwED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7_MpunctIwED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE5_InitERKSt8_Locinfo() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE7_GetcatEPPKNSt6locale5facetEPKS2_() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetE7_GetcatEPPKNSt6locale5facetEPKS2_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIcc9_MbstatetED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDic9_MbstatetED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIDsc9_MbstatetED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7codecvtIwc9_MbstatetED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcE5_InitERKSt8_Locinfo() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIcED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIcED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwE5_InitERKSt8_Locinfo() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7collateIwED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7collateIwED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_Locinfo8_AddcatsEiPKc() {
+s32 PS4_SYSV_ABI _ZNSt8_Locinfo8_AddcatsEiPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC1EiPKc() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC1EiPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC1EPKc() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC1EPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC1ERKSs() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC1ERKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC2EiPKc() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC2EiPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC2EPKc() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC2EPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoC2ERKSs() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoC2ERKSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8_LocinfoD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8_LocinfoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8bad_castD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8bad_castD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8bad_castD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8bad_castD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8bad_castD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8bad_castD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base4Init9_Init_cntE() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base4Init9_Init_cntE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base4InitC1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base4InitC1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base4InitC2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base4InitC2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base4InitD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base4InitD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base4InitD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base4InitD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base5_SyncE() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base5_SyncE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base5clearENSt5_IosbIiE8_IostateEb() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base5clearENSt5_IosbIiE8_IostateEb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base6_IndexE() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base6_IndexE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base7_AddstdEPS_() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base7_AddstdEPS_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base7failureD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base7failureD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base7failureD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base7failureD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_base7failureD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_base7failureD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_baseD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_baseD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_baseD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_baseD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8ios_baseD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8ios_baseD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcE5_InitERKSt8_Locinfo() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIcED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIcED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwE5_InitERKSt8_Locinfo() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8messagesIwED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8messagesIwED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcE5_InitERKSt8_Locinfob() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcE5_InitERKSt8_Locinfob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcE5_TidyEv() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcE5_TidyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC1EPKcmb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC1EPKcmb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC2EPKcmb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC2EPKcmb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIcED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIcED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwE5_InitERKSt8_Locinfob() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwE5_InitERKSt8_Locinfob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwE5_TidyEv() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwE5_TidyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwE7_GetcatEPPKNSt6locale5facetEPKS1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC1EPKcmb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC1EPKcmb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC1ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC1ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC2EPKcmb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC2EPKcmb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwEC2ERKSt8_Locinfomb() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwEC2ERKSt8_Locinfomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8numpunctIwED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8numpunctIwED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE5_TidyEv() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE5_TidyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE5_TidyEv() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE5_TidyEv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2EPKcm() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2EPKcm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base10has_denormE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base10has_denormE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base10is_boundedE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base10is_boundedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base10is_integerE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base10is_integerE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base11round_styleE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base11round_styleE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base12has_infinityE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base12has_infinityE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base12max_digits10E() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base12max_digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base12max_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base12max_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base12min_exponentE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base12min_exponentE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base13has_quiet_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base13has_quiet_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base14is_specializedE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base14is_specializedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base14max_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base14max_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base14min_exponent10E() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base14min_exponent10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base15has_denorm_lossE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base15has_denorm_lossE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base15tinyness_beforeE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base15tinyness_beforeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base17has_signaling_NaNE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base17has_signaling_NaNE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base5radixE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base5radixE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base5trapsE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base5trapsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base6digitsE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base6digitsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base8digits10E() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base8digits10E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base8is_exactE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base8is_exactE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base9is_iec559E() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base9is_iec559E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base9is_moduloE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base9is_moduloE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9_Num_base9is_signedE() {
+s32 PS4_SYSV_ABI _ZNSt9_Num_base9is_signedE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9bad_allocD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9bad_allocD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9bad_allocD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9bad_allocD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9bad_allocD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9bad_allocD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_Eb() {
+s32 PS4_SYSV_ABI _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_Eb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_Eb() {
+s32 PS4_SYSV_ABI _ZNSt9basic_iosIwSt11char_traitsIwEE4initEPSt15basic_streambufIwS1_Eb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9exception18_Set_raise_handlerEPFvRKS_E() {
+s32 PS4_SYSV_ABI _ZNSt9exception18_Set_raise_handlerEPFvRKS_E() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9exceptionD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9exceptionD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9exceptionD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9exceptionD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9exceptionD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9exceptionD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_PutES3_St22_String_const_iteratorISt11_String_valISt13_Simple_typesIcEEEm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_RepES3_cm() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE4_RepES3_cm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_PutES3_St22_String_const_iteratorISt11_String_valISt13_Simple_typesIwEEEm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_RepES3_wm() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE4_RepES3_wm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE5_InitERKSt8_Locinfo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE7_GetcatEPPKNSt6locale5facetEPKS5_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC1ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2Em() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEC2ERKSt8_Locinfom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEED2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9type_infoD0Ev() {
+s32 PS4_SYSV_ABI _ZNSt9type_infoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9type_infoD1Ev() {
+s32 PS4_SYSV_ABI _ZNSt9type_infoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZNSt9type_infoD2Ev() {
+s32 PS4_SYSV_ABI _ZNSt9type_infoD2Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Znwm() {
+s32 PS4_SYSV_ABI _Znwm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnwmRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZnwmRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnwmSt11align_val_t() {
+s32 PS4_SYSV_ABI _ZnwmSt11align_val_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZnwmSt11align_val_tRKSt9nothrow_t() {
+s32 PS4_SYSV_ABI _ZnwmSt11align_val_tRKSt9nothrow_t() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10_GetloctxtIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEiRT0_S5_mPKT_() {
+s32 PS4_SYSV_ABI _ZSt10_GetloctxtIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEiRT0_S5_mPKT_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10_GetloctxtIcSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_() {
+s32 PS4_SYSV_ABI _ZSt10_GetloctxtIcSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10_GetloctxtIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_() {
+s32 PS4_SYSV_ABI _ZSt10_GetloctxtIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEiRT0_S5_mPKT_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10_Rng_abortPKc() {
+s32 PS4_SYSV_ABI _ZSt10_Rng_abortPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10adopt_lock() {
+s32 PS4_SYSV_ABI _ZSt10adopt_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10defer_lock() {
+s32 PS4_SYSV_ABI _ZSt10defer_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt10unexpectedv() {
+s32 PS4_SYSV_ABI _ZSt10unexpectedv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt11_Xbad_allocv() {
+s32 PS4_SYSV_ABI _ZSt11_Xbad_allocv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt11setiosflagsNSt5_IosbIiE9_FmtflagsE() {
+s32 PS4_SYSV_ABI _ZSt11setiosflagsNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt11try_to_lock() {
+s32 PS4_SYSV_ABI _ZSt11try_to_lock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt12setprecisioni() {
+s32 PS4_SYSV_ABI _ZSt12setprecisioni() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13_Cl_charnames() {
+s32 PS4_SYSV_ABI _ZSt13_Cl_charnames() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13_Execute_onceRSt9once_flagPFiPvS1_PS1_ES1_() {
+s32 PS4_SYSV_ABI _ZSt13_Execute_onceRSt9once_flagPFiPvS1_PS1_ES1_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13_Syserror_mapi() {
+s32 PS4_SYSV_ABI _ZSt13_Syserror_mapi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13_Xregex_errorNSt15regex_constants10error_typeE() {
+s32 PS4_SYSV_ABI _ZSt13_Xregex_errorNSt15regex_constants10error_typeE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13get_terminatev() {
+s32 PS4_SYSV_ABI _ZSt13get_terminatev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13resetiosflagsNSt5_IosbIiE9_FmtflagsE() {
+s32 PS4_SYSV_ABI _ZSt13resetiosflagsNSt5_IosbIiE9_FmtflagsE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt13set_terminatePFvvE() {
+s32 PS4_SYSV_ABI _ZSt13set_terminatePFvvE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Atomic_assertPKcS0_() {
+s32 PS4_SYSV_ABI _ZSt14_Atomic_assertPKcS0_() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Cl_wcharnames() {
+s32 PS4_SYSV_ABI _ZSt14_Cl_wcharnames() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Debug_messagePKcS0_j() {
+s32 PS4_SYSV_ABI _ZSt14_Debug_messagePKcS0_j() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Raise_handler() {
+s32 PS4_SYSV_ABI _ZSt14_Raise_handler() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Random_devicev() {
+s32 PS4_SYSV_ABI _ZSt14_Random_devicev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Throw_C_errori() {
+s32 PS4_SYSV_ABI _ZSt14_Throw_C_errori() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Xlength_errorPKc() {
+s32 PS4_SYSV_ABI _ZSt14_Xlength_errorPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14_Xout_of_rangePKc() {
+s32 PS4_SYSV_ABI _ZSt14_Xout_of_rangePKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14get_unexpectedv() {
+s32 PS4_SYSV_ABI _ZSt14get_unexpectedv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt14set_unexpectedPFvvE() {
+s32 PS4_SYSV_ABI _ZSt14set_unexpectedPFvvE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15_sceLibcLocinfoPKc() {
+s32 PS4_SYSV_ABI _ZSt15_sceLibcLocinfoPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15_Xruntime_errorPKc() {
+s32 PS4_SYSV_ABI _ZSt15_Xruntime_errorPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15future_categoryv() {
+s32 PS4_SYSV_ABI _ZSt15future_categoryv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15get_new_handlerv() {
+s32 PS4_SYSV_ABI _ZSt15get_new_handlerv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15set_new_handlerPFvvE() {
+s32 PS4_SYSV_ABI _ZSt15set_new_handlerPFvvE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt15system_categoryv() {
+s32 PS4_SYSV_ABI _ZSt15system_categoryv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt16_Throw_Cpp_errori() {
+s32 PS4_SYSV_ABI _ZSt16_Throw_Cpp_errori() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt16_Xoverflow_errorPKc() {
+s32 PS4_SYSV_ABI _ZSt16_Xoverflow_errorPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt16generic_categoryv() {
+s32 PS4_SYSV_ABI _ZSt16generic_categoryv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt17_Future_error_mapi() {
+s32 PS4_SYSV_ABI _ZSt17_Future_error_mapi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt17iostream_categoryv() {
+s32 PS4_SYSV_ABI _ZSt17iostream_categoryv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt18_String_cpp_unused() {
+s32 PS4_SYSV_ABI _ZSt18_String_cpp_unused() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt18_Xinvalid_argumentPKc() {
+s32 PS4_SYSV_ABI _ZSt18_Xinvalid_argumentPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt18uncaught_exceptionv() {
+s32 PS4_SYSV_ABI _ZSt18uncaught_exceptionv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt19_Throw_future_errorRKSt10error_code() {
+s32 PS4_SYSV_ABI _ZSt19_Throw_future_errorRKSt10error_code() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt19_Xbad_function_callv() {
+s32 PS4_SYSV_ABI _ZSt19_Xbad_function_callv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt21_sceLibcClassicLocale() {
+s32 PS4_SYSV_ABI _ZSt21_sceLibcClassicLocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt22_Get_future_error_whati() {
+s32 PS4_SYSV_ABI _ZSt22_Get_future_error_whati() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt22_Random_device_entropyv() {
+s32 PS4_SYSV_ABI _ZSt22_Random_device_entropyv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt25_Rethrow_future_exceptionSt13exception_ptr() {
+s32 PS4_SYSV_ABI _ZSt25_Rethrow_future_exceptionSt13exception_ptr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt3cin() {
+s32 PS4_SYSV_ABI _ZSt3cin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4_Fpz() {
+s32 PS4_SYSV_ABI _ZSt4_Fpz() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4cerr() {
+s32 PS4_SYSV_ABI _ZSt4cerr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4clog() {
+s32 PS4_SYSV_ABI _ZSt4clog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4cout() {
+s32 PS4_SYSV_ABI _ZSt4cout() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4setwi() {
+s32 PS4_SYSV_ABI _ZSt4setwi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt4wcin() {
+s32 PS4_SYSV_ABI _ZSt4wcin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt5wcerr() {
+s32 PS4_SYSV_ABI _ZSt5wcerr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt5wclog() {
+s32 PS4_SYSV_ABI _ZSt5wclog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt5wcout() {
+s32 PS4_SYSV_ABI _ZSt5wcout() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt6_ThrowRKSt9exception() {
+s32 PS4_SYSV_ABI _ZSt6_ThrowRKSt9exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt6ignore() {
+s32 PS4_SYSV_ABI _ZSt6ignore() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_BADOFF() {
+s32 PS4_SYSV_ABI _ZSt7_BADOFF() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_FiopenPKcNSt5_IosbIiE9_OpenmodeEi() {
+s32 PS4_SYSV_ABI _ZSt7_FiopenPKcNSt5_IosbIiE9_OpenmodeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_FiopenPKwNSt5_IosbIiE9_OpenmodeEi() {
+s32 PS4_SYSV_ABI _ZSt7_FiopenPKwNSt5_IosbIiE9_OpenmodeEi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_MP_AddPyy() {
+s32 PS4_SYSV_ABI _ZSt7_MP_AddPyy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_MP_GetPy() {
+s32 PS4_SYSV_ABI _ZSt7_MP_GetPy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_MP_MulPyyy() {
+s32 PS4_SYSV_ABI _ZSt7_MP_MulPyyy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7_MP_RemPyy() {
+s32 PS4_SYSV_ABI _ZSt7_MP_RemPyy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7nothrow() {
+s32 PS4_SYSV_ABI _ZSt7nothrow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt7setbasei() {
+s32 PS4_SYSV_ABI _ZSt7setbasei() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt8_XLgammad() {
+s32 PS4_SYSV_ABI _ZSt8_XLgammad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt8_XLgammae() {
+s32 PS4_SYSV_ABI _ZSt8_XLgammae() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt8_XLgammaf() {
+s32 PS4_SYSV_ABI _ZSt8_XLgammaf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt9_LStrcollIcEiPKT_S2_S2_S2_PKSt8_Collvec() {
+s32 PS4_SYSV_ABI _ZSt9_LStrcollIcEiPKT_S2_S2_S2_PKSt8_Collvec() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt9_LStrcollIwEiPKT_S2_S2_S2_PKSt8_Collvec() {
+s32 PS4_SYSV_ABI _ZSt9_LStrcollIwEiPKT_S2_S2_S2_PKSt8_Collvec() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt9_LStrxfrmIcEmPT_S1_PKS0_S3_PKSt8_Collvec() {
+s32 PS4_SYSV_ABI _ZSt9_LStrxfrmIcEmPT_S1_PKS0_S3_PKSt8_Collvec() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt9_LStrxfrmIwEmPT_S1_PKS0_S3_PKSt8_Collvec() {
+s32 PS4_SYSV_ABI _ZSt9_LStrxfrmIwEmPT_S1_PKS0_S3_PKSt8_Collvec() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZSt9terminatev() {
+s32 PS4_SYSV_ABI _ZSt9terminatev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIa() {
+s32 PS4_SYSV_ABI _ZTIa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIb() {
+s32 PS4_SYSV_ABI _ZTIb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIc() {
+s32 PS4_SYSV_ABI _ZTIc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTId() {
+s32 PS4_SYSV_ABI _ZTId() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIDh() {
+s32 PS4_SYSV_ABI _ZTIDh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIDi() {
+s32 PS4_SYSV_ABI _ZTIDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIDn() {
+s32 PS4_SYSV_ABI _ZTIDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIDs() {
+s32 PS4_SYSV_ABI _ZTIDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIe() {
+s32 PS4_SYSV_ABI _ZTIe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIf() {
+s32 PS4_SYSV_ABI _ZTIf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIh() {
+s32 PS4_SYSV_ABI _ZTIh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIi() {
+s32 PS4_SYSV_ABI _ZTIi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIj() {
+s32 PS4_SYSV_ABI _ZTIj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIl() {
+s32 PS4_SYSV_ABI _ZTIl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIm() {
+s32 PS4_SYSV_ABI _ZTIm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIn() {
+s32 PS4_SYSV_ABI _ZTIn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv116__enum_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv116__enum_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv117__array_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv117__array_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv117__class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv117__class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv117__pbase_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv117__pbase_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv119__pointer_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv119__pointer_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv120__function_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv120__function_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv120__si_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv120__si_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv121__vmi_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv121__vmi_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv123__fundamental_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv123__fundamental_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN10__cxxabiv129__pointer_to_member_type_infoE() {
+s32 PS4_SYSV_ABI _ZTIN10__cxxabiv129__pointer_to_member_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN6Dinkum7threads10lock_errorE() {
+s32 PS4_SYSV_ABI _ZTIN6Dinkum7threads10lock_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIN6Dinkum7threads21thread_resource_errorE() {
+s32 PS4_SYSV_ABI _ZTIN6Dinkum7threads21thread_resource_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTINSt6locale5facetE() {
+s32 PS4_SYSV_ABI _ZTINSt6locale5facetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTINSt6locale7_LocimpE() {
+s32 PS4_SYSV_ABI _ZTINSt6locale7_LocimpE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTINSt8ios_base7failureE() {
+s32 PS4_SYSV_ABI _ZTINSt8ios_base7failureE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIo() {
+s32 PS4_SYSV_ABI _ZTIo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPa() {
+s32 PS4_SYSV_ABI _ZTIPa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPb() {
+s32 PS4_SYSV_ABI _ZTIPb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPc() {
+s32 PS4_SYSV_ABI _ZTIPc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPd() {
+s32 PS4_SYSV_ABI _ZTIPd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPDh() {
+s32 PS4_SYSV_ABI _ZTIPDh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPDi() {
+s32 PS4_SYSV_ABI _ZTIPDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPDn() {
+s32 PS4_SYSV_ABI _ZTIPDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPDs() {
+s32 PS4_SYSV_ABI _ZTIPDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPe() {
+s32 PS4_SYSV_ABI _ZTIPe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPf() {
+s32 PS4_SYSV_ABI _ZTIPf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPh() {
+s32 PS4_SYSV_ABI _ZTIPh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPi() {
+s32 PS4_SYSV_ABI _ZTIPi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPj() {
+s32 PS4_SYSV_ABI _ZTIPj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKa() {
+s32 PS4_SYSV_ABI _ZTIPKa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKb() {
+s32 PS4_SYSV_ABI _ZTIPKb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKc() {
+s32 PS4_SYSV_ABI _ZTIPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKd() {
+s32 PS4_SYSV_ABI _ZTIPKd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKDh() {
+s32 PS4_SYSV_ABI _ZTIPKDh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKDi() {
+s32 PS4_SYSV_ABI _ZTIPKDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKDn() {
+s32 PS4_SYSV_ABI _ZTIPKDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKDs() {
+s32 PS4_SYSV_ABI _ZTIPKDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKe() {
+s32 PS4_SYSV_ABI _ZTIPKe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKf() {
+s32 PS4_SYSV_ABI _ZTIPKf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKh() {
+s32 PS4_SYSV_ABI _ZTIPKh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKi() {
+s32 PS4_SYSV_ABI _ZTIPKi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKj() {
+s32 PS4_SYSV_ABI _ZTIPKj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKl() {
+s32 PS4_SYSV_ABI _ZTIPKl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKm() {
+s32 PS4_SYSV_ABI _ZTIPKm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKn() {
+s32 PS4_SYSV_ABI _ZTIPKn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKo() {
+s32 PS4_SYSV_ABI _ZTIPKo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKs() {
+s32 PS4_SYSV_ABI _ZTIPKs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKt() {
+s32 PS4_SYSV_ABI _ZTIPKt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKv() {
+s32 PS4_SYSV_ABI _ZTIPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKw() {
+s32 PS4_SYSV_ABI _ZTIPKw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKx() {
+s32 PS4_SYSV_ABI _ZTIPKx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPKy() {
+s32 PS4_SYSV_ABI _ZTIPKy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPl() {
+s32 PS4_SYSV_ABI _ZTIPl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPm() {
+s32 PS4_SYSV_ABI _ZTIPm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPn() {
+s32 PS4_SYSV_ABI _ZTIPn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPo() {
+s32 PS4_SYSV_ABI _ZTIPo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPs() {
+s32 PS4_SYSV_ABI _ZTIPs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPt() {
+s32 PS4_SYSV_ABI _ZTIPt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPv() {
+s32 PS4_SYSV_ABI _ZTIPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPw() {
+s32 PS4_SYSV_ABI _ZTIPw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPx() {
+s32 PS4_SYSV_ABI _ZTIPx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIPy() {
+s32 PS4_SYSV_ABI _ZTIPy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIs() {
+s32 PS4_SYSV_ABI _ZTIs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISi() {
+s32 PS4_SYSV_ABI _ZTISi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISo() {
+s32 PS4_SYSV_ABI _ZTISo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10bad_typeid() {
+s32 PS4_SYSV_ABI _ZTISt10bad_typeid() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10ctype_base() {
+s32 PS4_SYSV_ABI _ZTISt10ctype_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10money_base() {
+s32 PS4_SYSV_ABI _ZTISt10money_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10moneypunctIcLb0EE() {
+s32 PS4_SYSV_ABI _ZTISt10moneypunctIcLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10moneypunctIcLb1EE() {
+s32 PS4_SYSV_ABI _ZTISt10moneypunctIcLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10moneypunctIwLb0EE() {
+s32 PS4_SYSV_ABI _ZTISt10moneypunctIwLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt10moneypunctIwLb1EE() {
+s32 PS4_SYSV_ABI _ZTISt10moneypunctIwLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt11_Facet_base() {
+s32 PS4_SYSV_ABI _ZTISt11_Facet_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt11logic_error() {
+s32 PS4_SYSV_ABI _ZTISt11logic_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt11range_error() {
+s32 PS4_SYSV_ABI _ZTISt11range_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt11regex_error() {
+s32 PS4_SYSV_ABI _ZTISt11regex_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12bad_weak_ptr() {
+s32 PS4_SYSV_ABI _ZTISt12bad_weak_ptr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12codecvt_base() {
+s32 PS4_SYSV_ABI _ZTISt12codecvt_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12domain_error() {
+s32 PS4_SYSV_ABI _ZTISt12domain_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12future_error() {
+s32 PS4_SYSV_ABI _ZTISt12future_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12length_error() {
+s32 PS4_SYSV_ABI _ZTISt12length_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12out_of_range() {
+s32 PS4_SYSV_ABI _ZTISt12out_of_range() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt12system_error() {
+s32 PS4_SYSV_ABI _ZTISt12system_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13bad_exception() {
+s32 PS4_SYSV_ABI _ZTISt13bad_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13basic_filebufIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTISt13basic_filebufIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13basic_filebufIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTISt13basic_filebufIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13basic_istreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTISt13basic_istreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13basic_ostreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTISt13basic_ostreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13messages_base() {
+s32 PS4_SYSV_ABI _ZTISt13messages_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt13runtime_error() {
+s32 PS4_SYSV_ABI _ZTISt13runtime_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt14error_category() {
+s32 PS4_SYSV_ABI _ZTISt14error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt14overflow_error() {
+s32 PS4_SYSV_ABI _ZTISt14overflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt15basic_streambufIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTISt15basic_streambufIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt15basic_streambufIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTISt15basic_streambufIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt15underflow_error() {
+s32 PS4_SYSV_ABI _ZTISt15underflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt16invalid_argument() {
+s32 PS4_SYSV_ABI _ZTISt16invalid_argument() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt16nested_exception() {
+s32 PS4_SYSV_ABI _ZTISt16nested_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt17bad_function_call() {
+s32 PS4_SYSV_ABI _ZTISt17bad_function_call() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt18bad_variant_access() {
+s32 PS4_SYSV_ABI _ZTISt18bad_variant_access() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt20bad_array_new_length() {
+s32 PS4_SYSV_ABI _ZTISt20bad_array_new_length() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt22_Future_error_category() {
+s32 PS4_SYSV_ABI _ZTISt22_Future_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt22_System_error_category() {
+s32 PS4_SYSV_ABI _ZTISt22_System_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt23_Generic_error_category() {
+s32 PS4_SYSV_ABI _ZTISt23_Generic_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt24_Iostream_error_category() {
+s32 PS4_SYSV_ABI _ZTISt24_Iostream_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt4_Pad() {
+s32 PS4_SYSV_ABI _ZTISt4_Pad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt5_IosbIiE() {
+s32 PS4_SYSV_ABI _ZTISt5_IosbIiE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt5ctypeIcE() {
+s32 PS4_SYSV_ABI _ZTISt5ctypeIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt5ctypeIwE() {
+s32 PS4_SYSV_ABI _ZTISt5ctypeIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7_MpunctIcE() {
+s32 PS4_SYSV_ABI _ZTISt7_MpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7_MpunctIwE() {
+s32 PS4_SYSV_ABI _ZTISt7_MpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7codecvtIcc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTISt7codecvtIcc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7codecvtIDic9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTISt7codecvtIDic9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7codecvtIDsc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTISt7codecvtIDsc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7codecvtIwc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTISt7codecvtIwc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7collateIcE() {
+s32 PS4_SYSV_ABI _ZTISt7collateIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7collateIwE() {
+s32 PS4_SYSV_ABI _ZTISt7collateIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8bad_cast() {
+s32 PS4_SYSV_ABI _ZTISt8bad_cast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8ios_base() {
+s32 PS4_SYSV_ABI _ZTISt8ios_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8messagesIcE() {
+s32 PS4_SYSV_ABI _ZTISt8messagesIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8messagesIwE() {
+s32 PS4_SYSV_ABI _ZTISt8messagesIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8numpunctIcE() {
+s32 PS4_SYSV_ABI _ZTISt8numpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8numpunctIwE() {
+s32 PS4_SYSV_ABI _ZTISt8numpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9bad_alloc() {
+s32 PS4_SYSV_ABI _ZTISt9bad_alloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9basic_iosIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTISt9basic_iosIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9basic_iosIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTISt9basic_iosIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9exception() {
+s32 PS4_SYSV_ABI _ZTISt9exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTISt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTISt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9time_base() {
+s32 PS4_SYSV_ABI _ZTISt9time_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTISt9type_info() {
+s32 PS4_SYSV_ABI _ZTISt9type_info() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIt() {
+s32 PS4_SYSV_ABI _ZTIt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIv() {
+s32 PS4_SYSV_ABI _ZTIv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIw() {
+s32 PS4_SYSV_ABI _ZTIw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIx() {
+s32 PS4_SYSV_ABI _ZTIx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTIy() {
+s32 PS4_SYSV_ABI _ZTIy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSa() {
+s32 PS4_SYSV_ABI _ZTSa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSb() {
+s32 PS4_SYSV_ABI _ZTSb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSc() {
+s32 PS4_SYSV_ABI _ZTSc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSd() {
+s32 PS4_SYSV_ABI _ZTSd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSDi() {
+s32 PS4_SYSV_ABI _ZTSDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSDn() {
+s32 PS4_SYSV_ABI _ZTSDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSDs() {
+s32 PS4_SYSV_ABI _ZTSDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSe() {
+s32 PS4_SYSV_ABI _ZTSe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSf() {
+s32 PS4_SYSV_ABI _ZTSf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSh() {
+s32 PS4_SYSV_ABI _ZTSh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSi() {
+s32 PS4_SYSV_ABI _ZTSi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSj() {
+s32 PS4_SYSV_ABI _ZTSj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSl() {
+s32 PS4_SYSV_ABI _ZTSl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSm() {
+s32 PS4_SYSV_ABI _ZTSm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv116__enum_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv116__enum_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv117__array_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv117__array_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv117__class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv117__class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv117__pbase_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv117__pbase_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv119__pointer_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv119__pointer_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv120__function_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv120__function_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv120__si_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv120__si_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv121__vmi_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv121__vmi_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv123__fundamental_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv123__fundamental_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN10__cxxabiv129__pointer_to_member_type_infoE() {
+s32 PS4_SYSV_ABI _ZTSN10__cxxabiv129__pointer_to_member_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN6Dinkum7threads10lock_errorE() {
+s32 PS4_SYSV_ABI _ZTSN6Dinkum7threads10lock_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSN6Dinkum7threads21thread_resource_errorE() {
+s32 PS4_SYSV_ABI _ZTSN6Dinkum7threads21thread_resource_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSNSt6locale5facetE() {
+s32 PS4_SYSV_ABI _ZTSNSt6locale5facetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSNSt6locale7_LocimpE() {
+s32 PS4_SYSV_ABI _ZTSNSt6locale7_LocimpE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSNSt8ios_base7failureE() {
+s32 PS4_SYSV_ABI _ZTSNSt8ios_base7failureE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPa() {
+s32 PS4_SYSV_ABI _ZTSPa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPb() {
+s32 PS4_SYSV_ABI _ZTSPb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPc() {
+s32 PS4_SYSV_ABI _ZTSPc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPd() {
+s32 PS4_SYSV_ABI _ZTSPd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPDi() {
+s32 PS4_SYSV_ABI _ZTSPDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPDn() {
+s32 PS4_SYSV_ABI _ZTSPDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPDs() {
+s32 PS4_SYSV_ABI _ZTSPDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPe() {
+s32 PS4_SYSV_ABI _ZTSPe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPf() {
+s32 PS4_SYSV_ABI _ZTSPf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPh() {
+s32 PS4_SYSV_ABI _ZTSPh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPi() {
+s32 PS4_SYSV_ABI _ZTSPi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPj() {
+s32 PS4_SYSV_ABI _ZTSPj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKa() {
+s32 PS4_SYSV_ABI _ZTSPKa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKb() {
+s32 PS4_SYSV_ABI _ZTSPKb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKc() {
+s32 PS4_SYSV_ABI _ZTSPKc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKd() {
+s32 PS4_SYSV_ABI _ZTSPKd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKDi() {
+s32 PS4_SYSV_ABI _ZTSPKDi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKDn() {
+s32 PS4_SYSV_ABI _ZTSPKDn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKDs() {
+s32 PS4_SYSV_ABI _ZTSPKDs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKe() {
+s32 PS4_SYSV_ABI _ZTSPKe() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKf() {
+s32 PS4_SYSV_ABI _ZTSPKf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKh() {
+s32 PS4_SYSV_ABI _ZTSPKh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKi() {
+s32 PS4_SYSV_ABI _ZTSPKi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKj() {
+s32 PS4_SYSV_ABI _ZTSPKj() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKl() {
+s32 PS4_SYSV_ABI _ZTSPKl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKm() {
+s32 PS4_SYSV_ABI _ZTSPKm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKs() {
+s32 PS4_SYSV_ABI _ZTSPKs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKt() {
+s32 PS4_SYSV_ABI _ZTSPKt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKv() {
+s32 PS4_SYSV_ABI _ZTSPKv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKw() {
+s32 PS4_SYSV_ABI _ZTSPKw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKx() {
+s32 PS4_SYSV_ABI _ZTSPKx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPKy() {
+s32 PS4_SYSV_ABI _ZTSPKy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPl() {
+s32 PS4_SYSV_ABI _ZTSPl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPm() {
+s32 PS4_SYSV_ABI _ZTSPm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPs() {
+s32 PS4_SYSV_ABI _ZTSPs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPt() {
+s32 PS4_SYSV_ABI _ZTSPt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPv() {
+s32 PS4_SYSV_ABI _ZTSPv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPw() {
+s32 PS4_SYSV_ABI _ZTSPw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPx() {
+s32 PS4_SYSV_ABI _ZTSPx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSPy() {
+s32 PS4_SYSV_ABI _ZTSPy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSs() {
+s32 PS4_SYSV_ABI _ZTSs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSi() {
+s32 PS4_SYSV_ABI _ZTSSi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSo() {
+s32 PS4_SYSV_ABI _ZTSSo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10bad_typeid() {
+s32 PS4_SYSV_ABI _ZTSSt10bad_typeid() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10ctype_base() {
+s32 PS4_SYSV_ABI _ZTSSt10ctype_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10money_base() {
+s32 PS4_SYSV_ABI _ZTSSt10money_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10moneypunctIcLb0EE() {
+s32 PS4_SYSV_ABI _ZTSSt10moneypunctIcLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10moneypunctIcLb1EE() {
+s32 PS4_SYSV_ABI _ZTSSt10moneypunctIcLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10moneypunctIwLb0EE() {
+s32 PS4_SYSV_ABI _ZTSSt10moneypunctIwLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt10moneypunctIwLb1EE() {
+s32 PS4_SYSV_ABI _ZTSSt10moneypunctIwLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt11_Facet_base() {
+s32 PS4_SYSV_ABI _ZTSSt11_Facet_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt11logic_error() {
+s32 PS4_SYSV_ABI _ZTSSt11logic_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt11range_error() {
+s32 PS4_SYSV_ABI _ZTSSt11range_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt11regex_error() {
+s32 PS4_SYSV_ABI _ZTSSt11regex_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12bad_weak_ptr() {
+s32 PS4_SYSV_ABI _ZTSSt12bad_weak_ptr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12codecvt_base() {
+s32 PS4_SYSV_ABI _ZTSSt12codecvt_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12domain_error() {
+s32 PS4_SYSV_ABI _ZTSSt12domain_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12future_error() {
+s32 PS4_SYSV_ABI _ZTSSt12future_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12length_error() {
+s32 PS4_SYSV_ABI _ZTSSt12length_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12out_of_range() {
+s32 PS4_SYSV_ABI _ZTSSt12out_of_range() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt12system_error() {
+s32 PS4_SYSV_ABI _ZTSSt12system_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13bad_exception() {
+s32 PS4_SYSV_ABI _ZTSSt13bad_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13basic_filebufIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTSSt13basic_filebufIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13basic_filebufIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTSSt13basic_filebufIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13basic_istreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTSSt13basic_istreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13basic_ostreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTSSt13basic_ostreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13messages_base() {
+s32 PS4_SYSV_ABI _ZTSSt13messages_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt13runtime_error() {
+s32 PS4_SYSV_ABI _ZTSSt13runtime_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt14error_category() {
+s32 PS4_SYSV_ABI _ZTSSt14error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt14overflow_error() {
+s32 PS4_SYSV_ABI _ZTSSt14overflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt15basic_streambufIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTSSt15basic_streambufIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt15basic_streambufIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTSSt15basic_streambufIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt15underflow_error() {
+s32 PS4_SYSV_ABI _ZTSSt15underflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt16invalid_argument() {
+s32 PS4_SYSV_ABI _ZTSSt16invalid_argument() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt16nested_exception() {
+s32 PS4_SYSV_ABI _ZTSSt16nested_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt17bad_function_call() {
+s32 PS4_SYSV_ABI _ZTSSt17bad_function_call() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt18bad_variant_access() {
+s32 PS4_SYSV_ABI _ZTSSt18bad_variant_access() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt20bad_array_new_length() {
+s32 PS4_SYSV_ABI _ZTSSt20bad_array_new_length() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt22_Future_error_category() {
+s32 PS4_SYSV_ABI _ZTSSt22_Future_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt22_System_error_category() {
+s32 PS4_SYSV_ABI _ZTSSt22_System_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt23_Generic_error_category() {
+s32 PS4_SYSV_ABI _ZTSSt23_Generic_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt24_Iostream_error_category() {
+s32 PS4_SYSV_ABI _ZTSSt24_Iostream_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt4_Pad() {
+s32 PS4_SYSV_ABI _ZTSSt4_Pad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt5_IosbIiE() {
+s32 PS4_SYSV_ABI _ZTSSt5_IosbIiE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt5ctypeIcE() {
+s32 PS4_SYSV_ABI _ZTSSt5ctypeIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt5ctypeIwE() {
+s32 PS4_SYSV_ABI _ZTSSt5ctypeIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7_MpunctIcE() {
+s32 PS4_SYSV_ABI _ZTSSt7_MpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7_MpunctIwE() {
+s32 PS4_SYSV_ABI _ZTSSt7_MpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7codecvtIcc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTSSt7codecvtIcc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7codecvtIDic9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTSSt7codecvtIDic9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7codecvtIDsc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTSSt7codecvtIDsc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7codecvtIwc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTSSt7codecvtIwc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7collateIcE() {
+s32 PS4_SYSV_ABI _ZTSSt7collateIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7collateIwE() {
+s32 PS4_SYSV_ABI _ZTSSt7collateIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8bad_cast() {
+s32 PS4_SYSV_ABI _ZTSSt8bad_cast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8ios_base() {
+s32 PS4_SYSV_ABI _ZTSSt8ios_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8messagesIcE() {
+s32 PS4_SYSV_ABI _ZTSSt8messagesIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8messagesIwE() {
+s32 PS4_SYSV_ABI _ZTSSt8messagesIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8numpunctIcE() {
+s32 PS4_SYSV_ABI _ZTSSt8numpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8numpunctIwE() {
+s32 PS4_SYSV_ABI _ZTSSt8numpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9bad_alloc() {
+s32 PS4_SYSV_ABI _ZTSSt9bad_alloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9basic_iosIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTSSt9basic_iosIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9basic_iosIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTSSt9basic_iosIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9exception() {
+s32 PS4_SYSV_ABI _ZTSSt9exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTSSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTSSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9time_base() {
+s32 PS4_SYSV_ABI _ZTSSt9time_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSSt9type_info() {
+s32 PS4_SYSV_ABI _ZTSSt9type_info() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSt() {
+s32 PS4_SYSV_ABI _ZTSt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSv() {
+s32 PS4_SYSV_ABI _ZTSv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSw() {
+s32 PS4_SYSV_ABI _ZTSw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSx() {
+s32 PS4_SYSV_ABI _ZTSx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTSy() {
+s32 PS4_SYSV_ABI _ZTSy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSiD0Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSiD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSiD1Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSiD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSoD0Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSoD0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSoD1Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSoD1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSt13basic_istreamIwSt11char_traitsIwEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED0Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev() {
+s32 PS4_SYSV_ABI _ZTv0_n24_NSt13basic_ostreamIwSt11char_traitsIwEED1Ev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv116__enum_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv116__enum_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv117__array_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv117__array_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv117__class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv117__class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv117__pbase_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv117__pbase_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv119__pointer_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv119__pointer_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv120__function_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv120__function_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv120__si_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv120__si_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv121__vmi_class_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv121__vmi_class_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv123__fundamental_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv123__fundamental_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN10__cxxabiv129__pointer_to_member_type_infoE() {
+s32 PS4_SYSV_ABI _ZTVN10__cxxabiv129__pointer_to_member_type_infoE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN6Dinkum7threads10lock_errorE() {
+s32 PS4_SYSV_ABI _ZTVN6Dinkum7threads10lock_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVN6Dinkum7threads21thread_resource_errorE() {
+s32 PS4_SYSV_ABI _ZTVN6Dinkum7threads21thread_resource_errorE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVNSt6locale7_LocimpE() {
+s32 PS4_SYSV_ABI _ZTVNSt6locale7_LocimpE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVNSt8ios_base7failureE() {
+s32 PS4_SYSV_ABI _ZTVNSt8ios_base7failureE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSi() {
+s32 PS4_SYSV_ABI _ZTVSi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSo() {
+s32 PS4_SYSV_ABI _ZTVSo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt10bad_typeid() {
+s32 PS4_SYSV_ABI _ZTVSt10bad_typeid() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt10moneypunctIcLb0EE() {
+s32 PS4_SYSV_ABI _ZTVSt10moneypunctIcLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt10moneypunctIcLb1EE() {
+s32 PS4_SYSV_ABI _ZTVSt10moneypunctIcLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt10moneypunctIwLb0EE() {
+s32 PS4_SYSV_ABI _ZTVSt10moneypunctIwLb0EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt10moneypunctIwLb1EE() {
+s32 PS4_SYSV_ABI _ZTVSt10moneypunctIwLb1EE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt11logic_error() {
+s32 PS4_SYSV_ABI _ZTVSt11logic_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt11range_error() {
+s32 PS4_SYSV_ABI _ZTVSt11range_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt11regex_error() {
+s32 PS4_SYSV_ABI _ZTVSt11regex_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12bad_weak_ptr() {
+s32 PS4_SYSV_ABI _ZTVSt12bad_weak_ptr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12domain_error() {
+s32 PS4_SYSV_ABI _ZTVSt12domain_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12future_error() {
+s32 PS4_SYSV_ABI _ZTVSt12future_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12length_error() {
+s32 PS4_SYSV_ABI _ZTVSt12length_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12out_of_range() {
+s32 PS4_SYSV_ABI _ZTVSt12out_of_range() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt12system_error() {
+s32 PS4_SYSV_ABI _ZTVSt12system_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13bad_exception() {
+s32 PS4_SYSV_ABI _ZTVSt13bad_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13basic_filebufIcSt11char_traitsIcEE() {
+s32 PS4_SYSV_ABI _ZTVSt13basic_filebufIcSt11char_traitsIcEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13basic_filebufIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTVSt13basic_filebufIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13basic_istreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTVSt13basic_istreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13basic_ostreamIwSt11char_traitsIwEE() {
+s32 PS4_SYSV_ABI _ZTVSt13basic_ostreamIwSt11char_traitsIwEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt13runtime_error() {
+s32 PS4_SYSV_ABI _ZTVSt13runtime_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt14error_category() {
+s32 PS4_SYSV_ABI _ZTVSt14error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt14overflow_error() {
+s32 PS4_SYSV_ABI _ZTVSt14overflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt15underflow_error() {
+s32 PS4_SYSV_ABI _ZTVSt15underflow_error() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt16invalid_argument() {
+s32 PS4_SYSV_ABI _ZTVSt16invalid_argument() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt16nested_exception() {
+s32 PS4_SYSV_ABI _ZTVSt16nested_exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt17bad_function_call() {
+s32 PS4_SYSV_ABI _ZTVSt17bad_function_call() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt18bad_variant_access() {
+s32 PS4_SYSV_ABI _ZTVSt18bad_variant_access() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt20bad_array_new_length() {
+s32 PS4_SYSV_ABI _ZTVSt20bad_array_new_length() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt22_Future_error_category() {
+s32 PS4_SYSV_ABI _ZTVSt22_Future_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt22_System_error_category() {
+s32 PS4_SYSV_ABI _ZTVSt22_System_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt23_Generic_error_category() {
+s32 PS4_SYSV_ABI _ZTVSt23_Generic_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt24_Iostream_error_category() {
+s32 PS4_SYSV_ABI _ZTVSt24_Iostream_error_category() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt4_Pad() {
+s32 PS4_SYSV_ABI _ZTVSt4_Pad() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt5ctypeIcE() {
+s32 PS4_SYSV_ABI _ZTVSt5ctypeIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt5ctypeIwE() {
+s32 PS4_SYSV_ABI _ZTVSt5ctypeIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7_MpunctIcE() {
+s32 PS4_SYSV_ABI _ZTVSt7_MpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7_MpunctIwE() {
+s32 PS4_SYSV_ABI _ZTVSt7_MpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7codecvtIcc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTVSt7codecvtIcc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7codecvtIDic9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTVSt7codecvtIDic9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7codecvtIDsc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTVSt7codecvtIDsc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7codecvtIwc9_MbstatetE() {
+s32 PS4_SYSV_ABI _ZTVSt7codecvtIwc9_MbstatetE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7collateIcE() {
+s32 PS4_SYSV_ABI _ZTVSt7collateIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7collateIwE() {
+s32 PS4_SYSV_ABI _ZTVSt7collateIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt7num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8bad_cast() {
+s32 PS4_SYSV_ABI _ZTVSt8bad_cast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8ios_base() {
+s32 PS4_SYSV_ABI _ZTVSt8ios_base() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8messagesIcE() {
+s32 PS4_SYSV_ABI _ZTVSt8messagesIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8messagesIwE() {
+s32 PS4_SYSV_ABI _ZTVSt8messagesIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8numpunctIcE() {
+s32 PS4_SYSV_ABI _ZTVSt8numpunctIcE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8numpunctIwE() {
+s32 PS4_SYSV_ABI _ZTVSt8numpunctIwE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt8time_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt8time_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9bad_alloc() {
+s32 PS4_SYSV_ABI _ZTVSt9bad_alloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9exception() {
+s32 PS4_SYSV_ABI _ZTVSt9exception() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
+s32 PS4_SYSV_ABI _ZTVSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
+s32 PS4_SYSV_ABI _ZTVSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _ZTVSt9type_info() {
+s32 PS4_SYSV_ABI _ZTVSt9type_info() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetffldEPcRS3_S6_RSt8ios_basePiE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetifldEPcRS3_S6_NSt5_IosbIiE9_FmtflagsERKSt6localeE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE9_GetffldxEPcRS3_S6_RSt8ios_basePiE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt9money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE8_GetmfldERS3_S5_bRSt8ios_basePcE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt9money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE8_GetmfldERS3_S5_bRSt8ios_basePwE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt9money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE6do_putES3_bRSt8ios_basecRKSsE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNKSt9money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE6do_putES3_bRSt8ios_basewRKSbIwS2_SaIwEEE4_Src() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNSt13basic_filebufIcSt11char_traitsIcEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI
+s32 PS4_SYSV_ABI
 _ZZNSt13basic_filebufIwSt11char_traitsIwEE5_InitEP7__sFILENS2_7_InitflEE7_Stinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI abort() {
+s32 PS4_SYSV_ABI abort() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI abort_handler_s() {
+s32 PS4_SYSV_ABI abort_handler_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI abs() {
+s32 PS4_SYSV_ABI abs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acos() {
+s32 PS4_SYSV_ABI acos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acosf() {
+s32 PS4_SYSV_ABI acosf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acosh() {
+s32 PS4_SYSV_ABI acosh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acoshf() {
+s32 PS4_SYSV_ABI acoshf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acoshl() {
+s32 PS4_SYSV_ABI acoshl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI acosl() {
+s32 PS4_SYSV_ABI acosl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI alarm() {
+s32 PS4_SYSV_ABI alarm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI aligned_alloc() {
+s32 PS4_SYSV_ABI aligned_alloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asctime() {
+s32 PS4_SYSV_ABI asctime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asctime_s() {
+s32 PS4_SYSV_ABI asctime_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asin() {
+s32 PS4_SYSV_ABI asin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asinf() {
+s32 PS4_SYSV_ABI asinf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asinh() {
+s32 PS4_SYSV_ABI asinh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asinhf() {
+s32 PS4_SYSV_ABI asinhf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asinhl() {
+s32 PS4_SYSV_ABI asinhl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asinl() {
+s32 PS4_SYSV_ABI asinl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI asprintf() {
+s32 PS4_SYSV_ABI asprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI at_quick_exit() {
+s32 PS4_SYSV_ABI at_quick_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atan() {
+s32 PS4_SYSV_ABI atan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atan2() {
+s32 PS4_SYSV_ABI atan2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atan2f() {
+s32 PS4_SYSV_ABI atan2f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atan2l() {
+s32 PS4_SYSV_ABI atan2l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atanf() {
+s32 PS4_SYSV_ABI atanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atanh() {
+s32 PS4_SYSV_ABI atanh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atanhf() {
+s32 PS4_SYSV_ABI atanhf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atanhl() {
+s32 PS4_SYSV_ABI atanhl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atanl() {
+s32 PS4_SYSV_ABI atanl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atexit() {
+s32 PS4_SYSV_ABI atexit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atof() {
+s32 PS4_SYSV_ABI atof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atoi() {
+s32 PS4_SYSV_ABI atoi() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atol() {
+s32 PS4_SYSV_ABI atol() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI atoll() {
+s32 PS4_SYSV_ABI atoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI basename() {
+s32 PS4_SYSV_ABI basename() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI basename_r() {
+s32 PS4_SYSV_ABI basename_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bcmp() {
+s32 PS4_SYSV_ABI bcmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bcopy() {
+s32 PS4_SYSV_ABI bcopy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bsearch() {
+s32 PS4_SYSV_ABI bsearch() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bsearch_s() {
+s32 PS4_SYSV_ABI bsearch_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI btowc() {
+s32 PS4_SYSV_ABI btowc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI bzero() {
+s32 PS4_SYSV_ABI bzero() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI c16rtomb() {
+s32 PS4_SYSV_ABI c16rtomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI c32rtomb() {
+s32 PS4_SYSV_ABI c32rtomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI calloc() {
+s32 PS4_SYSV_ABI calloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cbrt() {
+s32 PS4_SYSV_ABI cbrt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cbrtf() {
+s32 PS4_SYSV_ABI cbrtf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cbrtl() {
+s32 PS4_SYSV_ABI cbrtl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ceil() {
+s32 PS4_SYSV_ABI ceil() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ceilf() {
+s32 PS4_SYSV_ABI ceilf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ceill() {
+s32 PS4_SYSV_ABI ceill() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clearerr() {
+s32 PS4_SYSV_ABI clearerr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clearerr_unlocked() {
+s32 PS4_SYSV_ABI clearerr_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clock() {
+s32 PS4_SYSV_ABI clock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI clock_1700() {
+s32 PS4_SYSV_ABI clock_1700() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI closedir() {
+s32 PS4_SYSV_ABI closedir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI copysign() {
+s32 PS4_SYSV_ABI copysign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI copysignf() {
+s32 PS4_SYSV_ABI copysignf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI copysignl() {
+s32 PS4_SYSV_ABI copysignl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cos() {
+s32 PS4_SYSV_ABI cos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cosf() {
+s32 PS4_SYSV_ABI cosf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cosh() {
+s32 PS4_SYSV_ABI cosh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI coshf() {
+s32 PS4_SYSV_ABI coshf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI coshl() {
+s32 PS4_SYSV_ABI coshl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI cosl() {
+s32 PS4_SYSV_ABI cosl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ctime() {
+s32 PS4_SYSV_ABI ctime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ctime_s() {
+s32 PS4_SYSV_ABI ctime_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI daemon() {
+s32 PS4_SYSV_ABI daemon() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI daylight() {
+s32 PS4_SYSV_ABI daylight() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI devname() {
+s32 PS4_SYSV_ABI devname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI devname_r() {
+s32 PS4_SYSV_ABI devname_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI difftime() {
+s32 PS4_SYSV_ABI difftime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dirname() {
+s32 PS4_SYSV_ABI dirname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI div() {
+s32 PS4_SYSV_ABI div() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI drand48() {
+s32 PS4_SYSV_ABI drand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI drem() {
+s32 PS4_SYSV_ABI drem() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI dremf() {
+s32 PS4_SYSV_ABI dremf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erand48() {
+s32 PS4_SYSV_ABI erand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erf() {
+s32 PS4_SYSV_ABI erf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erfc() {
+s32 PS4_SYSV_ABI erfc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erfcf() {
+s32 PS4_SYSV_ABI erfcf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erfcl() {
+s32 PS4_SYSV_ABI erfcl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erff() {
+s32 PS4_SYSV_ABI erff() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI erfl() {
+s32 PS4_SYSV_ABI erfl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI err() {
+s32 PS4_SYSV_ABI err() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI err_set_exit() {
+s32 PS4_SYSV_ABI err_set_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI err_set_file() {
+s32 PS4_SYSV_ABI err_set_file() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI errc() {
+s32 PS4_SYSV_ABI errc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI errx() {
+s32 PS4_SYSV_ABI errx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI exit() {
+s32 PS4_SYSV_ABI exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI exp() {
+s32 PS4_SYSV_ABI exp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI exp2() {
+s32 PS4_SYSV_ABI exp2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI exp2f() {
+s32 PS4_SYSV_ABI exp2f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI exp2l() {
+s32 PS4_SYSV_ABI exp2l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI expf() {
+s32 PS4_SYSV_ABI expf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI expl() {
+s32 PS4_SYSV_ABI expl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI expm1() {
+s32 PS4_SYSV_ABI expm1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI expm1f() {
+s32 PS4_SYSV_ABI expm1f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI expm1l() {
+s32 PS4_SYSV_ABI expm1l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fabs() {
+s32 PS4_SYSV_ABI fabs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fabsf() {
+s32 PS4_SYSV_ABI fabsf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fabsl() {
+s32 PS4_SYSV_ABI fabsl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fclose() {
+s32 PS4_SYSV_ABI fclose() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fcloseall() {
+s32 PS4_SYSV_ABI fcloseall() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdim() {
+s32 PS4_SYSV_ABI fdim() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdimf() {
+s32 PS4_SYSV_ABI fdimf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdiml() {
+s32 PS4_SYSV_ABI fdiml() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdopen() {
+s32 PS4_SYSV_ABI fdopen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fdopendir() {
+s32 PS4_SYSV_ABI fdopendir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feclearexcept() {
+s32 PS4_SYSV_ABI feclearexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fedisableexcept() {
+s32 PS4_SYSV_ABI fedisableexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feenableexcept() {
+s32 PS4_SYSV_ABI feenableexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fegetenv() {
+s32 PS4_SYSV_ABI fegetenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fegetexcept() {
+s32 PS4_SYSV_ABI fegetexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fegetexceptflag() {
+s32 PS4_SYSV_ABI fegetexceptflag() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fegetround() {
+s32 PS4_SYSV_ABI fegetround() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fegettrapenable() {
+s32 PS4_SYSV_ABI fegettrapenable() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feholdexcept() {
+s32 PS4_SYSV_ABI feholdexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feof() {
+s32 PS4_SYSV_ABI feof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feof_unlocked() {
+s32 PS4_SYSV_ABI feof_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feraiseexcept() {
+s32 PS4_SYSV_ABI feraiseexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ferror() {
+s32 PS4_SYSV_ABI ferror() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ferror_unlocked() {
+s32 PS4_SYSV_ABI ferror_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fesetenv() {
+s32 PS4_SYSV_ABI fesetenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fesetexceptflag() {
+s32 PS4_SYSV_ABI fesetexceptflag() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fesetround() {
+s32 PS4_SYSV_ABI fesetround() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fesettrapenable() {
+s32 PS4_SYSV_ABI fesettrapenable() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fetestexcept() {
+s32 PS4_SYSV_ABI fetestexcept() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI feupdateenv() {
+s32 PS4_SYSV_ABI feupdateenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fflush() {
+s32 PS4_SYSV_ABI fflush() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgetc() {
+s32 PS4_SYSV_ABI fgetc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgetln() {
+s32 PS4_SYSV_ABI fgetln() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgetpos() {
+s32 PS4_SYSV_ABI fgetpos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgets() {
+s32 PS4_SYSV_ABI fgets() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgetwc() {
+s32 PS4_SYSV_ABI fgetwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fgetws() {
+s32 PS4_SYSV_ABI fgetws() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fileno() {
+s32 PS4_SYSV_ABI fileno() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fileno_unlocked() {
+s32 PS4_SYSV_ABI fileno_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI finite() {
+s32 PS4_SYSV_ABI finite() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI finitef() {
+s32 PS4_SYSV_ABI finitef() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI flockfile() {
+s32 PS4_SYSV_ABI flockfile() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI floor() {
+s32 PS4_SYSV_ABI floor() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI floorf() {
+s32 PS4_SYSV_ABI floorf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI floorl() {
+s32 PS4_SYSV_ABI floorl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI flsl() {
+s32 PS4_SYSV_ABI flsl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fma() {
+s32 PS4_SYSV_ABI fma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmaf() {
+s32 PS4_SYSV_ABI fmaf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmal() {
+s32 PS4_SYSV_ABI fmal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmax() {
+s32 PS4_SYSV_ABI fmax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmaxf() {
+s32 PS4_SYSV_ABI fmaxf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmaxl() {
+s32 PS4_SYSV_ABI fmaxl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmin() {
+s32 PS4_SYSV_ABI fmin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fminf() {
+s32 PS4_SYSV_ABI fminf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fminl() {
+s32 PS4_SYSV_ABI fminl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmod() {
+s32 PS4_SYSV_ABI fmod() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmodf() {
+s32 PS4_SYSV_ABI fmodf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fmodl() {
+s32 PS4_SYSV_ABI fmodl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fopen() {
+s32 PS4_SYSV_ABI fopen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fopen_s() {
+s32 PS4_SYSV_ABI fopen_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fprintf() {
+s32 PS4_SYSV_ABI fprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fprintf_s() {
+s32 PS4_SYSV_ABI fprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fpurge() {
+s32 PS4_SYSV_ABI fpurge() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fputc() {
+s32 PS4_SYSV_ABI fputc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fputs() {
+s32 PS4_SYSV_ABI fputs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fputwc() {
+s32 PS4_SYSV_ABI fputwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fputws() {
+s32 PS4_SYSV_ABI fputws() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fread() {
+s32 PS4_SYSV_ABI fread() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI free() {
+s32 PS4_SYSV_ABI free() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI freeifaddrs() {
+s32 PS4_SYSV_ABI freeifaddrs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI freopen() {
+s32 PS4_SYSV_ABI freopen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI freopen_s() {
+s32 PS4_SYSV_ABI freopen_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI frexp() {
+s32 PS4_SYSV_ABI frexp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI frexpf() {
+s32 PS4_SYSV_ABI frexpf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI frexpl() {
+s32 PS4_SYSV_ABI frexpl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fscanf() {
+s32 PS4_SYSV_ABI fscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fscanf_s() {
+s32 PS4_SYSV_ABI fscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fseek() {
+s32 PS4_SYSV_ABI fseek() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fseeko() {
+s32 PS4_SYSV_ABI fseeko() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fsetpos() {
+s32 PS4_SYSV_ABI fsetpos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fstatvfs() {
+s32 PS4_SYSV_ABI fstatvfs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ftell() {
+s32 PS4_SYSV_ABI ftell() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ftello() {
+s32 PS4_SYSV_ABI ftello() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ftrylockfile() {
+s32 PS4_SYSV_ABI ftrylockfile() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI funlockfile() {
+s32 PS4_SYSV_ABI funlockfile() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwide() {
+s32 PS4_SYSV_ABI fwide() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwprintf() {
+s32 PS4_SYSV_ABI fwprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwprintf_s() {
+s32 PS4_SYSV_ABI fwprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwrite() {
+s32 PS4_SYSV_ABI fwrite() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwscanf() {
+s32 PS4_SYSV_ABI fwscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI fwscanf_s() {
+s32 PS4_SYSV_ABI fwscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gamma() {
+s32 PS4_SYSV_ABI gamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gamma_r() {
+s32 PS4_SYSV_ABI gamma_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gammaf() {
+s32 PS4_SYSV_ABI gammaf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gammaf_r() {
+s32 PS4_SYSV_ABI gammaf_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getc() {
+s32 PS4_SYSV_ABI getc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getc_unlocked() {
+s32 PS4_SYSV_ABI getc_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getchar() {
+s32 PS4_SYSV_ABI getchar() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getchar_unlocked() {
+s32 PS4_SYSV_ABI getchar_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getcwd() {
+s32 PS4_SYSV_ABI getcwd() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getenv() {
+s32 PS4_SYSV_ABI getenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gethostname() {
+s32 PS4_SYSV_ABI gethostname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getifaddrs() {
+s32 PS4_SYSV_ABI getifaddrs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getopt() {
+s32 PS4_SYSV_ABI getopt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getopt_long() {
+s32 PS4_SYSV_ABI getopt_long() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getopt_long_only() {
+s32 PS4_SYSV_ABI getopt_long_only() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getprogname() {
+s32 PS4_SYSV_ABI getprogname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gets() {
+s32 PS4_SYSV_ABI gets() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gets_s() {
+s32 PS4_SYSV_ABI gets_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getw() {
+s32 PS4_SYSV_ABI getw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getwc() {
+s32 PS4_SYSV_ABI getwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI getwchar() {
+s32 PS4_SYSV_ABI getwchar() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gmtime() {
+s32 PS4_SYSV_ABI gmtime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI gmtime_s() {
+s32 PS4_SYSV_ABI gmtime_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypot() {
+s32 PS4_SYSV_ABI hypot() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypot3() {
+s32 PS4_SYSV_ABI hypot3() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypot3f() {
+s32 PS4_SYSV_ABI hypot3f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypot3l() {
+s32 PS4_SYSV_ABI hypot3l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypotf() {
+s32 PS4_SYSV_ABI hypotf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI hypotl() {
+s32 PS4_SYSV_ABI hypotl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ignore_handler_s() {
+s32 PS4_SYSV_ABI ignore_handler_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ilogb() {
+s32 PS4_SYSV_ABI ilogb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ilogbf() {
+s32 PS4_SYSV_ABI ilogbf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ilogbl() {
+s32 PS4_SYSV_ABI ilogbl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI imaxabs() {
+s32 PS4_SYSV_ABI imaxabs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI imaxdiv() {
+s32 PS4_SYSV_ABI imaxdiv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI index() {
+s32 PS4_SYSV_ABI index() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_addr() {
+s32 PS4_SYSV_ABI inet_addr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_aton() {
+s32 PS4_SYSV_ABI inet_aton() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_ntoa() {
+s32 PS4_SYSV_ABI inet_ntoa() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI inet_ntoa_r() {
+s32 PS4_SYSV_ABI inet_ntoa_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI initstate() {
+s32 PS4_SYSV_ABI initstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isalnum() {
+s32 PS4_SYSV_ABI isalnum() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isalpha() {
+s32 PS4_SYSV_ABI isalpha() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isblank() {
+s32 PS4_SYSV_ABI isblank() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iscntrl() {
+s32 PS4_SYSV_ABI iscntrl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isdigit() {
+s32 PS4_SYSV_ABI isdigit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isgraph() {
+s32 PS4_SYSV_ABI isgraph() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isinf() {
+s32 PS4_SYSV_ABI isinf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI islower() {
+s32 PS4_SYSV_ABI islower() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isnan() {
+s32 PS4_SYSV_ABI isnan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isnanf() {
+s32 PS4_SYSV_ABI isnanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isprint() {
+s32 PS4_SYSV_ABI isprint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ispunct() {
+s32 PS4_SYSV_ABI ispunct() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isspace() {
+s32 PS4_SYSV_ABI isspace() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isupper() {
+s32 PS4_SYSV_ABI isupper() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswalnum() {
+s32 PS4_SYSV_ABI iswalnum() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswalpha() {
+s32 PS4_SYSV_ABI iswalpha() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswblank() {
+s32 PS4_SYSV_ABI iswblank() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswcntrl() {
+s32 PS4_SYSV_ABI iswcntrl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswctype() {
+s32 PS4_SYSV_ABI iswctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswdigit() {
+s32 PS4_SYSV_ABI iswdigit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswgraph() {
+s32 PS4_SYSV_ABI iswgraph() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswlower() {
+s32 PS4_SYSV_ABI iswlower() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswprint() {
+s32 PS4_SYSV_ABI iswprint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswpunct() {
+s32 PS4_SYSV_ABI iswpunct() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswspace() {
+s32 PS4_SYSV_ABI iswspace() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswupper() {
+s32 PS4_SYSV_ABI iswupper() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI iswxdigit() {
+s32 PS4_SYSV_ABI iswxdigit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI isxdigit() {
+s32 PS4_SYSV_ABI isxdigit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI j0() {
+s32 PS4_SYSV_ABI j0() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI j0f() {
+s32 PS4_SYSV_ABI j0f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI j1() {
+s32 PS4_SYSV_ABI j1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI j1f() {
+s32 PS4_SYSV_ABI j1f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI jn() {
+s32 PS4_SYSV_ABI jn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI jnf() {
+s32 PS4_SYSV_ABI jnf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI jrand48() {
+s32 PS4_SYSV_ABI jrand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI labs() {
+s32 PS4_SYSV_ABI labs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lcong48() {
+s32 PS4_SYSV_ABI lcong48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ldexp() {
+s32 PS4_SYSV_ABI ldexp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ldexpf() {
+s32 PS4_SYSV_ABI ldexpf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ldexpl() {
+s32 PS4_SYSV_ABI ldexpl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ldiv() {
+s32 PS4_SYSV_ABI ldiv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lgamma() {
+s32 PS4_SYSV_ABI lgamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lgamma_r() {
+s32 PS4_SYSV_ABI lgamma_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lgammaf() {
+s32 PS4_SYSV_ABI lgammaf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lgammaf_r() {
+s32 PS4_SYSV_ABI lgammaf_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lgammal() {
+s32 PS4_SYSV_ABI lgammal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llabs() {
+s32 PS4_SYSV_ABI llabs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lldiv() {
+s32 PS4_SYSV_ABI lldiv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llrint() {
+s32 PS4_SYSV_ABI llrint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llrintf() {
+s32 PS4_SYSV_ABI llrintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llrintl() {
+s32 PS4_SYSV_ABI llrintl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llround() {
+s32 PS4_SYSV_ABI llround() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llroundf() {
+s32 PS4_SYSV_ABI llroundf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI llroundl() {
+s32 PS4_SYSV_ABI llroundl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI localeconv() {
+s32 PS4_SYSV_ABI localeconv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI localtime() {
+s32 PS4_SYSV_ABI localtime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI localtime_s() {
+s32 PS4_SYSV_ABI localtime_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log() {
+s32 PS4_SYSV_ABI log() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log10() {
+s32 PS4_SYSV_ABI log10() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log10f() {
+s32 PS4_SYSV_ABI log10f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log10l() {
+s32 PS4_SYSV_ABI log10l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log1p() {
+s32 PS4_SYSV_ABI log1p() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log1pf() {
+s32 PS4_SYSV_ABI log1pf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log1pl() {
+s32 PS4_SYSV_ABI log1pl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log2() {
+s32 PS4_SYSV_ABI log2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log2f() {
+s32 PS4_SYSV_ABI log2f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI log2l() {
+s32 PS4_SYSV_ABI log2l() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI logb() {
+s32 PS4_SYSV_ABI logb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI logbf() {
+s32 PS4_SYSV_ABI logbf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI logbl() {
+s32 PS4_SYSV_ABI logbl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI logf() {
+s32 PS4_SYSV_ABI logf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI logl() {
+s32 PS4_SYSV_ABI logl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI longjmp() {
+s32 PS4_SYSV_ABI longjmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lrand48() {
+s32 PS4_SYSV_ABI lrand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lrint() {
+s32 PS4_SYSV_ABI lrint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lrintf() {
+s32 PS4_SYSV_ABI lrintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lrintl() {
+s32 PS4_SYSV_ABI lrintl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lround() {
+s32 PS4_SYSV_ABI lround() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lroundf() {
+s32 PS4_SYSV_ABI lroundf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI lroundl() {
+s32 PS4_SYSV_ABI lroundl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI makecontext() {
+s32 PS4_SYSV_ABI makecontext() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc() {
+s32 PS4_SYSV_ABI malloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_check_memory_bounds() {
+s32 PS4_SYSV_ABI malloc_check_memory_bounds() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_finalize() {
+s32 PS4_SYSV_ABI malloc_finalize() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_get_footer_value() {
+s32 PS4_SYSV_ABI malloc_get_footer_value() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_get_malloc_state() {
+s32 PS4_SYSV_ABI malloc_get_malloc_state() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_initialize() {
+s32 PS4_SYSV_ABI malloc_initialize() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_report_memory_blocks() {
+s32 PS4_SYSV_ABI malloc_report_memory_blocks() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_stats() {
+s32 PS4_SYSV_ABI malloc_stats() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_stats_fast() {
+s32 PS4_SYSV_ABI malloc_stats_fast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI malloc_usable_size() {
+s32 PS4_SYSV_ABI malloc_usable_size() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mblen() {
+s32 PS4_SYSV_ABI mblen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbrlen() {
+s32 PS4_SYSV_ABI mbrlen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbrtoc16() {
+s32 PS4_SYSV_ABI mbrtoc16() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbrtoc32() {
+s32 PS4_SYSV_ABI mbrtoc32() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbrtowc() {
+s32 PS4_SYSV_ABI mbrtowc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbsinit() {
+s32 PS4_SYSV_ABI mbsinit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbsrtowcs() {
+s32 PS4_SYSV_ABI mbsrtowcs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbsrtowcs_s() {
+s32 PS4_SYSV_ABI mbsrtowcs_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbstowcs() {
+s32 PS4_SYSV_ABI mbstowcs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbstowcs_s() {
+s32 PS4_SYSV_ABI mbstowcs_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mbtowc() {
+s32 PS4_SYSV_ABI mbtowc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memalign() {
+s32 PS4_SYSV_ABI memalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memchr() {
+s32 PS4_SYSV_ABI memchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memcmp() {
+s32 PS4_SYSV_ABI memcmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memcpy() {
+s32 PS4_SYSV_ABI memcpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memcpy_s() {
+s32 PS4_SYSV_ABI memcpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memmove() {
+s32 PS4_SYSV_ABI memmove() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memmove_s() {
+s32 PS4_SYSV_ABI memmove_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memrchr() {
+s32 PS4_SYSV_ABI memrchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memset() {
+s32 PS4_SYSV_ABI memset() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI memset_s() {
+s32 PS4_SYSV_ABI memset_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mergesort() {
+s32 PS4_SYSV_ABI mergesort() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mktime() {
+s32 PS4_SYSV_ABI mktime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI modf() {
+s32 PS4_SYSV_ABI modf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI modff() {
+s32 PS4_SYSV_ABI modff() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI modfl() {
+s32 PS4_SYSV_ABI modfl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI mrand48() {
+s32 PS4_SYSV_ABI mrand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nan() {
+s32 PS4_SYSV_ABI nan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nanf() {
+s32 PS4_SYSV_ABI nanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nanl() {
+s32 PS4_SYSV_ABI nanl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nearbyint() {
+s32 PS4_SYSV_ABI nearbyint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nearbyintf() {
+s32 PS4_SYSV_ABI nearbyintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nearbyintl() {
+s32 PS4_SYSV_ABI nearbyintl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Need_sceLibcInternal() {
+s32 PS4_SYSV_ABI Need_sceLibcInternal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nextafter() {
+s32 PS4_SYSV_ABI nextafter() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nextafterf() {
+s32 PS4_SYSV_ABI nextafterf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nextafterl() {
+s32 PS4_SYSV_ABI nextafterl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nexttoward() {
+s32 PS4_SYSV_ABI nexttoward() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nexttowardf() {
+s32 PS4_SYSV_ABI nexttowardf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nexttowardl() {
+s32 PS4_SYSV_ABI nexttowardl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI nrand48() {
+s32 PS4_SYSV_ABI nrand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI opendir() {
+s32 PS4_SYSV_ABI opendir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI optarg() {
+s32 PS4_SYSV_ABI optarg() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI opterr() {
+s32 PS4_SYSV_ABI opterr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI optind() {
+s32 PS4_SYSV_ABI optind() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI optopt() {
+s32 PS4_SYSV_ABI optopt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI optreset() {
+s32 PS4_SYSV_ABI optreset() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI perror() {
+s32 PS4_SYSV_ABI perror() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_memalign() {
+s32 PS4_SYSV_ABI posix_memalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn() {
+s32 PS4_SYSV_ABI posix_spawn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn_file_actions_addclose() {
+s32 PS4_SYSV_ABI posix_spawn_file_actions_addclose() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn_file_actions_adddup2() {
+s32 PS4_SYSV_ABI posix_spawn_file_actions_adddup2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn_file_actions_addopen() {
+s32 PS4_SYSV_ABI posix_spawn_file_actions_addopen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn_file_actions_destroy() {
+s32 PS4_SYSV_ABI posix_spawn_file_actions_destroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawn_file_actions_init() {
+s32 PS4_SYSV_ABI posix_spawn_file_actions_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_destroy() {
+s32 PS4_SYSV_ABI posix_spawnattr_destroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getflags() {
+s32 PS4_SYSV_ABI posix_spawnattr_getflags() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getpgroup() {
+s32 PS4_SYSV_ABI posix_spawnattr_getpgroup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getschedparam() {
+s32 PS4_SYSV_ABI posix_spawnattr_getschedparam() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getschedpolicy() {
+s32 PS4_SYSV_ABI posix_spawnattr_getschedpolicy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getsigdefault() {
+s32 PS4_SYSV_ABI posix_spawnattr_getsigdefault() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_getsigmask() {
+s32 PS4_SYSV_ABI posix_spawnattr_getsigmask() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_init() {
+s32 PS4_SYSV_ABI posix_spawnattr_init() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setflags() {
+s32 PS4_SYSV_ABI posix_spawnattr_setflags() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setpgroup() {
+s32 PS4_SYSV_ABI posix_spawnattr_setpgroup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setschedparam() {
+s32 PS4_SYSV_ABI posix_spawnattr_setschedparam() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setschedpolicy() {
+s32 PS4_SYSV_ABI posix_spawnattr_setschedpolicy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setsigdefault() {
+s32 PS4_SYSV_ABI posix_spawnattr_setsigdefault() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnattr_setsigmask() {
+s32 PS4_SYSV_ABI posix_spawnattr_setsigmask() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI posix_spawnp() {
+s32 PS4_SYSV_ABI posix_spawnp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI pow() {
+s32 PS4_SYSV_ABI pow() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI powf() {
+s32 PS4_SYSV_ABI powf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI powl() {
+s32 PS4_SYSV_ABI powl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI printf() {
+s32 PS4_SYSV_ABI printf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI printf_s() {
+s32 PS4_SYSV_ABI printf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI psignal() {
+s32 PS4_SYSV_ABI psignal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putc() {
+s32 PS4_SYSV_ABI putc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putc_unlocked() {
+s32 PS4_SYSV_ABI putc_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putchar() {
+s32 PS4_SYSV_ABI putchar() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putchar_unlocked() {
+s32 PS4_SYSV_ABI putchar_unlocked() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putenv() {
+s32 PS4_SYSV_ABI putenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI puts() {
+s32 PS4_SYSV_ABI puts() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putw() {
+s32 PS4_SYSV_ABI putw() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putwc() {
+s32 PS4_SYSV_ABI putwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI putwchar() {
+s32 PS4_SYSV_ABI putwchar() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI qsort() {
+s32 PS4_SYSV_ABI qsort() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI qsort_s() {
+s32 PS4_SYSV_ABI qsort_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI quick_exit() {
+s32 PS4_SYSV_ABI quick_exit() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rand() {
+s32 PS4_SYSV_ABI rand() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rand_r() {
+s32 PS4_SYSV_ABI rand_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI random() {
+s32 PS4_SYSV_ABI random() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI readdir() {
+s32 PS4_SYSV_ABI readdir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI readdir_r() {
+s32 PS4_SYSV_ABI readdir_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI realloc() {
+s32 PS4_SYSV_ABI realloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI reallocalign() {
+s32 PS4_SYSV_ABI reallocalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI reallocf() {
+s32 PS4_SYSV_ABI reallocf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI realpath() {
+s32 PS4_SYSV_ABI realpath() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remainder() {
+s32 PS4_SYSV_ABI remainder() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remainderf() {
+s32 PS4_SYSV_ABI remainderf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remainderl() {
+s32 PS4_SYSV_ABI remainderl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remove() {
+s32 PS4_SYSV_ABI remove() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remquo() {
+s32 PS4_SYSV_ABI remquo() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remquof() {
+s32 PS4_SYSV_ABI remquof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI remquol() {
+s32 PS4_SYSV_ABI remquol() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rewind() {
+s32 PS4_SYSV_ABI rewind() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rewinddir() {
+s32 PS4_SYSV_ABI rewinddir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rindex() {
+s32 PS4_SYSV_ABI rindex() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rint() {
+s32 PS4_SYSV_ABI rint() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rintf() {
+s32 PS4_SYSV_ABI rintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI rintl() {
+s32 PS4_SYSV_ABI rintl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI round() {
+s32 PS4_SYSV_ABI round() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI roundf() {
+s32 PS4_SYSV_ABI roundf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI roundl() {
+s32 PS4_SYSV_ABI roundl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalb() {
+s32 PS4_SYSV_ABI scalb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalbf() {
+s32 PS4_SYSV_ABI scalbf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalbln() {
+s32 PS4_SYSV_ABI scalbln() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalblnf() {
+s32 PS4_SYSV_ABI scalblnf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalblnl() {
+s32 PS4_SYSV_ABI scalblnl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalbn() {
+s32 PS4_SYSV_ABI scalbn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalbnf() {
+s32 PS4_SYSV_ABI scalbnf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scalbnl() {
+s32 PS4_SYSV_ABI scalbnl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scanf() {
+s32 PS4_SYSV_ABI scanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scanf_s() {
+s32 PS4_SYSV_ABI scanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcDebugOut() {
+s32 PS4_SYSV_ABI sceLibcDebugOut() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapGetAddressRanges() {
+s32 PS4_SYSV_ABI sceLibcHeapGetAddressRanges() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapMutexCalloc() {
+s32 PS4_SYSV_ABI sceLibcHeapMutexCalloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapMutexFree() {
+s32 PS4_SYSV_ABI sceLibcHeapMutexFree() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapSetAddressRangeCallback() {
+s32 PS4_SYSV_ABI sceLibcHeapSetAddressRangeCallback() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapSetTraceMarker() {
+s32 PS4_SYSV_ABI sceLibcHeapSetTraceMarker() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcHeapUnsetTraceMarker() {
+s32 PS4_SYSV_ABI sceLibcHeapUnsetTraceMarker() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcInternalMemoryGetWakeAddr() {
+s32 PS4_SYSV_ABI sceLibcInternalMemoryGetWakeAddr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcInternalMemoryMutexEnable() {
+s32 PS4_SYSV_ABI sceLibcInternalMemoryMutexEnable() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcInternalSetMallocCallback() {
+s32 PS4_SYSV_ABI sceLibcInternalSetMallocCallback() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceAlignedAlloc() {
+s32 PS4_SYSV_ABI sceLibcMspaceAlignedAlloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceCalloc() {
+s32 PS4_SYSV_ABI sceLibcMspaceCalloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceCreate() {
+s32 PS4_SYSV_ABI sceLibcMspaceCreate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceDestroy() {
+s32 PS4_SYSV_ABI sceLibcMspaceDestroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceFree() {
+s32 PS4_SYSV_ABI sceLibcMspaceFree() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceGetAddressRanges() {
+s32 PS4_SYSV_ABI sceLibcMspaceGetAddressRanges() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceIsHeapEmpty() {
+s32 PS4_SYSV_ABI sceLibcMspaceIsHeapEmpty() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceMalloc() {
+s32 PS4_SYSV_ABI sceLibcMspaceMalloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceMallocStats() {
+s32 PS4_SYSV_ABI sceLibcMspaceMallocStats() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceMallocStatsFast() {
+s32 PS4_SYSV_ABI sceLibcMspaceMallocStatsFast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceMallocUsableSize() {
+s32 PS4_SYSV_ABI sceLibcMspaceMallocUsableSize() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceMemalign() {
+s32 PS4_SYSV_ABI sceLibcMspaceMemalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspacePosixMemalign() {
+s32 PS4_SYSV_ABI sceLibcMspacePosixMemalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceRealloc() {
+s32 PS4_SYSV_ABI sceLibcMspaceRealloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceReallocalign() {
+s32 PS4_SYSV_ABI sceLibcMspaceReallocalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcMspaceSetMallocCallback() {
+s32 PS4_SYSV_ABI sceLibcMspaceSetMallocCallback() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcOnce() {
+s32 PS4_SYSV_ABI sceLibcOnce() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceCalloc() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceCalloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceCheckMemoryBounds() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceCheckMemoryBounds() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceCreate() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceCreate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceDestroy() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceDestroy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceFree() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceFree() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceGetFooterValue() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceGetFooterValue() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceIsHeapEmpty() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceIsHeapEmpty() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceMalloc() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceMalloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceMallocStats() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceMallocStats() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceMallocStatsFast() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceMallocStatsFast() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceMallocUsableSize() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceMallocUsableSize() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceMemalign() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceMemalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspacePosixMemalign() {
+s32 PS4_SYSV_ABI sceLibcPafMspacePosixMemalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceRealloc() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceRealloc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceReallocalign() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceReallocalign() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceReportMemoryBlocks() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceReportMemoryBlocks() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceLibcPafMspaceTrim() {
+s32 PS4_SYSV_ABI sceLibcPafMspaceTrim() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI seed48() {
+s32 PS4_SYSV_ABI seed48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI seekdir() {
+s32 PS4_SYSV_ABI seekdir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI set_constraint_handler_s() {
+s32 PS4_SYSV_ABI set_constraint_handler_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setbuf() {
+s32 PS4_SYSV_ABI setbuf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setenv() {
+s32 PS4_SYSV_ABI setenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setjmp() {
+s32 PS4_SYSV_ABI setjmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setlocale() {
+s32 PS4_SYSV_ABI setlocale() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setstate() {
+s32 PS4_SYSV_ABI setstate() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI setvbuf() {
+s32 PS4_SYSV_ABI setvbuf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigblock() {
+s32 PS4_SYSV_ABI sigblock() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI siginterrupt() {
+s32 PS4_SYSV_ABI siginterrupt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI signalcontext() {
+s32 PS4_SYSV_ABI signalcontext() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI signgam() {
+s32 PS4_SYSV_ABI signgam() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI significand() {
+s32 PS4_SYSV_ABI significand() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI significandf() {
+s32 PS4_SYSV_ABI significandf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigsetmask() {
+s32 PS4_SYSV_ABI sigsetmask() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sigvec() {
+s32 PS4_SYSV_ABI sigvec() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sin() {
+s32 PS4_SYSV_ABI sin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sincos() {
+s32 PS4_SYSV_ABI sincos() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sincosf() {
+s32 PS4_SYSV_ABI sincosf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sinf() {
+s32 PS4_SYSV_ABI sinf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sinh() {
+s32 PS4_SYSV_ABI sinh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sinhf() {
+s32 PS4_SYSV_ABI sinhf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sinhl() {
+s32 PS4_SYSV_ABI sinhl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sinl() {
+s32 PS4_SYSV_ABI sinl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI snprintf() {
+s32 PS4_SYSV_ABI snprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI snprintf_s() {
+s32 PS4_SYSV_ABI snprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI snwprintf_s() {
+s32 PS4_SYSV_ABI snwprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sprintf() {
+s32 PS4_SYSV_ABI sprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sprintf_s() {
+s32 PS4_SYSV_ABI sprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sqrt() {
+s32 PS4_SYSV_ABI sqrt() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sqrtf() {
+s32 PS4_SYSV_ABI sqrtf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sqrtl() {
+s32 PS4_SYSV_ABI sqrtl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI srand() {
+s32 PS4_SYSV_ABI srand() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI srand48() {
+s32 PS4_SYSV_ABI srand48() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI srandom() {
+s32 PS4_SYSV_ABI srandom() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI srandomdev() {
+s32 PS4_SYSV_ABI srandomdev() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sscanf() {
+s32 PS4_SYSV_ABI sscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sscanf_s() {
+s32 PS4_SYSV_ABI sscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI statvfs() {
+s32 PS4_SYSV_ABI statvfs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI stderr() {
+s32 PS4_SYSV_ABI stderr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI stdin() {
+s32 PS4_SYSV_ABI stdin() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI stdout() {
+s32 PS4_SYSV_ABI stdout() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI stpcpy() {
+s32 PS4_SYSV_ABI stpcpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcasecmp() {
+s32 PS4_SYSV_ABI strcasecmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcat() {
+s32 PS4_SYSV_ABI strcat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcat_s() {
+s32 PS4_SYSV_ABI strcat_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strchr() {
+s32 PS4_SYSV_ABI strchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcmp() {
+s32 PS4_SYSV_ABI strcmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcoll() {
+s32 PS4_SYSV_ABI strcoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcpy() {
+s32 PS4_SYSV_ABI strcpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcpy_s() {
+s32 PS4_SYSV_ABI strcpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strcspn() {
+s32 PS4_SYSV_ABI strcspn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strdup() {
+s32 PS4_SYSV_ABI strdup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strerror() {
+s32 PS4_SYSV_ABI strerror() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strerror_r() {
+s32 PS4_SYSV_ABI strerror_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strerror_s() {
+s32 PS4_SYSV_ABI strerror_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strerrorlen_s() {
+s32 PS4_SYSV_ABI strerrorlen_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strftime() {
+s32 PS4_SYSV_ABI strftime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strlcat() {
+s32 PS4_SYSV_ABI strlcat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strlcpy() {
+s32 PS4_SYSV_ABI strlcpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strlen() {
+s32 PS4_SYSV_ABI strlen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncasecmp() {
+s32 PS4_SYSV_ABI strncasecmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncat() {
+s32 PS4_SYSV_ABI strncat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncat_s() {
+s32 PS4_SYSV_ABI strncat_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncmp() {
+s32 PS4_SYSV_ABI strncmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncpy() {
+s32 PS4_SYSV_ABI strncpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strncpy_s() {
+s32 PS4_SYSV_ABI strncpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strndup() {
+s32 PS4_SYSV_ABI strndup() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strnlen() {
+s32 PS4_SYSV_ABI strnlen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strnlen_s() {
+s32 PS4_SYSV_ABI strnlen_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strnstr() {
+s32 PS4_SYSV_ABI strnstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strpbrk() {
+s32 PS4_SYSV_ABI strpbrk() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strrchr() {
+s32 PS4_SYSV_ABI strrchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strsep() {
+s32 PS4_SYSV_ABI strsep() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strspn() {
+s32 PS4_SYSV_ABI strspn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strstr() {
+s32 PS4_SYSV_ABI strstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtod() {
+s32 PS4_SYSV_ABI strtod() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtof() {
+s32 PS4_SYSV_ABI strtof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtoimax() {
+s32 PS4_SYSV_ABI strtoimax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtok() {
+s32 PS4_SYSV_ABI strtok() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtok_r() {
+s32 PS4_SYSV_ABI strtok_r() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtok_s() {
+s32 PS4_SYSV_ABI strtok_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtol() {
+s32 PS4_SYSV_ABI strtol() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtold() {
+s32 PS4_SYSV_ABI strtold() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtoll() {
+s32 PS4_SYSV_ABI strtoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtoul() {
+s32 PS4_SYSV_ABI strtoul() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtoull() {
+s32 PS4_SYSV_ABI strtoull() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtoumax() {
+s32 PS4_SYSV_ABI strtoumax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strtouq() {
+s32 PS4_SYSV_ABI strtouq() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI strxfrm() {
+s32 PS4_SYSV_ABI strxfrm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI swprintf() {
+s32 PS4_SYSV_ABI swprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI swprintf_s() {
+s32 PS4_SYSV_ABI swprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI swscanf() {
+s32 PS4_SYSV_ABI swscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI swscanf_s() {
+s32 PS4_SYSV_ABI swscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sys_nsig() {
+s32 PS4_SYSV_ABI sys_nsig() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sys_siglist() {
+s32 PS4_SYSV_ABI sys_siglist() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sys_signame() {
+s32 PS4_SYSV_ABI sys_signame() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI syslog() {
+s32 PS4_SYSV_ABI syslog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tan() {
+s32 PS4_SYSV_ABI tan() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tanf() {
+s32 PS4_SYSV_ABI tanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tanh() {
+s32 PS4_SYSV_ABI tanh() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tanhf() {
+s32 PS4_SYSV_ABI tanhf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tanhl() {
+s32 PS4_SYSV_ABI tanhl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tanl() {
+s32 PS4_SYSV_ABI tanl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI telldir() {
+s32 PS4_SYSV_ABI telldir() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tgamma() {
+s32 PS4_SYSV_ABI tgamma() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tgammaf() {
+s32 PS4_SYSV_ABI tgammaf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tgammal() {
+s32 PS4_SYSV_ABI tgammal() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI time() {
+s32 PS4_SYSV_ABI time() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI timezone() {
+s32 PS4_SYSV_ABI timezone() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tolower() {
+s32 PS4_SYSV_ABI tolower() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI toupper() {
+s32 PS4_SYSV_ABI toupper() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI towctrans() {
+s32 PS4_SYSV_ABI towctrans() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI towlower() {
+s32 PS4_SYSV_ABI towlower() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI towupper() {
+s32 PS4_SYSV_ABI towupper() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI trunc() {
+s32 PS4_SYSV_ABI trunc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI truncf() {
+s32 PS4_SYSV_ABI truncf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI truncl() {
+s32 PS4_SYSV_ABI truncl() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tzname() {
+s32 PS4_SYSV_ABI tzname() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI tzset() {
+s32 PS4_SYSV_ABI tzset() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ungetc() {
+s32 PS4_SYSV_ABI ungetc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ungetwc() {
+s32 PS4_SYSV_ABI ungetwc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI unsetenv() {
+s32 PS4_SYSV_ABI unsetenv() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI utime() {
+s32 PS4_SYSV_ABI utime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vasprintf() {
+s32 PS4_SYSV_ABI vasprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI verr() {
+s32 PS4_SYSV_ABI verr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI verrc() {
+s32 PS4_SYSV_ABI verrc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI verrx() {
+s32 PS4_SYSV_ABI verrx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfprintf() {
+s32 PS4_SYSV_ABI vfprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfprintf_s() {
+s32 PS4_SYSV_ABI vfprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfscanf() {
+s32 PS4_SYSV_ABI vfscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfscanf_s() {
+s32 PS4_SYSV_ABI vfscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfwprintf() {
+s32 PS4_SYSV_ABI vfwprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfwprintf_s() {
+s32 PS4_SYSV_ABI vfwprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfwscanf() {
+s32 PS4_SYSV_ABI vfwscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vfwscanf_s() {
+s32 PS4_SYSV_ABI vfwscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vprintf() {
+s32 PS4_SYSV_ABI vprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vprintf_s() {
+s32 PS4_SYSV_ABI vprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vscanf() {
+s32 PS4_SYSV_ABI vscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vscanf_s() {
+s32 PS4_SYSV_ABI vscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsnprintf() {
+s32 PS4_SYSV_ABI vsnprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsnprintf_s() {
+s32 PS4_SYSV_ABI vsnprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsnwprintf_s() {
+s32 PS4_SYSV_ABI vsnwprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsprintf() {
+s32 PS4_SYSV_ABI vsprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsprintf_s() {
+s32 PS4_SYSV_ABI vsprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsscanf() {
+s32 PS4_SYSV_ABI vsscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsscanf_s() {
+s32 PS4_SYSV_ABI vsscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vswprintf() {
+s32 PS4_SYSV_ABI vswprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vswprintf_s() {
+s32 PS4_SYSV_ABI vswprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vswscanf() {
+s32 PS4_SYSV_ABI vswscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vswscanf_s() {
+s32 PS4_SYSV_ABI vswscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vsyslog() {
+s32 PS4_SYSV_ABI vsyslog() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwarn() {
+s32 PS4_SYSV_ABI vwarn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwarnc() {
+s32 PS4_SYSV_ABI vwarnc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwarnx() {
+s32 PS4_SYSV_ABI vwarnx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwprintf() {
+s32 PS4_SYSV_ABI vwprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwprintf_s() {
+s32 PS4_SYSV_ABI vwprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwscanf() {
+s32 PS4_SYSV_ABI vwscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI vwscanf_s() {
+s32 PS4_SYSV_ABI vwscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI warn() {
+s32 PS4_SYSV_ABI warn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI warnc() {
+s32 PS4_SYSV_ABI warnc() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI warnx() {
+s32 PS4_SYSV_ABI warnx() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcrtomb() {
+s32 PS4_SYSV_ABI wcrtomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcrtomb_s() {
+s32 PS4_SYSV_ABI wcrtomb_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscat() {
+s32 PS4_SYSV_ABI wcscat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscat_s() {
+s32 PS4_SYSV_ABI wcscat_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcschr() {
+s32 PS4_SYSV_ABI wcschr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscmp() {
+s32 PS4_SYSV_ABI wcscmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscoll() {
+s32 PS4_SYSV_ABI wcscoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscpy() {
+s32 PS4_SYSV_ABI wcscpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscpy_s() {
+s32 PS4_SYSV_ABI wcscpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcscspn() {
+s32 PS4_SYSV_ABI wcscspn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsftime() {
+s32 PS4_SYSV_ABI wcsftime() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcslen() {
+s32 PS4_SYSV_ABI wcslen() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsncat() {
+s32 PS4_SYSV_ABI wcsncat() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsncat_s() {
+s32 PS4_SYSV_ABI wcsncat_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsncmp() {
+s32 PS4_SYSV_ABI wcsncmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsncpy() {
+s32 PS4_SYSV_ABI wcsncpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsncpy_s() {
+s32 PS4_SYSV_ABI wcsncpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsnlen_s() {
+s32 PS4_SYSV_ABI wcsnlen_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcspbrk() {
+s32 PS4_SYSV_ABI wcspbrk() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsrchr() {
+s32 PS4_SYSV_ABI wcsrchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsrtombs() {
+s32 PS4_SYSV_ABI wcsrtombs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsrtombs_s() {
+s32 PS4_SYSV_ABI wcsrtombs_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsspn() {
+s32 PS4_SYSV_ABI wcsspn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsstr() {
+s32 PS4_SYSV_ABI wcsstr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstod() {
+s32 PS4_SYSV_ABI wcstod() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstof() {
+s32 PS4_SYSV_ABI wcstof() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstoimax() {
+s32 PS4_SYSV_ABI wcstoimax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstok() {
+s32 PS4_SYSV_ABI wcstok() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstok_s() {
+s32 PS4_SYSV_ABI wcstok_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstol() {
+s32 PS4_SYSV_ABI wcstol() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstold() {
+s32 PS4_SYSV_ABI wcstold() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstoll() {
+s32 PS4_SYSV_ABI wcstoll() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstombs() {
+s32 PS4_SYSV_ABI wcstombs() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstombs_s() {
+s32 PS4_SYSV_ABI wcstombs_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstoul() {
+s32 PS4_SYSV_ABI wcstoul() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstoull() {
+s32 PS4_SYSV_ABI wcstoull() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcstoumax() {
+s32 PS4_SYSV_ABI wcstoumax() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wcsxfrm() {
+s32 PS4_SYSV_ABI wcsxfrm() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wctob() {
+s32 PS4_SYSV_ABI wctob() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wctomb() {
+s32 PS4_SYSV_ABI wctomb() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wctomb_s() {
+s32 PS4_SYSV_ABI wctomb_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wctrans() {
+s32 PS4_SYSV_ABI wctrans() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wctype() {
+s32 PS4_SYSV_ABI wctype() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemchr() {
+s32 PS4_SYSV_ABI wmemchr() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemcmp() {
+s32 PS4_SYSV_ABI wmemcmp() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemcpy() {
+s32 PS4_SYSV_ABI wmemcpy() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemcpy_s() {
+s32 PS4_SYSV_ABI wmemcpy_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemmove() {
+s32 PS4_SYSV_ABI wmemmove() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemmove_s() {
+s32 PS4_SYSV_ABI wmemmove_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wmemset() {
+s32 PS4_SYSV_ABI wmemset() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wprintf() {
+s32 PS4_SYSV_ABI wprintf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wprintf_s() {
+s32 PS4_SYSV_ABI wprintf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wscanf() {
+s32 PS4_SYSV_ABI wscanf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI wscanf_s() {
+s32 PS4_SYSV_ABI wscanf_s() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI xtime_get() {
+s32 PS4_SYSV_ABI xtime_get() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI y0() {
+s32 PS4_SYSV_ABI y0() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI y0f() {
+s32 PS4_SYSV_ABI y0f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI y1() {
+s32 PS4_SYSV_ABI y1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI y1f() {
+s32 PS4_SYSV_ABI y1f() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI yn() {
+s32 PS4_SYSV_ABI yn() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI ynf() {
+s32 PS4_SYSV_ABI ynf() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_186EB8E3525D6240() {
+s32 PS4_SYSV_ABI Func_186EB8E3525D6240() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_419F5881393ECAB1() {
+s32 PS4_SYSV_ABI Func_419F5881393ECAB1() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_6C6B8377791654A4() {
+s32 PS4_SYSV_ABI Func_6C6B8377791654A4() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_7FD2D5C8DF0ACBC8() {
+s32 PS4_SYSV_ABI Func_7FD2D5C8DF0ACBC8() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C14A89D29B148C3A() {
+s32 PS4_SYSV_ABI Func_C14A89D29B148C3A() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
     return ORBIS_OK;
 }

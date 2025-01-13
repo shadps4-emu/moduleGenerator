@@ -8,1257 +8,1257 @@
 
 namespace Libraries::GnmDriver {
 
-int PS4_SYSV_ABI Func_4774D83BB4DDBF9A() {
+s32 PS4_SYSV_ABI Func_4774D83BB4DDBF9A() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BADE7B4C199140DD() {
+s32 PS4_SYSV_ABI Func_BADE7B4C199140DD() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency() {
+s32 PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmFindResources() {
+s32 PS4_SYSV_ABI sceGnmFindResources() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers() {
+s32 PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRegisterOwnerForSystem() {
+s32 PS4_SYSV_ABI sceGnmRegisterOwnerForSystem() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1C43886B16EE5530() {
+s32 PS4_SYSV_ABI Func_1C43886B16EE5530() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_81037019ECCD0E01() {
+s32 PS4_SYSV_ABI Func_81037019ECCD0E01() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_BFB41C057478F0BF() {
+s32 PS4_SYSV_ABI Func_BFB41C057478F0BF() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E51D44DB8151238C() {
+s32 PS4_SYSV_ABI Func_E51D44DB8151238C() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F916890425496553() {
+s32 PS4_SYSV_ABI Func_F916890425496553() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand() {
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize() {
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmAddEqEvent() {
+s32 PS4_SYSV_ABI sceGnmAddEqEvent() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmAreSubmitsAllowed() {
+s32 PS4_SYSV_ABI sceGnmAreSubmitsAllowed() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmBeginWorkload() {
+s32 PS4_SYSV_ABI sceGnmBeginWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmComputeWaitOnAddress() {
+s32 PS4_SYSV_ABI sceGnmComputeWaitOnAddress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmComputeWaitSemaphore() {
+s32 PS4_SYSV_ABI sceGnmComputeWaitSemaphore() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmCreateWorkloadStream() {
+s32 PS4_SYSV_ABI sceGnmCreateWorkloadStream() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerGetAddressWatch() {
+s32 PS4_SYSV_ABI sceGnmDebuggerGetAddressWatch() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerHaltWavefront() {
+s32 PS4_SYSV_ABI sceGnmDebuggerHaltWavefront() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerReadGds() {
+s32 PS4_SYSV_ABI sceGnmDebuggerReadGds() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerReadSqIndirectRegister() {
+s32 PS4_SYSV_ABI sceGnmDebuggerReadSqIndirectRegister() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerResumeWavefront() {
+s32 PS4_SYSV_ABI sceGnmDebuggerResumeWavefront() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerResumeWavefrontCreation() {
+s32 PS4_SYSV_ABI sceGnmDebuggerResumeWavefrontCreation() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerSetAddressWatch() {
+s32 PS4_SYSV_ABI sceGnmDebuggerSetAddressWatch() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerWriteGds() {
+s32 PS4_SYSV_ABI sceGnmDebuggerWriteGds() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebuggerWriteSqIndirectRegister() {
+s32 PS4_SYSV_ABI sceGnmDebuggerWriteSqIndirectRegister() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebugHardwareStatus() {
+s32 PS4_SYSV_ABI sceGnmDebugHardwareStatus() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDeleteEqEvent() {
+s32 PS4_SYSV_ABI sceGnmDeleteEqEvent() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDestroyWorkloadStream() {
+s32 PS4_SYSV_ABI sceGnmDestroyWorkloadStream() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDingDong() {
+s32 PS4_SYSV_ABI sceGnmDingDong() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDingDongForWorkload() {
+s32 PS4_SYSV_ABI sceGnmDingDongForWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDisableMipStatsReport() {
+s32 PS4_SYSV_ABI sceGnmDisableMipStatsReport() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDispatchDirect() {
+s32 PS4_SYSV_ABI sceGnmDispatchDirect() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDispatchIndirect() {
+s32 PS4_SYSV_ABI sceGnmDispatchIndirect() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDispatchIndirectOnMec() {
+s32 PS4_SYSV_ABI sceGnmDispatchIndirectOnMec() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDispatchInitDefaultHardwareState() {
+s32 PS4_SYSV_ABI sceGnmDispatchInitDefaultHardwareState() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndex() {
+s32 PS4_SYSV_ABI sceGnmDrawIndex() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexAuto() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexAuto() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexIndirect() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexIndirect() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexIndirectCountMulti() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexIndirectCountMulti() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexIndirectMulti() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexIndirectMulti() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexMultiInstanced() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexMultiInstanced() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndexOffset() {
+s32 PS4_SYSV_ABI sceGnmDrawIndexOffset() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndirect() {
+s32 PS4_SYSV_ABI sceGnmDrawIndirect() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndirectCountMulti() {
+s32 PS4_SYSV_ABI sceGnmDrawIndirectCountMulti() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawIndirectMulti() {
+s32 PS4_SYSV_ABI sceGnmDrawIndirectMulti() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState() {
+s32 PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState175() {
+s32 PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState175() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState200() {
+s32 PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState200() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState350() {
+s32 PS4_SYSV_ABI sceGnmDrawInitDefaultHardwareState350() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitToDefaultContextState() {
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextState() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawInitToDefaultContextState400() {
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextState400() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDrawOpaqueAuto() {
+s32 PS4_SYSV_ABI sceGnmDrawOpaqueAuto() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverCaptureInProgress() {
+s32 PS4_SYSV_ABI sceGnmDriverCaptureInProgress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterface() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterface() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForGpuDebugger() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForGpuDebugger() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForGpuException() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForGpuException() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForHDRScopes() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForHDRScopes() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForReplay() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForReplay() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForResourceRegistration() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForResourceRegistration() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForValidation() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalRetrieveGnmInterfaceForValidation() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverInternalVirtualQuery() {
+s32 PS4_SYSV_ABI sceGnmDriverInternalVirtualQuery() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverTraceInProgress() {
+s32 PS4_SYSV_ABI sceGnmDriverTraceInProgress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDriverTriggerCapture() {
+s32 PS4_SYSV_ABI sceGnmDriverTriggerCapture() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmEndWorkload() {
+s32 PS4_SYSV_ABI sceGnmEndWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmFindResourcesPublic() {
+s32 PS4_SYSV_ABI sceGnmFindResourcesPublic() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmFlushGarlic() {
+s32 PS4_SYSV_ABI sceGnmFlushGarlic() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetCoredumpAddress() {
+s32 PS4_SYSV_ABI sceGnmGetCoredumpAddress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetCoredumpMode() {
+s32 PS4_SYSV_ABI sceGnmGetCoredumpMode() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetCoredumpProtectionFaultTimestamp() {
+s32 PS4_SYSV_ABI sceGnmGetCoredumpProtectionFaultTimestamp() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetDbgGcHandle() {
+s32 PS4_SYSV_ABI sceGnmGetDbgGcHandle() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetDebugTimestamp() {
+s32 PS4_SYSV_ABI sceGnmGetDebugTimestamp() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetEqEventType() {
+s32 PS4_SYSV_ABI sceGnmGetEqEventType() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetEqTimeStamp() {
+s32 PS4_SYSV_ABI sceGnmGetEqTimeStamp() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetGpuBlockStatus() {
+s32 PS4_SYSV_ABI sceGnmGetGpuBlockStatus() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetGpuInfoStatus() {
+s32 PS4_SYSV_ABI sceGnmGetGpuInfoStatus() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetLastWaitedAddress() {
+s32 PS4_SYSV_ABI sceGnmGetLastWaitedAddress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetNumTcaUnits() {
+s32 PS4_SYSV_ABI sceGnmGetNumTcaUnits() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetOffChipTessellationBufferSize() {
+s32 PS4_SYSV_ABI sceGnmGetOffChipTessellationBufferSize() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetOwnerName() {
+s32 PS4_SYSV_ABI sceGnmGetOwnerName() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetPhysicalCounterFromVirtualized() {
+s32 PS4_SYSV_ABI sceGnmGetPhysicalCounterFromVirtualized() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetProtectionFaultTimeStamp() {
+s32 PS4_SYSV_ABI sceGnmGetProtectionFaultTimeStamp() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceBaseAddressAndSizeInBytes() {
+s32 PS4_SYSV_ABI sceGnmGetResourceBaseAddressAndSizeInBytes() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceName() {
+s32 PS4_SYSV_ABI sceGnmGetResourceName() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceShaderGuid() {
+s32 PS4_SYSV_ABI sceGnmGetResourceShaderGuid() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceType() {
+s32 PS4_SYSV_ABI sceGnmGetResourceType() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetResourceUserData() {
+s32 PS4_SYSV_ABI sceGnmGetResourceUserData() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetShaderProgramBaseAddress() {
+s32 PS4_SYSV_ABI sceGnmGetShaderProgramBaseAddress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetShaderStatus() {
+s32 PS4_SYSV_ABI sceGnmGetShaderStatus() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGetTheTessellationFactorRingBufferBaseAddress() {
+s32 PS4_SYSV_ABI sceGnmGetTheTessellationFactorRingBufferBaseAddress() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGpuPaDebugEnter() {
+s32 PS4_SYSV_ABI sceGnmGpuPaDebugEnter() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmGpuPaDebugLeave() {
+s32 PS4_SYSV_ABI sceGnmGpuPaDebugLeave() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertDingDongMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertDingDongMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertPopMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertPopMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertPushColorMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertPushColorMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertPushMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertPushMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertSetColorMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertSetColorMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertSetMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertSetMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertThreadTraceMarker() {
+s32 PS4_SYSV_ABI sceGnmInsertThreadTraceMarker() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmInsertWaitFlipDone() {
+s32 PS4_SYSV_ABI sceGnmInsertWaitFlipDone() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmIsCoredumpValid() {
+s32 PS4_SYSV_ABI sceGnmIsCoredumpValid() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmIsUserPaEnabled() {
+s32 PS4_SYSV_ABI sceGnmIsUserPaEnabled() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmLogicalCuIndexToPhysicalCuIndex() {
+s32 PS4_SYSV_ABI sceGnmLogicalCuIndexToPhysicalCuIndex() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmLogicalCuMaskToPhysicalCuMask() {
+s32 PS4_SYSV_ABI sceGnmLogicalCuMaskToPhysicalCuMask() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmLogicalTcaUnitToPhysical() {
+s32 PS4_SYSV_ABI sceGnmLogicalTcaUnitToPhysical() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmMapComputeQueue() {
+s32 PS4_SYSV_ABI sceGnmMapComputeQueue() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmMapComputeQueueWithPriority() {
+s32 PS4_SYSV_ABI sceGnmMapComputeQueueWithPriority() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmPaDisableFlipCallbacks() {
+s32 PS4_SYSV_ABI sceGnmPaDisableFlipCallbacks() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmPaEnableFlipCallbacks() {
+s32 PS4_SYSV_ABI sceGnmPaEnableFlipCallbacks() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmPaHeartbeat() {
+s32 PS4_SYSV_ABI sceGnmPaHeartbeat() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmQueryResourceRegistrationUserMemoryRequirements() {
+s32 PS4_SYSV_ABI sceGnmQueryResourceRegistrationUserMemoryRequirements() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRaiseUserExceptionEvent() {
+s32 PS4_SYSV_ABI sceGnmRaiseUserExceptionEvent() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRegisterGdsResource() {
+s32 PS4_SYSV_ABI sceGnmRegisterGdsResource() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRegisterGnmLiveCallbackConfig() {
+s32 PS4_SYSV_ABI sceGnmRegisterGnmLiveCallbackConfig() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRegisterOwner() {
+s32 PS4_SYSV_ABI sceGnmRegisterOwner() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRegisterResource() {
+s32 PS4_SYSV_ABI sceGnmRegisterResource() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRequestFlipAndSubmitDone() {
+s32 PS4_SYSV_ABI sceGnmRequestFlipAndSubmitDone() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRequestFlipAndSubmitDoneForWorkload() {
+s32 PS4_SYSV_ABI sceGnmRequestFlipAndSubmitDoneForWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmRequestMipStatsReportAndReset() {
+s32 PS4_SYSV_ABI sceGnmRequestMipStatsReportAndReset() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmResetVgtControl() {
+s32 PS4_SYSV_ABI sceGnmResetVgtControl() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaClose() {
+s32 PS4_SYSV_ABI sceGnmSdmaClose() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaConstFill() {
+s32 PS4_SYSV_ABI sceGnmSdmaConstFill() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaCopyLinear() {
+s32 PS4_SYSV_ABI sceGnmSdmaCopyLinear() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaCopyTiled() {
+s32 PS4_SYSV_ABI sceGnmSdmaCopyTiled() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaCopyWindow() {
+s32 PS4_SYSV_ABI sceGnmSdmaCopyWindow() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaFlush() {
+s32 PS4_SYSV_ABI sceGnmSdmaFlush() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaGetMinCmdSize() {
+s32 PS4_SYSV_ABI sceGnmSdmaGetMinCmdSize() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSdmaOpen() {
+s32 PS4_SYSV_ABI sceGnmSdmaOpen() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetCsShader() {
+s32 PS4_SYSV_ABI sceGnmSetCsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetCsShaderWithModifier() {
+s32 PS4_SYSV_ABI sceGnmSetCsShaderWithModifier() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetEmbeddedPsShader() {
+s32 PS4_SYSV_ABI sceGnmSetEmbeddedPsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetEmbeddedVsShader() {
+s32 PS4_SYSV_ABI sceGnmSetEmbeddedVsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetEsShader() {
+s32 PS4_SYSV_ABI sceGnmSetEsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetGsRingSizes() {
+s32 PS4_SYSV_ABI sceGnmSetGsRingSizes() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetGsShader() {
+s32 PS4_SYSV_ABI sceGnmSetGsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetHsShader() {
+s32 PS4_SYSV_ABI sceGnmSetHsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetLsShader() {
+s32 PS4_SYSV_ABI sceGnmSetLsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetPsShader() {
+s32 PS4_SYSV_ABI sceGnmSetPsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetPsShader350() {
+s32 PS4_SYSV_ABI sceGnmSetPsShader350() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetResourceRegistrationUserMemory() {
+s32 PS4_SYSV_ABI sceGnmSetResourceRegistrationUserMemory() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetResourceUserData() {
+s32 PS4_SYSV_ABI sceGnmSetResourceUserData() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetSpiEnableSqCounters() {
+s32 PS4_SYSV_ABI sceGnmSetSpiEnableSqCounters() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetSpiEnableSqCountersForUnitInstance() {
+s32 PS4_SYSV_ABI sceGnmSetSpiEnableSqCountersForUnitInstance() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetupMipStatsReport() {
+s32 PS4_SYSV_ABI sceGnmSetupMipStatsReport() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetVgtControl() {
+s32 PS4_SYSV_ABI sceGnmSetVgtControl() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetVsShader() {
+s32 PS4_SYSV_ABI sceGnmSetVsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetWaveLimitMultiplier() {
+s32 PS4_SYSV_ABI sceGnmSetWaveLimitMultiplier() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSetWaveLimitMultipliers() {
+s32 PS4_SYSV_ABI sceGnmSetWaveLimitMultipliers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmEndSpm() {
+s32 PS4_SYSV_ABI sceGnmSpmEndSpm() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmInit() {
+s32 PS4_SYSV_ABI sceGnmSpmInit() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmInit2() {
+s32 PS4_SYSV_ABI sceGnmSpmInit2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetDelay() {
+s32 PS4_SYSV_ABI sceGnmSpmSetDelay() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetMuxRam() {
+s32 PS4_SYSV_ABI sceGnmSpmSetMuxRam() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetMuxRam2() {
+s32 PS4_SYSV_ABI sceGnmSpmSetMuxRam2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetSelectCounter() {
+s32 PS4_SYSV_ABI sceGnmSpmSetSelectCounter() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetSpmSelects() {
+s32 PS4_SYSV_ABI sceGnmSpmSetSpmSelects() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmSetSpmSelects2() {
+s32 PS4_SYSV_ABI sceGnmSpmSetSpmSelects2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSpmStartSpm() {
+s32 PS4_SYSV_ABI sceGnmSpmStartSpm() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttFini() {
+s32 PS4_SYSV_ABI sceGnmSqttFini() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttFinishTrace() {
+s32 PS4_SYSV_ABI sceGnmSqttFinishTrace() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetBcInfo() {
+s32 PS4_SYSV_ABI sceGnmSqttGetBcInfo() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetGpuClocks() {
+s32 PS4_SYSV_ABI sceGnmSqttGetGpuClocks() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetHiWater() {
+s32 PS4_SYSV_ABI sceGnmSqttGetHiWater() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetStatus() {
+s32 PS4_SYSV_ABI sceGnmSqttGetStatus() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetTraceCounter() {
+s32 PS4_SYSV_ABI sceGnmSqttGetTraceCounter() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetTraceWptr() {
+s32 PS4_SYSV_ABI sceGnmSqttGetTraceWptr() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetWrapCounts() {
+s32 PS4_SYSV_ABI sceGnmSqttGetWrapCounts() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetWrapCounts2() {
+s32 PS4_SYSV_ABI sceGnmSqttGetWrapCounts2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttGetWritebackLabels() {
+s32 PS4_SYSV_ABI sceGnmSqttGetWritebackLabels() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttInit() {
+s32 PS4_SYSV_ABI sceGnmSqttInit() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSelectMode() {
+s32 PS4_SYSV_ABI sceGnmSqttSelectMode() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSelectTarget() {
+s32 PS4_SYSV_ABI sceGnmSqttSelectTarget() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSelectTokens() {
+s32 PS4_SYSV_ABI sceGnmSqttSelectTokens() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetCuPerfMask() {
+s32 PS4_SYSV_ABI sceGnmSqttSetCuPerfMask() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetDceEventWrite() {
+s32 PS4_SYSV_ABI sceGnmSqttSetDceEventWrite() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetHiWater() {
+s32 PS4_SYSV_ABI sceGnmSqttSetHiWater() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetTraceBuffer2() {
+s32 PS4_SYSV_ABI sceGnmSqttSetTraceBuffer2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetTraceBuffers() {
+s32 PS4_SYSV_ABI sceGnmSqttSetTraceBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetUserData() {
+s32 PS4_SYSV_ABI sceGnmSqttSetUserData() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSetUserdataTimer() {
+s32 PS4_SYSV_ABI sceGnmSqttSetUserdataTimer() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttStartTrace() {
+s32 PS4_SYSV_ABI sceGnmSqttStartTrace() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttStopTrace() {
+s32 PS4_SYSV_ABI sceGnmSqttStopTrace() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSwitchTraceBuffer() {
+s32 PS4_SYSV_ABI sceGnmSqttSwitchTraceBuffer() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttSwitchTraceBuffer2() {
+s32 PS4_SYSV_ABI sceGnmSqttSwitchTraceBuffer2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSqttWaitForEvent() {
+s32 PS4_SYSV_ABI sceGnmSqttWaitForEvent() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSubmitAndFlipCommandBuffers() {
+s32 PS4_SYSV_ABI sceGnmSubmitAndFlipCommandBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSubmitAndFlipCommandBuffersForWorkload() {
+s32 PS4_SYSV_ABI sceGnmSubmitAndFlipCommandBuffersForWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSubmitCommandBuffers() {
+s32 PS4_SYSV_ABI sceGnmSubmitCommandBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSubmitCommandBuffersForWorkload() {
+s32 PS4_SYSV_ABI sceGnmSubmitCommandBuffersForWorkload() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmSubmitDone() {
+s32 PS4_SYSV_ABI sceGnmSubmitDone() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUnmapComputeQueue() {
+s32 PS4_SYSV_ABI sceGnmUnmapComputeQueue() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUnregisterAllResourcesForOwner() {
+s32 PS4_SYSV_ABI sceGnmUnregisterAllResourcesForOwner() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUnregisterOwnerAndResources() {
+s32 PS4_SYSV_ABI sceGnmUnregisterOwnerAndResources() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUnregisterResource() {
+s32 PS4_SYSV_ABI sceGnmUnregisterResource() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUpdateGsShader() {
+s32 PS4_SYSV_ABI sceGnmUpdateGsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUpdateHsShader() {
+s32 PS4_SYSV_ABI sceGnmUpdateHsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUpdatePsShader() {
+s32 PS4_SYSV_ABI sceGnmUpdatePsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUpdatePsShader350() {
+s32 PS4_SYSV_ABI sceGnmUpdatePsShader350() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmUpdateVsShader() {
+s32 PS4_SYSV_ABI sceGnmUpdateVsShader() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateCommandBuffers() {
+s32 PS4_SYSV_ABI sceGnmValidateCommandBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateDisableDiagnostics() {
+s32 PS4_SYSV_ABI sceGnmValidateDisableDiagnostics() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateDisableDiagnostics2() {
+s32 PS4_SYSV_ABI sceGnmValidateDisableDiagnostics2() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateDispatchCommandBuffers() {
+s32 PS4_SYSV_ABI sceGnmValidateDispatchCommandBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateDrawCommandBuffers() {
+s32 PS4_SYSV_ABI sceGnmValidateDrawCommandBuffers() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateGetDiagnosticInfo() {
+s32 PS4_SYSV_ABI sceGnmValidateGetDiagnosticInfo() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateGetDiagnostics() {
+s32 PS4_SYSV_ABI sceGnmValidateGetDiagnostics() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateGetVersion() {
+s32 PS4_SYSV_ABI sceGnmValidateGetVersion() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateOnSubmitEnabled() {
+s32 PS4_SYSV_ABI sceGnmValidateOnSubmitEnabled() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidateResetState() {
+s32 PS4_SYSV_ABI sceGnmValidateResetState() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmValidationRegisterMemoryCheckCallback() {
+s32 PS4_SYSV_ABI sceGnmValidationRegisterMemoryCheckCallback() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRazorCaptureCommandBuffersOnlyImmediate() {
+s32 PS4_SYSV_ABI sceRazorCaptureCommandBuffersOnlyImmediate() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRazorCaptureCommandBuffersOnlySinceLastFlip() {
+s32 PS4_SYSV_ABI sceRazorCaptureCommandBuffersOnlySinceLastFlip() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRazorCaptureImmediate() {
+s32 PS4_SYSV_ABI sceRazorCaptureImmediate() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRazorCaptureSinceLastFlip() {
+s32 PS4_SYSV_ABI sceRazorCaptureSinceLastFlip() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceRazorIsLoaded() {
+s32 PS4_SYSV_ABI sceRazorIsLoaded() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_063D065A2D6359C3() {
+s32 PS4_SYSV_ABI Func_063D065A2D6359C3() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_0CABACAFB258429D() {
+s32 PS4_SYSV_ABI Func_0CABACAFB258429D() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_150CF336FC2E99A3() {
+s32 PS4_SYSV_ABI Func_150CF336FC2E99A3() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_17CA687F9EE52D49() {
+s32 PS4_SYSV_ABI Func_17CA687F9EE52D49() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_1870B89F759C6B45() {
+s32 PS4_SYSV_ABI Func_1870B89F759C6B45() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_26F9029EF68A955E() {
+s32 PS4_SYSV_ABI Func_26F9029EF68A955E() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_301E3DBBAB092DB0() {
+s32 PS4_SYSV_ABI Func_301E3DBBAB092DB0() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_30BAFE172AF17FEF() {
+s32 PS4_SYSV_ABI Func_30BAFE172AF17FEF() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_3E6A3E8203D95317() {
+s32 PS4_SYSV_ABI Func_3E6A3E8203D95317() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_40FEEF0C6534C434() {
+s32 PS4_SYSV_ABI Func_40FEEF0C6534C434() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_416B9079DE4CBACE() {
+s32 PS4_SYSV_ABI Func_416B9079DE4CBACE() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_50678F1CCEEB9A00() {
+s32 PS4_SYSV_ABI Func_50678F1CCEEB9A00() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_54A2EC5FA4C62413() {
+s32 PS4_SYSV_ABI Func_54A2EC5FA4C62413() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5A9C52C83138AE6B() {
+s32 PS4_SYSV_ABI Func_5A9C52C83138AE6B() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_5D22193A31EA1142() {
+s32 PS4_SYSV_ABI Func_5D22193A31EA1142() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_725A36DEBB60948D() {
+s32 PS4_SYSV_ABI Func_725A36DEBB60948D() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_8021A502FA61B9BB() {
+s32 PS4_SYSV_ABI Func_8021A502FA61B9BB() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9D002FE0FA40F0E6() {
+s32 PS4_SYSV_ABI Func_9D002FE0FA40F0E6() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_9D297F36A7028B71() {
+s32 PS4_SYSV_ABI Func_9D297F36A7028B71() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_A2D7EC7A7BCF79B3() {
+s32 PS4_SYSV_ABI Func_A2D7EC7A7BCF79B3() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_AA12A3CB8990854A() {
+s32 PS4_SYSV_ABI Func_AA12A3CB8990854A() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_ADC8DDC005020BC6() {
+s32 PS4_SYSV_ABI Func_ADC8DDC005020BC6() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B0A8688B679CB42D() {
+s32 PS4_SYSV_ABI Func_B0A8688B679CB42D() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_B489020B5157A5FF() {
+s32 PS4_SYSV_ABI Func_B489020B5157A5FF() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D1511B9DCFFB3DD9() {
+s32 PS4_SYSV_ABI Func_D1511B9DCFFB3DD9() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D53446649B02E58E() {
+s32 PS4_SYSV_ABI Func_D53446649B02E58E() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D8B6E8E28E1EF0A3() {
+s32 PS4_SYSV_ABI Func_D8B6E8E28E1EF0A3() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_D93D733A19DD7454() {
+s32 PS4_SYSV_ABI Func_D93D733A19DD7454() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DE995443BC2A8317() {
+s32 PS4_SYSV_ABI Func_DE995443BC2A8317() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_DF6E9528150C23FF() {
+s32 PS4_SYSV_ABI Func_DF6E9528150C23FF() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_ECB4C6BA41FE3350() {
+s32 PS4_SYSV_ABI Func_ECB4C6BA41FE3350() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebugReset() {
+s32 PS4_SYSV_ABI sceGnmDebugReset() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C4C328B7CF3B4171() {
+s32 PS4_SYSV_ABI Func_C4C328B7CF3B4171() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceGnmDebugModuleReset() {
+s32 PS4_SYSV_ABI sceGnmDebugModuleReset() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }

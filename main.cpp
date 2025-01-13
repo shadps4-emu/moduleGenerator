@@ -51,9 +51,9 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
-                std::string funcDeclare("int PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                std::string funcDeclare("s32 PS4_SYSV_ABI " + func.m_funcName + "();\n");
                 if (funcDeclare.length() > MAXIMUM_LINE_LENGTH) {
-                    funcDeclare = "int PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
+                    funcDeclare = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
                 }
                 headerCode += funcDeclare;
                 funcDeclares.insert(func.m_funcName);
@@ -83,9 +83,9 @@ void GenerateCodeFiles(
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
-                std::string funcHeader = "int PS4_SYSV_ABI " + func.m_funcName + "() {";
+                std::string funcHeader = "s32 PS4_SYSV_ABI " + func.m_funcName + "() {";
                 if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
-                    funcHeader = "int PS4_SYSV_ABI\n" + func.m_funcName + "() {";
+                    funcHeader = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "() {";
                 }
                 const std::string funcDeclare(funcHeader + "\n" +
                                               "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"

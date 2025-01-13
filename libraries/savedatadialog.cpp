@@ -8,52 +8,52 @@
 
 namespace Libraries::SaveDataDialog {
 
-int PS4_SYSV_ABI sceSaveDataDialogClose() {
+s32 PS4_SYSV_ABI sceSaveDataDialogClose() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogGetResult() {
+s32 PS4_SYSV_ABI sceSaveDataDialogGetResult() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogGetStatus() {
+s32 PS4_SYSV_ABI sceSaveDataDialogGetStatus() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogInitialize() {
+s32 PS4_SYSV_ABI sceSaveDataDialogInitialize() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogIsReadyToDisplay() {
+s32 PS4_SYSV_ABI sceSaveDataDialogIsReadyToDisplay() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogOpen() {
+s32 PS4_SYSV_ABI sceSaveDataDialogOpen() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogProgressBarInc() {
+s32 PS4_SYSV_ABI sceSaveDataDialogProgressBarInc() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogProgressBarSetValue() {
+s32 PS4_SYSV_ABI sceSaveDataDialogProgressBarSetValue() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogTerminate() {
+s32 PS4_SYSV_ABI sceSaveDataDialogTerminate() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSaveDataDialogUpdateStatus() {
+s32 PS4_SYSV_ABI sceSaveDataDialogUpdateStatus() {
     LOG_ERROR(Lib_SaveDataDialog, "(STUBBED) called");
     return ORBIS_OK;
 }

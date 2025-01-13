@@ -8,122 +8,122 @@
 
 namespace Libraries::SharePlay {
 
-int PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo() {
+s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayCrashDaemon() {
+s32 PS4_SYSV_ABI sceSharePlayCrashDaemon() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfoA() {
+s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfoA() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayGetCurrentInfo() {
+s32 PS4_SYSV_ABI sceSharePlayGetCurrentInfo() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayGetEvent() {
+s32 PS4_SYSV_ABI sceSharePlayGetEvent() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayInitialize() {
+s32 PS4_SYSV_ABI sceSharePlayInitialize() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayNotifyDialogOpen() {
+s32 PS4_SYSV_ABI sceSharePlayNotifyDialogOpen() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayNotifyForceCloseForCdlg() {
+s32 PS4_SYSV_ABI sceSharePlayNotifyForceCloseForCdlg() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayNotifyOpenQuickMenu() {
+s32 PS4_SYSV_ABI sceSharePlayNotifyOpenQuickMenu() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayResumeScreenForCdlg() {
+s32 PS4_SYSV_ABI sceSharePlayResumeScreenForCdlg() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayServerLock() {
+s32 PS4_SYSV_ABI sceSharePlayServerLock() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayServerUnLock() {
+s32 PS4_SYSV_ABI sceSharePlayServerUnLock() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlaySetMode() {
+s32 PS4_SYSV_ABI sceSharePlaySetMode() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlaySetProhibition() {
+s32 PS4_SYSV_ABI sceSharePlaySetProhibition() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlaySetProhibitionModeWithAppId() {
+s32 PS4_SYSV_ABI sceSharePlaySetProhibitionModeWithAppId() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayStartStandby() {
+s32 PS4_SYSV_ABI sceSharePlayStartStandby() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayStartStreaming() {
+s32 PS4_SYSV_ABI sceSharePlayStartStreaming() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayStopStandby() {
+s32 PS4_SYSV_ABI sceSharePlayStopStandby() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayStopStreaming() {
+s32 PS4_SYSV_ABI sceSharePlayStopStreaming() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceSharePlayTerminate() {
+s32 PS4_SYSV_ABI sceSharePlayTerminate() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_2E93C0EA6A6B67C4() {
+s32 PS4_SYSV_ABI Func_2E93C0EA6A6B67C4() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_C1C236728D88E177() {
+s32 PS4_SYSV_ABI Func_C1C236728D88E177() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_E9E80C474781F115() {
+s32 PS4_SYSV_ABI Func_E9E80C474781F115() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_F3DD6199DA15ED44() {
+s32 PS4_SYSV_ABI Func_F3DD6199DA15ED44() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }

@@ -8,72 +8,72 @@
 
 namespace Libraries::ScreenShot {
 
-int PS4_SYSV_ABI sceScreenShotSetDrcParam() {
+s32 PS4_SYSV_ABI sceScreenShotSetDrcParam() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI _Z5dummyv() {
+s32 PS4_SYSV_ABI _Z5dummyv() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotCapture() {
+s32 PS4_SYSV_ABI sceScreenShotCapture() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotDisable() {
+s32 PS4_SYSV_ABI sceScreenShotDisable() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotDisableNotification() {
+s32 PS4_SYSV_ABI sceScreenShotDisableNotification() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotEnable() {
+s32 PS4_SYSV_ABI sceScreenShotEnable() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotEnableNotification() {
+s32 PS4_SYSV_ABI sceScreenShotEnableNotification() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotGetAppInfo() {
+s32 PS4_SYSV_ABI sceScreenShotGetAppInfo() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotGetDrcParam() {
+s32 PS4_SYSV_ABI sceScreenShotGetDrcParam() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotIsDisabled() {
+s32 PS4_SYSV_ABI sceScreenShotIsDisabled() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotIsVshScreenCaptureDisabled() {
+s32 PS4_SYSV_ABI sceScreenShotIsVshScreenCaptureDisabled() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotSetOverlayImage() {
+s32 PS4_SYSV_ABI sceScreenShotSetOverlayImage() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotSetOverlayImageWithOrigin() {
+s32 PS4_SYSV_ABI sceScreenShotSetOverlayImageWithOrigin() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceScreenShotSetParam() {
+s32 PS4_SYSV_ABI sceScreenShotSetParam() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
     return ORBIS_OK;
 }

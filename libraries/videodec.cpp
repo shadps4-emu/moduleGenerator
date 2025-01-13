@@ -8,37 +8,37 @@
 
 namespace Libraries::Videodec {
 
-int PS4_SYSV_ABI sceVideodecCreateDecoder() {
+s32 PS4_SYSV_ABI sceVideodecCreateDecoder() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecDecode() {
+s32 PS4_SYSV_ABI sceVideodecDecode() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecDeleteDecoder() {
+s32 PS4_SYSV_ABI sceVideodecDeleteDecoder() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecFlush() {
+s32 PS4_SYSV_ABI sceVideodecFlush() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecMapMemory() {
+s32 PS4_SYSV_ABI sceVideodecMapMemory() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecQueryResourceInfo() {
+s32 PS4_SYSV_ABI sceVideodecQueryResourceInfo() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI sceVideodecReset() {
+s32 PS4_SYSV_ABI sceVideodecReset() {
     LOG_ERROR(Lib_Videodec, "(STUBBED) called");
     return ORBIS_OK;
 }

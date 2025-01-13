@@ -8,462 +8,462 @@
 
 namespace Libraries::Pad {
 
-int PS4_SYSV_ABI scePadClose() {
+s32 PS4_SYSV_ABI scePadClose() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadConnectPort() {
+s32 PS4_SYSV_ABI scePadConnectPort() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDeviceClassGetExtendedInformation() {
+s32 PS4_SYSV_ABI scePadDeviceClassGetExtendedInformation() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDeviceClassParseData() {
+s32 PS4_SYSV_ABI scePadDeviceClassParseData() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDeviceOpen() {
+s32 PS4_SYSV_ABI scePadDeviceOpen() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDisableVibration() {
+s32 PS4_SYSV_ABI scePadDisableVibration() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDisconnectDevice() {
+s32 PS4_SYSV_ABI scePadDisconnectDevice() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadDisconnectPort() {
+s32 PS4_SYSV_ABI scePadDisconnectPort() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadEnableAutoDetect() {
+s32 PS4_SYSV_ABI scePadEnableAutoDetect() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadEnableExtensionPort() {
+s32 PS4_SYSV_ABI scePadEnableExtensionPort() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadEnableSpecificDeviceClass() {
+s32 PS4_SYSV_ABI scePadEnableSpecificDeviceClass() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadEnableUsbConnection() {
+s32 PS4_SYSV_ABI scePadEnableUsbConnection() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetBluetoothAddress() {
+s32 PS4_SYSV_ABI scePadGetBluetoothAddress() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetCapability() {
+s32 PS4_SYSV_ABI scePadGetCapability() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetControllerInformation() {
+s32 PS4_SYSV_ABI scePadGetControllerInformation() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetDataInternal() {
+s32 PS4_SYSV_ABI scePadGetDataInternal() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetDeviceId() {
+s32 PS4_SYSV_ABI scePadGetDeviceId() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetDeviceInfo() {
+s32 PS4_SYSV_ABI scePadGetDeviceInfo() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetExtControllerInformation() {
+s32 PS4_SYSV_ABI scePadGetExtControllerInformation() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetExtensionUnitInfo() {
+s32 PS4_SYSV_ABI scePadGetExtensionUnitInfo() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetFeatureReport() {
+s32 PS4_SYSV_ABI scePadGetFeatureReport() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetHandle() {
+s32 PS4_SYSV_ABI scePadGetHandle() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetIdleCount() {
+s32 PS4_SYSV_ABI scePadGetIdleCount() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetInfo() {
+s32 PS4_SYSV_ABI scePadGetInfo() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetInfoByPortType() {
+s32 PS4_SYSV_ABI scePadGetInfoByPortType() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetLicenseControllerInformation() {
+s32 PS4_SYSV_ABI scePadGetLicenseControllerInformation() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetMotionSensorPosition() {
+s32 PS4_SYSV_ABI scePadGetMotionSensorPosition() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetMotionTimerUnit() {
+s32 PS4_SYSV_ABI scePadGetMotionTimerUnit() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetSphereRadius() {
+s32 PS4_SYSV_ABI scePadGetSphereRadius() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadGetVersionInfo() {
+s32 PS4_SYSV_ABI scePadGetVersionInfo() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadInit() {
+s32 PS4_SYSV_ABI scePadInit() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsBlasterConnected() {
+s32 PS4_SYSV_ABI scePadIsBlasterConnected() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsDS4Connected() {
+s32 PS4_SYSV_ABI scePadIsDS4Connected() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsLightBarBaseBrightnessControllable() {
+s32 PS4_SYSV_ABI scePadIsLightBarBaseBrightnessControllable() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsMoveConnected() {
+s32 PS4_SYSV_ABI scePadIsMoveConnected() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsMoveReproductionModel() {
+s32 PS4_SYSV_ABI scePadIsMoveReproductionModel() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadIsValidHandle() {
+s32 PS4_SYSV_ABI scePadIsValidHandle() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadMbusInit() {
+s32 PS4_SYSV_ABI scePadMbusInit() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadMbusTerm() {
+s32 PS4_SYSV_ABI scePadMbusTerm() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadOpen() {
+s32 PS4_SYSV_ABI scePadOpen() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadOpenExt() {
+s32 PS4_SYSV_ABI scePadOpenExt() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadOpenExt2() {
+s32 PS4_SYSV_ABI scePadOpenExt2() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadOutputReport() {
+s32 PS4_SYSV_ABI scePadOutputReport() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadRead() {
+s32 PS4_SYSV_ABI scePadRead() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadBlasterForTracker() {
+s32 PS4_SYSV_ABI scePadReadBlasterForTracker() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadExt() {
+s32 PS4_SYSV_ABI scePadReadExt() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadForTracker() {
+s32 PS4_SYSV_ABI scePadReadForTracker() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadHistory() {
+s32 PS4_SYSV_ABI scePadReadHistory() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadState() {
+s32 PS4_SYSV_ABI scePadReadState() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadReadStateExt() {
+s32 PS4_SYSV_ABI scePadReadStateExt() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadResetLightBar() {
+s32 PS4_SYSV_ABI scePadResetLightBar() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadResetLightBarAll() {
+s32 PS4_SYSV_ABI scePadResetLightBarAll() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadResetLightBarAllByPortType() {
+s32 PS4_SYSV_ABI scePadResetLightBarAllByPortType() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadResetOrientation() {
+s32 PS4_SYSV_ABI scePadResetOrientation() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadResetOrientationForTracker() {
+s32 PS4_SYSV_ABI scePadResetOrientationForTracker() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetAngularVelocityDeadbandState() {
+s32 PS4_SYSV_ABI scePadSetAngularVelocityDeadbandState() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetAutoPowerOffCount() {
+s32 PS4_SYSV_ABI scePadSetAutoPowerOffCount() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetButtonRemappingInfo() {
+s32 PS4_SYSV_ABI scePadSetButtonRemappingInfo() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetConnection() {
+s32 PS4_SYSV_ABI scePadSetConnection() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetExtensionReport() {
+s32 PS4_SYSV_ABI scePadSetExtensionReport() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetFeatureReport() {
+s32 PS4_SYSV_ABI scePadSetFeatureReport() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetForceIntercepted() {
+s32 PS4_SYSV_ABI scePadSetForceIntercepted() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetLightBar() {
+s32 PS4_SYSV_ABI scePadSetLightBar() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetLightBarBaseBrightness() {
+s32 PS4_SYSV_ABI scePadSetLightBarBaseBrightness() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetLightBarBlinking() {
+s32 PS4_SYSV_ABI scePadSetLightBarBlinking() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetLightBarForTracker() {
+s32 PS4_SYSV_ABI scePadSetLightBarForTracker() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetLoginUserNumber() {
+s32 PS4_SYSV_ABI scePadSetLoginUserNumber() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetMotionSensorState() {
+s32 PS4_SYSV_ABI scePadSetMotionSensorState() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetProcessFocus() {
+s32 PS4_SYSV_ABI scePadSetProcessFocus() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetProcessPrivilege() {
+s32 PS4_SYSV_ABI scePadSetProcessPrivilege() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetProcessPrivilegeOfButtonRemapping() {
+s32 PS4_SYSV_ABI scePadSetProcessPrivilegeOfButtonRemapping() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetShareButtonMaskForRemotePlay() {
+s32 PS4_SYSV_ABI scePadSetShareButtonMaskForRemotePlay() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetTiltCorrectionState() {
+s32 PS4_SYSV_ABI scePadSetTiltCorrectionState() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetUserColor() {
+s32 PS4_SYSV_ABI scePadSetUserColor() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetVibration() {
+s32 PS4_SYSV_ABI scePadSetVibration() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetVibrationForce() {
+s32 PS4_SYSV_ABI scePadSetVibrationForce() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSetVrTrackingMode() {
+s32 PS4_SYSV_ABI scePadSetVrTrackingMode() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadShareOutputData() {
+s32 PS4_SYSV_ABI scePadShareOutputData() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadStartRecording() {
+s32 PS4_SYSV_ABI scePadStartRecording() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadStopRecording() {
+s32 PS4_SYSV_ABI scePadStopRecording() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadSwitchConnection() {
+s32 PS4_SYSV_ABI scePadSwitchConnection() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVertualDeviceAddDevice() {
+s32 PS4_SYSV_ABI scePadVertualDeviceAddDevice() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVirtualDeviceAddDevice() {
+s32 PS4_SYSV_ABI scePadVirtualDeviceAddDevice() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVirtualDeviceDeleteDevice() {
+s32 PS4_SYSV_ABI scePadVirtualDeviceDeleteDevice() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVirtualDeviceDisableButtonRemapping() {
+s32 PS4_SYSV_ABI scePadVirtualDeviceDisableButtonRemapping() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVirtualDeviceGetRemoteSetting() {
+s32 PS4_SYSV_ABI scePadVirtualDeviceGetRemoteSetting() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI scePadVirtualDeviceInsertData() {
+s32 PS4_SYSV_ABI scePadVirtualDeviceInsertData() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_28B998C7D8A3DA1D() {
+s32 PS4_SYSV_ABI Func_28B998C7D8A3DA1D() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_298D21481F94C9FA() {
+s32 PS4_SYSV_ABI Func_298D21481F94C9FA() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_51E514BCD3A05CA5() {
+s32 PS4_SYSV_ABI Func_51E514BCD3A05CA5() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_89C9237E393DA243() {
+s32 PS4_SYSV_ABI Func_89C9237E393DA243() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-int PS4_SYSV_ABI Func_EF103E845B6F0420() {
+s32 PS4_SYSV_ABI Func_EF103E845B6F0420() {
     LOG_ERROR(Lib_Pad, "(STUBBED) called");
     return ORBIS_OK;
 }
