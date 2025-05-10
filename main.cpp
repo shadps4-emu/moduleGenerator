@@ -87,8 +87,9 @@ void GenerateCodeFiles(
                 if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
                     funcHeader = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "() {";
                 }
-                const std::string funcDeclare(funcHeader + "\n" +
-                                              "    LOG_ERROR(Lib_" + trimmedName +", \"(STUBBED) called\");\n"
+                const std::string funcDeclare(funcHeader + "\n" + "    LOG_ERROR(Lib_" +
+                                              trimmedName +
+                                              ", \"(STUBBED) called\");\n"
                                               "    return ORBIS_OK;\n" +
                                               "}\n\n");
                 sourceCode += funcDeclare;
@@ -99,16 +100,17 @@ void GenerateCodeFiles(
     sourceCode += "void Register" + moduleName + "(Core::Loader::SymbolsResolver* sym) {\n";
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
-            std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
-                          std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
-                          std::to_string(func.m_version_major) + ", " +
-                          std::to_string(func.m_version_minor) + ", " + func.m_funcName + ");\n";
+            std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" +
+                                   lib.first + "\", " + std::to_string(func.m_libversion) + ", \"" +
+                                   moduleName + "\", " + std::to_string(func.m_version_major) +
+                                   ", " + std::to_string(func.m_version_minor) + ", " +
+                                   func.m_funcName + ");\n";
             if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
-                nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first + "\", " +
-                          std::to_string(func.m_libversion) + ", \"" + moduleName + "\", " +
-                          std::to_string(func.m_version_major) + ", " +
-                          std::to_string(func.m_version_minor) + ",\n" 
-                          + "                 " + func.m_funcName + ");\n";
+                nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first +
+                           "\", " + std::to_string(func.m_libversion) + ", \"" + moduleName +
+                           "\", " + std::to_string(func.m_version_major) + ", " +
+                           std::to_string(func.m_version_minor) + ",\n" + "                 " +
+                           func.m_funcName + ");\n";
             }
             sourceCode += nextLine;
         }
@@ -207,6 +209,8 @@ int main(int argc, char* argv[]) {
     modules_to_generate.push_back(std::string("libSceRemoteplay"));
     modules_to_generate.push_back(std::string("libSceIme"));
     modules_to_generate.push_back(std::string("libSceVideodec"));
+    modules_to_generate.push_back(std::string("libSceCompanionHttpd"));
+    modules_to_generate.push_back(std::string("libSceCamera"));
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;

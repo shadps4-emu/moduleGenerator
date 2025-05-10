@@ -8,71 +8,6 @@
 
 namespace Libraries::GnmDriver {
 
-s32 PS4_SYSV_ABI Func_4774D83BB4DDBF9A() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_BADE7B4C199140DD() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmFindResources() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmRegisterOwnerForSystem() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_1C43886B16EE5530() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_81037019ECCD0E01() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_BFB41C057478F0BF() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_E51D44DB8151238C() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_F916890425496553() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize() {
-    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceGnmAddEqEvent() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
@@ -389,6 +324,11 @@ s32 PS4_SYSV_ABI sceGnmGetEqTimeStamp() {
 }
 
 s32 PS4_SYSV_ABI sceGnmGetGpuBlockStatus() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1148,6 +1088,11 @@ s32 PS4_SYSV_ABI Func_416B9079DE4CBACE() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI Func_4774D83BB4DDBF9A() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_50678F1CCEEB9A00() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
@@ -1213,6 +1158,11 @@ s32 PS4_SYSV_ABI Func_B489020B5157A5FF() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI Func_BADE7B4C199140DD() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_D1511B9DCFFB3DD9() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
@@ -1248,6 +1198,11 @@ s32 PS4_SYSV_ABI Func_ECB4C6BA41FE3350() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceGnmDebugModuleReset() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceGnmDebugReset() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
@@ -1258,38 +1213,57 @@ s32 PS4_SYSV_ABI Func_C4C328B7CF3B4171() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceGnmDebugModuleReset() {
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGnmFindResources() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGnmRegisterOwnerForSystem() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_1C43886B16EE5530() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_81037019ECCD0E01() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_BFB41C057478F0BF() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_E51D44DB8151238C() {
+    LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_F916890425496553() {
     LOG_ERROR(Lib_GnmDriver, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 void RegisterlibSceGnmDriver(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("R3TYO7Tdv5o", "libSceGnmWaitFreeSubmit", 1, "libSceGnmDriver", 1, 1,
-                 Func_4774D83BB4DDBF9A);
-    LIB_FUNCTION("ut57TBmRQN0", "libSceGnmWaitFreeSubmit", 1, "libSceGnmDriver", 1, 1,
-                 Func_BADE7B4C199140DD);
-    LIB_FUNCTION("Fwvh++m9IQI", "libSceGnmGetGpuCoreClockFrequency", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmGetGpuCoreClockFrequency);
-    LIB_FUNCTION("vbcR4Ken6AA", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmFindResources);
-    LIB_FUNCTION("eLQbNsKeTkU", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmGetResourceRegistrationBuffers);
-    LIB_FUNCTION("j6mSQs3UgaY", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmRegisterOwnerForSystem);
-    LIB_FUNCTION("HEOIaxbuVTA", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 Func_1C43886B16EE5530);
-    LIB_FUNCTION("gQNwGezNDgE", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 Func_81037019ECCD0E01);
-    LIB_FUNCTION("v7QcBXR48L8", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 Func_BFB41C057478F0BF);
-    LIB_FUNCTION("5R1E24FRI4w", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 Func_E51D44DB8151238C);
-    LIB_FUNCTION("+RaJBCVJZVM", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
-                 Func_F916890425496553);
-    LIB_FUNCTION("pF1HQjbmQJ0", "libSceGnmDriverCompat", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmDrawInitToDefaultContextStateInternalCommand);
-    LIB_FUNCTION("jajhf-Gi3AI", "libSceGnmDriverCompat", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmDrawInitToDefaultContextStateInternalSize);
     LIB_FUNCTION("b0xyllnVY-I", "libSceGnmDriver", 1, "libSceGnmDriver", 1, 1, sceGnmAddEqEvent);
     LIB_FUNCTION("b08AgtPlHPg", "libSceGnmDriver", 1, "libSceGnmDriver", 1, 1,
                  sceGnmAreSubmitsAllowed);
@@ -1738,12 +1712,38 @@ void RegisterlibSceGnmDriver(Core::Loader::SymbolsResolver* sym) {
                  Func_DF6E9528150C23FF);
     LIB_FUNCTION("7LTGukH+M1A", "libSceGnmDriver", 1, "libSceGnmDriver", 1, 1,
                  Func_ECB4C6BA41FE3350);
+    LIB_FUNCTION("dqPBvjFVpTA", "libSceGnmDebugModuleReset", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmDebugModuleReset);
     LIB_FUNCTION("RNPAItiMLIg", "libSceGnmDebugReset", 1, "libSceGnmDriver", 1, 1,
                  sceGnmDebugReset);
     LIB_FUNCTION("xMMot887QXE", "libSceGnmDebugReset", 1, "libSceGnmDriver", 1, 1,
                  Func_C4C328B7CF3B4171);
-    LIB_FUNCTION("dqPBvjFVpTA", "libSceGnmDebugModuleReset", 1, "libSceGnmDriver", 1, 1,
-                 sceGnmDebugModuleReset);
+    LIB_FUNCTION("pF1HQjbmQJ0", "libSceGnmDriverCompat", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmDrawInitToDefaultContextStateInternalCommand);
+    LIB_FUNCTION("jajhf-Gi3AI", "libSceGnmDriverCompat", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmDrawInitToDefaultContextStateInternalSize);
+    LIB_FUNCTION("vbcR4Ken6AA", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmFindResources);
+    LIB_FUNCTION("eLQbNsKeTkU", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmGetResourceRegistrationBuffers);
+    LIB_FUNCTION("j6mSQs3UgaY", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmRegisterOwnerForSystem);
+    LIB_FUNCTION("HEOIaxbuVTA", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 Func_1C43886B16EE5530);
+    LIB_FUNCTION("gQNwGezNDgE", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 Func_81037019ECCD0E01);
+    LIB_FUNCTION("v7QcBXR48L8", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 Func_BFB41C057478F0BF);
+    LIB_FUNCTION("5R1E24FRI4w", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 Func_E51D44DB8151238C);
+    LIB_FUNCTION("+RaJBCVJZVM", "libSceGnmDriverResourceRegistration", 1, "libSceGnmDriver", 1, 1,
+                 Func_F916890425496553);
+    LIB_FUNCTION("Fwvh++m9IQI", "libSceGnmGetGpuCoreClockFrequency", 1, "libSceGnmDriver", 1, 1,
+                 sceGnmGetGpuCoreClockFrequency);
+    LIB_FUNCTION("R3TYO7Tdv5o", "libSceGnmWaitFreeSubmit", 1, "libSceGnmDriver", 1, 1,
+                 Func_4774D83BB4DDBF9A);
+    LIB_FUNCTION("ut57TBmRQN0", "libSceGnmWaitFreeSubmit", 1, "libSceGnmDriver", 1, 1,
+                 Func_BADE7B4C199140DD);
 };
 
 } // namespace Libraries::GnmDriver

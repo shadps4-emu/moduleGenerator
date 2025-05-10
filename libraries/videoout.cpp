@@ -8,17 +8,17 @@
 
 namespace Libraries::VideoOut {
 
-s32 PS4_SYSV_ABI sceVideoOutAdjustColor2_() {
+s32 PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege() {
+s32 PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege() {
+s32 PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -28,7 +28,17 @@ s32 PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI Func_87DE0FA368680D98() {
+    LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceVideoOutAddBuffer() {
+    LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -728,7 +738,7 @@ s32 PS4_SYSV_ABI Func_FF9008114F7ED758() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_DF1AD257C5341EC8() {
+s32 PS4_SYSV_ABI sceVideoOutAdjustColor2_() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -738,35 +748,27 @@ s32 PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_87DE0FA368680D98() {
+s32 PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege() {
-    LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute() {
-    LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute() {
+s32 PS4_SYSV_ABI Func_DF1AD257C5341EC8() {
     LOG_ERROR(Lib_VideoOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("8Lf4Fp1TxA0", "libSceVideoOutExtra", 1, "libSceVideoOut", 0, 0,
-                 sceVideoOutAdjustColor2_);
-    LIB_FUNCTION("twrSaoZ9cJs", "libSceVideoOutBaseMode4k", 1, "libSceVideoOut", 0, 0,
-                 sceVideoOutAddBuffer4k2kPrivilege);
-    LIB_FUNCTION("VAlir52gpQI", "libSceVideoOutHdr", 1, "libSceVideoOut", 0, 0,
-                 sceVideoOutAddBufferHdrPrivilege);
+    LIB_FUNCTION("v+CRSpiQyVM", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceDbgVideoOutAddOutputModeVr60Privilege);
+    LIB_FUNCTION("0eZpG16I-Ps", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceDbgVideoOutAddProcessAttribute);
+    LIB_FUNCTION("gI9jbGyrJZo", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
+                 sceDbgVideoOutRemoveProcessAttribute);
     LIB_FUNCTION("lm+1oyWKwy0", "libSceVideoOutAniso", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddBufferAnisoPrivilege);
+    LIB_FUNCTION("h94Po2hoDZg", "libSceDbgVideoOutSub4k", 1, "libSceVideoOut", 0, 0,
+                 Func_87DE0FA368680D98);
     LIB_FUNCTION("4iy9hG9Du1s", "libSceVideoOut", 1, "libSceVideoOut", 0, 0, sceVideoOutAddBuffer);
     LIB_FUNCTION("twrSaoZ9cJs", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutAddBuffer4k2kPrivilege);
@@ -1044,18 +1046,16 @@ void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym) {
                  Func_C192387E6509325C);
     LIB_FUNCTION("-5AIEU9+11g", "libSceVideoOut", 1, "libSceVideoOut", 0, 0,
                  Func_FF9008114F7ED758);
-    LIB_FUNCTION("3xrSV8U0Hsg", "libSceVideoOutWindow2Pre400", 1, "libSceVideoOut", 0, 0,
-                 Func_DF1AD257C5341EC8);
+    LIB_FUNCTION("twrSaoZ9cJs", "libSceVideoOutBaseMode4k", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutAddBuffer4k2kPrivilege);
+    LIB_FUNCTION("8Lf4Fp1TxA0", "libSceVideoOutExtra", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutAdjustColor2_);
     LIB_FUNCTION("+sXvR1JH9Aw", "libSceVideoOutRawEdid", 1, "libSceVideoOut", 0, 0,
                  sceVideoOutGetHdmiRawEdid_);
-    LIB_FUNCTION("h94Po2hoDZg", "libSceDbgVideoOutSub4k", 1, "libSceVideoOut", 0, 0,
-                 Func_87DE0FA368680D98);
-    LIB_FUNCTION("v+CRSpiQyVM", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
-                 sceDbgVideoOutAddOutputModeVr60Privilege);
-    LIB_FUNCTION("0eZpG16I-Ps", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
-                 sceDbgVideoOutAddProcessAttribute);
-    LIB_FUNCTION("gI9jbGyrJZo", "libSceDbgVideoOut", 1, "libSceVideoOut", 0, 0,
-                 sceDbgVideoOutRemoveProcessAttribute);
+    LIB_FUNCTION("VAlir52gpQI", "libSceVideoOutHdr", 1, "libSceVideoOut", 0, 0,
+                 sceVideoOutAddBufferHdrPrivilege);
+    LIB_FUNCTION("3xrSV8U0Hsg", "libSceVideoOutWindow2Pre400", 1, "libSceVideoOut", 0, 0,
+                 Func_DF1AD257C5341EC8);
 };
 
 } // namespace Libraries::VideoOut

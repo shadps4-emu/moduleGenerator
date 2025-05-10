@@ -18,21 +18,6 @@ s32 PS4_SYSV_ABI sceUserServiceTerminateForShellCore() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceUserServiceGetRegisteredUserIdList() {
-    LOG_ERROR(Lib_UserService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceUserServiceRegisterEventCallback() {
-    LOG_ERROR(Lib_UserService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceUserServiceUnregisterEventCallback() {
-    LOG_ERROR(Lib_UserService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceUserServiceDestroyUser() {
     LOG_ERROR(Lib_UserService, "(STUBBED) called");
     return ORBIS_OK;
@@ -883,6 +868,11 @@ s32 PS4_SYSV_ABI sceUserServiceGetRegisteredHomeUserIdList() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceUserServiceGetRegisteredUserIdList() {
+    LOG_ERROR(Lib_UserService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceUserServiceGetSaveDataAutoUpload() {
     LOG_ERROR(Lib_UserService, "(STUBBED) called");
     return ORBIS_OK;
@@ -1139,6 +1129,11 @@ s32 PS4_SYSV_ABI sceUserServiceLogin() {
 }
 
 s32 PS4_SYSV_ABI sceUserServiceLogout() {
+    LOG_ERROR(Lib_UserService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceUserServiceRegisterEventCallback() {
     LOG_ERROR(Lib_UserService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2103,6 +2098,11 @@ s32 PS4_SYSV_ABI sceUserServiceTerminate() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceUserServiceUnregisterEventCallback() {
+    LOG_ERROR(Lib_UserService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_8AC6DC4168D5FEA5() {
     LOG_ERROR(Lib_UserService, "(STUBBED) called");
     return ORBIS_OK;
@@ -2128,12 +2128,6 @@ void RegisterlibSceUserService(Core::Loader::SymbolsResolver* sym) {
                  sceUserServiceInitializeForShellCore);
     LIB_FUNCTION("CydP+QtA0KI", "libSceUserServiceForShellCore", 1, "libSceUserService", 1, 1,
                  sceUserServiceTerminateForShellCore);
-    LIB_FUNCTION("5EiQCnL2G1Y", "libSceUserServiceRegisteredUserIdList", 1, "libSceUserService", 1, 1,
-                 sceUserServiceGetRegisteredUserIdList);
-    LIB_FUNCTION("wuI7c7UNk0A", "libSceUserServiceForNpToolkit", 1, "libSceUserService", 1, 1,
-                 sceUserServiceRegisterEventCallback);
-    LIB_FUNCTION("spW--yoLQ9o", "libSceUserServiceForNpToolkit", 1, "libSceUserService", 1, 1,
-                 sceUserServiceUnregisterEventCallback);
     LIB_FUNCTION("GC18r56Bp7Y", "libSceUserService", 1, "libSceUserService", 1, 1,
                  sceUserServiceDestroyUser);
     LIB_FUNCTION("g6ojqW3c8Z4", "libSceUserService", 1, "libSceUserService", 1, 1,
@@ -2976,6 +2970,12 @@ void RegisterlibSceUserService(Core::Loader::SymbolsResolver* sym) {
                  Func_BB9491DFE6B4953C);
     LIB_FUNCTION("0rgUYD57RHc", "libSceUserService", 1, "libSceUserService", 1, 1,
                  Func_D2B814603E7B4477);
+    LIB_FUNCTION("wuI7c7UNk0A", "libSceUserServiceForNpToolkit", 1, "libSceUserService", 1, 1,
+                 sceUserServiceRegisterEventCallback);
+    LIB_FUNCTION("spW--yoLQ9o", "libSceUserServiceForNpToolkit", 1, "libSceUserService", 1, 1,
+                 sceUserServiceUnregisterEventCallback);
+    LIB_FUNCTION("5EiQCnL2G1Y", "libSceUserServiceRegisteredUserIdList", 1, "libSceUserService", 1, 1,
+                 sceUserServiceGetRegisteredUserIdList);
 };
 
 } // namespace Libraries::UserService

@@ -11,8 +11,8 @@ class SymbolsResolver;
 
 namespace Libraries::SharePlay {
 
-s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo();
 s32 PS4_SYSV_ABI sceSharePlayCrashDaemon();
+s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo();
 s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfoA();
 s32 PS4_SYSV_ABI sceSharePlayGetCurrentInfo();
 s32 PS4_SYSV_ABI sceSharePlayGetEvent();

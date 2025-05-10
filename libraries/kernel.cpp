@@ -8,342 +8,17 @@
 
 namespace Libraries::Kernel {
 
-s32 PS4_SYSV_ABI sceKernelGetOpenPsId() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegion() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegionAsUserFile() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpAttachUserFile() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpAttachUserMemoryFile() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpConfigDumpMode() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpDebugTextOut() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpGetStopInfoCpu() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpGetStopInfoGpu() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpGetThreadContextInfo() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpInternalGetThreadContextInfo() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpRegisterCoredumpHandler() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpSetUserDataType() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpUnregisterCoredumpHandler() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpWriteUserData() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_9889095293F9BCAA() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI __freeze() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sysc_e00() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sysc_s00() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI access() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI chdir() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI dup() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI dup2() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI ioctl() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI lstat() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pipe() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI poll() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_cond_setname_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_get_user_context_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_kill() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_mutex_reltimedlock_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_mutex_setname_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_resume_user_context_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI pthread_suspend_user_context_np() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelDebugRaiseException() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithContext() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelGetFsSandboxRandomWord() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelGetModuleInfoFromAddr() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelJitCreateAliasOfSharedMemory() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelJitCreateSharedMemory() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelJitMapSharedMemory() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelOpenSema() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelSetProcessProperty() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sem_setname() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigaction() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigaddset() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigaltstack() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigdelset() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigemptyset() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigfillset() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigismember() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI signal() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigprocmask() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sigsuspend() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI socketpair() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sysconf() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelJitGetSharedMemoryInfo() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpDebugForceCoredumpOnAppClose() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceCoredumpDebugTriggerCoredump() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelGetSocPowerConsumption() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelIccGetCountTime() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelIccGetErrLog() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelIccGetHwInfo() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceKernelIccGetSysEventLog() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_829822FC6C04D88B() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_B95F988A5707A80B() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI __elf_phdr_match_addr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI __error() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI __freeze() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -798,6 +473,11 @@ s32 PS4_SYSV_ABI accept() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI access() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI amd64_set_fsbase() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -824,6 +504,11 @@ s32 PS4_SYSV_ABI blockpool_open() {
 }
 
 s32 PS4_SYSV_ABI blockpool_unmap() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI chdir() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -899,6 +584,16 @@ s32 PS4_SYSV_ABI dlopen() {
 }
 
 s32 PS4_SYSV_ABI dlsym() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI dup() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI dup2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1153,6 +848,11 @@ s32 PS4_SYSV_ABI inet_pton() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI ioctl() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI ipmimgr_call() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -1268,6 +968,11 @@ s32 PS4_SYSV_ABI lseek() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI lstat() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI madvise() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -1359,6 +1064,16 @@ s32 PS4_SYSV_ABI physhm_open() {
 }
 
 s32 PS4_SYSV_ABI physhm_unlink() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI pipe() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI poll() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1583,6 +1298,11 @@ s32 PS4_SYSV_ABI pthread_cond_reltimedwait_np() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI pthread_cond_setname_np() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI pthread_cond_signal() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -1663,6 +1383,11 @@ s32 PS4_SYSV_ABI pthread_get_specificarray_np() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI pthread_get_user_context_np() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI pthread_getaffinity_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -1723,6 +1448,11 @@ s32 PS4_SYSV_ABI pthread_key_delete() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI pthread_kill() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI pthread_main_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -1769,6 +1499,16 @@ s32 PS4_SYSV_ABI pthread_mutex_isowned_np() {
 }
 
 s32 PS4_SYSV_ABI pthread_mutex_lock() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI pthread_mutex_reltimedlock_np() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI pthread_mutex_setname_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1879,6 +1619,11 @@ s32 PS4_SYSV_ABI pthread_resume_all_np() {
 }
 
 s32 PS4_SYSV_ABI pthread_resume_np() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI pthread_resume_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2069,6 +1814,11 @@ s32 PS4_SYSV_ABI pthread_suspend_all_np() {
 }
 
 s32 PS4_SYSV_ABI pthread_suspend_np() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI pthread_suspend_user_context_np() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2458,7 +2208,17 @@ s32 PS4_SYSV_ABI sceKernelDebugOutText() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelDebugRaiseException() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionOnReleaseMode() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelDebugRaiseExceptionWithContext() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2838,6 +2598,11 @@ s32 PS4_SYSV_ABI sceKernelGetForceUpdateModeForRcmgr() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelGetFsSandboxRandomWord() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceKernelGetGPI() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -2884,6 +2649,11 @@ s32 PS4_SYSV_ABI sceKernelGetModuleInfo() {
 }
 
 s32 PS4_SYSV_ABI sceKernelGetModuleInfoForUnwind() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelGetModuleInfoFromAddr() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -3043,6 +2813,11 @@ s32 PS4_SYSV_ABI sceKernelGetSanitizerNewReplaceExternal() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelGetSocPowerConsumption() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceKernelGetSocSensorTemperature() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -3193,12 +2968,27 @@ s32 PS4_SYSV_ABI sceKernelIccGetBDPowerState() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelIccGetCountTime() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceKernelIccGetCPMode() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceKernelIccGetCpuInfoBit() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelIccGetErrLog() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelIccGetHwInfo() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -3214,6 +3004,11 @@ s32 PS4_SYSV_ABI sceKernelIccGetPowerOperatingTime() {
 }
 
 s32 PS4_SYSV_ABI sceKernelIccGetPowerUpCause() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelIccGetSysEventLog() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -3433,6 +3228,26 @@ s32 PS4_SYSV_ABI sceKernelIsTestKit() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelJitCreateAliasOfSharedMemory() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelJitCreateSharedMemory() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelJitGetSharedMemoryInfo() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelJitMapSharedMemory() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceKernelKernelHeapUsage() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -3639,6 +3454,11 @@ s32 PS4_SYSV_ABI sceKernelOpenEport() {
 }
 
 s32 PS4_SYSV_ABI sceKernelOpenEventFlag() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelOpenSema() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -3894,6 +3714,11 @@ s32 PS4_SYSV_ABI sceKernelSetPhysFmemLimit() {
 }
 
 s32 PS4_SYSV_ABI sceKernelSetProcessName() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelSetProcessProperty() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -4828,6 +4653,11 @@ s32 PS4_SYSV_ABI sem_reltimedwait_np() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sem_setname() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sem_timedwait() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -4948,12 +4778,57 @@ s32 PS4_SYSV_ABI shutdown() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sigaction() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigaddset() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigaltstack() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigdelset() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigemptyset() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigfillset() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigismember() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI siglongjmp() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI signal() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sigpending() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigprocmask() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -4969,6 +4844,11 @@ s32 PS4_SYSV_ABI sigreturn() {
 }
 
 s32 PS4_SYSV_ABI sigsetjmp() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sigsuspend() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -4998,6 +4878,11 @@ s32 PS4_SYSV_ABI socket() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI socketpair() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI stat() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -5014,6 +4899,11 @@ s32 PS4_SYSV_ABI sync() {
 }
 
 s32 PS4_SYSV_ABI sysarch() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sysconf() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -5173,6 +5063,11 @@ s32 PS4_SYSV_ABI Func_71A7C3C5AEB8B0EE() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI Func_829822FC6C04D88B() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_866AB0F0694DFAD2() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -5184,6 +5079,11 @@ s32 PS4_SYSV_ABI Func_8CCB8DA014423D48() {
 }
 
 s32 PS4_SYSV_ABI Func_AAD1CE2ED156ABB6() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_B95F988A5707A80B() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -5228,6 +5128,16 @@ s32 PS4_SYSV_ABI Func_FEE3EAF3655B44C2() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceKernelIsProspero() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceKernelGetOpenPsId() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_0A531D1EEBBE4750() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
@@ -5243,118 +5153,107 @@ s32 PS4_SYSV_ABI sceKernelGetModuleList2() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceKernelIsProspero() {
-    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceKernelIsModuleLoaded() {
     LOG_ERROR(Lib_Kernel, "(STUBBED) called");
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sysc_e00() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sysc_s00() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegion() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpAttachMemoryRegionAsUserFile() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpAttachUserFile() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpAttachUserMemoryFile() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpConfigDumpMode() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpDebugTextOut() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpGetStopInfoCpu() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpGetStopInfoGpu() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpGetThreadContextInfo() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpInternalGetThreadContextInfo() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpRegisterCoredumpHandler() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpSetUserDataType() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpUnregisterCoredumpHandler() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpWriteUserData() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_9889095293F9BCAA() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpDebugForceCoredumpOnAppClose() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceCoredumpDebugTriggerCoredump() {
+    LOG_ERROR(Lib_Kernel, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 void Registerlibkernel(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("DLORcroUqbc", "libSceOpenPsId", 1, "libkernel", 1, 1, sceKernelGetOpenPsId);
-    LIB_FUNCTION("+YX0z-GUSNw", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpAttachMemoryRegion);
-    LIB_FUNCTION("MEJ7tc7ThwM", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpAttachMemoryRegionAsUserFile);
-    LIB_FUNCTION("5nc2gdLNsok", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpAttachUserFile);
-    LIB_FUNCTION("DoKHmUw1yiQ", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpAttachUserMemoryFile);
-    LIB_FUNCTION("gzLt9Qrauk0", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpConfigDumpMode);
-    LIB_FUNCTION("dei8oUx6DbU", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpDebugTextOut);
-    LIB_FUNCTION("kK0DUW1Ukgc", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpGetStopInfoCpu);
-    LIB_FUNCTION("nsyWCTsI3MY", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpGetStopInfoGpu);
-    LIB_FUNCTION("ShChva57wIM", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpGetThreadContextInfo);
-    LIB_FUNCTION("qCDIxJL+IN8", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpInternalGetThreadContextInfo);
-    LIB_FUNCTION("8zLSfEfW5AU", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpRegisterCoredumpHandler);
-    LIB_FUNCTION("Uxqkdta7wEg", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpSetUserDataType);
-    LIB_FUNCTION("fFkhOgztiCA", "libSceCoredump", 1, "libkernel", 1, 1,
-                 sceCoredumpUnregisterCoredumpHandler);
-    LIB_FUNCTION("Dbbkj6YHWdo", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpWriteUserData);
-    LIB_FUNCTION("mIkJUpP5vKo", "libSceCoredump", 1, "libkernel", 1, 1, Func_9889095293F9BCAA);
-    LIB_FUNCTION("nSSPVGJLMjE", "libkernel_sysc_se", 1, "libkernel", 1, 1, __freeze);
-    LIB_FUNCTION("eaiyhIBmf34", "libkernel_sysc_se", 1, "libkernel", 1, 1, sysc_e00);
-    LIB_FUNCTION("XPlTYt2TOg0", "libkernel_sysc_se", 1, "libkernel", 1, 1, sysc_s00);
-    LIB_FUNCTION("8vE6Z6VEYyk", "libkernel_psmkit", 1, "libkernel", 1, 1, access);
-    LIB_FUNCTION("6mMQ1MSPW-Q", "libkernel_psmkit", 1, "libkernel", 1, 1, chdir);
-    LIB_FUNCTION("iiQjzvfWDq0", "libkernel_psmkit", 1, "libkernel", 1, 1, dup);
-    LIB_FUNCTION("wdUufa9g-D8", "libkernel_psmkit", 1, "libkernel", 1, 1, dup2);
-    LIB_FUNCTION("PfccT7qURYE", "libkernel_psmkit", 1, "libkernel", 1, 1, ioctl);
-    LIB_FUNCTION("DRGXpDDh8Ng", "libkernel_psmkit", 1, "libkernel", 1, 1, lstat);
-    LIB_FUNCTION("-Jp7F+pXxNg", "libkernel_psmkit", 1, "libkernel", 1, 1, pipe);
-    LIB_FUNCTION("ku7D4q1Y9PI", "libkernel_psmkit", 1, "libkernel", 1, 1, poll);
-    LIB_FUNCTION("EZ8h70dtFLg", "libkernel_psmkit", 1, "libkernel", 1, 1, pthread_cond_setname_np);
-    LIB_FUNCTION("YkGOXpJEtO8", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 pthread_get_user_context_np);
-    LIB_FUNCTION("yH-uQW3LbX0", "libkernel_psmkit", 1, "libkernel", 1, 1, pthread_kill);
-    LIB_FUNCTION("nbQ0bXMRlhk", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 pthread_mutex_reltimedlock_np);
-    LIB_FUNCTION("nTxZBp8YNGc", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 pthread_mutex_setname_np);
-    LIB_FUNCTION("QRdE7dBfNks", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 pthread_resume_user_context_np);
-    LIB_FUNCTION("cfjAjVTFG6A", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 pthread_suspend_user_context_np);
-    LIB_FUNCTION("OMDRKKAZ8I4", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelDebugRaiseException);
-    LIB_FUNCTION("DKWTYfo-jMY", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelDebugRaiseExceptionWithContext);
-    LIB_FUNCTION("JGfTMBOdUJo", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelGetFsSandboxRandomWord);
-    LIB_FUNCTION("f7KBOafysXo", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelGetModuleInfoFromAddr);
-    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateAliasOfSharedMemory);
-    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateSharedMemory);
-    LIB_FUNCTION("YKT49TOLQWs", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelJitMapSharedMemory);
-    LIB_FUNCTION("MwhHNKdBXq8", "libkernel_psmkit", 1, "libkernel", 1, 1, sceKernelOpenSema);
-    LIB_FUNCTION("-W4xI5aVI8w", "libkernel_psmkit", 1, "libkernel", 1, 1,
-                 sceKernelSetProcessProperty);
-    LIB_FUNCTION("-wUggz2S5yk", "libkernel_psmkit", 1, "libkernel", 1, 1, sem_setname);
-    LIB_FUNCTION("KiJEPEWRyUY", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaction);
-    LIB_FUNCTION("JUimFtKe0Kc", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaddset);
-    LIB_FUNCTION("sHziAegVp74", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaltstack);
-    LIB_FUNCTION("Nd-u09VFSCA", "libkernel_psmkit", 1, "libkernel", 1, 1, sigdelset);
-    LIB_FUNCTION("+F7C-hdk7+E", "libkernel_psmkit", 1, "libkernel", 1, 1, sigemptyset);
-    LIB_FUNCTION("VkTAsrZDcJ0", "libkernel_psmkit", 1, "libkernel", 1, 1, sigfillset);
-    LIB_FUNCTION("JnNl8Xr-z4Y", "libkernel_psmkit", 1, "libkernel", 1, 1, sigismember);
-    LIB_FUNCTION("VADc3MNQ3cM", "libkernel_psmkit", 1, "libkernel", 1, 1, signal);
-    LIB_FUNCTION("aPcyptbOiZs", "libkernel_psmkit", 1, "libkernel", 1, 1, sigprocmask);
-    LIB_FUNCTION("KZ-4qlqlpmo", "libkernel_psmkit", 1, "libkernel", 1, 1, sigsuspend);
-    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_psmkit", 1, "libkernel", 1, 1, socketpair);
-    LIB_FUNCTION("mkawd0NA9ts", "libkernel_psmkit", 1, "libkernel", 1, 1, sysconf);
-    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_ps2emu", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateAliasOfSharedMemory);
-    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_ps2emu", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateSharedMemory);
-    LIB_FUNCTION("9yxlvURJU6U", "libkernel_ps2emu", 1, "libkernel", 1, 1,
-                 sceKernelJitGetSharedMemoryInfo);
-    LIB_FUNCTION("YKT49TOLQWs", "libkernel_ps2emu", 1, "libkernel", 1, 1,
-                 sceKernelJitMapSharedMemory);
-    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_ps2emu", 1, "libkernel", 1, 1, socketpair);
-    LIB_FUNCTION("1Pw5n31Ayxc", "libSceCoredump_debug", 1, "libkernel", 1, 1,
-                 sceCoredumpDebugForceCoredumpOnAppClose);
-    LIB_FUNCTION("G420P25pN5Y", "libSceCoredump_debug", 1, "libkernel", 1, 1,
-                 sceCoredumpDebugTriggerCoredump);
-    LIB_FUNCTION("PfccT7qURYE", "libkernel_qadisc", 1, "libkernel", 1, 1, ioctl);
-    LIB_FUNCTION("CA5jcDb2vYI", "libkernel_qadisc", 1, "libkernel", 1, 1,
-                 sceKernelGetSocPowerConsumption);
-    LIB_FUNCTION("U0NKl-rjhYA", "libkernel_qadisc", 1, "libkernel", 1, 1,
-                 sceKernelIccGetCountTime);
-    LIB_FUNCTION("8TqMzIggthc", "libkernel_qadisc", 1, "libkernel", 1, 1, sceKernelIccGetErrLog);
-    LIB_FUNCTION("C+i9gJY4A1I", "libkernel_qadisc", 1, "libkernel", 1, 1, sceKernelIccGetHwInfo);
-    LIB_FUNCTION("L21PBFwqIiM", "libkernel_qadisc", 1, "libkernel", 1, 1,
-                 sceKernelIccGetSysEventLog);
-    LIB_FUNCTION("gpgi-GwE2Is", "libkernel_qadisc", 1, "libkernel", 1, 1, Func_829822FC6C04D88B);
-    LIB_FUNCTION("uV+YilcHqAs", "libkernel_qadisc", 1, "libkernel", 1, 1, Func_B95F988A5707A80B);
     LIB_FUNCTION("Fjc4-n1+y2g", "libkernel", 1, "libkernel", 1, 1, __elf_phdr_match_addr);
     LIB_FUNCTION("9BcDykPmo1I", "libkernel", 1, "libkernel", 1, 1, __error);
     LIB_FUNCTION("nSSPVGJLMjE", "libkernel", 1, "libkernel", 1, 1, __freeze);
@@ -6507,6 +6406,17 @@ void Registerlibkernel(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("2xg4JXvaJ6k", "libkernel", 1, "libkernel", 1, 1, Func_DB1838257BDA27A9);
     LIB_FUNCTION("-PNB3tfnD8c", "libkernel", 1, "libkernel", 1, 1, Func_FCF341DED7E70FC7);
     LIB_FUNCTION("-uPq82VbRMI", "libkernel", 1, "libkernel", 1, 1, Func_FEE3EAF3655B44C2);
+    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing", 1, "libkernel", 1, 1,
+                 sceKernelEnableDmemAliasing);
+    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_ps2emu", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateAliasOfSharedMemory);
+    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_ps2emu", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateSharedMemory);
+    LIB_FUNCTION("9yxlvURJU6U", "libkernel_ps2emu", 1, "libkernel", 1, 1,
+                 sceKernelJitGetSharedMemoryInfo);
+    LIB_FUNCTION("YKT49TOLQWs", "libkernel_ps2emu", 1, "libkernel", 1, 1,
+                 sceKernelJitMapSharedMemory);
+    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_ps2emu", 1, "libkernel", 1, 1, socketpair);
     LIB_FUNCTION("aNz11fnnzi4", "libkernel_avlfmem", 1, "libkernel", 1, 1,
                  sceKernelAvailableFlexibleMemorySize);
     LIB_FUNCTION("NhL5qID2iho", "libkernel_cpumode", 1, "libkernel", 1, 1,
@@ -6516,12 +6426,160 @@ void Registerlibkernel(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("VOx8NGmHXTs", "libkernel_cpumode", 1, "libkernel", 1, 1, sceKernelGetCpumode);
     LIB_FUNCTION("VjBtg5Btl94", "libkernel_cpumode", 1, "libkernel", 1, 1, sceKernelSetFsstParam);
     LIB_FUNCTION("BtJ3gH33xss", "libkernel_cpumode", 1, "libkernel", 1, 1, sceKernelYieldCpumode);
+    LIB_FUNCTION("YJ7JscWubcU", "libkernel_exception", 1, "libkernel", 1, 1,
+                 sceKernelAddGpuExceptionEvent);
+    LIB_FUNCTION("xRwvvcfZfHM", "libkernel_exception", 1, "libkernel", 1, 1,
+                 sceKernelBacktraceSelf);
+    LIB_FUNCTION("8skggWXlSqM", "libkernel_exception", 1, "libkernel", 1, 1,
+                 sceKernelDeleteGpuExceptionEvent);
+    LIB_FUNCTION("WkwEd3N7w0Y", "libkernel_exception", 1, "libkernel", 1, 1,
+                 sceKernelInstallExceptionHandler);
+    LIB_FUNCTION("Qhv5ARAoOEc", "libkernel_exception", 1, "libkernel", 1, 1,
+                 sceKernelRemoveExceptionHandler);
+    LIB_FUNCTION("mpxAdqW7dKY", "libkernel_cpumode_platform", 1, "libkernel", 1, 1,
+                 sceKernelIsProspero);
+    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing2", 1, "libkernel", 1, 1,
+                 sceKernelEnableDmemAliasing);
+    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing2_for_dev", 1, "libkernel", 1, 1,
+                 sceKernelEnableDmemAliasing);
+    LIB_FUNCTION("DLORcroUqbc", "libSceOpenPsId", 1, "libkernel", 1, 1, sceKernelGetOpenPsId);
+    LIB_FUNCTION("wdUufa9g-D8", "libkernel_jvm", 1, "libkernel", 1, 1, dup2);
+    LIB_FUNCTION("Wh7HbV7JFqc", "libkernel_jvm", 1, "libkernel", 1, 1, getrlimit);
+    LIB_FUNCTION("PfccT7qURYE", "libkernel_jvm", 1, "libkernel", 1, 1, ioctl);
+    LIB_FUNCTION("W0xkN0+ZkCE", "libkernel_jvm", 1, "libkernel", 1, 1, kill);
+    LIB_FUNCTION("ku7D4q1Y9PI", "libkernel_jvm", 1, "libkernel", 1, 1, poll);
+    LIB_FUNCTION("yH-uQW3LbX0", "libkernel_jvm", 1, "libkernel", 1, 1, pthread_kill);
+    LIB_FUNCTION("wJABa1X4+ec", "libkernel_jvm", 1, "libkernel", 1, 1,
+                 sceKernelGetExecutableModuleHandle);
+    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_jvm", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateAliasOfSharedMemory);
+    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_jvm", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateSharedMemory);
+    LIB_FUNCTION("9yxlvURJU6U", "libkernel_jvm", 1, "libkernel", 1, 1,
+                 sceKernelJitGetSharedMemoryInfo);
+    LIB_FUNCTION("YKT49TOLQWs", "libkernel_jvm", 1, "libkernel", 1, 1,
+                 sceKernelJitMapSharedMemory);
+    LIB_FUNCTION("4X0QwvuCfjc", "libkernel_jvm", 1, "libkernel", 1, 1, setrlimit);
+    LIB_FUNCTION("KiJEPEWRyUY", "libkernel_jvm", 1, "libkernel", 1, 1, sigaction);
+    LIB_FUNCTION("JUimFtKe0Kc", "libkernel_jvm", 1, "libkernel", 1, 1, sigaddset);
+    LIB_FUNCTION("Nd-u09VFSCA", "libkernel_jvm", 1, "libkernel", 1, 1, sigdelset);
+    LIB_FUNCTION("+F7C-hdk7+E", "libkernel_jvm", 1, "libkernel", 1, 1, sigemptyset);
+    LIB_FUNCTION("VkTAsrZDcJ0", "libkernel_jvm", 1, "libkernel", 1, 1, sigfillset);
+    LIB_FUNCTION("JnNl8Xr-z4Y", "libkernel_jvm", 1, "libkernel", 1, 1, sigismember);
+    LIB_FUNCTION("aPcyptbOiZs", "libkernel_jvm", 1, "libkernel", 1, 1, sigprocmask);
+    LIB_FUNCTION("KZ-4qlqlpmo", "libkernel_jvm", 1, "libkernel", 1, 1, sigsuspend);
+    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_jvm", 1, "libkernel", 1, 1, socketpair);
+    LIB_FUNCTION("mkawd0NA9ts", "libkernel_jvm", 1, "libkernel", 1, 1, sysconf);
+    LIB_FUNCTION("DFmMT80xcNI", "libkernel_jvm", 1, "libkernel", 1, 1, sysctl);
     LIB_FUNCTION("ClMdHuu+R1A", "libkernel_module_extension", 1, "libkernel", 1, 1,
                  Func_0A531D1EEBBE4750);
+    LIB_FUNCTION("WkwEd3N7w0Y", "libkernel_unity", 1, "libkernel", 1, 1,
+                 sceKernelInstallExceptionHandler);
+    LIB_FUNCTION("il03nluKfMk", "libkernel_unity", 1, "libkernel", 1, 1, sceKernelRaiseException);
+    LIB_FUNCTION("Qhv5ARAoOEc", "libkernel_unity", 1, "libkernel", 1, 1,
+                 sceKernelRemoveExceptionHandler);
     LIB_FUNCTION("QgsKEUfkqMA", "libkernel_module_info", 1, "libkernel", 1, 1,
                  sceKernelGetModuleInfo2);
     LIB_FUNCTION("ZzzC3ZGVAkc", "libkernel_module_info", 1, "libkernel", 1, 1,
                  sceKernelGetModuleList2);
+    LIB_FUNCTION("21+rb7xOlJk", "libkernel_module_load_check", 1, "libkernel", 1, 1,
+                 sceKernelIsModuleLoaded);
+    LIB_FUNCTION("2SKEx6bSq-4", "libkernel_pre250mmap", 1, "libkernel", 1, 1, sceKernelBatchMap);
+    LIB_FUNCTION("L-Q3LEjIbgA", "libkernel_pre250mmap", 1, "libkernel", 1, 1,
+                 sceKernelMapDirectMemory);
+    LIB_FUNCTION("NcaWUxfMNIQ", "libkernel_pre250mmap", 1, "libkernel", 1, 1,
+                 sceKernelMapNamedDirectMemory);
+    LIB_FUNCTION("8vE6Z6VEYyk", "libkernel_psmkit", 1, "libkernel", 1, 1, access);
+    LIB_FUNCTION("6mMQ1MSPW-Q", "libkernel_psmkit", 1, "libkernel", 1, 1, chdir);
+    LIB_FUNCTION("iiQjzvfWDq0", "libkernel_psmkit", 1, "libkernel", 1, 1, dup);
+    LIB_FUNCTION("wdUufa9g-D8", "libkernel_psmkit", 1, "libkernel", 1, 1, dup2);
+    LIB_FUNCTION("PfccT7qURYE", "libkernel_psmkit", 1, "libkernel", 1, 1, ioctl);
+    LIB_FUNCTION("DRGXpDDh8Ng", "libkernel_psmkit", 1, "libkernel", 1, 1, lstat);
+    LIB_FUNCTION("-Jp7F+pXxNg", "libkernel_psmkit", 1, "libkernel", 1, 1, pipe);
+    LIB_FUNCTION("ku7D4q1Y9PI", "libkernel_psmkit", 1, "libkernel", 1, 1, poll);
+    LIB_FUNCTION("EZ8h70dtFLg", "libkernel_psmkit", 1, "libkernel", 1, 1, pthread_cond_setname_np);
+    LIB_FUNCTION("YkGOXpJEtO8", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 pthread_get_user_context_np);
+    LIB_FUNCTION("yH-uQW3LbX0", "libkernel_psmkit", 1, "libkernel", 1, 1, pthread_kill);
+    LIB_FUNCTION("nbQ0bXMRlhk", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 pthread_mutex_reltimedlock_np);
+    LIB_FUNCTION("nTxZBp8YNGc", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 pthread_mutex_setname_np);
+    LIB_FUNCTION("QRdE7dBfNks", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 pthread_resume_user_context_np);
+    LIB_FUNCTION("cfjAjVTFG6A", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 pthread_suspend_user_context_np);
+    LIB_FUNCTION("OMDRKKAZ8I4", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelDebugRaiseException);
+    LIB_FUNCTION("DKWTYfo-jMY", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelDebugRaiseExceptionWithContext);
+    LIB_FUNCTION("JGfTMBOdUJo", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelGetFsSandboxRandomWord);
+    LIB_FUNCTION("f7KBOafysXo", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelGetModuleInfoFromAddr);
+    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateAliasOfSharedMemory);
+    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelJitCreateSharedMemory);
+    LIB_FUNCTION("YKT49TOLQWs", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelJitMapSharedMemory);
+    LIB_FUNCTION("MwhHNKdBXq8", "libkernel_psmkit", 1, "libkernel", 1, 1, sceKernelOpenSema);
+    LIB_FUNCTION("-W4xI5aVI8w", "libkernel_psmkit", 1, "libkernel", 1, 1,
+                 sceKernelSetProcessProperty);
+    LIB_FUNCTION("-wUggz2S5yk", "libkernel_psmkit", 1, "libkernel", 1, 1, sem_setname);
+    LIB_FUNCTION("KiJEPEWRyUY", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaction);
+    LIB_FUNCTION("JUimFtKe0Kc", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaddset);
+    LIB_FUNCTION("sHziAegVp74", "libkernel_psmkit", 1, "libkernel", 1, 1, sigaltstack);
+    LIB_FUNCTION("Nd-u09VFSCA", "libkernel_psmkit", 1, "libkernel", 1, 1, sigdelset);
+    LIB_FUNCTION("+F7C-hdk7+E", "libkernel_psmkit", 1, "libkernel", 1, 1, sigemptyset);
+    LIB_FUNCTION("VkTAsrZDcJ0", "libkernel_psmkit", 1, "libkernel", 1, 1, sigfillset);
+    LIB_FUNCTION("JnNl8Xr-z4Y", "libkernel_psmkit", 1, "libkernel", 1, 1, sigismember);
+    LIB_FUNCTION("VADc3MNQ3cM", "libkernel_psmkit", 1, "libkernel", 1, 1, signal);
+    LIB_FUNCTION("aPcyptbOiZs", "libkernel_psmkit", 1, "libkernel", 1, 1, sigprocmask);
+    LIB_FUNCTION("KZ-4qlqlpmo", "libkernel_psmkit", 1, "libkernel", 1, 1, sigsuspend);
+    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_psmkit", 1, "libkernel", 1, 1, socketpair);
+    LIB_FUNCTION("mkawd0NA9ts", "libkernel_psmkit", 1, "libkernel", 1, 1, sysconf);
+    LIB_FUNCTION("PfccT7qURYE", "libkernel_qadisc", 1, "libkernel", 1, 1, ioctl);
+    LIB_FUNCTION("CA5jcDb2vYI", "libkernel_qadisc", 1, "libkernel", 1, 1,
+                 sceKernelGetSocPowerConsumption);
+    LIB_FUNCTION("U0NKl-rjhYA", "libkernel_qadisc", 1, "libkernel", 1, 1,
+                 sceKernelIccGetCountTime);
+    LIB_FUNCTION("8TqMzIggthc", "libkernel_qadisc", 1, "libkernel", 1, 1, sceKernelIccGetErrLog);
+    LIB_FUNCTION("C+i9gJY4A1I", "libkernel_qadisc", 1, "libkernel", 1, 1, sceKernelIccGetHwInfo);
+    LIB_FUNCTION("L21PBFwqIiM", "libkernel_qadisc", 1, "libkernel", 1, 1,
+                 sceKernelIccGetSysEventLog);
+    LIB_FUNCTION("gpgi-GwE2Is", "libkernel_qadisc", 1, "libkernel", 1, 1, Func_829822FC6C04D88B);
+    LIB_FUNCTION("uV+YilcHqAs", "libkernel_qadisc", 1, "libkernel", 1, 1, Func_B95F988A5707A80B);
+    LIB_FUNCTION("nSSPVGJLMjE", "libkernel_sysc_se", 1, "libkernel", 1, 1, __freeze);
+    LIB_FUNCTION("eaiyhIBmf34", "libkernel_sysc_se", 1, "libkernel", 1, 1, sysc_e00);
+    LIB_FUNCTION("XPlTYt2TOg0", "libkernel_sysc_se", 1, "libkernel", 1, 1, sysc_s00);
+    LIB_FUNCTION("+YX0z-GUSNw", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpAttachMemoryRegion);
+    LIB_FUNCTION("MEJ7tc7ThwM", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpAttachMemoryRegionAsUserFile);
+    LIB_FUNCTION("5nc2gdLNsok", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpAttachUserFile);
+    LIB_FUNCTION("DoKHmUw1yiQ", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpAttachUserMemoryFile);
+    LIB_FUNCTION("gzLt9Qrauk0", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpConfigDumpMode);
+    LIB_FUNCTION("dei8oUx6DbU", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpDebugTextOut);
+    LIB_FUNCTION("kK0DUW1Ukgc", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpGetStopInfoCpu);
+    LIB_FUNCTION("nsyWCTsI3MY", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpGetStopInfoGpu);
+    LIB_FUNCTION("ShChva57wIM", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpGetThreadContextInfo);
+    LIB_FUNCTION("qCDIxJL+IN8", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpInternalGetThreadContextInfo);
+    LIB_FUNCTION("8zLSfEfW5AU", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpRegisterCoredumpHandler);
+    LIB_FUNCTION("Uxqkdta7wEg", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpSetUserDataType);
+    LIB_FUNCTION("fFkhOgztiCA", "libSceCoredump", 1, "libkernel", 1, 1,
+                 sceCoredumpUnregisterCoredumpHandler);
+    LIB_FUNCTION("Dbbkj6YHWdo", "libSceCoredump", 1, "libkernel", 1, 1, sceCoredumpWriteUserData);
+    LIB_FUNCTION("mIkJUpP5vKo", "libSceCoredump", 1, "libkernel", 1, 1, Func_9889095293F9BCAA);
+    LIB_FUNCTION("1Pw5n31Ayxc", "libSceCoredump_debug", 1, "libkernel", 1, 1,
+                 sceCoredumpDebugForceCoredumpOnAppClose);
+    LIB_FUNCTION("G420P25pN5Y", "libSceCoredump_debug", 1, "libkernel", 1, 1,
+                 sceCoredumpDebugTriggerCoredump);
     LIB_FUNCTION("3e+4Iv7IJ8U", "libScePosix", 1, "libkernel", 1, 1, accept);
     LIB_FUNCTION("KuOmgKoqCdY", "libScePosix", 1, "libkernel", 1, 1, bind);
     LIB_FUNCTION("ixrw0h2tWuI", "libScePosix", 1, "libkernel", 1, 1, chflags);
@@ -6727,64 +6785,6 @@ void Registerlibkernel(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("GDuV00CHrUg", "libScePosix", 1, "libkernel", 1, 1, utimes);
     LIB_FUNCTION("FN4gaPmuFV8", "libScePosix", 1, "libkernel", 1, 1, write);
     LIB_FUNCTION("Z2aKdxzS4KE", "libScePosix", 1, "libkernel", 1, 1, writev);
-    LIB_FUNCTION("mpxAdqW7dKY", "libkernel_cpumode_platform", 1, "libkernel", 1, 1,
-                 sceKernelIsProspero);
-    LIB_FUNCTION("WkwEd3N7w0Y", "libkernel_unity", 1, "libkernel", 1, 1,
-                 sceKernelInstallExceptionHandler);
-    LIB_FUNCTION("il03nluKfMk", "libkernel_unity", 1, "libkernel", 1, 1, sceKernelRaiseException);
-    LIB_FUNCTION("Qhv5ARAoOEc", "libkernel_unity", 1, "libkernel", 1, 1,
-                 sceKernelRemoveExceptionHandler);
-    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing", 1, "libkernel", 1, 1,
-                 sceKernelEnableDmemAliasing);
-    LIB_FUNCTION("2SKEx6bSq-4", "libkernel_pre250mmap", 1, "libkernel", 1, 1, sceKernelBatchMap);
-    LIB_FUNCTION("L-Q3LEjIbgA", "libkernel_pre250mmap", 1, "libkernel", 1, 1,
-                 sceKernelMapDirectMemory);
-    LIB_FUNCTION("NcaWUxfMNIQ", "libkernel_pre250mmap", 1, "libkernel", 1, 1,
-                 sceKernelMapNamedDirectMemory);
-    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing2", 1, "libkernel", 1, 1,
-                 sceKernelEnableDmemAliasing);
-    LIB_FUNCTION("usHTMoFoBTM", "libkernel_dmem_aliasing2_for_dev", 1, "libkernel", 1, 1,
-                 sceKernelEnableDmemAliasing);
-    LIB_FUNCTION("YJ7JscWubcU", "libkernel_exception", 1, "libkernel", 1, 1,
-                 sceKernelAddGpuExceptionEvent);
-    LIB_FUNCTION("xRwvvcfZfHM", "libkernel_exception", 1, "libkernel", 1, 1,
-                 sceKernelBacktraceSelf);
-    LIB_FUNCTION("8skggWXlSqM", "libkernel_exception", 1, "libkernel", 1, 1,
-                 sceKernelDeleteGpuExceptionEvent);
-    LIB_FUNCTION("WkwEd3N7w0Y", "libkernel_exception", 1, "libkernel", 1, 1,
-                 sceKernelInstallExceptionHandler);
-    LIB_FUNCTION("Qhv5ARAoOEc", "libkernel_exception", 1, "libkernel", 1, 1,
-                 sceKernelRemoveExceptionHandler);
-    LIB_FUNCTION("wdUufa9g-D8", "libkernel_jvm", 1, "libkernel", 1, 1, dup2);
-    LIB_FUNCTION("Wh7HbV7JFqc", "libkernel_jvm", 1, "libkernel", 1, 1, getrlimit);
-    LIB_FUNCTION("PfccT7qURYE", "libkernel_jvm", 1, "libkernel", 1, 1, ioctl);
-    LIB_FUNCTION("W0xkN0+ZkCE", "libkernel_jvm", 1, "libkernel", 1, 1, kill);
-    LIB_FUNCTION("ku7D4q1Y9PI", "libkernel_jvm", 1, "libkernel", 1, 1, poll);
-    LIB_FUNCTION("yH-uQW3LbX0", "libkernel_jvm", 1, "libkernel", 1, 1, pthread_kill);
-    LIB_FUNCTION("wJABa1X4+ec", "libkernel_jvm", 1, "libkernel", 1, 1,
-                 sceKernelGetExecutableModuleHandle);
-    LIB_FUNCTION("MR221Mwo0Pc", "libkernel_jvm", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateAliasOfSharedMemory);
-    LIB_FUNCTION("avvJ3J0H0EY", "libkernel_jvm", 1, "libkernel", 1, 1,
-                 sceKernelJitCreateSharedMemory);
-    LIB_FUNCTION("9yxlvURJU6U", "libkernel_jvm", 1, "libkernel", 1, 1,
-                 sceKernelJitGetSharedMemoryInfo);
-    LIB_FUNCTION("YKT49TOLQWs", "libkernel_jvm", 1, "libkernel", 1, 1,
-                 sceKernelJitMapSharedMemory);
-    LIB_FUNCTION("4X0QwvuCfjc", "libkernel_jvm", 1, "libkernel", 1, 1, setrlimit);
-    LIB_FUNCTION("KiJEPEWRyUY", "libkernel_jvm", 1, "libkernel", 1, 1, sigaction);
-    LIB_FUNCTION("JUimFtKe0Kc", "libkernel_jvm", 1, "libkernel", 1, 1, sigaddset);
-    LIB_FUNCTION("Nd-u09VFSCA", "libkernel_jvm", 1, "libkernel", 1, 1, sigdelset);
-    LIB_FUNCTION("+F7C-hdk7+E", "libkernel_jvm", 1, "libkernel", 1, 1, sigemptyset);
-    LIB_FUNCTION("VkTAsrZDcJ0", "libkernel_jvm", 1, "libkernel", 1, 1, sigfillset);
-    LIB_FUNCTION("JnNl8Xr-z4Y", "libkernel_jvm", 1, "libkernel", 1, 1, sigismember);
-    LIB_FUNCTION("aPcyptbOiZs", "libkernel_jvm", 1, "libkernel", 1, 1, sigprocmask);
-    LIB_FUNCTION("KZ-4qlqlpmo", "libkernel_jvm", 1, "libkernel", 1, 1, sigsuspend);
-    LIB_FUNCTION("MZb0GKT3mo8", "libkernel_jvm", 1, "libkernel", 1, 1, socketpair);
-    LIB_FUNCTION("mkawd0NA9ts", "libkernel_jvm", 1, "libkernel", 1, 1, sysconf);
-    LIB_FUNCTION("DFmMT80xcNI", "libkernel_jvm", 1, "libkernel", 1, 1, sysctl);
-    LIB_FUNCTION("21+rb7xOlJk", "libkernel_module_load_check", 1, "libkernel", 1, 1,
-                 sceKernelIsModuleLoaded);
 };
 
 } // namespace Libraries::Kernel

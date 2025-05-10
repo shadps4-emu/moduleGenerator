@@ -8,16 +8,6 @@
 
 namespace Libraries::Net {
 
-s32 PS4_SYSV_ABI sceNetEmulationGet() {
-    LOG_ERROR(Lib_Net, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetEmulationSet() {
-    LOG_ERROR(Lib_Net, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI in6addr_any() {
     LOG_ERROR(Lib_Net, "(STUBBED) called");
     return ORBIS_OK;
@@ -1103,9 +1093,17 @@ s32 PS4_SYSV_ABI Func_0E707A589F751C68() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNetEmulationGet() {
+    LOG_ERROR(Lib_Net, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetEmulationSet() {
+    LOG_ERROR(Lib_Net, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 void RegisterlibSceNet(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("JK1oZe4UysY", "libSceNetDebug", 1, "libSceNet", 1, 1, sceNetEmulationGet);
-    LIB_FUNCTION("pfn3Fha1ydc", "libSceNetDebug", 1, "libSceNet", 1, 1, sceNetEmulationSet);
     LIB_FUNCTION("ZRAJo-A-ukc", "libSceNet", 1, "libSceNet", 1, 1, in6addr_any);
     LIB_FUNCTION("XCuA-GqjA-k", "libSceNet", 1, "libSceNet", 1, 1, in6addr_loopback);
     LIB_FUNCTION("VZgoeBxPXUQ", "libSceNet", 1, "libSceNet", 1, 1, sce_net_dummy);
@@ -1360,6 +1358,8 @@ void RegisterlibSceNet(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("pRbEzaV30qI", "libSceNet", 1, "libSceNet", 1, 1, sceNetThreadJoin);
     LIB_FUNCTION("bjrzRLFali0", "libSceNet", 1, "libSceNet", 1, 1, sceNetUsleep);
     LIB_FUNCTION("DnB6WJ91HGg", "libSceNet", 1, "libSceNet", 1, 1, Func_0E707A589F751C68);
+    LIB_FUNCTION("JK1oZe4UysY", "libSceNetDebug", 1, "libSceNet", 1, 1, sceNetEmulationGet);
+    LIB_FUNCTION("pfn3Fha1ydc", "libSceNetDebug", 1, "libSceNet", 1, 1, sceNetEmulationSet);
 };
 
 } // namespace Libraries::Net

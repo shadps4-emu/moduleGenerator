@@ -8,212 +8,447 @@
 
 namespace Libraries::SystemService {
 
-s32 PS4_SYSV_ABI sceSystemStateMgrCancelShutdownTimer() {
+s32 PS4_SYSV_ABI sceAppMessagingClearEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrEnterMediaPlaybackMode() {
+s32 PS4_SYSV_ABI sceAppMessagingReceiveMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrEnterStandby() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimer() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellCore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess() {
+s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrGetCurrentState() {
+s32 PS4_SYSV_ABI sceAppMessagingSetEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrGetTriggerCode() {
+s32 PS4_SYSV_ABI sceAppMessagingTryGetEventFlag() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrIsBdDriveReady() {
+s32 PS4_SYSV_ABI sceAppMessagingTryReceiveMsg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrIsGpuPerformanceNormal() {
+s32 PS4_SYSV_ABI Func_C8E899ABEF7F64C4() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrIsShellUIShutdownInProgress() {
+s32 PS4_SYSV_ABI Func_F74BA759B9C8D2A1() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrIsStandbyModeEnabled() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfExtraAudioDevices() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrLeaveMediaPlaybackMode() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfImeForBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrNotifySystemSuspendResumeProgress() {
+s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfInGameStore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrReboot() {
+s32 PS4_SYSV_ABI sceLncUtilActivateCdlg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrSendCecOneTouchPlayCommand() {
+s32 PS4_SYSV_ABI sceLncUtilAddLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrStartRebootTimer() {
+s32 PS4_SYSV_ABI sceLncUtilBlockAppSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrStartShutdownTimer() {
+s32 PS4_SYSV_ABI sceLncUtilBlockingGetEventForDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrStartStadbyTimer() {
+s32 PS4_SYSV_ABI sceLncUtilContinueApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrStartVshAutoUpdateTimer() {
+s32 PS4_SYSV_ABI sceLncUtilCrashSyscore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrTickMusicPlayback() {
+s32 PS4_SYSV_ABI sceLncUtilDeactivateCdlg() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrTickPartyChat() {
+s32 PS4_SYSV_ABI sceLncUtilDeclareReadyForSuspend() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrTurnOff() {
+s32 PS4_SYSV_ABI sceLncUtilDisableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrVshAutoUpdate() {
+s32 PS4_SYSV_ABI sceLncUtilEnableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrWaitVshAutoUpdateVerifyDone() {
+s32 PS4_SYSV_ABI sceLncUtilFinishSpecialResume() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemStateMgrWakeUp() {
+s32 PS4_SYSV_ABI sceLncUtilForceKillApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_89F262179C22B49E() {
+s32 PS4_SYSV_ABI sceLncUtilForceKillLocalProcess() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_AC8A8FAB4A1696B8() {
+s32 PS4_SYSV_ABI sceLncUtilGetApp0DirPath() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_6B1CDB955F0EBD65() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppCategory() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_CB5E885E225F69F0() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppFocusedAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentList() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_C67FC780F5B6F71E() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfBigApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Abort() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfMiniApp() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2GetStatus() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppLaunchedUser() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Init() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppStatus() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2IsActivated() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppStatusListForShellUIReboot() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Start() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppTitleId() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Term() {
+s32 PS4_SYSV_ABI sceLncUtilGetAppType() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceGetDbgExecutablePath() {
+s32 PS4_SYSV_ABI sceLncUtilGetCdlgExec() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceLaunchWebApp() {
+s32 PS4_SYSV_ABI sceLncUtilGetCoredumpState() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI Func_B8495C766861FDCF() {
+s32 PS4_SYSV_ABI sceLncUtilGetDbgExecutablePath() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceLaunchWebBrowser() {
+s32 PS4_SYSV_ABI sceLncUtilGetEventForDaemon() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceInvokeAppLaunchLink() {
+s32 PS4_SYSV_ABI sceLncUtilGetEventForShellUI() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilGetGpuCrashFullDumpAppStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilGetLocalProcessStatusList() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilGetParentSocket() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilGetResultKillApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilGetResultLaunchAppByTitleId() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilInitialize() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsActiveCdlg() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsAppLaunched() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsAppSuspended() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsPs2Emu() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilIsShellUiFgAndGameBgCpuMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilKickCoredumpOnlyProcMem() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilKillApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilKillAppWithReason() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilKillLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilLaunchApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilLoadExec() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestEnd() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestProgress() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilNotifyVshReady() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilRaiseException() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilRaiseExceptionLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilRegisterCdlgSharedMemoryName() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilRegisterDaemon() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilRegisterShellUI() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfExtraAudioDevices() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfImeForBigApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfInGameStore() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilResumeApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilResumeLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSetAppFocus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSetCdlgExec() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSetControllerFocus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSetControllerFocusPermission() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilStartKillApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilStartLaunchAppByTitleId() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSuspendApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSuspendBackgroundApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSuspendLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilSystemSuspend() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilTerminate() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilTryBlockAppSuspend() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilUnblockAppSuspend() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilUnregisterCdlgSharedMemoryName() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilUnregisterDaemon() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceLncUtilUnregisterShellUI() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -249,466 +484,6 @@ s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftStart() {
 }
 
 s32 PS4_SYSV_ABI sceSystemServiceActivateHevcSoftTerm() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceDisablePersonalEyeToEyeDistanceSetting() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceEnablePersonalEyeToEyeDistanceSetting() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionAdvancedSettings() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionSettings() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevc() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcAbort() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcGetStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcInit() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcIsActivated() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcStart() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceActivateHevcTerm() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForJvm() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForJvm() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForJvm() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_7C1183FC73629929() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSaveVideoToken() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceAcquireFb0() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPsmKit() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeAcpClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeCpuClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeGpuClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToBaseMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToDefault() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToMultiMediaMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeNumberOfGpuCu() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeSamuClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeUvdClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceChangeVceClock() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceDisableMusicPlayer() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendConfirmationDialog() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendConfirmationDialog() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetAppFocusedAppStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfBigApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfMiniApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetAppStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetAppType() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetDisplaySafeAreaInfo() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetEventForDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetGpuLoadEmulationMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetHdrToneMapLuminance() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetLocalProcessStatusList() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetParentSocket() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForPsmKit() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetPSButtonEvent() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetRenderingMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetTitleWorkaroundInfo() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceGetVersionNumberOfCameraCalibrationData() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceHideSplashScreen() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceIsAppSuspended() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceIsBgmPlaying() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceIsEyeToEyeDistanceAdjusted() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceIsScreenSaverOn() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceIsShellUiFgAndGameBgCpuMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceKillApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPsmKit() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceLaunchApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceLaunchEventDetails() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentsTeamProfile() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceLoadExec() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceNavigateToAnotherApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBack() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBackWithValue() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoHome() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceParamGetInt() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceParamGetString() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServicePowerTick() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceRaiseExceptionLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceReceiveEvent() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceReenableMusicPlayer() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceRegisterDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceReleaseFb0() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceReportAbnormalTermination() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceRequestCameraCalibration() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceRequestToChangeRenderingMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceResumeLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSetControllerFocusPermission() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSetGpuLoadEmulationMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayAreaFlag() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayZoneWarning() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceShowControllerSettings() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceShowDisplaySafeAreaSettings() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceShowEyeToEyeDistanceSetting() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSuspendBackgroundApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceSuspendLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceTickVideoPlayback() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceTurnOffScreenSaver() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_9031A344CB540F1A() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_A9D4CF2568EAB837() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1798,457 +1573,662 @@ s32 PS4_SYSV_ABI Func_B20628FF35C74111() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForJvm() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForJvm() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForJvm() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceAcquireFb0() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceAddLocalProcessForPsmKit() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeAcpClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeCpuClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeGpuClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToBaseMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToDefault() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeMemoryClockToMultiMediaMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeNumberOfGpuCu() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeSamuClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeUvdClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceChangeVceClock() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceDisableMusicPlayer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceDisablePersonalEyeToEyeDistanceSetting() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendConfirmationDialog() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceEnablePersonalEyeToEyeDistanceSetting() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendConfirmationDialog() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetAppFocusedAppStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfBigApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetAppIdOfMiniApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetAppStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetAppType() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetDisplaySafeAreaInfo() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetEventForDaemon() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetGpuLoadEmulationMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetHdrToneMapLuminance() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetLocalProcessStatusList() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocket() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetParentSocketForPsmKit() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetPSButtonEvent() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetRenderingMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetTitleWorkaroundInfo() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetVersionNumberOfCameraCalibrationData() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceHideSplashScreen() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceIsAppSuspended() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceIsBgmPlaying() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceIsEyeToEyeDistanceAdjusted() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceIsScreenSaverOn() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceIsShellUiFgAndGameBgCpuMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceKillApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceKillLocalProcessForPsmKit() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchEventDetails() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentList() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchTournamentsTeamProfile() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchWebBrowser() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLoadExec() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToAnotherApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBack() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoBackWithValue() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceNavigateToGoHome() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceParamGetInt() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceParamGetString() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServicePowerTick() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceRaiseExceptionLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceReceiveEvent() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceReenableMusicPlayer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceRegisterDaemon() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceReleaseFb0() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceReportAbnormalTermination() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceRequestCameraCalibration() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceRequestToChangeRenderingMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceResumeLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSetControllerFocusPermission() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSetGpuLoadEmulationMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayAreaFlag() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSetOutOfVrPlayZoneWarning() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceShowControllerSettings() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceShowDisplaySafeAreaSettings() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceShowEyeToEyeDistanceSetting() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSuspendBackgroundApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSuspendLocalProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceTickVideoPlayback() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceTurnOffScreenSaver() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_9031A344CB540F1A() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_A9D4CF2568EAB837() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceLaunchWebApp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_B8495C766861FDCF() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceGetDbgExecutablePath() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevc() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcAbort() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcGetStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcInit() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcIsActivated() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcStart() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateHevcTerm() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Abort() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2GetStatus() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Init() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2IsActivated() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Start() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceActivateMpeg2Term() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrCancelShutdownTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrEnterMediaPlaybackMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrEnterStandby() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrGetCurrentState() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrGetTriggerCode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrIsBdDriveReady() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrIsGpuPerformanceNormal() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrIsShellUIShutdownInProgress() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrIsStandbyModeEnabled() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrLeaveMediaPlaybackMode() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrNotifySystemSuspendResumeProgress() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrReboot() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrSendCecOneTouchPlayCommand() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrStartRebootTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrStartShutdownTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrStartStadbyTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrStartVshAutoUpdateTimer() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrTickMusicPlayback() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrTickPartyChat() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrTurnOff() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrVshAutoUpdate() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrWaitVshAutoUpdateVerifyDone() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemStateMgrWakeUp() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_89F262179C22B49E() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_AC8A8FAB4A1696B8() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceInvokeAppLaunchLink() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionAdvancedSettings() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceShowClosedCaptionSettings() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceSetPowerSaveLevel() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceSystemServiceInitializeForShellCore() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfExtraAudioDevices() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfImeForBigApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilAcquireCpuBudgetOfInGameStore() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilActivateCdlg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilAddLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilBlockAppSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilBlockingGetEventForDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilContinueApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilCrashSyscore() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilDeactivateCdlg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilDeclareReadyForSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilDisableSuspendNotification() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilEnableSuspendNotification() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilFinishSpecialResume() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilForceKillApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilForceKillLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetApp0DirPath() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppCategory() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppFocusedAppStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppId() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfBigApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppIdOfMiniApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppLaunchedUser() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppStatusListForShellUIReboot() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppTitleId() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetAppType() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetCdlgExec() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetCoredumpState() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetDbgExecutablePath() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetEventForDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetEventForShellUI() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetGpuCrashFullDumpAppStatus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetLocalProcessStatusList() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetParentSocket() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetResultKillApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilGetResultLaunchAppByTitleId() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilInitialize() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsActiveCdlg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsAppLaunched() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsAppSuspended() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsPs2Emu() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilIsShellUiFgAndGameBgCpuMode() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilKickCoredumpOnlyProcMem() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilKillApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilKillAppWithReason() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilKillLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilLaunchApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilLoadExec() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestEnd() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilNotifyCoredumpRequestProgress() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilNotifyVshReady() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilRaiseException() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilRaiseExceptionLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilRegisterCdlgSharedMemoryName() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilRegisterDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilRegisterShellUI() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfExtraAudioDevices() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfImeForBigApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilReleaseCpuBudgetOfInGameStore() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilResumeApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilResumeLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSetAppFocus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSetCdlgExec() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSetControllerFocus() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSetControllerFocusPermission() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilStartKillApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilStartLaunchAppByTitleId() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSuspendApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSuspendBackgroundApp() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSuspendLocalProcess() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilSystemSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilTerminate() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilTryBlockAppSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilUnblockAppSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilUnregisterCdlgSharedMemoryName() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilUnregisterDaemon() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceLncUtilUnregisterShellUI() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceTelemetrySetData() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingClearEventFlag() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingReceiveMsg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingSendMsg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellCore() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingSendMsgToShellUI() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingSetEventFlag() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingTryGetEventFlag() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAppMessagingTryReceiveMsg() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_C8E899ABEF7F64C4() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI Func_F74BA759B9C8D2A1() {
+s32 PS4_SYSV_ABI Func_7C1183FC73629929() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2274,6 +2254,21 @@ s32 PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacyDefinitionVersion() {
 }
 
 s32 PS4_SYSV_ABI sceSystemServiceGetPlatformPrivacySetting() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceDeclareReadyForSuspend() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendNotification() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendNotification() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2308,27 +2303,7 @@ s32 PS4_SYSV_ABI sceSystemServiceShowImposeMenuForPs2Emu() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceDisableVoiceRecognition() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceReenableVoiceRecognition() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceDeclareReadyForSuspend() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceDisableSuspendNotification() {
-    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceSystemServiceEnableSuspendNotification() {
+s32 PS4_SYSV_ABI sceSystemServiceSaveVideoToken() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2338,7 +2313,12 @@ s32 PS4_SYSV_ABI sceSystemServiceLaunchStore() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSystemServiceSetPowerSaveLevel() {
+s32 PS4_SYSV_ABI sceSystemServiceTelemetrySetData() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_C67FC780F5B6F71E() {
     LOG_ERROR(Lib_SystemService, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2353,91 +2333,205 @@ s32 PS4_SYSV_ABI sceSystemServiceLoadExecVideoServiceWebApp() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceSystemServiceDisableVoiceRecognition() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceSystemServiceReenableVoiceRecognition() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_6B1CDB955F0EBD65() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI Func_CB5E885E225F69F0() {
+    LOG_ERROR(Lib_SystemService, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("eBFzDYThras", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrCancelShutdownTimer);
-    LIB_FUNCTION("Ap5dJ0zHRVY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrEnterMediaPlaybackMode);
-    LIB_FUNCTION("Laac0S4FuhE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrEnterStandby);
-    LIB_FUNCTION("rSquvOtwQmk", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrExtendShutdownTimer);
-    LIB_FUNCTION("FzjISMWw5Xg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess);
-    LIB_FUNCTION("ze0ky5Q1yE8", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrGetCurrentState);
-    LIB_FUNCTION("wlxvESTUplk", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrGetTriggerCode);
-    LIB_FUNCTION("cmjuYpVujQs", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrIsBdDriveReady);
-    LIB_FUNCTION("texLPLDXDso", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrIsGpuPerformanceNormal);
-    LIB_FUNCTION("asLBe0esmIY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrIsShellUIShutdownInProgress);
-    LIB_FUNCTION("j3IrOCL+DmM", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrIsStandbyModeEnabled);
-    LIB_FUNCTION("88y5DztlXBE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrLeaveMediaPlaybackMode);
-    LIB_FUNCTION("H2f6ZwIqLJg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrNotifySystemSuspendResumeProgress);
-    LIB_FUNCTION("uR1wFHXX1XQ", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrReboot);
-    LIB_FUNCTION("gPx1b36zyMY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrSendCecOneTouchPlayCommand);
-    LIB_FUNCTION("PcJ5DLzZXSs", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrStartRebootTimer);
-    LIB_FUNCTION("7qf7mhzOQPo", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrStartShutdownTimer);
-    LIB_FUNCTION("ZwhQSHTqGpE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrStartStadbyTimer);
-    LIB_FUNCTION("YWftBq50hcA", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrStartVshAutoUpdateTimer);
-    LIB_FUNCTION("ypl-BoZZKOM", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrTickMusicPlayback);
-    LIB_FUNCTION("GvqPsPX4EUI", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrTickPartyChat);
-    LIB_FUNCTION("gK3EX6ZKtKc", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrTurnOff);
-    LIB_FUNCTION("U1dZXAjkBVo", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrVshAutoUpdate);
-    LIB_FUNCTION("geg26leOsvw", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrWaitVshAutoUpdateVerifyDone);
-    LIB_FUNCTION("6gtqLPVTdJY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 sceSystemStateMgrWakeUp);
-    LIB_FUNCTION("ifJiF5witJ4", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 Func_89F262179C22B49E);
-    LIB_FUNCTION("rIqPq0oWlrg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
-                 Func_AC8A8FAB4A1696B8);
-    LIB_FUNCTION("axzblV8OvWU", "libSceSystemServiceYouTubeAccountLinkStatus", 1, "libSceSystemService", 1, 1,
-                 Func_6B1CDB955F0EBD65);
-    LIB_FUNCTION("y16IXiJfafA", "libSceSystemServiceYouTubeAccountLinkStatus", 1, "libSceSystemService", 1, 1,
-                 Func_CB5E885E225F69F0);
-    LIB_FUNCTION("G5AwzWnHxks", "libSceSystemServiceTournamentMlg", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchTournamentList);
-    LIB_FUNCTION("xn-HgPW29x4", "libSceSystemServiceTournamentMlg", 1, "libSceSystemService", 1, 1,
-                 Func_C67FC780F5B6F71E);
-    LIB_FUNCTION("F-nn3DvNKww", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2Abort);
-    LIB_FUNCTION("W-U8F5o2SHg", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2GetStatus);
-    LIB_FUNCTION("PkRTWNBI4IQ", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2Init);
-    LIB_FUNCTION("aVZb961bWBU", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2IsActivated);
-    LIB_FUNCTION("-7zMNJ1Ap1c", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2Start);
-    LIB_FUNCTION("JjIspXDbL6o", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateMpeg2Term);
-    LIB_FUNCTION("0TDfP7R4fiQ", "libSceSystemServiceDbg", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetDbgExecutablePath);
-    LIB_FUNCTION("f34qn7XA3QE", "libSceSystemServiceWebApp", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchWebApp);
-    LIB_FUNCTION("uElcdmhh-c8", "libSceSystemServiceWebApp", 1, "libSceSystemService", 1, 1,
-                 Func_B8495C766861FDCF);
-    LIB_FUNCTION("-+3hY+y8bNo", "libSceSystemServiceWebBrowser", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchWebBrowser);
-    LIB_FUNCTION("rTa0Vp-4nKA", "libSceSystemServiceAppLaunchLink", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceInvokeAppLaunchLink);
+    LIB_FUNCTION("alZfRdr2RP8", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingClearEventFlag);
+    LIB_FUNCTION("jKgAUl6cLy0", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingReceiveMsg);
+    LIB_FUNCTION("+zuv20FsXrA", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingSendMsg);
+    LIB_FUNCTION("HIwEvx4kf6o", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingSendMsgToShellCore);
+    LIB_FUNCTION("5ygy1IPUh5c", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingSendMsgToShellUI);
+    LIB_FUNCTION("hdoMbMFIDdE", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingSetEventFlag);
+    LIB_FUNCTION("iKNXKsUtOjY", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingTryGetEventFlag);
+    LIB_FUNCTION("ZVRXXqj1n80", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 sceAppMessagingTryReceiveMsg);
+    LIB_FUNCTION("yOiZq+9-ZMQ", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 Func_C8E899ABEF7F64C4);
+    LIB_FUNCTION("90unWbnI0qE", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
+                 Func_F74BA759B9C8D2A1);
+    LIB_FUNCTION("V350H0h35IU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilAcquireCpuBudgetOfExtraAudioDevices);
+    LIB_FUNCTION("GmKMHwvxLlo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilAcquireCpuBudgetOfImeForBigApp);
+    LIB_FUNCTION("mC3BKJFlbNI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilAcquireCpuBudgetOfInGameStore);
+    LIB_FUNCTION("4dWfNKOT1sg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilActivateCdlg);
+    LIB_FUNCTION("j72lst7BFuc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilAddLocalProcess);
+    LIB_FUNCTION("u1JVDP28ycg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilBlockAppSuspend);
+    LIB_FUNCTION("MxXZ-poqGNs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilBlockingGetEventForDaemon);
+    LIB_FUNCTION("93MnzhkAAgk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilContinueApp);
+    LIB_FUNCTION("uaqZvga3Fkg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilCrashSyscore);
+    LIB_FUNCTION("4oofFQudfx0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilDeactivateCdlg);
+    LIB_FUNCTION("GHUqRrCB2hM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilDeclareReadyForSuspend);
+    LIB_FUNCTION("GkcNZBoiDcs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilDisableSuspendNotification);
+    LIB_FUNCTION("AGnsy1zV34o", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilEnableSuspendNotification);
+    LIB_FUNCTION("UukL0EXLQls", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilFinishSpecialResume);
+    LIB_FUNCTION("vquYrvImjPg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilForceKillApp);
+    LIB_FUNCTION("NS-XWAN9uoc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilForceKillLocalProcess);
+    LIB_FUNCTION("i-esdF3Kz-g", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetApp0DirPath);
+    LIB_FUNCTION("vbMEQcz6O8g", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppCategory);
+    LIB_FUNCTION("i+1kluDITlQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppFocusedAppStatus);
+    LIB_FUNCTION("MVF+elex8Sw", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppId);
+    LIB_FUNCTION("Wu+zDz8VIFk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppIdOfBigApp);
+    LIB_FUNCTION("ppWFdoDMMSs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppIdOfMiniApp);
+    LIB_FUNCTION("oYQC9Quj6No", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppLaunchedUser);
+    LIB_FUNCTION("DxRki7T2E44", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppStatus);
+    LIB_FUNCTION("cyO5ShJxdnE", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppStatusListForShellUIReboot);
+    LIB_FUNCTION("g0wTG9KImzI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppTitleId);
+    LIB_FUNCTION("1AQf7o8gpHc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetAppType);
+    LIB_FUNCTION("7yXjWLWJFHU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetCdlgExec);
+    LIB_FUNCTION("CgVdl9Sp1G0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetCoredumpState);
+    LIB_FUNCTION("deCYc7iaC5Q", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetDbgExecutablePath);
+    LIB_FUNCTION("yUh0BIPbhVo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetEventForDaemon);
+    LIB_FUNCTION("ZucoOmNsb7w", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetEventForShellUI);
+    LIB_FUNCTION("ojmvNKQZNUw", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetGpuCrashFullDumpAppStatus);
+    LIB_FUNCTION("wGobSSrBM4s", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetLocalProcessStatusList);
+    LIB_FUNCTION("HRXjUojlG70", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetParentSocket);
+    LIB_FUNCTION("kOd75qDlxBM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetResultKillApp);
+    LIB_FUNCTION("LZs6hfPMnso", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilGetResultLaunchAppByTitleId);
+    LIB_FUNCTION("f-Q8Nd33FBc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilInitialize);
+    LIB_FUNCTION("PyNH7p4LVw8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsActiveCdlg);
+    LIB_FUNCTION("IGrJsPNL6n4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsAppLaunched);
+    LIB_FUNCTION("teGoPWnEgd4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsAppSuspended);
+    LIB_FUNCTION("iUsONHVCDbQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable);
+    LIB_FUNCTION("i4tm7MB0ZK0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsPs2Emu);
+    LIB_FUNCTION("Ry4u8KxkVY4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilIsShellUiFgAndGameBgCpuMode);
+    LIB_FUNCTION("gNn+EZtm1i0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKickCoredumpOnlyProcMem);
+    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKillApp);
+    LIB_FUNCTION("RBlEzB--JeA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKillAppWithReason);
+    LIB_FUNCTION("IhlLdSAX+Jk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilKillLocalProcess);
+    LIB_FUNCTION("+nRJUD-7qCk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilLaunchApp);
+    LIB_FUNCTION("wwpRNgW81Cs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilLoadExec);
+    LIB_FUNCTION("+8LJld9LIt4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilNotifyCoredumpRequestEnd);
+    LIB_FUNCTION("HKZmLmGfkd4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilNotifyCoredumpRequestProgress);
+    LIB_FUNCTION("-3moAnxKYkc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilNotifyVshReady);
+    LIB_FUNCTION("P563r-eGAh4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilRaiseException);
+    LIB_FUNCTION("CJ45DLRQOD8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilRaiseExceptionLocalProcess);
+    LIB_FUNCTION("Qn5JIRI6ZNU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilRegisterCdlgSharedMemoryName);
+    LIB_FUNCTION("V25-9U+YauY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilRegisterDaemon);
+    LIB_FUNCTION("awS+eYVuXJA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilRegisterShellUI);
+    LIB_FUNCTION("QvUYLdPhylQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilReleaseCpuBudgetOfExtraAudioDevices);
+    LIB_FUNCTION("1PQhPdyNCj8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilReleaseCpuBudgetOfImeForBigApp);
+    LIB_FUNCTION("QsLhZ+8WvSM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilReleaseCpuBudgetOfInGameStore);
+    LIB_FUNCTION("lD-k3hDhlqA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilResumeApp);
+    LIB_FUNCTION("XaC9s-Nr2u4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilResumeLocalProcess);
+    LIB_FUNCTION("v7DYuX0G5TQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSetAppFocus);
+    LIB_FUNCTION("3mHuKF7fsd8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSetCdlgExec);
+    LIB_FUNCTION("X8gYbyLG1wk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSetControllerFocus);
+    LIB_FUNCTION("NJYAQeP3z7c", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSetControllerFocusPermission);
+    LIB_FUNCTION("3+64z-ckBS8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilStartKillApp);
+    LIB_FUNCTION("r07vD4SP2sc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilStartLaunchAppByTitleId);
+    LIB_FUNCTION("Y8onQYjuvOU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSuspendApp);
+    LIB_FUNCTION("8vYXkdXmh-Q", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSuspendBackgroundApp);
+    LIB_FUNCTION("rd+-SzL202E", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSuspendLocalProcess);
+    LIB_FUNCTION("Kt1k5aBzrcE", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilSystemSuspend);
+    LIB_FUNCTION("cCod+B3EdhI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilTerminate);
+    LIB_FUNCTION("msW-hp1U0zo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilTryBlockAppSuspend);
+    LIB_FUNCTION("iRZduYIV1hs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilUnblockAppSuspend);
+    LIB_FUNCTION("aVRNp1nOOKY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilUnregisterCdlgSharedMemoryName);
+    LIB_FUNCTION("BnMaW5wfnlQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilUnregisterDaemon);
+    LIB_FUNCTION("cqui4JUJtbY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
+                 sceLncUtilUnregisterShellUI);
     LIB_FUNCTION("f-WtMqIKo20", "libSceSystemServiceActivateHevcSoft", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceActivateHevcSoft);
     LIB_FUNCTION("s6ucQ90BW3g", "libSceSystemServiceActivateHevcSoft", 1, "libSceSystemService", 1, 1,
@@ -2452,198 +2546,6 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceSystemServiceActivateHevcSoftStart);
     LIB_FUNCTION("P-awBIrXrTQ", "libSceSystemServiceActivateHevcSoft", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceActivateHevcSoftTerm);
-    LIB_FUNCTION("Mr1IgQaRff0", "libSceSystemServiceEyeToEyeDistance", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisablePersonalEyeToEyeDistanceSetting);
-    LIB_FUNCTION("O3irWUQ2s-g", "libSceSystemServiceEyeToEyeDistance", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceEnablePersonalEyeToEyeDistanceSetting);
-    LIB_FUNCTION("uhD7g7zXIQo", "libSceSystemServiceClosedCaption", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceShowClosedCaptionAdvancedSettings);
-    LIB_FUNCTION("5W6LurzMZaY", "libSceSystemServiceClosedCaption", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceShowClosedCaptionSettings);
-    LIB_FUNCTION("+2uXfrrQCyk", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevc);
-    LIB_FUNCTION("VXA8STT529w", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcAbort);
-    LIB_FUNCTION("-9LzYPdangA", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcGetStatus);
-    LIB_FUNCTION("BgjPgbXKYjE", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcInit);
-    LIB_FUNCTION("2HHfdrT+rnQ", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcIsActivated);
-    LIB_FUNCTION("E9FdusyklCA", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcStart);
-    LIB_FUNCTION("tImUgGSSHpc", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceActivateHevcTerm);
-    LIB_FUNCTION("jPKapVQLX70", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceAddLocalProcessForJvm);
-    LIB_FUNCTION("zqjkZ5VKFSg", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetParentSocketForJvm);
-    LIB_FUNCTION("2TJ5KzC73gY", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceKillLocalProcessForJvm);
-    LIB_FUNCTION("fBGD-HNimSk", "libSceSystemServicePadspkRouting", 1, "libSceSystemService", 1, 1,
-                 Func_7C1183FC73629929);
-    LIB_FUNCTION("DILuzcvXjGQ", "libSceSystemServiceVideoToken", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSaveVideoToken);
-    LIB_FUNCTION("0z7srulNt7U", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceAcquireFb0);
-    LIB_FUNCTION("0cl8SuwosPQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceAddLocalProcess);
-    LIB_FUNCTION("cltshBrDLC0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceAddLocalProcessForPsmKit);
-    LIB_FUNCTION("FI+VqGdttvI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeAcpClock);
-    LIB_FUNCTION("ec72vt3WEQo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeCpuClock);
-    LIB_FUNCTION("Z5RgV4Chwxg", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeGpuClock);
-    LIB_FUNCTION("LFo00RWzqRU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeMemoryClock);
-    LIB_FUNCTION("MyBXslDE+2o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeMemoryClockToBaseMode);
-    LIB_FUNCTION("qv+X8gozqF4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeMemoryClockToDefault);
-    LIB_FUNCTION("fOsE5pTieqY", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeMemoryClockToMultiMediaMode);
-    LIB_FUNCTION("5MLppFJZyX4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeNumberOfGpuCu);
-    LIB_FUNCTION("lgTlIAEJ33M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeSamuClock);
-    LIB_FUNCTION("BQUi7AW+2tQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeUvdClock);
-    LIB_FUNCTION("fzguXBQzNvI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceChangeVceClock);
-    LIB_FUNCTION("x1UB9bwDSOw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisableMusicPlayer);
-    LIB_FUNCTION("Mr1IgQaRff0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisablePersonalEyeToEyeDistanceSetting);
-    LIB_FUNCTION("PQ+SjXAg3EM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisableSuspendConfirmationDialog);
-    LIB_FUNCTION("O3irWUQ2s-g", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceEnablePersonalEyeToEyeDistanceSetting);
-    LIB_FUNCTION("Rn32O5PDlmo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceEnableSuspendConfirmationDialog);
-    LIB_FUNCTION("xjE7xLfrLUk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetAppFocusedAppStatus);
-    LIB_FUNCTION("f4oDTxAJCHE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetAppIdOfBigApp);
-    LIB_FUNCTION("BBSmGrxok5o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetAppIdOfMiniApp);
-    LIB_FUNCTION("t5ShV0jWEFE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetAppStatus);
-    LIB_FUNCTION("YLbhAXS20C0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetAppType);
-    LIB_FUNCTION("1n37q1Bvc5Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetDisplaySafeAreaInfo);
-    LIB_FUNCTION("JFg3az5ITN4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetEventForDaemon);
-    LIB_FUNCTION("4imyVMxX5-8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetGpuLoadEmulationMode);
-    LIB_FUNCTION("mPpPxv5CZt4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetHdrToneMapLuminance);
-    LIB_FUNCTION("ZNIuJjqdtgI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetLocalProcessStatusList);
-    LIB_FUNCTION("UMIlrOlGNQU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetParentSocket);
-    LIB_FUNCTION("4ZYuSI8i2aM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetParentSocketForPsmKit);
-    LIB_FUNCTION("gbUBqHCEgAI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetPSButtonEvent);
-    LIB_FUNCTION("jA629PcMCKU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetRenderingMode);
-    LIB_FUNCTION("rPo6tV8D9bM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetStatus);
-    LIB_FUNCTION("VrvpoJEoSSU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetTitleWorkaroundInfo);
-    LIB_FUNCTION("s4OcLqLsKn0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceGetVersionNumberOfCameraCalibrationData);
-    LIB_FUNCTION("Vo5V8KAwCmk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceHideSplashScreen);
-    LIB_FUNCTION("d-15YTCUMVU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceIsAppSuspended);
-    LIB_FUNCTION("SYqaqLuQU6w", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceIsBgmPlaying);
-    LIB_FUNCTION("O4x1B7aXRYE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceIsEyeToEyeDistanceAdjusted);
-    LIB_FUNCTION("bMDbofWFNfQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceIsScreenSaverOn);
-    LIB_FUNCTION("KQFyDkgAjVs", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceIsShellUiFgAndGameBgCpuMode);
-    LIB_FUNCTION("N4RkyJh7FtA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceKillApp);
-    LIB_FUNCTION("6jpZY0WUwLM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceKillLocalProcess);
-    LIB_FUNCTION("7cTc7seJLfQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceKillLocalProcessForPsmKit);
-    LIB_FUNCTION("l4FB3wNa-Ac", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchApp);
-    LIB_FUNCTION("wX9wVFaegaM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchEventDetails);
-    LIB_FUNCTION("G5AwzWnHxks", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchTournamentList);
-    LIB_FUNCTION("wIc92b0x6hk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchTournamentsTeamProfile);
-    LIB_FUNCTION("-+3hY+y8bNo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLaunchWebBrowser);
-    LIB_FUNCTION("JoBqSQt1yyA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceLoadExec);
-    LIB_FUNCTION("9ScDVErRRgw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceNavigateToAnotherApp);
-    LIB_FUNCTION("e4E3MIEAS2A", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceNavigateToGoBack);
-    LIB_FUNCTION("ZeubLhPDitw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceNavigateToGoBackWithValue);
-    LIB_FUNCTION("x2-o9eBw3ZU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceNavigateToGoHome);
-    LIB_FUNCTION("fZo48un7LK4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceParamGetInt);
-    LIB_FUNCTION("SsC-m-S9JTA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceParamGetString);
-    LIB_FUNCTION("XbbJC3E+L5M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServicePowerTick);
-    LIB_FUNCTION("2xenlv7M-UU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceRaiseExceptionLocalProcess);
-    LIB_FUNCTION("656LMQSrg6U", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceReceiveEvent);
-    LIB_FUNCTION("9kPCz7Or+1Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceReenableMusicPlayer);
-    LIB_FUNCTION("Pi3K47Xw0ss", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceRegisterDaemon);
-    LIB_FUNCTION("Oms065qIClY", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceReleaseFb0);
-    LIB_FUNCTION("3s8cHiCBKBE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceReportAbnormalTermination);
-    LIB_FUNCTION("3ZFpzcRqYsk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceRequestCameraCalibration);
-    LIB_FUNCTION("P71fvnHyFTQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceRequestToChangeRenderingMode);
-    LIB_FUNCTION("tMuzuZcUIcA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceResumeLocalProcess);
-    LIB_FUNCTION("DNE77sfNw5Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSetControllerFocusPermission);
-    LIB_FUNCTION("eLWnPuja+Y8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSetGpuLoadEmulationMode);
-    LIB_FUNCTION("Xn-eH9-Fu60", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSetOutOfVrPlayAreaFlag);
-    LIB_FUNCTION("sgRPNJjrWjg", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSetOutOfVrPlayZoneWarning);
-    LIB_FUNCTION("w9wlKcHrmm8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceShowControllerSettings);
-    LIB_FUNCTION("tPfQU2pD4-M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceShowDisplaySafeAreaSettings);
-    LIB_FUNCTION("f8eZvJ8hV6o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceShowEyeToEyeDistanceSetting);
-    LIB_FUNCTION("vY1-RZtvvbk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSuspendBackgroundApp);
-    LIB_FUNCTION("kTiAx7e2zU4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSuspendLocalProcess);
-    LIB_FUNCTION("zlXqkzPY-ds", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceTickVideoPlayback);
-    LIB_FUNCTION("vOhqz-IMiW4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceTurnOffScreenSaver);
-    LIB_FUNCTION("kDGjRMtUDxo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 Func_9031A344CB540F1A);
-    LIB_FUNCTION("qdTPJWjquDc", "libSceSystemService", 1, "libSceSystemService", 1, 1,
-                 Func_A9D4CF2568EAB837);
     LIB_FUNCTION("5SfMtsW8h7A", "libSceShellCoreUtil", 1, "libSceSystemService", 1, 1,
                  sceShellCoreUtilAccessibilityZoomLock);
     LIB_FUNCTION("Uku2JpZmoqc", "libSceShellCoreUtil", 1, "libSceSystemService", 1, 1,
@@ -3078,188 +2980,274 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  Func_739FB849CB28F445);
     LIB_FUNCTION("sgYo-zXHQRE", "libSceShellCoreUtil", 1, "libSceSystemService", 1, 1,
                  Func_B20628FF35C74111);
+    LIB_FUNCTION("jPKapVQLX70", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceAddLocalProcessForJvm);
+    LIB_FUNCTION("zqjkZ5VKFSg", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetParentSocketForJvm);
+    LIB_FUNCTION("2TJ5KzC73gY", "libSceSystemService_jvm", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceKillLocalProcessForJvm);
+    LIB_FUNCTION("0z7srulNt7U", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceAcquireFb0);
+    LIB_FUNCTION("0cl8SuwosPQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceAddLocalProcess);
+    LIB_FUNCTION("cltshBrDLC0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceAddLocalProcessForPsmKit);
+    LIB_FUNCTION("FI+VqGdttvI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeAcpClock);
+    LIB_FUNCTION("ec72vt3WEQo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeCpuClock);
+    LIB_FUNCTION("Z5RgV4Chwxg", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeGpuClock);
+    LIB_FUNCTION("LFo00RWzqRU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeMemoryClock);
+    LIB_FUNCTION("MyBXslDE+2o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeMemoryClockToBaseMode);
+    LIB_FUNCTION("qv+X8gozqF4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeMemoryClockToDefault);
+    LIB_FUNCTION("fOsE5pTieqY", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeMemoryClockToMultiMediaMode);
+    LIB_FUNCTION("5MLppFJZyX4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeNumberOfGpuCu);
+    LIB_FUNCTION("lgTlIAEJ33M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeSamuClock);
+    LIB_FUNCTION("BQUi7AW+2tQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeUvdClock);
+    LIB_FUNCTION("fzguXBQzNvI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceChangeVceClock);
+    LIB_FUNCTION("x1UB9bwDSOw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisableMusicPlayer);
+    LIB_FUNCTION("Mr1IgQaRff0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisablePersonalEyeToEyeDistanceSetting);
+    LIB_FUNCTION("PQ+SjXAg3EM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisableSuspendConfirmationDialog);
+    LIB_FUNCTION("O3irWUQ2s-g", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceEnablePersonalEyeToEyeDistanceSetting);
+    LIB_FUNCTION("Rn32O5PDlmo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceEnableSuspendConfirmationDialog);
+    LIB_FUNCTION("xjE7xLfrLUk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetAppFocusedAppStatus);
+    LIB_FUNCTION("f4oDTxAJCHE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetAppIdOfBigApp);
+    LIB_FUNCTION("BBSmGrxok5o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetAppIdOfMiniApp);
+    LIB_FUNCTION("t5ShV0jWEFE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetAppStatus);
+    LIB_FUNCTION("YLbhAXS20C0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetAppType);
+    LIB_FUNCTION("1n37q1Bvc5Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetDisplaySafeAreaInfo);
+    LIB_FUNCTION("JFg3az5ITN4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetEventForDaemon);
+    LIB_FUNCTION("4imyVMxX5-8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetGpuLoadEmulationMode);
+    LIB_FUNCTION("mPpPxv5CZt4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetHdrToneMapLuminance);
+    LIB_FUNCTION("ZNIuJjqdtgI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetLocalProcessStatusList);
+    LIB_FUNCTION("UMIlrOlGNQU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetParentSocket);
+    LIB_FUNCTION("4ZYuSI8i2aM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetParentSocketForPsmKit);
+    LIB_FUNCTION("gbUBqHCEgAI", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetPSButtonEvent);
+    LIB_FUNCTION("jA629PcMCKU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetRenderingMode);
+    LIB_FUNCTION("rPo6tV8D9bM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetStatus);
+    LIB_FUNCTION("VrvpoJEoSSU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetTitleWorkaroundInfo);
+    LIB_FUNCTION("s4OcLqLsKn0", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetVersionNumberOfCameraCalibrationData);
+    LIB_FUNCTION("Vo5V8KAwCmk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceHideSplashScreen);
+    LIB_FUNCTION("d-15YTCUMVU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceIsAppSuspended);
+    LIB_FUNCTION("SYqaqLuQU6w", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceIsBgmPlaying);
+    LIB_FUNCTION("O4x1B7aXRYE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceIsEyeToEyeDistanceAdjusted);
+    LIB_FUNCTION("bMDbofWFNfQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceIsScreenSaverOn);
+    LIB_FUNCTION("KQFyDkgAjVs", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceIsShellUiFgAndGameBgCpuMode);
+    LIB_FUNCTION("N4RkyJh7FtA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceKillApp);
+    LIB_FUNCTION("6jpZY0WUwLM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceKillLocalProcess);
+    LIB_FUNCTION("7cTc7seJLfQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceKillLocalProcessForPsmKit);
+    LIB_FUNCTION("l4FB3wNa-Ac", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchApp);
+    LIB_FUNCTION("wX9wVFaegaM", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchEventDetails);
+    LIB_FUNCTION("G5AwzWnHxks", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchTournamentList);
+    LIB_FUNCTION("wIc92b0x6hk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchTournamentsTeamProfile);
+    LIB_FUNCTION("-+3hY+y8bNo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchWebBrowser);
+    LIB_FUNCTION("JoBqSQt1yyA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLoadExec);
+    LIB_FUNCTION("9ScDVErRRgw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceNavigateToAnotherApp);
+    LIB_FUNCTION("e4E3MIEAS2A", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceNavigateToGoBack);
+    LIB_FUNCTION("ZeubLhPDitw", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceNavigateToGoBackWithValue);
+    LIB_FUNCTION("x2-o9eBw3ZU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceNavigateToGoHome);
+    LIB_FUNCTION("fZo48un7LK4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceParamGetInt);
+    LIB_FUNCTION("SsC-m-S9JTA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceParamGetString);
+    LIB_FUNCTION("XbbJC3E+L5M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServicePowerTick);
+    LIB_FUNCTION("2xenlv7M-UU", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceRaiseExceptionLocalProcess);
+    LIB_FUNCTION("656LMQSrg6U", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceReceiveEvent);
+    LIB_FUNCTION("9kPCz7Or+1Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceReenableMusicPlayer);
+    LIB_FUNCTION("Pi3K47Xw0ss", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceRegisterDaemon);
+    LIB_FUNCTION("Oms065qIClY", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceReleaseFb0);
+    LIB_FUNCTION("3s8cHiCBKBE", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceReportAbnormalTermination);
+    LIB_FUNCTION("3ZFpzcRqYsk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceRequestCameraCalibration);
+    LIB_FUNCTION("P71fvnHyFTQ", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceRequestToChangeRenderingMode);
+    LIB_FUNCTION("tMuzuZcUIcA", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceResumeLocalProcess);
+    LIB_FUNCTION("DNE77sfNw5Y", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSetControllerFocusPermission);
+    LIB_FUNCTION("eLWnPuja+Y8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSetGpuLoadEmulationMode);
+    LIB_FUNCTION("Xn-eH9-Fu60", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSetOutOfVrPlayAreaFlag);
+    LIB_FUNCTION("sgRPNJjrWjg", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSetOutOfVrPlayZoneWarning);
+    LIB_FUNCTION("w9wlKcHrmm8", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceShowControllerSettings);
+    LIB_FUNCTION("tPfQU2pD4-M", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceShowDisplaySafeAreaSettings);
+    LIB_FUNCTION("f8eZvJ8hV6o", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceShowEyeToEyeDistanceSetting);
+    LIB_FUNCTION("vY1-RZtvvbk", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSuspendBackgroundApp);
+    LIB_FUNCTION("kTiAx7e2zU4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSuspendLocalProcess);
+    LIB_FUNCTION("zlXqkzPY-ds", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceTickVideoPlayback);
+    LIB_FUNCTION("vOhqz-IMiW4", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceTurnOffScreenSaver);
+    LIB_FUNCTION("kDGjRMtUDxo", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 Func_9031A344CB540F1A);
+    LIB_FUNCTION("qdTPJWjquDc", "libSceSystemService", 1, "libSceSystemService", 1, 1,
+                 Func_A9D4CF2568EAB837);
+    LIB_FUNCTION("f34qn7XA3QE", "libSceSystemServiceWebApp", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchWebApp);
+    LIB_FUNCTION("uElcdmhh-c8", "libSceSystemServiceWebApp", 1, "libSceSystemService", 1, 1,
+                 Func_B8495C766861FDCF);
+    LIB_FUNCTION("0TDfP7R4fiQ", "libSceSystemServiceDbg", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceGetDbgExecutablePath);
+    LIB_FUNCTION("+2uXfrrQCyk", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevc);
+    LIB_FUNCTION("VXA8STT529w", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcAbort);
+    LIB_FUNCTION("-9LzYPdangA", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcGetStatus);
+    LIB_FUNCTION("BgjPgbXKYjE", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcInit);
+    LIB_FUNCTION("2HHfdrT+rnQ", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcIsActivated);
+    LIB_FUNCTION("E9FdusyklCA", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcStart);
+    LIB_FUNCTION("tImUgGSSHpc", "libSceSystemServiceActivateHevc", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateHevcTerm);
+    LIB_FUNCTION("F-nn3DvNKww", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2Abort);
+    LIB_FUNCTION("W-U8F5o2SHg", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2GetStatus);
+    LIB_FUNCTION("PkRTWNBI4IQ", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2Init);
+    LIB_FUNCTION("aVZb961bWBU", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2IsActivated);
+    LIB_FUNCTION("-7zMNJ1Ap1c", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2Start);
+    LIB_FUNCTION("JjIspXDbL6o", "libSceSystemServiceActivateMpeg2", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceActivateMpeg2Term);
+    LIB_FUNCTION("eBFzDYThras", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrCancelShutdownTimer);
+    LIB_FUNCTION("Ap5dJ0zHRVY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrEnterMediaPlaybackMode);
+    LIB_FUNCTION("Laac0S4FuhE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrEnterStandby);
+    LIB_FUNCTION("rSquvOtwQmk", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrExtendShutdownTimer);
+    LIB_FUNCTION("FzjISMWw5Xg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrExtendShutdownTimerForPostAutoUpdateProcess);
+    LIB_FUNCTION("ze0ky5Q1yE8", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrGetCurrentState);
+    LIB_FUNCTION("wlxvESTUplk", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrGetTriggerCode);
+    LIB_FUNCTION("cmjuYpVujQs", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrIsBdDriveReady);
+    LIB_FUNCTION("texLPLDXDso", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrIsGpuPerformanceNormal);
+    LIB_FUNCTION("asLBe0esmIY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrIsShellUIShutdownInProgress);
+    LIB_FUNCTION("j3IrOCL+DmM", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrIsStandbyModeEnabled);
+    LIB_FUNCTION("88y5DztlXBE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrLeaveMediaPlaybackMode);
+    LIB_FUNCTION("H2f6ZwIqLJg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrNotifySystemSuspendResumeProgress);
+    LIB_FUNCTION("uR1wFHXX1XQ", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrReboot);
+    LIB_FUNCTION("gPx1b36zyMY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrSendCecOneTouchPlayCommand);
+    LIB_FUNCTION("PcJ5DLzZXSs", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrStartRebootTimer);
+    LIB_FUNCTION("7qf7mhzOQPo", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrStartShutdownTimer);
+    LIB_FUNCTION("ZwhQSHTqGpE", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrStartStadbyTimer);
+    LIB_FUNCTION("YWftBq50hcA", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrStartVshAutoUpdateTimer);
+    LIB_FUNCTION("ypl-BoZZKOM", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrTickMusicPlayback);
+    LIB_FUNCTION("GvqPsPX4EUI", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrTickPartyChat);
+    LIB_FUNCTION("gK3EX6ZKtKc", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrTurnOff);
+    LIB_FUNCTION("U1dZXAjkBVo", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrVshAutoUpdate);
+    LIB_FUNCTION("geg26leOsvw", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrWaitVshAutoUpdateVerifyDone);
+    LIB_FUNCTION("6gtqLPVTdJY", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 sceSystemStateMgrWakeUp);
+    LIB_FUNCTION("ifJiF5witJ4", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 Func_89F262179C22B49E);
+    LIB_FUNCTION("rIqPq0oWlrg", "libSceSystemStateMgr", 1, "libSceSystemService", 1, 1,
+                 Func_AC8A8FAB4A1696B8);
+    LIB_FUNCTION("rTa0Vp-4nKA", "libSceSystemServiceAppLaunchLink", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceInvokeAppLaunchLink);
+    LIB_FUNCTION("uhD7g7zXIQo", "libSceSystemServiceClosedCaption", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceShowClosedCaptionAdvancedSettings);
+    LIB_FUNCTION("5W6LurzMZaY", "libSceSystemServiceClosedCaption", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceShowClosedCaptionSettings);
+    LIB_FUNCTION("Mr1IgQaRff0", "libSceSystemServiceEyeToEyeDistance", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisablePersonalEyeToEyeDistanceSetting);
+    LIB_FUNCTION("O3irWUQ2s-g", "libSceSystemServiceEyeToEyeDistance", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceEnablePersonalEyeToEyeDistanceSetting);
+    LIB_FUNCTION("nT-7-iG55M8", "libSceSystemServicePowerSaveLevel", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSetPowerSaveLevel);
     LIB_FUNCTION("gD4wh2+nuuU", "libSceSystemServiceForShellCoreOnly", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceInitializeForShellCore);
-    LIB_FUNCTION("V350H0h35IU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilAcquireCpuBudgetOfExtraAudioDevices);
-    LIB_FUNCTION("GmKMHwvxLlo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilAcquireCpuBudgetOfImeForBigApp);
-    LIB_FUNCTION("mC3BKJFlbNI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilAcquireCpuBudgetOfInGameStore);
-    LIB_FUNCTION("4dWfNKOT1sg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilActivateCdlg);
-    LIB_FUNCTION("j72lst7BFuc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilAddLocalProcess);
-    LIB_FUNCTION("u1JVDP28ycg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilBlockAppSuspend);
-    LIB_FUNCTION("MxXZ-poqGNs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilBlockingGetEventForDaemon);
-    LIB_FUNCTION("93MnzhkAAgk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilContinueApp);
-    LIB_FUNCTION("uaqZvga3Fkg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilCrashSyscore);
-    LIB_FUNCTION("4oofFQudfx0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilDeactivateCdlg);
-    LIB_FUNCTION("GHUqRrCB2hM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilDeclareReadyForSuspend);
-    LIB_FUNCTION("GkcNZBoiDcs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilDisableSuspendNotification);
-    LIB_FUNCTION("AGnsy1zV34o", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilEnableSuspendNotification);
-    LIB_FUNCTION("UukL0EXLQls", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilFinishSpecialResume);
-    LIB_FUNCTION("vquYrvImjPg", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilForceKillApp);
-    LIB_FUNCTION("NS-XWAN9uoc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilForceKillLocalProcess);
-    LIB_FUNCTION("i-esdF3Kz-g", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetApp0DirPath);
-    LIB_FUNCTION("vbMEQcz6O8g", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppCategory);
-    LIB_FUNCTION("i+1kluDITlQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppFocusedAppStatus);
-    LIB_FUNCTION("MVF+elex8Sw", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppId);
-    LIB_FUNCTION("Wu+zDz8VIFk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppIdOfBigApp);
-    LIB_FUNCTION("ppWFdoDMMSs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppIdOfMiniApp);
-    LIB_FUNCTION("oYQC9Quj6No", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppLaunchedUser);
-    LIB_FUNCTION("DxRki7T2E44", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppStatus);
-    LIB_FUNCTION("cyO5ShJxdnE", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppStatusListForShellUIReboot);
-    LIB_FUNCTION("g0wTG9KImzI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppTitleId);
-    LIB_FUNCTION("1AQf7o8gpHc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetAppType);
-    LIB_FUNCTION("7yXjWLWJFHU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetCdlgExec);
-    LIB_FUNCTION("CgVdl9Sp1G0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetCoredumpState);
-    LIB_FUNCTION("deCYc7iaC5Q", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetDbgExecutablePath);
-    LIB_FUNCTION("yUh0BIPbhVo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetEventForDaemon);
-    LIB_FUNCTION("ZucoOmNsb7w", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetEventForShellUI);
-    LIB_FUNCTION("ojmvNKQZNUw", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetGpuCrashFullDumpAppStatus);
-    LIB_FUNCTION("wGobSSrBM4s", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetLocalProcessStatusList);
-    LIB_FUNCTION("HRXjUojlG70", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetParentSocket);
-    LIB_FUNCTION("kOd75qDlxBM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetResultKillApp);
-    LIB_FUNCTION("LZs6hfPMnso", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilGetResultLaunchAppByTitleId);
-    LIB_FUNCTION("f-Q8Nd33FBc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilInitialize);
-    LIB_FUNCTION("PyNH7p4LVw8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsActiveCdlg);
-    LIB_FUNCTION("IGrJsPNL6n4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsAppLaunched);
-    LIB_FUNCTION("teGoPWnEgd4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsAppSuspended);
-    LIB_FUNCTION("iUsONHVCDbQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsCpuBudgetOfExtraAudioDevicesAvailable);
-    LIB_FUNCTION("i4tm7MB0ZK0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsPs2Emu);
-    LIB_FUNCTION("Ry4u8KxkVY4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilIsShellUiFgAndGameBgCpuMode);
-    LIB_FUNCTION("gNn+EZtm1i0", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilKickCoredumpOnlyProcMem);
-    LIB_FUNCTION("SZ2uH5Abws8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilKillApp);
-    LIB_FUNCTION("RBlEzB--JeA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilKillAppWithReason);
-    LIB_FUNCTION("IhlLdSAX+Jk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilKillLocalProcess);
-    LIB_FUNCTION("+nRJUD-7qCk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilLaunchApp);
-    LIB_FUNCTION("wwpRNgW81Cs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilLoadExec);
-    LIB_FUNCTION("+8LJld9LIt4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilNotifyCoredumpRequestEnd);
-    LIB_FUNCTION("HKZmLmGfkd4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilNotifyCoredumpRequestProgress);
-    LIB_FUNCTION("-3moAnxKYkc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilNotifyVshReady);
-    LIB_FUNCTION("P563r-eGAh4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilRaiseException);
-    LIB_FUNCTION("CJ45DLRQOD8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilRaiseExceptionLocalProcess);
-    LIB_FUNCTION("Qn5JIRI6ZNU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilRegisterCdlgSharedMemoryName);
-    LIB_FUNCTION("V25-9U+YauY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilRegisterDaemon);
-    LIB_FUNCTION("awS+eYVuXJA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilRegisterShellUI);
-    LIB_FUNCTION("QvUYLdPhylQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilReleaseCpuBudgetOfExtraAudioDevices);
-    LIB_FUNCTION("1PQhPdyNCj8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilReleaseCpuBudgetOfImeForBigApp);
-    LIB_FUNCTION("QsLhZ+8WvSM", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilReleaseCpuBudgetOfInGameStore);
-    LIB_FUNCTION("lD-k3hDhlqA", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilResumeApp);
-    LIB_FUNCTION("XaC9s-Nr2u4", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilResumeLocalProcess);
-    LIB_FUNCTION("v7DYuX0G5TQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSetAppFocus);
-    LIB_FUNCTION("3mHuKF7fsd8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSetCdlgExec);
-    LIB_FUNCTION("X8gYbyLG1wk", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSetControllerFocus);
-    LIB_FUNCTION("NJYAQeP3z7c", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSetControllerFocusPermission);
-    LIB_FUNCTION("3+64z-ckBS8", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilStartKillApp);
-    LIB_FUNCTION("r07vD4SP2sc", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilStartLaunchAppByTitleId);
-    LIB_FUNCTION("Y8onQYjuvOU", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSuspendApp);
-    LIB_FUNCTION("8vYXkdXmh-Q", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSuspendBackgroundApp);
-    LIB_FUNCTION("rd+-SzL202E", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSuspendLocalProcess);
-    LIB_FUNCTION("Kt1k5aBzrcE", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilSystemSuspend);
-    LIB_FUNCTION("cCod+B3EdhI", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilTerminate);
-    LIB_FUNCTION("msW-hp1U0zo", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilTryBlockAppSuspend);
-    LIB_FUNCTION("iRZduYIV1hs", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilUnblockAppSuspend);
-    LIB_FUNCTION("aVRNp1nOOKY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilUnregisterCdlgSharedMemoryName);
-    LIB_FUNCTION("BnMaW5wfnlQ", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilUnregisterDaemon);
-    LIB_FUNCTION("cqui4JUJtbY", "libSceLncUtil", 1, "libSceSystemService", 1, 1,
-                 sceLncUtilUnregisterShellUI);
-    LIB_FUNCTION("3nn7rnOdt1g", "libSceSystemServiceTelemetry", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceTelemetrySetData);
-    LIB_FUNCTION("alZfRdr2RP8", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingClearEventFlag);
-    LIB_FUNCTION("jKgAUl6cLy0", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingReceiveMsg);
-    LIB_FUNCTION("+zuv20FsXrA", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingSendMsg);
-    LIB_FUNCTION("HIwEvx4kf6o", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingSendMsgToShellCore);
-    LIB_FUNCTION("5ygy1IPUh5c", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingSendMsgToShellUI);
-    LIB_FUNCTION("hdoMbMFIDdE", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingSetEventFlag);
-    LIB_FUNCTION("iKNXKsUtOjY", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingTryGetEventFlag);
-    LIB_FUNCTION("ZVRXXqj1n80", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 sceAppMessagingTryReceiveMsg);
-    LIB_FUNCTION("yOiZq+9-ZMQ", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 Func_C8E899ABEF7F64C4);
-    LIB_FUNCTION("90unWbnI0qE", "libSceAppMessaging", 1, "libSceSystemService", 1, 1,
-                 Func_F74BA759B9C8D2A1);
+    LIB_FUNCTION("fBGD-HNimSk", "libSceSystemServicePadspkRouting", 1, "libSceSystemService", 1, 1,
+                 Func_7C1183FC73629929);
     LIB_FUNCTION("45QrFvUkrjg", "libSceSystemServicePartyVoice", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceDisablePartyVoice);
     LIB_FUNCTION("hU3bSlF2OKs", "libSceSystemServicePartyVoice", 1, "libSceSystemService", 1, 1,
@@ -3270,6 +3258,12 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceSystemServiceGetPlatformPrivacyDefinitionVersion);
     LIB_FUNCTION("hvoLYhc4cq0", "libSceSystemServicePlatformPrivacy", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceGetPlatformPrivacySetting);
+    LIB_FUNCTION("EqcPA3ugRP8", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDeclareReadyForSuspend);
+    LIB_FUNCTION("Mi0qwCb+rvo", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisableSuspendNotification);
+    LIB_FUNCTION("a5Kjjq6HgcU", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceEnableSuspendNotification);
     LIB_FUNCTION("d4imyunHryo", "libSceSystemServicePowerControl", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceRequestPowerOff);
     LIB_FUNCTION("oEJqGsNtFIw", "libSceSystemServicePowerControl", 1, "libSceSystemService", 1, 1,
@@ -3282,16 +3276,8 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceSystemServiceKillLocalProcessForPs2Emu);
     LIB_FUNCTION("YtDk7X3FF08", "libSceSystemServicePs2Emu", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceShowImposeMenuForPs2Emu);
-    LIB_FUNCTION("d3OnoKtNjGg", "libSceSystemServiceVoiceRecognition", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisableVoiceRecognition);
-    LIB_FUNCTION("c-aFKhn74h0", "libSceSystemServiceVoiceRecognition", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceReenableVoiceRecognition);
-    LIB_FUNCTION("EqcPA3ugRP8", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDeclareReadyForSuspend);
-    LIB_FUNCTION("Mi0qwCb+rvo", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceDisableSuspendNotification);
-    LIB_FUNCTION("a5Kjjq6HgcU", "libSceSystemServiceSuspend", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceEnableSuspendNotification);
+    LIB_FUNCTION("DILuzcvXjGQ", "libSceSystemServiceVideoToken", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceSaveVideoToken);
     LIB_FUNCTION("cltshBrDLC0", "libSceSystemServicePsmKit", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceAddLocalProcessForPsmKit);
     LIB_FUNCTION("4ZYuSI8i2aM", "libSceSystemServicePsmKit", 1, "libSceSystemService", 1, 1,
@@ -3300,12 +3286,26 @@ void RegisterlibSceSystemService(Core::Loader::SymbolsResolver* sym) {
                  sceSystemServiceKillLocalProcessForPsmKit);
     LIB_FUNCTION("Zj5FGJQPFxs", "libSceSystemServiceStore", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceLaunchStore);
-    LIB_FUNCTION("nT-7-iG55M8", "libSceSystemServicePowerSaveLevel", 1, "libSceSystemService", 1, 1,
-                 sceSystemServiceSetPowerSaveLevel);
+    LIB_FUNCTION("3nn7rnOdt1g", "libSceSystemServiceTelemetry", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceTelemetrySetData);
+    LIB_FUNCTION("G5AwzWnHxks", "libSceSystemServiceTournamentMlg", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchTournamentList);
+    LIB_FUNCTION("xn-HgPW29x4", "libSceSystemServiceTournamentMlg", 1, "libSceSystemService", 1, 1,
+                 Func_C67FC780F5B6F71E);
     LIB_FUNCTION("YNoDjc1BPJI", "libSceSystemServiceUdsApp", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceLaunchUdsApp);
     LIB_FUNCTION("AmTvo3RT5ss", "libSceSystemServiceVideoServiceWebApp", 1, "libSceSystemService", 1, 1,
                  sceSystemServiceLoadExecVideoServiceWebApp);
+    LIB_FUNCTION("d3OnoKtNjGg", "libSceSystemServiceVoiceRecognition", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceDisableVoiceRecognition);
+    LIB_FUNCTION("c-aFKhn74h0", "libSceSystemServiceVoiceRecognition", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceReenableVoiceRecognition);
+    LIB_FUNCTION("-+3hY+y8bNo", "libSceSystemServiceWebBrowser", 1, "libSceSystemService", 1, 1,
+                 sceSystemServiceLaunchWebBrowser);
+    LIB_FUNCTION("axzblV8OvWU", "libSceSystemServiceYouTubeAccountLinkStatus", 1, "libSceSystemService", 1, 1,
+                 Func_6B1CDB955F0EBD65);
+    LIB_FUNCTION("y16IXiJfafA", "libSceSystemServiceYouTubeAccountLinkStatus", 1, "libSceSystemService", 1, 1,
+                 Func_CB5E885E225F69F0);
 };
 
 } // namespace Libraries::SystemService

@@ -8,6 +8,51 @@
 
 namespace Libraries::NetCtl {
 
+s32 PS4_SYSV_ABI sceNetBweCheckCallbackIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweClearEventIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweFinishInternetConnectionTestIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweGetInfoIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweRegisterCallbackIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweSetInternetConnectionTestResultIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweStartInternetConnectionTestBandwidthTestIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweStartInternetConnectionTestIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetBweUnregisterCallbackIpcInt() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNetCtlGetInfoV6() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
@@ -29,161 +74,6 @@ s32 PS4_SYSV_ABI sceNetCtlRegisterCallbackV6() {
 }
 
 s32 PS4_SYSV_ABI sceNetCtlUnregisterCallbackV6() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlCheckCallbackForNpToolkit() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlClearEventForNpToolkit() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlRegisterCallbackForNpToolkit() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlUnregisterCallbackForNpToolkit() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApAppInitWpaKey() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApAppInitWpaKeyForQa() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApAppStartWithRetry() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApAppStartWithRetryPid() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRestart() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpCheckCallback() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpClearEvent() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpGetInfo() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpGetResult() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpGetState() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpRegisterCallback() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpStart() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpStartConf() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpStartWithRetry() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpStop() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRpUnregisterCallback() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApCheckCallback() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApClearEvent() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApGetConnectInfo() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApGetInfo() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApGetResult() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApGetState() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApInit() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApRegisterCallback() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApStop() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApTerm() {
-    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNetCtlApUnregisterCallback() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -428,52 +318,179 @@ s32 PS4_SYSV_ABI Func_D8DCB6973537A3DC() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweCheckCallbackIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlCheckCallbackForNpToolkit() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweClearEventIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlClearEventForNpToolkit() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweFinishInternetConnectionTestIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlRegisterCallbackForNpToolkit() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweGetInfoIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlUnregisterCallbackForNpToolkit() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweRegisterCallbackIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlApCheckCallback() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweSetInternetConnectionTestResultIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlApClearEvent() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweStartInternetConnectionTestBandwidthTestIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlApGetConnectInfo() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweStartInternetConnectionTestIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlApGetInfo() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNetBweUnregisterCallbackIpcInt() {
+s32 PS4_SYSV_ABI sceNetCtlApGetResult() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApGetState() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApInit() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRegisterCallback() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApStop() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApTerm() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApUnregisterCallback() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApAppInitWpaKey() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApAppInitWpaKeyForQa() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApAppStartWithRetry() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApAppStartWithRetryPid() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRestart() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpCheckCallback() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpClearEvent() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpGetInfo() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpGetResult() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpGetState() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpRegisterCallback() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpStart() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpStartConf() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpStartWithRetry() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpStop() {
+    LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNetCtlApRpUnregisterCallback() {
     LOG_ERROR(Lib_NetCtl, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("XtClSOC1xcU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweCheckCallbackIpcInt);
+    LIB_FUNCTION("YALqoY4aeY0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweClearEventIpcInt);
+    LIB_FUNCTION("ouyROWhGUbM", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweFinishInternetConnectionTestIpcInt);
+    LIB_FUNCTION("G4vltQ0Vs+0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1, sceNetBweGetInfoIpcInt);
+    LIB_FUNCTION("GqETL5+INhU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweRegisterCallbackIpcInt);
+    LIB_FUNCTION("mEUt-phGd5E", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweSetInternetConnectionTestResultIpcInt);
+    LIB_FUNCTION("pQLJV5SEAqk", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweStartInternetConnectionTestBandwidthTestIpcInt);
+    LIB_FUNCTION("c+aYh130SV0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweStartInternetConnectionTestIpcInt);
+    LIB_FUNCTION("0lViPaTB-R8", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
+                 sceNetBweUnregisterCallbackIpcInt);
     LIB_FUNCTION("Jy1EO5GdlcM", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetInfoV6);
     LIB_FUNCTION("H5yARg37U5g", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetResultV6);
     LIB_FUNCTION("+lxqIKeU9UY", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1, sceNetCtlGetStateV6);
@@ -481,61 +498,6 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
                  sceNetCtlRegisterCallbackV6);
     LIB_FUNCTION("hIUVeUNxAwc", "libSceNetCtlV6", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlUnregisterCallbackV6);
-    LIB_FUNCTION("u5oqtlIP+Fw", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlCheckCallbackForNpToolkit);
-    LIB_FUNCTION("saYB0b2ZWtI", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlClearEventForNpToolkit);
-    LIB_FUNCTION("wIsKy+TfeLs", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlRegisterCallbackForNpToolkit);
-    LIB_FUNCTION("2oUqKR5odGc", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlUnregisterCallbackForNpToolkit);
-    LIB_FUNCTION("R-4a9Yh4tG8", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApAppInitWpaKey);
-    LIB_FUNCTION("5oLJoOVBbGU", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApAppInitWpaKeyForQa);
-    LIB_FUNCTION("YtTwZ3pa4aQ", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApAppStartWithRetry);
-    LIB_FUNCTION("sgWeDrEt24U", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApAppStartWithRetryPid);
-    LIB_FUNCTION("amqSGH8l--s", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRestart);
-    LIB_FUNCTION("DufQZgH5ISc", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpCheckCallback);
-    LIB_FUNCTION("qhZbOi+2qLY", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpClearEvent);
-    LIB_FUNCTION("VQl16Q+qXeY", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpGetInfo);
-    LIB_FUNCTION("3pxwYqHzGcw", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpGetResult);
-    LIB_FUNCTION("LEn8FGztKWc", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpGetState);
-    LIB_FUNCTION("ofGsK+xoAaM", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpRegisterCallback);
-    LIB_FUNCTION("mjFgpqNavHg", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpStart);
-    LIB_FUNCTION("HMvaHoZWsn8", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpStartConf);
-    LIB_FUNCTION("9Dxg7XSlr2s", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpStartWithRetry);
-    LIB_FUNCTION("6uvAl4RlEyk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpStop);
-    LIB_FUNCTION("8eyH37Ns8tk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRpUnregisterCallback);
-    LIB_FUNCTION("19Ec7WkMFfQ", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApCheckCallback);
-    LIB_FUNCTION("meFMaDpdsVI", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApClearEvent);
-    LIB_FUNCTION("hfkLVdXmfnU", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApGetConnectInfo);
-    LIB_FUNCTION("LXADzTIzM9I", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetInfo);
-    LIB_FUNCTION("4jkLJc954+Q", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetResult);
-    LIB_FUNCTION("AKZOzsb9whc", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetState);
-    LIB_FUNCTION("FdN+edNRtiw", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApInit);
-    LIB_FUNCTION("pmjobSVHuY0", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApRegisterCallback);
-    LIB_FUNCTION("r-pOyN6AhsM", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApStop);
-    LIB_FUNCTION("cv5Y2efOTeg", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApTerm);
-    LIB_FUNCTION("NpTcFtaQ-0E", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
-                 sceNetCtlApUnregisterCallback);
     LIB_FUNCTION("iQw3iQPhvUQ", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, sceNetCtlCheckCallback);
     LIB_FUNCTION("UF6H6+kjyQs", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlCheckCallbackForLibIpcInt);
@@ -622,23 +584,61 @@ void RegisterlibSceNetCtl(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("1HSvkN9oxO4", "libSceNetCtl", 1, "libSceNetCtl", 1, 1,
                  sceNetCtlUnsetStunWithPaddingFlagIpcInt);
     LIB_FUNCTION("2Ny2lzU3o9w", "libSceNetCtl", 1, "libSceNetCtl", 1, 1, Func_D8DCB6973537A3DC);
-    LIB_FUNCTION("XtClSOC1xcU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweCheckCallbackIpcInt);
-    LIB_FUNCTION("YALqoY4aeY0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweClearEventIpcInt);
-    LIB_FUNCTION("ouyROWhGUbM", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweFinishInternetConnectionTestIpcInt);
-    LIB_FUNCTION("G4vltQ0Vs+0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1, sceNetBweGetInfoIpcInt);
-    LIB_FUNCTION("GqETL5+INhU", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweRegisterCallbackIpcInt);
-    LIB_FUNCTION("mEUt-phGd5E", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweSetInternetConnectionTestResultIpcInt);
-    LIB_FUNCTION("pQLJV5SEAqk", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweStartInternetConnectionTestBandwidthTestIpcInt);
-    LIB_FUNCTION("c+aYh130SV0", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweStartInternetConnectionTestIpcInt);
-    LIB_FUNCTION("0lViPaTB-R8", "libSceNetBwe", 1, "libSceNetCtl", 1, 1,
-                 sceNetBweUnregisterCallbackIpcInt);
+    LIB_FUNCTION("u5oqtlIP+Fw", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlCheckCallbackForNpToolkit);
+    LIB_FUNCTION("saYB0b2ZWtI", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlClearEventForNpToolkit);
+    LIB_FUNCTION("wIsKy+TfeLs", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlRegisterCallbackForNpToolkit);
+    LIB_FUNCTION("2oUqKR5odGc", "libSceNetCtlForNpToolkit", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlUnregisterCallbackForNpToolkit);
+    LIB_FUNCTION("19Ec7WkMFfQ", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApCheckCallback);
+    LIB_FUNCTION("meFMaDpdsVI", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApClearEvent);
+    LIB_FUNCTION("hfkLVdXmfnU", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApGetConnectInfo);
+    LIB_FUNCTION("LXADzTIzM9I", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetInfo);
+    LIB_FUNCTION("4jkLJc954+Q", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetResult);
+    LIB_FUNCTION("AKZOzsb9whc", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApGetState);
+    LIB_FUNCTION("FdN+edNRtiw", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApInit);
+    LIB_FUNCTION("pmjobSVHuY0", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRegisterCallback);
+    LIB_FUNCTION("r-pOyN6AhsM", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApStop);
+    LIB_FUNCTION("cv5Y2efOTeg", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1, sceNetCtlApTerm);
+    LIB_FUNCTION("NpTcFtaQ-0E", "libSceNetCtlAp", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApUnregisterCallback);
+    LIB_FUNCTION("R-4a9Yh4tG8", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApAppInitWpaKey);
+    LIB_FUNCTION("5oLJoOVBbGU", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApAppInitWpaKeyForQa);
+    LIB_FUNCTION("YtTwZ3pa4aQ", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApAppStartWithRetry);
+    LIB_FUNCTION("sgWeDrEt24U", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApAppStartWithRetryPid);
+    LIB_FUNCTION("amqSGH8l--s", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRestart);
+    LIB_FUNCTION("DufQZgH5ISc", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpCheckCallback);
+    LIB_FUNCTION("qhZbOi+2qLY", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpClearEvent);
+    LIB_FUNCTION("VQl16Q+qXeY", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpGetInfo);
+    LIB_FUNCTION("3pxwYqHzGcw", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpGetResult);
+    LIB_FUNCTION("LEn8FGztKWc", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpGetState);
+    LIB_FUNCTION("ofGsK+xoAaM", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpRegisterCallback);
+    LIB_FUNCTION("mjFgpqNavHg", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpStart);
+    LIB_FUNCTION("HMvaHoZWsn8", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpStartConf);
+    LIB_FUNCTION("9Dxg7XSlr2s", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpStartWithRetry);
+    LIB_FUNCTION("6uvAl4RlEyk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpStop);
+    LIB_FUNCTION("8eyH37Ns8tk", "libSceNetCtlApIpcInt", 1, "libSceNetCtl", 1, 1,
+                 sceNetCtlApRpUnregisterCallback);
 };
 
 } // namespace Libraries::NetCtl

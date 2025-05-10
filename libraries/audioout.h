@@ -11,9 +11,9 @@ class SymbolsResolver;
 
 namespace Libraries::AudioOut {
 
-s32 PS4_SYSV_ABI sceAudioOutSetSystemDebugState();
-s32 PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef();
 s32 PS4_SYSV_ABI sceAudioOutDeviceIdOpen();
+s32 PS4_SYSV_ABI sceAudioDeviceControlGet();
+s32 PS4_SYSV_ABI sceAudioDeviceControlSet();
 s32 PS4_SYSV_ABI sceAudioOutA3dControl();
 s32 PS4_SYSV_ABI sceAudioOutA3dExit();
 s32 PS4_SYSV_ABI sceAudioOutA3dInit();
@@ -80,8 +80,8 @@ s32 PS4_SYSV_ABI sceAudioOutSysGetSystemInfo();
 s32 PS4_SYSV_ABI sceAudioOutSysHdmiMonitorInfoIsSupportedAudioOutMode();
 s32 PS4_SYSV_ABI sceAudioOutSystemControlGet();
 s32 PS4_SYSV_ABI sceAudioOutSystemControlSet();
-s32 PS4_SYSV_ABI sceAudioDeviceControlGet();
-s32 PS4_SYSV_ABI sceAudioDeviceControlSet();
+s32 PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef();
+s32 PS4_SYSV_ABI sceAudioOutSetSystemDebugState();
 
 void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::AudioOut
