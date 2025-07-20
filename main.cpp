@@ -97,7 +97,7 @@ void GenerateCodeFiles(
             }
         }
     }
-    sourceCode += "void Register" + moduleName + "(Core::Loader::SymbolsResolver* sym) {\n";
+    sourceCode += "void RegisterLib(Core::Loader::SymbolsResolver* sym) {\n";
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" +
