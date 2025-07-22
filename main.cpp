@@ -61,7 +61,7 @@ void GenerateCodeFiles(
         }
     }
 
-    headerCode += "\nvoid Register" + moduleName + "(Core::Loader::SymbolsResolver* sym);\n";
+    headerCode += "\nvoid RegisterLib(Core::Loader::SymbolsResolver* sym);\n";
 
     headerCode += "} // namespace Libraries::" + trimmedName;
     std::ofstream headerFile(MODULE_DIR + headerName);
@@ -171,7 +171,7 @@ void GetSymbolsFromLibDoc(std::vector<std::string>& importModules) {
                 printf("module can't be found %s\n", moduleName.c_str());
             }
         } else {
-            printf("module can't be found %s\n", moduleName.c_str());
+            printf("module file can't be found %s\n", moduleName.c_str());
         }
     }
 }
