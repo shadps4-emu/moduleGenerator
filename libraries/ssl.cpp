@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -1048,7 +1048,7 @@ s32 PS4_SYSV_ABI Func_28F8791A771D39C7() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceSsl(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("Pgt0gg14ewU", "libSceSsl", 1, "libSceSsl", 1, 1,
                  CA_MGMT_allocCertDistinguishedName);
     LIB_FUNCTION("wJ5jCpkCv-c", "libSceSsl", 1, "libSceSsl", 1, 1,

@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -88,7 +88,7 @@ s32 PS4_SYSV_ABI sceSysmoduleUnloadModuleInternalWithArg() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceSysmodule(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("D8cuU4d72xM", "libSceSysmodule", 1, "libSceSysmodule", 1, 1,
                  sceSysmoduleGetModuleHandleInternal);
     LIB_FUNCTION("4fU5yvOkVG4", "libSceSysmodule", 1, "libSceSysmodule", 1, 1,

@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -7,6 +7,11 @@
 #include "core/libraries/screenshot/screenshot.h"
 
 namespace Libraries::ScreenShot {
+
+s32 PS4_SYSV_ABI sceScreenShotSetDrcParam() {
+    LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
+    return ORBIS_OK;
+}
 
 s32 PS4_SYSV_ABI _Z5dummyv() {
     LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
@@ -73,12 +78,9 @@ s32 PS4_SYSV_ABI sceScreenShotSetParam() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceScreenShotSetDrcParam() {
-    LOG_ERROR(Lib_ScreenShot, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-void RegisterlibSceScreenShot(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("itlWFWV3Tzc", "libSceScreenShotDrc", 1, "libSceScreenShot", 0, 9,
+                 sceScreenShotSetDrcParam);
     LIB_FUNCTION("AS45QoYHjc4", "libSceScreenShot", 1, "libSceScreenShot", 0, 9, _Z5dummyv);
     LIB_FUNCTION("JuMLLmmvRgk", "libSceScreenShot", 1, "libSceScreenShot", 0, 9,
                  sceScreenShotCapture);
@@ -104,8 +106,6 @@ void RegisterlibSceScreenShot(Core::Loader::SymbolsResolver* sym) {
                  sceScreenShotSetOverlayImageWithOrigin);
     LIB_FUNCTION("G7KlmIYFIZc", "libSceScreenShot", 1, "libSceScreenShot", 0, 9,
                  sceScreenShotSetParam);
-    LIB_FUNCTION("itlWFWV3Tzc", "libSceScreenShotDrc", 1, "libSceScreenShot", 0, 9,
-                 sceScreenShotSetDrcParam);
 };
 
 } // namespace Libraries::ScreenShot

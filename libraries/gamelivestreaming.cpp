@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -7,6 +7,16 @@
 #include "core/libraries/gamelivestreaming/gamelivestreaming.h"
 
 namespace Libraries::GameLiveStreaming {
+
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus() {
+    LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer() {
+    LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
+    return ORBIS_OK;
+}
 
 s32 PS4_SYSV_ABI sceGameLiveStreamingStartDebugBroadcast() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
@@ -58,11 +68,6 @@ s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentBroadcastScreenLayout() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus() {
-    LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus2() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
@@ -84,11 +89,6 @@ s32 PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessagesCount() {
 }
 
 s32 PS4_SYSV_ABI sceGameLiveStreamingInitialize() {
-    LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer() {
     LOG_ERROR(Lib_GameLiveStreaming, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -243,7 +243,15 @@ s32 PS4_SYSV_ABI sceGameLiveStreamingUnregisterCallback() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceGameLiveStreaming(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("CoPMx369EqM", "libSceGameLiveStreamingCompat", 1, "libSceGameLiveStreaming", 1, 1,
+                 sceGameLiveStreamingGetCurrentStatus);
+    LIB_FUNCTION("ysWfX5PPbfc", "libSceGameLiveStreamingCompat", 1, "libSceGameLiveStreaming", 1, 1,
+                 sceGameLiveStreamingLaunchLiveViewer);
+    LIB_FUNCTION("caqgDl+V9qA", "libSceGameLiveStreaming_direct_streaming", 1, "libSceGameLiveStreaming", 1, 1,
+                 sceGameLiveStreamingStartDebugBroadcast);
+    LIB_FUNCTION("0i8Lrllxwow", "libSceGameLiveStreaming_direct_streaming", 1, "libSceGameLiveStreaming", 1, 1,
+                 sceGameLiveStreamingStopDebugBroadcast);
     LIB_FUNCTION("caqgDl+V9qA", "libSceGameLiveStreaming_debug", 1, "libSceGameLiveStreaming", 1, 1,
                  sceGameLiveStreamingStartDebugBroadcast);
     LIB_FUNCTION("0i8Lrllxwow", "libSceGameLiveStreaming_debug", 1, "libSceGameLiveStreaming", 1, 1,
@@ -338,14 +346,6 @@ void RegisterlibSceGameLiveStreaming(Core::Loader::SymbolsResolver* sym) {
                  sceGameLiveStreamingTerminate);
     LIB_FUNCTION("5XHaH3kL+bA", "libSceGameLiveStreaming", 1, "libSceGameLiveStreaming", 1, 1,
                  sceGameLiveStreamingUnregisterCallback);
-    LIB_FUNCTION("caqgDl+V9qA", "libSceGameLiveStreaming_direct_streaming", 1, "libSceGameLiveStreaming", 1, 1,
-                 sceGameLiveStreamingStartDebugBroadcast);
-    LIB_FUNCTION("0i8Lrllxwow", "libSceGameLiveStreaming_direct_streaming", 1, "libSceGameLiveStreaming", 1, 1,
-                 sceGameLiveStreamingStopDebugBroadcast);
-    LIB_FUNCTION("CoPMx369EqM", "libSceGameLiveStreamingCompat", 1, "libSceGameLiveStreaming", 1, 1,
-                 sceGameLiveStreamingGetCurrentStatus);
-    LIB_FUNCTION("ysWfX5PPbfc", "libSceGameLiveStreamingCompat", 1, "libSceGameLiveStreaming", 1, 1,
-                 sceGameLiveStreamingLaunchLiveViewer);
 };
 
 } // namespace Libraries::GameLiveStreaming

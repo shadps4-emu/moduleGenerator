@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -43,7 +43,7 @@ s32 PS4_SYSV_ABI sceVideodecReset() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceVideodec(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("qkgRiwHyheU", "libSceVideodec", 1, "libSceVideodec", 1, 1,
                  sceVideodecCreateDecoder);
     LIB_FUNCTION("q0W5GJMovMs", "libSceVideodec", 1, "libSceVideodec", 1, 1, sceVideodecDecode);

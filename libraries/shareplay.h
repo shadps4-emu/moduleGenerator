@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,8 +11,8 @@ class SymbolsResolver;
 
 namespace Libraries::SharePlay {
 
-s32 PS4_SYSV_ABI sceSharePlayCrashDaemon();
 s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo();
+s32 PS4_SYSV_ABI sceSharePlayCrashDaemon();
 s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfoA();
 s32 PS4_SYSV_ABI sceSharePlayGetCurrentInfo();
 s32 PS4_SYSV_ABI sceSharePlayGetEvent();
@@ -36,5 +36,5 @@ s32 PS4_SYSV_ABI Func_C1C236728D88E177();
 s32 PS4_SYSV_ABI Func_E9E80C474781F115();
 s32 PS4_SYSV_ABI Func_F3DD6199DA15ED44();
 
-void RegisterlibSceSharePlay(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::SharePlay

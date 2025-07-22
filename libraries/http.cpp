@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -583,7 +583,7 @@ s32 PS4_SYSV_ABI sceHttpWaitRequest() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceHttp(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("hvG6GfBMXg8", "libSceHttp", 1, "libSceHttp", 1, 1, sceHttpAbortRequest);
     LIB_FUNCTION("JKl06ZIAl6A", "libSceHttp", 1, "libSceHttp", 1, 1, sceHttpAbortRequestForce);
     LIB_FUNCTION("sWQiqKvYTVA", "libSceHttp", 1, "libSceHttp", 1, 1, sceHttpAbortWaitRequest);

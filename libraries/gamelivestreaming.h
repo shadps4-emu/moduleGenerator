@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,6 +11,8 @@ class SymbolsResolver;
 
 namespace Libraries::GameLiveStreaming {
 
+s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus();
+s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer();
 s32 PS4_SYSV_ABI sceGameLiveStreamingStartDebugBroadcast();
 s32 PS4_SYSV_ABI sceGameLiveStreamingStopDebugBroadcast();
 s32 PS4_SYSV_ABI sceGameLiveStreamingApplySocialFeedbackMessageFilter();
@@ -21,13 +23,11 @@ s32 PS4_SYSV_ABI sceGameLiveStreamingClearSpoilerTag();
 s32 PS4_SYSV_ABI sceGameLiveStreamingEnableLiveStreaming();
 s32 PS4_SYSV_ABI sceGameLiveStreamingEnableSocialFeedback();
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentBroadcastScreenLayout();
-s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus();
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetCurrentStatus2();
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetProgramInfo();
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessages();
 s32 PS4_SYSV_ABI sceGameLiveStreamingGetSocialFeedbackMessagesCount();
 s32 PS4_SYSV_ABI sceGameLiveStreamingInitialize();
-s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewer();
 s32 PS4_SYSV_ABI sceGameLiveStreamingLaunchLiveViewerA();
 s32 PS4_SYSV_ABI sceGameLiveStreamingPermitLiveStreaming();
 s32 PS4_SYSV_ABI sceGameLiveStreamingPermitServerSideRecording();
@@ -59,5 +59,5 @@ s32 PS4_SYSV_ABI sceGameLiveStreamingStopSocialFeedbackMessageFiltering();
 s32 PS4_SYSV_ABI sceGameLiveStreamingTerminate();
 s32 PS4_SYSV_ABI sceGameLiveStreamingUnregisterCallback();
 
-void RegisterlibSceGameLiveStreaming(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::GameLiveStreaming

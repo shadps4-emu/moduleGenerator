@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -398,7 +398,7 @@ s32 PS4_SYSV_ABI sceCameraStopByHandle() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceCamera(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("BaOKcng8g88", "libSceMbus", 1, "libSceCamera", 1, 1, module_start);
     LIB_FUNCTION("KpDMrPHvt3Q", "libSceMbus", 1, "libSceCamera", 1, 1, module_stop);
     LIB_FUNCTION("QhjrPkRPUZQ", "libSceCamera", 1, "libSceCamera", 1, 1, sceCameraAccGetData);

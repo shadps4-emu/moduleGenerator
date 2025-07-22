@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,6 +11,7 @@ class SymbolsResolver;
 
 namespace Libraries::LibcInternal {
 
+s32 PS4_SYSV_ABI sceLibcHeapGetTraceInfo();
 s32 PS4_SYSV_ABI __absvdi2();
 s32 PS4_SYSV_ABI __absvsi2();
 s32 PS4_SYSV_ABI __absvti2();
@@ -3225,7 +3226,6 @@ s32 PS4_SYSV_ABI Func_419F5881393ECAB1();
 s32 PS4_SYSV_ABI Func_6C6B8377791654A4();
 s32 PS4_SYSV_ABI Func_7FD2D5C8DF0ACBC8();
 s32 PS4_SYSV_ABI Func_C14A89D29B148C3A();
-s32 PS4_SYSV_ABI sceLibcHeapGetTraceInfo();
 
-void RegisterlibSceLibcInternal(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::LibcInternal

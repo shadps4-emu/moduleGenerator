@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -278,7 +278,7 @@ s32 PS4_SYSV_ABI sceImeVshUpdateContext2() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceIme(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("mN+ZoSN-8hQ", "libSceIme", 1, "libSceIme", 1, 1, FinalizeImeModule);
     LIB_FUNCTION("uTW+63goeJs", "libSceIme", 1, "libSceIme", 1, 1, InitializeImeModule);
     LIB_FUNCTION("Lf3DeGWC6xg", "libSceIme", 1, "libSceIme", 1, 1, sceImeCheckFilterText);

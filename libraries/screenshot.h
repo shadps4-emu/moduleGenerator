@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,6 +11,7 @@ class SymbolsResolver;
 
 namespace Libraries::ScreenShot {
 
+s32 PS4_SYSV_ABI sceScreenShotSetDrcParam();
 s32 PS4_SYSV_ABI _Z5dummyv();
 s32 PS4_SYSV_ABI sceScreenShotCapture();
 s32 PS4_SYSV_ABI sceScreenShotDisable();
@@ -24,7 +25,6 @@ s32 PS4_SYSV_ABI sceScreenShotIsVshScreenCaptureDisabled();
 s32 PS4_SYSV_ABI sceScreenShotSetOverlayImage();
 s32 PS4_SYSV_ABI sceScreenShotSetOverlayImageWithOrigin();
 s32 PS4_SYSV_ABI sceScreenShotSetParam();
-s32 PS4_SYSV_ABI sceScreenShotSetDrcParam();
 
-void RegisterlibSceScreenShot(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::ScreenShot

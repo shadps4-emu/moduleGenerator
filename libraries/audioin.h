@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -54,5 +54,5 @@ s32 PS4_SYSV_ABI sceAudioInVmicCreate();
 s32 PS4_SYSV_ABI sceAudioInVmicDestroy();
 s32 PS4_SYSV_ABI sceAudioInVmicWrite();
 
-void RegisterlibSceAudioIn(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::AudioIn

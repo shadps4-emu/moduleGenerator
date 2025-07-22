@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -7,6 +7,11 @@
 #include "core/libraries/libcinternal/libcinternal.h"
 
 namespace Libraries::LibcInternal {
+
+s32 PS4_SYSV_ABI sceLibcHeapGetTraceInfo() {
+    LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
+    return ORBIS_OK;
+}
 
 s32 PS4_SYSV_ABI __absvdi2() {
     LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
@@ -15318,12 +15323,9 @@ s32 PS4_SYSV_ABI Func_C14A89D29B148C3A() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceLibcHeapGetTraceInfo() {
-    LOG_ERROR(Lib_LibcInternal, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-void RegisterlibSceLibcInternal(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("NWtTN10cJzE", "libSceLibcInternalExt", 1, "libSceLibcInternal", 1, 1,
+                 sceLibcHeapGetTraceInfo);
     LIB_FUNCTION("ys1W6EwuVw4", "libSceLibcInternal", 1, "libSceLibcInternal", 1, 1, __absvdi2);
     LIB_FUNCTION("2HED9ow7Zjc", "libSceLibcInternal", 1, "libSceLibcInternal", 1, 1, __absvsi2);
     LIB_FUNCTION("v9XNTmsmz+M", "libSceLibcInternal", 1, "libSceLibcInternal", 1, 1, __absvti2);
@@ -20083,8 +20085,6 @@ void RegisterlibSceLibcInternal(Core::Loader::SymbolsResolver* sym) {
                  Func_7FD2D5C8DF0ACBC8);
     LIB_FUNCTION("wUqJ0psUjDo", "libSceLibcInternal", 1, "libSceLibcInternal", 1, 1,
                  Func_C14A89D29B148C3A);
-    LIB_FUNCTION("NWtTN10cJzE", "libSceLibcInternalExt", 1, "libSceLibcInternal", 1, 1,
-                 sceLibcHeapGetTraceInfo);
 };
 
 } // namespace Libraries::LibcInternal

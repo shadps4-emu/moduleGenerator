@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -8,7 +8,97 @@
 
 namespace Libraries::NpManager {
 
+s32 PS4_SYSV_ABI sceNpIsPlusMember() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI Func_EF4378573542A508() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpCheckNpAvailability() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetAccountCountry() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetAccountDateOfBirth() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetAccountId() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetAccountLanguage() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetGamePresenceStatus() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetParentalControlInfo() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpGetUserIdByOnlineId() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpInGameMessagePrepare() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpInGameMessageSendData() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpRegisterGamePresenceCallback() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpRegisterStateCallback() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpSetGamePresenceOnline() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpUnregisterStateCallback() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpCheckCallbackForLib() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpRegisterStateCallbackForToolkit() {
+    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpUnregisterStateCallbackForToolkit() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -873,16 +963,6 @@ s32 PS4_SYSV_ABI sceNpCheckCallback() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpCheckCallbackForLib() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpCheckNpAvailability() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpCheckNpAvailabilityA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
@@ -918,17 +998,7 @@ s32 PS4_SYSV_ABI sceNpGetAccountAge() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpGetAccountCountry() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpGetAccountCountryA() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpGetAccountDateOfBirth() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -938,17 +1008,7 @@ s32 PS4_SYSV_ABI sceNpGetAccountDateOfBirthA() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpGetAccountId() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpGetAccountIdA() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpGetAccountLanguage() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -959,11 +1019,6 @@ s32 PS4_SYSV_ABI sceNpGetAccountLanguage2() {
 }
 
 s32 PS4_SYSV_ABI sceNpGetAccountLanguageA() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpGetGamePresenceStatus() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -988,11 +1043,6 @@ s32 PS4_SYSV_ABI sceNpGetOnlineId() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpGetParentalControlInfo() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpGetParentalControlInfoA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
@@ -1004,11 +1054,6 @@ s32 PS4_SYSV_ABI sceNpGetState() {
 }
 
 s32 PS4_SYSV_ABI sceNpGetUserIdByAccountId() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpGetUserIdByOnlineId() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1083,17 +1128,7 @@ s32 PS4_SYSV_ABI sceNpInGameMessageInitialize() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpInGameMessagePrepare() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpInGameMessagePrepareA() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpInGameMessageSendData() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1134,11 +1169,6 @@ s32 PS4_SYSV_ABI sceNpIntGetNpTitleIdSecret() {
 }
 
 s32 PS4_SYSV_ABI sceNpIntRegisterGamePresenceCallback() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpIsPlusMember() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1913,11 +1943,6 @@ s32 PS4_SYSV_ABI sceNpPushUnsetNpCommunicationId() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpRegisterGamePresenceCallback() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpRegisterGamePresenceCallbackA() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
@@ -1929,11 +1954,6 @@ s32 PS4_SYSV_ABI sceNpRegisterNpReachabilityStateCallback() {
 }
 
 s32 PS4_SYSV_ABI sceNpRegisterPlusEventCallback() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpRegisterStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1959,11 +1979,6 @@ s32 PS4_SYSV_ABI sceNpSetAdditionalScope() {
 }
 
 s32 PS4_SYSV_ABI sceNpSetContentRestriction() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpSetGamePresenceOnline() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -1999,11 +2014,6 @@ s32 PS4_SYSV_ABI sceNpUnregisterNpReachabilityStateCallback() {
 }
 
 s32 PS4_SYSV_ABI sceNpUnregisterPlusEventCallback() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpUnregisterStateCallback() {
     LOG_ERROR(Lib_NpManager, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -2503,19 +2513,45 @@ s32 PS4_SYSV_ABI Func_FF966E4351E564D6() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpRegisterStateCallbackForToolkit() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpUnregisterStateCallbackForToolkit() {
-    LOG_ERROR(Lib_NpManager, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManagerIsPlusMember", 1, "libSceNpManager", 1, 1,
+                 sceNpIsPlusMember);
     LIB_FUNCTION("70N4VzVCpQg", "libSceNpManagerForSys", 1, "libSceNpManager", 1, 1,
                  Func_EF4378573542A508);
+    LIB_FUNCTION("2rsFmlGWleQ", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpCheckNpAvailability);
+    LIB_FUNCTION("Ghz9iWDUtC4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetAccountCountry);
+    LIB_FUNCTION("8VBTeRf1ZwI", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetAccountDateOfBirth);
+    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetAccountId);
+    LIB_FUNCTION("KZ1Mj9yEGYc", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetAccountLanguage);
+    LIB_FUNCTION("IPb1hd1wAGc", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetGamePresenceStatus);
+    LIB_FUNCTION("ilwLM4zOmu4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetParentalControlInfo);
+    LIB_FUNCTION("F6E4ycq9Dbg", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpGetUserIdByOnlineId);
+    LIB_FUNCTION("Vh1bhUG6mSs", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpInGameMessagePrepare);
+    LIB_FUNCTION("ON7Sf5XEMmI", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpInGameMessageSendData);
+    LIB_FUNCTION("uFJpaKNBAj4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpRegisterGamePresenceCallback);
+    LIB_FUNCTION("VfRSmPmj8Q8", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpRegisterStateCallback);
+    LIB_FUNCTION("KO+11cgC7N0", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpSetGamePresenceOnline);
+    LIB_FUNCTION("mjjTXh+NHWY", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
+                 sceNpUnregisterStateCallback);
+    LIB_FUNCTION("JELHf4xPufo", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
+                 sceNpCheckCallbackForLib);
+    LIB_FUNCTION("0c7HbXRKUt4", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
+                 sceNpRegisterStateCallbackForToolkit);
+    LIB_FUNCTION("YIvqqvJyjEc", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
+                 sceNpUnregisterStateCallbackForToolkit);
     LIB_FUNCTION("pHLjntY0psg", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  _sceNpIpcCreateMemoryFromKernel);
     LIB_FUNCTION("UdhQmx64-uM", "libSceNpManager", 1, "libSceNpManager", 1, 1,
@@ -3484,42 +3520,6 @@ void RegisterlibSceNpManager(Core::Loader::SymbolsResolver* sym) {
                  Func_FCEAC354CA8B206E);
     LIB_FUNCTION("-5ZuQ1HlZNY", "libSceNpManager", 1, "libSceNpManager", 1, 1,
                  Func_FF966E4351E564D6);
-    LIB_FUNCTION("Ybu6AxV6S0o", "libSceNpManagerIsPlusMember", 1, "libSceNpManager", 1, 1,
-                 sceNpIsPlusMember);
-    LIB_FUNCTION("2rsFmlGWleQ", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpCheckNpAvailability);
-    LIB_FUNCTION("Ghz9iWDUtC4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetAccountCountry);
-    LIB_FUNCTION("8VBTeRf1ZwI", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetAccountDateOfBirth);
-    LIB_FUNCTION("a8R9-75u4iM", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetAccountId);
-    LIB_FUNCTION("KZ1Mj9yEGYc", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetAccountLanguage);
-    LIB_FUNCTION("IPb1hd1wAGc", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetGamePresenceStatus);
-    LIB_FUNCTION("ilwLM4zOmu4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetParentalControlInfo);
-    LIB_FUNCTION("F6E4ycq9Dbg", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpGetUserIdByOnlineId);
-    LIB_FUNCTION("Vh1bhUG6mSs", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpInGameMessagePrepare);
-    LIB_FUNCTION("ON7Sf5XEMmI", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpInGameMessageSendData);
-    LIB_FUNCTION("uFJpaKNBAj4", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpRegisterGamePresenceCallback);
-    LIB_FUNCTION("VfRSmPmj8Q8", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpRegisterStateCallback);
-    LIB_FUNCTION("KO+11cgC7N0", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpSetGamePresenceOnline);
-    LIB_FUNCTION("mjjTXh+NHWY", "libSceNpManagerCompat", 1, "libSceNpManager", 1, 1,
-                 sceNpUnregisterStateCallback);
-    LIB_FUNCTION("JELHf4xPufo", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
-                 sceNpCheckCallbackForLib);
-    LIB_FUNCTION("0c7HbXRKUt4", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
-                 sceNpRegisterStateCallbackForToolkit);
-    LIB_FUNCTION("YIvqqvJyjEc", "libSceNpManagerForToolkit", 1, "libSceNpManager", 1, 1,
-                 sceNpUnregisterStateCallbackForToolkit);
 };
 
 } // namespace Libraries::NpManager

@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -54,5 +54,5 @@ s32 PS4_SYSV_ABI sceRemoteplaySetRpMode();
 s32 PS4_SYSV_ABI sceRemoteplayTerminate();
 s32 PS4_SYSV_ABI Func_1D5EE365ED5FADB3();
 
-void RegisterlibSceRemoteplay(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Remoteplay

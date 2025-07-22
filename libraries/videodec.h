@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -19,5 +19,5 @@ s32 PS4_SYSV_ABI sceVideodecMapMemory();
 s32 PS4_SYSV_ABI sceVideodecQueryResourceInfo();
 s32 PS4_SYSV_ABI sceVideodecReset();
 
-void RegisterlibSceVideodec(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Videodec

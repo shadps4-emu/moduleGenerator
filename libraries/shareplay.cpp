@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -8,12 +8,12 @@
 
 namespace Libraries::SharePlay {
 
-s32 PS4_SYSV_ABI sceSharePlayCrashDaemon() {
+s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceSharePlayGetCurrentConnectionInfo() {
+s32 PS4_SYSV_ABI sceSharePlayCrashDaemon() {
     LOG_ERROR(Lib_SharePlay, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -128,7 +128,9 @@ s32 PS4_SYSV_ABI Func_F3DD6199DA15ED44() {
     return ORBIS_OK;
 }
 
-void RegisterlibSceSharePlay(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("OOrLKB0bSDs", "libSceSharePlayCompat", 1, "libSceSharePlay", 0, 0,
+                 sceSharePlayGetCurrentConnectionInfo);
     LIB_FUNCTION("ggnCfalLU-8", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
                  sceSharePlayCrashDaemon);
     LIB_FUNCTION("OOrLKB0bSDs", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
@@ -177,8 +179,6 @@ void RegisterlibSceSharePlay(Core::Loader::SymbolsResolver* sym) {
                  Func_E9E80C474781F115);
     LIB_FUNCTION("891hmdoV7UQ", "libSceSharePlay", 1, "libSceSharePlay", 0, 0,
                  Func_F3DD6199DA15ED44);
-    LIB_FUNCTION("OOrLKB0bSDs", "libSceSharePlayCompat", 1, "libSceSharePlay", 0, 0,
-                 sceSharePlayGetCurrentConnectionInfo);
 };
 
 } // namespace Libraries::SharePlay

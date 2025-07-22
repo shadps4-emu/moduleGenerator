@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -220,5 +220,5 @@ s32 PS4_SYSV_ABI VLONG_freeVlongQueue();
 s32 PS4_SYSV_ABI Func_22E76E60BC0587D7();
 s32 PS4_SYSV_ABI Func_28F8791A771D39C7();
 
-void RegisterlibSceSsl(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Ssl

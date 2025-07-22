@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -13,6 +13,9 @@ namespace Libraries::UserService {
 
 s32 PS4_SYSV_ABI sceUserServiceInitializeForShellCore();
 s32 PS4_SYSV_ABI sceUserServiceTerminateForShellCore();
+s32 PS4_SYSV_ABI sceUserServiceGetRegisteredUserIdList();
+s32 PS4_SYSV_ABI sceUserServiceRegisterEventCallback();
+s32 PS4_SYSV_ABI sceUserServiceUnregisterEventCallback();
 s32 PS4_SYSV_ABI sceUserServiceDestroyUser();
 s32 PS4_SYSV_ABI sceUserServiceGetAccessibilityKeyremapData();
 s32 PS4_SYSV_ABI sceUserServiceGetAccessibilityKeyremapEnable();
@@ -183,7 +186,6 @@ s32 PS4_SYSV_ABI sceUserServiceGetPbtcWednesdayHoursStart();
 s32 PS4_SYSV_ABI sceUserServiceGetPlayTogetherFlags();
 s32 PS4_SYSV_ABI sceUserServiceGetPsnPasswordForDebug();
 s32 PS4_SYSV_ABI sceUserServiceGetRegisteredHomeUserIdList();
-s32 PS4_SYSV_ABI sceUserServiceGetRegisteredUserIdList();
 s32 PS4_SYSV_ABI sceUserServiceGetSaveDataAutoUpload();
 s32 PS4_SYSV_ABI sceUserServiceGetSaveDataSort();
 s32 PS4_SYSV_ABI sceUserServiceGetSaveDataTutorialFlag();
@@ -236,7 +238,6 @@ s32 PS4_SYSV_ABI sceUserServiceIsSharePlayClientUser();
 s32 PS4_SYSV_ABI sceUserServiceIsUserStorageAccountBound();
 s32 PS4_SYSV_ABI sceUserServiceLogin();
 s32 PS4_SYSV_ABI sceUserServiceLogout();
-s32 PS4_SYSV_ABI sceUserServiceRegisterEventCallback();
 s32 PS4_SYSV_ABI sceUserServiceSetAccessibilityKeyremapData();
 s32 PS4_SYSV_ABI sceUserServiceSetAccessibilityKeyremapEnable();
 s32 PS4_SYSV_ABI sceUserServiceSetAccessibilityZoom();
@@ -429,11 +430,10 @@ s32 PS4_SYSV_ABI sceUserServiceSetVolumeForGenericUSB();
 s32 PS4_SYSV_ABI sceUserServiceSetVolumeForMorpheusSidetone();
 s32 PS4_SYSV_ABI sceUserServiceSetVolumeForSidetone();
 s32 PS4_SYSV_ABI sceUserServiceTerminate();
-s32 PS4_SYSV_ABI sceUserServiceUnregisterEventCallback();
 s32 PS4_SYSV_ABI Func_8AC6DC4168D5FEA5();
 s32 PS4_SYSV_ABI Func_A6BDC9DFDAFD02B4();
 s32 PS4_SYSV_ABI Func_BB9491DFE6B4953C();
 s32 PS4_SYSV_ABI Func_D2B814603E7B4477();
 
-void RegisterlibSceUserService(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::UserService

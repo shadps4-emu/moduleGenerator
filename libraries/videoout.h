@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,13 +11,11 @@ class SymbolsResolver;
 
 namespace Libraries::VideoOut {
 
-s32 PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege();
-s32 PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute();
-s32 PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute();
-s32 PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege();
-s32 PS4_SYSV_ABI Func_87DE0FA368680D98();
-s32 PS4_SYSV_ABI sceVideoOutAddBuffer();
+s32 PS4_SYSV_ABI sceVideoOutAdjustColor2_();
 s32 PS4_SYSV_ABI sceVideoOutAddBuffer4k2kPrivilege();
+s32 PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege();
+s32 PS4_SYSV_ABI sceVideoOutAddBufferAnisoPrivilege();
+s32 PS4_SYSV_ABI sceVideoOutAddBuffer();
 s32 PS4_SYSV_ABI sceVideoOutAddBufferYccPrivilege();
 s32 PS4_SYSV_ABI sceVideoOutAddDisplayPositionEvent();
 s32 PS4_SYSV_ABI sceVideoOutAddDriver();
@@ -157,10 +155,12 @@ s32 PS4_SYSV_ABI Func_BD73297BB32EADF7();
 s32 PS4_SYSV_ABI Func_C0A269161093AD7D();
 s32 PS4_SYSV_ABI Func_C192387E6509325C();
 s32 PS4_SYSV_ABI Func_FF9008114F7ED758();
-s32 PS4_SYSV_ABI sceVideoOutAdjustColor2_();
-s32 PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_();
-s32 PS4_SYSV_ABI sceVideoOutAddBufferHdrPrivilege();
 s32 PS4_SYSV_ABI Func_DF1AD257C5341EC8();
+s32 PS4_SYSV_ABI sceVideoOutGetHdmiRawEdid_();
+s32 PS4_SYSV_ABI Func_87DE0FA368680D98();
+s32 PS4_SYSV_ABI sceDbgVideoOutAddOutputModeVr60Privilege();
+s32 PS4_SYSV_ABI sceDbgVideoOutAddProcessAttribute();
+s32 PS4_SYSV_ABI sceDbgVideoOutRemoveProcessAttribute();
 
-void RegisterlibSceVideoOut(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::VideoOut

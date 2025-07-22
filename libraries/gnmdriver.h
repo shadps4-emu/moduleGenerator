@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,6 +11,19 @@ class SymbolsResolver;
 
 namespace Libraries::GnmDriver {
 
+s32 PS4_SYSV_ABI Func_4774D83BB4DDBF9A();
+s32 PS4_SYSV_ABI Func_BADE7B4C199140DD();
+s32 PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency();
+s32 PS4_SYSV_ABI sceGnmFindResources();
+s32 PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers();
+s32 PS4_SYSV_ABI sceGnmRegisterOwnerForSystem();
+s32 PS4_SYSV_ABI Func_1C43886B16EE5530();
+s32 PS4_SYSV_ABI Func_81037019ECCD0E01();
+s32 PS4_SYSV_ABI Func_BFB41C057478F0BF();
+s32 PS4_SYSV_ABI Func_E51D44DB8151238C();
+s32 PS4_SYSV_ABI Func_F916890425496553();
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand();
+s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize();
 s32 PS4_SYSV_ABI sceGnmAddEqEvent();
 s32 PS4_SYSV_ABI sceGnmAreSubmitsAllowed();
 s32 PS4_SYSV_ABI sceGnmBeginWorkload();
@@ -75,7 +88,6 @@ s32 PS4_SYSV_ABI sceGnmGetDebugTimestamp();
 s32 PS4_SYSV_ABI sceGnmGetEqEventType();
 s32 PS4_SYSV_ABI sceGnmGetEqTimeStamp();
 s32 PS4_SYSV_ABI sceGnmGetGpuBlockStatus();
-s32 PS4_SYSV_ABI sceGnmGetGpuCoreClockFrequency();
 s32 PS4_SYSV_ABI sceGnmGetGpuInfoStatus();
 s32 PS4_SYSV_ABI sceGnmGetLastWaitedAddress();
 s32 PS4_SYSV_ABI sceGnmGetNumTcaUnits();
@@ -227,7 +239,6 @@ s32 PS4_SYSV_ABI Func_30BAFE172AF17FEF();
 s32 PS4_SYSV_ABI Func_3E6A3E8203D95317();
 s32 PS4_SYSV_ABI Func_40FEEF0C6534C434();
 s32 PS4_SYSV_ABI Func_416B9079DE4CBACE();
-s32 PS4_SYSV_ABI Func_4774D83BB4DDBF9A();
 s32 PS4_SYSV_ABI Func_50678F1CCEEB9A00();
 s32 PS4_SYSV_ABI Func_54A2EC5FA4C62413();
 s32 PS4_SYSV_ABI Func_5A9C52C83138AE6B();
@@ -241,7 +252,6 @@ s32 PS4_SYSV_ABI Func_AA12A3CB8990854A();
 s32 PS4_SYSV_ABI Func_ADC8DDC005020BC6();
 s32 PS4_SYSV_ABI Func_B0A8688B679CB42D();
 s32 PS4_SYSV_ABI Func_B489020B5157A5FF();
-s32 PS4_SYSV_ABI Func_BADE7B4C199140DD();
 s32 PS4_SYSV_ABI Func_D1511B9DCFFB3DD9();
 s32 PS4_SYSV_ABI Func_D53446649B02E58E();
 s32 PS4_SYSV_ABI Func_D8B6E8E28E1EF0A3();
@@ -249,19 +259,9 @@ s32 PS4_SYSV_ABI Func_D93D733A19DD7454();
 s32 PS4_SYSV_ABI Func_DE995443BC2A8317();
 s32 PS4_SYSV_ABI Func_DF6E9528150C23FF();
 s32 PS4_SYSV_ABI Func_ECB4C6BA41FE3350();
-s32 PS4_SYSV_ABI sceGnmDebugModuleReset();
 s32 PS4_SYSV_ABI sceGnmDebugReset();
 s32 PS4_SYSV_ABI Func_C4C328B7CF3B4171();
-s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalCommand();
-s32 PS4_SYSV_ABI sceGnmDrawInitToDefaultContextStateInternalSize();
-s32 PS4_SYSV_ABI sceGnmFindResources();
-s32 PS4_SYSV_ABI sceGnmGetResourceRegistrationBuffers();
-s32 PS4_SYSV_ABI sceGnmRegisterOwnerForSystem();
-s32 PS4_SYSV_ABI Func_1C43886B16EE5530();
-s32 PS4_SYSV_ABI Func_81037019ECCD0E01();
-s32 PS4_SYSV_ABI Func_BFB41C057478F0BF();
-s32 PS4_SYSV_ABI Func_E51D44DB8151238C();
-s32 PS4_SYSV_ABI Func_F916890425496553();
+s32 PS4_SYSV_ABI sceGnmDebugModuleReset();
 
-void RegisterlibSceGnmDriver(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::GnmDriver

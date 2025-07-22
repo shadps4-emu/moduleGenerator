@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -90,5 +90,5 @@ s32 PS4_SYSV_ABI sceCameraStartByHandle();
 s32 PS4_SYSV_ABI sceCameraStop();
 s32 PS4_SYSV_ABI sceCameraStopByHandle();
 
-void RegisterlibSceCamera(Core::Loader::SymbolsResolver* sym);
+void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Camera

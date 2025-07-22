@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2024 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -8,17 +8,17 @@
 
 namespace Libraries::AudioOut {
 
+s32 PS4_SYSV_ABI sceAudioOutSetSystemDebugState() {
+    LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef() {
+    LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceAudioOutDeviceIdOpen() {
-    LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAudioDeviceControlGet() {
-    LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceAudioDeviceControlSet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -353,23 +353,23 @@ s32 PS4_SYSV_ABI sceAudioOutSystemControlSet() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceAudioOutSparkControlSetEqCoef() {
+s32 PS4_SYSV_ABI sceAudioDeviceControlGet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceAudioOutSetSystemDebugState() {
+s32 PS4_SYSV_ABI sceAudioDeviceControlSet() {
     LOG_ERROR(Lib_AudioOut, "(STUBBED) called");
     return ORBIS_OK;
 }
 
-void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
+void RegisterLib(Core::Loader::SymbolsResolver* sym) {
+    LIB_FUNCTION("7UsdDOEvjlk", "libSceDbgAudioOut", 1, "libSceAudioOut", 1, 1,
+                 sceAudioOutSetSystemDebugState);
+    LIB_FUNCTION("Mt7JB3lOyJk", "libSceAudioOutSparkControl", 1, "libSceAudioOut", 1, 1,
+                 sceAudioOutSparkControlSetEqCoef);
     LIB_FUNCTION("cx2dYFbzIAg", "libSceAudioOutDeviceService", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutDeviceIdOpen);
-    LIB_FUNCTION("tKumjQSzhys", "libSceAudioDeviceControl", 1, "libSceAudioOut", 1, 1,
-                 sceAudioDeviceControlGet);
-    LIB_FUNCTION("5ChfcHOf3SM", "libSceAudioDeviceControl", 1, "libSceAudioOut", 1, 1,
-                 sceAudioDeviceControlSet);
     LIB_FUNCTION("Iz9X7ISldhs", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutA3dControl);
     LIB_FUNCTION("9RVIoocOVAo", "libSceAudioOut", 1, "libSceAudioOut", 1, 1, sceAudioOutA3dExit);
@@ -487,10 +487,10 @@ void RegisterlibSceAudioOut(Core::Loader::SymbolsResolver* sym) {
                  sceAudioOutSystemControlGet);
     LIB_FUNCTION("9CHWVv6r3Dg", "libSceAudioOut", 1, "libSceAudioOut", 1, 1,
                  sceAudioOutSystemControlSet);
-    LIB_FUNCTION("Mt7JB3lOyJk", "libSceAudioOutSparkControl", 1, "libSceAudioOut", 1, 1,
-                 sceAudioOutSparkControlSetEqCoef);
-    LIB_FUNCTION("7UsdDOEvjlk", "libSceDbgAudioOut", 1, "libSceAudioOut", 1, 1,
-                 sceAudioOutSetSystemDebugState);
+    LIB_FUNCTION("tKumjQSzhys", "libSceAudioDeviceControl", 1, "libSceAudioOut", 1, 1,
+                 sceAudioDeviceControlGet);
+    LIB_FUNCTION("5ChfcHOf3SM", "libSceAudioDeviceControl", 1, "libSceAudioOut", 1, 1,
+                 sceAudioDeviceControlSet);
 };
 
 } // namespace Libraries::AudioOut
