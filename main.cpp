@@ -182,35 +182,41 @@ int main(int argc, char* argv[]) {
     }
 
     std::vector<std::string> modules_to_generate;
-    modules_to_generate.push_back(std::string("libSceGnmDriver"));
-    modules_to_generate.push_back(std::string("libScePad"));
-    modules_to_generate.push_back(std::string("libSceVideoOut"));
-    modules_to_generate.push_back(std::string("libkernel"));
-    modules_to_generate.push_back(std::string("libSceSystemService"));
-    modules_to_generate.push_back(std::string("libSceUserService"));
-    modules_to_generate.push_back(std::string("libSceCommonDialog"));
-    modules_to_generate.push_back(std::string("libSceMsgDialog"));
-    modules_to_generate.push_back(std::string("libSceAudioOut"));
-    modules_to_generate.push_back(std::string("libSceAudioIn"));
-    modules_to_generate.push_back(std::string("libSceNet"));
-    modules_to_generate.push_back(std::string("libSceNetCtl"));
-    modules_to_generate.push_back(std::string("libSceSsl"));
-    modules_to_generate.push_back(std::string("libSceHttp"));
-    modules_to_generate.push_back(std::string("libSceSaveData"));
-    modules_to_generate.push_back(std::string("libSceSysmodule"));
-    modules_to_generate.push_back(std::string("libSceSaveDataDialog"));
-    modules_to_generate.push_back(std::string("libSceNpManager"));
-    modules_to_generate.push_back(std::string("libSceNpTrophy"));
-    modules_to_generate.push_back(std::string("libSceScreenShot"));
-    modules_to_generate.push_back(std::string("libSceLibcInternal"));
-    modules_to_generate.push_back(std::string("libSceRtc"));
-    modules_to_generate.push_back(std::string("libSceGameLiveStreaming"));
-    modules_to_generate.push_back(std::string("libSceSharePlay"));
-    modules_to_generate.push_back(std::string("libSceRemoteplay"));
-    modules_to_generate.push_back(std::string("libSceIme"));
-    modules_to_generate.push_back(std::string("libSceVideodec"));
-    modules_to_generate.push_back(std::string("libSceCompanionHttpd"));
-    modules_to_generate.push_back(std::string("libSceCamera"));
+    if (argc > 1) {
+        for (int i = 1; i < argc; i++) {
+            modules_to_generate.push_back(std::string(argv[i]));
+        }
+    } else {
+        modules_to_generate.push_back(std::string("libSceGnmDriver"));
+        modules_to_generate.push_back(std::string("libScePad"));
+        modules_to_generate.push_back(std::string("libSceVideoOut"));
+        modules_to_generate.push_back(std::string("libkernel"));
+        modules_to_generate.push_back(std::string("libSceSystemService"));
+        modules_to_generate.push_back(std::string("libSceUserService"));
+        modules_to_generate.push_back(std::string("libSceCommonDialog"));
+        modules_to_generate.push_back(std::string("libSceMsgDialog"));
+        modules_to_generate.push_back(std::string("libSceAudioOut"));
+        modules_to_generate.push_back(std::string("libSceAudioIn"));
+        modules_to_generate.push_back(std::string("libSceNet"));
+        modules_to_generate.push_back(std::string("libSceNetCtl"));
+        modules_to_generate.push_back(std::string("libSceSsl"));
+        modules_to_generate.push_back(std::string("libSceHttp"));
+        modules_to_generate.push_back(std::string("libSceSaveData"));
+        modules_to_generate.push_back(std::string("libSceSysmodule"));
+        modules_to_generate.push_back(std::string("libSceSaveDataDialog"));
+        modules_to_generate.push_back(std::string("libSceNpManager"));
+        modules_to_generate.push_back(std::string("libSceNpTrophy"));
+        modules_to_generate.push_back(std::string("libSceScreenShot"));
+        modules_to_generate.push_back(std::string("libSceLibcInternal"));
+        modules_to_generate.push_back(std::string("libSceRtc"));
+        modules_to_generate.push_back(std::string("libSceGameLiveStreaming"));
+        modules_to_generate.push_back(std::string("libSceSharePlay"));
+        modules_to_generate.push_back(std::string("libSceRemoteplay"));
+        modules_to_generate.push_back(std::string("libSceIme"));
+        modules_to_generate.push_back(std::string("libSceVideodec"));
+        modules_to_generate.push_back(std::string("libSceCompanionHttpd"));
+        modules_to_generate.push_back(std::string("libSceCamera"));
+    }
     GetSymbolsFromLibDoc(modules_to_generate);
 
     return 0;
