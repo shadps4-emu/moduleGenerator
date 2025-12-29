@@ -102,15 +102,11 @@ void GenerateCodeFiles(
         for (const auto& func : lib.second) {
             std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" +
                                    lib.first + "\", " + std::to_string(func.m_libversion) + ", \"" +
-                                   moduleName + "\", " + std::to_string(func.m_version_major) +
-                                   ", " + std::to_string(func.m_version_minor) + ", " +
-                                   func.m_funcName + ");\n";
+                                   moduleName + "\", " + func.m_funcName + ");\n";
             if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
                 nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first +
                            "\", " + std::to_string(func.m_libversion) + ", \"" + moduleName +
-                           "\", " + std::to_string(func.m_version_major) + ", " +
-                           std::to_string(func.m_version_minor) + ",\n" + "                 " +
-                           func.m_funcName + ");\n";
+                           "\",\n" + "                 " + func.m_funcName + ");\n";
             }
             sourceCode += nextLine;
         }
