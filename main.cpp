@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2025-2026 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include <filesystem>
@@ -21,7 +21,7 @@ struct NidFuncTable {
 };
 
 constexpr std::string_view SpdxHeader =
-    R"(// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
+    R"(// SPDX-FileCopyrightText: Copyright 2026 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 )";
 
@@ -205,6 +205,7 @@ int main(int argc, char* argv[]) {
         modules_to_generate.push_back(std::string("libSceScreenShot"));
         modules_to_generate.push_back(std::string("libSceLibcInternal"));
         modules_to_generate.push_back(std::string("libSceRtc"));
+        modules_to_generate.push_back(std::string("libSceRudp"));
         modules_to_generate.push_back(std::string("libSceGameLiveStreaming"));
         modules_to_generate.push_back(std::string("libSceSharePlay"));
         modules_to_generate.push_back(std::string("libSceRemoteplay"));
