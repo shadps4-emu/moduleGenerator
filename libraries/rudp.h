@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2024-2026 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
@@ -11,8 +11,6 @@ class SymbolsResolver;
 
 namespace Libraries::Rudp {
 
-s32 PS4_SYSV_ABI module_start();
-s32 PS4_SYSV_ABI module_stop();
 s32 PS4_SYSV_ABI sceRudpAccept();
 s32 PS4_SYSV_ABI sceRudpActivate();
 s32 PS4_SYSV_ABI sceRudpBind();
@@ -47,6 +45,8 @@ s32 PS4_SYSV_ABI sceRudpSetMaxSegmentSize();
 s32 PS4_SYSV_ABI sceRudpSetOption();
 s32 PS4_SYSV_ABI sceRudpTerminate();
 s32 PS4_SYSV_ABI sceRudpWrite();
+s32 PS4_SYSV_ABI module_start();
+s32 PS4_SYSV_ABI module_stop();
 
 void RegisterLib(Core::Loader::SymbolsResolver* sym);
 } // namespace Libraries::Rudp

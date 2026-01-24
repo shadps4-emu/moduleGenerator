@@ -21,7 +21,7 @@ struct NidFuncTable {
 };
 
 constexpr std::string_view SpdxHeader =
-    R"(// SPDX-FileCopyrightText: Copyright 2026 shadPS4 Emulator Project
+    R"(// SPDX-FileCopyrightText: Copyright 2024-2026 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 )";
 

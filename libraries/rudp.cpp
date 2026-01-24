@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: Copyright 2025 shadPS4 Emulator Project
+// SPDX-FileCopyrightText: Copyright 2024-2026 shadPS4 Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include "common/logging/log.h"
@@ -7,16 +7,6 @@
 #include "core/libraries/rudp/rudp.h"
 
 namespace Libraries::Rudp {
-
-s32 PS4_SYSV_ABI module_start() {
-    LOG_ERROR(Lib_Rudp, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI module_stop() {
-    LOG_ERROR(Lib_Rudp, "(STUBBED) called");
-    return ORBIS_OK;
-}
 
 s32 PS4_SYSV_ABI sceRudpAccept() {
     LOG_ERROR(Lib_Rudp, "(STUBBED) called");
@@ -188,9 +178,17 @@ s32 PS4_SYSV_ABI sceRudpWrite() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI module_start() {
+    LOG_ERROR(Lib_Rudp, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI module_stop() {
+    LOG_ERROR(Lib_Rudp, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 void RegisterLib(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("BaOKcng8g88", "libkernel", 1, "libSceRudp", module_start);
-    LIB_FUNCTION("KpDMrPHvt3Q", "libkernel", 1, "libSceRudp", module_stop);
     LIB_FUNCTION("uQiK7fjU6y8", "libSceRudp", 1, "libSceRudp", sceRudpAccept);
     LIB_FUNCTION("J-6d0WTjzMc", "libSceRudp", 1, "libSceRudp", sceRudpActivate);
     LIB_FUNCTION("l4SLBpKUDK4", "libSceRudp", 1, "libSceRudp", sceRudpBind);
@@ -225,6 +223,8 @@ void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("0yzYdZf0IwE", "libSceRudp", 1, "libSceRudp", sceRudpSetOption);
     LIB_FUNCTION("OMYRTU0uc4w", "libSceRudp", 1, "libSceRudp", sceRudpTerminate);
     LIB_FUNCTION("KaPL3fbTLCA", "libSceRudp", 1, "libSceRudp", sceRudpWrite);
+    LIB_FUNCTION("BaOKcng8g88", "libkernel", 1, "libSceRudp", module_start);
+    LIB_FUNCTION("KpDMrPHvt3Q", "libkernel", 1, "libSceRudp", module_stop);
 };
 
 } // namespace Libraries::Rudp
