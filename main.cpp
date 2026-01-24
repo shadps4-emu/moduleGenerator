@@ -213,6 +213,7 @@ int main(int argc, char* argv[]) {
         modules_to_generate.push_back(std::string("libSceVideodec"));
         modules_to_generate.push_back(std::string("libSceCompanionHttpd"));
         modules_to_generate.push_back(std::string("libSceCamera"));
+        modules_to_generate.push_back(std::string("libSceAudio3d"));
     }
     GetSymbolsFromLibDoc(modules_to_generate);
 
