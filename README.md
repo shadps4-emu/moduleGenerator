@@ -3,7 +3,7 @@ moduleGenerator for shadps4 project
 
 To get started, clone the repository recursively:
 ```bash
-git clone --recursive https://github.com/shadPS4/moduleGenerator.git
+git clone --recursive https://github.com/shadps4-emu/moduleGenerator.git
 ```
 
 To build the project, run:
