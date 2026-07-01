@@ -13,221 +13,6 @@ s32 PS4_SYSV_ABI sceNpTssCreateNpTitleCtx() {
     return ORBIS_OK;
 }
 
-s32 PS4_SYSV_ABI sceNpTusAddAndGetVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusCreateNpTitleCtx() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotData() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotDataAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetData() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetDataAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetDataVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetDataVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatus() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatusAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetFriendsVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetFriendsVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatus() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatus() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetData() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetDataAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetDataVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetDataVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusTryAndSetVariable() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableVUser() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
-s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableVUserAsync() {
-    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
-    return ORBIS_OK;
-}
-
 s32 PS4_SYSV_ABI sceNpTssCreateNpTitleCtxA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
@@ -268,12 +53,22 @@ s32 PS4_SYSV_ABI sceNpTusAbortRequest() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusAddAndGetVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -308,7 +103,22 @@ s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusAddAndGetVariableVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusChangeModeForOtherSaveDataOwners() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusCreateNpTitleCtx() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -328,12 +138,22 @@ s32 PS4_SYSV_ABI sceNpTusCreateTitleCtx() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotData() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotDataA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotDataAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotDataAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -348,12 +168,22 @@ s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotDataVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusDeleteMultiSlotVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -378,12 +208,22 @@ s32 PS4_SYSV_ABI sceNpTusDeleteRequest() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetData() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetDataA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetDataAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetDataAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -418,12 +258,32 @@ s32 PS4_SYSV_ABI sceNpTusGetDataForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetDataVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetDataVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatus() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatusA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatusAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatusAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -438,12 +298,22 @@ s32 PS4_SYSV_ABI sceNpTusGetFriendsDataStatusForCrossSaveAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetFriendsVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetFriendsVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetFriendsVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetFriendsVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -458,12 +328,22 @@ s32 PS4_SYSV_ABI sceNpTusGetFriendsVariableForCrossSaveAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatus() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -498,12 +378,32 @@ s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotDataStatusVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -538,12 +438,32 @@ s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiSlotVariableVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatus() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -578,12 +498,32 @@ s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserDataStatusVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -618,7 +558,22 @@ s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusGetMultiUserVariableVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusPollAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusSetData() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -633,6 +588,11 @@ s32 PS4_SYSV_ABI sceNpTusSetDataAAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusSetDataAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusSetDataAVUser() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
@@ -643,12 +603,32 @@ s32 PS4_SYSV_ABI sceNpTusSetDataAVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusSetDataVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusSetDataVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusSetMultiSlotVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -673,12 +653,22 @@ s32 PS4_SYSV_ABI sceNpTusSetTimeout() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusTryAndSetVariable() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableA() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableAAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
@@ -713,87 +703,22 @@ s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableForCrossSaveVUserAsync() {
     return ORBIS_OK;
 }
 
+s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableVUser() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
+s32 PS4_SYSV_ABI sceNpTusTryAndSetVariableVUserAsync() {
+    LOG_ERROR(Lib_NpTus, "(STUBBED) called");
+    return ORBIS_OK;
+}
+
 s32 PS4_SYSV_ABI sceNpTusWaitAsync() {
     LOG_ERROR(Lib_NpTus, "(STUBBED) called");
     return ORBIS_OK;
 }
 
 void RegisterLib(Core::Loader::SymbolsResolver* sym) {
-    LIB_FUNCTION("sRVb2Cf0GHg", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTssCreateNpTitleCtx);
-    LIB_FUNCTION("cRVmNrJDbG8", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusAddAndGetVariable);
-    LIB_FUNCTION("Q2UmHdK04c8", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusAddAndGetVariableAsync);
-    LIB_FUNCTION("ukr6FBSrkJw", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusAddAndGetVariableVUser);
-    LIB_FUNCTION("lliK9T6ylJg", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusAddAndGetVariableVUserAsync);
-    LIB_FUNCTION("BIkMmUfNKWM", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusCreateNpTitleCtx);
-    LIB_FUNCTION("0DT5bP6YzBo", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusDeleteMultiSlotData);
-    LIB_FUNCTION("OCozl1ZtxRY", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusDeleteMultiSlotDataAsync);
-    LIB_FUNCTION("mYhbiRtkE1Y", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusDeleteMultiSlotVariable);
-    LIB_FUNCTION("0nDVqcYECoM", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusDeleteMultiSlotVariableAsync);
-    LIB_FUNCTION("XOzszO4ONWU", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetData);
-    LIB_FUNCTION("uHtKS5V1T5k", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataAsync);
-    LIB_FUNCTION("GQHCksS7aLs", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataVUser);
-    LIB_FUNCTION("5R6kI-8f+Hk", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataVUserAsync);
-    LIB_FUNCTION("DXigwIBTjWE", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetFriendsDataStatus);
-    LIB_FUNCTION("LUwvy0MOSqw", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetFriendsDataStatusAsync);
-    LIB_FUNCTION("cy+pAALkHp8", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetFriendsVariable);
-    LIB_FUNCTION("YFYWOwYI6DY", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetFriendsVariableAsync);
-    LIB_FUNCTION("pgcNwFHoOL4", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotDataStatus);
-    LIB_FUNCTION("Qyek420uZmM", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotDataStatusAsync);
-    LIB_FUNCTION("NGCeFUl5ckM", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotDataStatusVUser);
-    LIB_FUNCTION("bHWFSg6jvXc", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotDataStatusVUserAsync);
-    LIB_FUNCTION("F+eQlfcka98", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotVariable);
-    LIB_FUNCTION("bcPB2rnhQqo", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotVariableAsync);
-    LIB_FUNCTION("uFxVYJEkcmc", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotVariableVUser);
-    LIB_FUNCTION("qp-rTrq1klk", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiSlotVariableVUserAsync);
-    LIB_FUNCTION("NvHjFkx2rnU", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserDataStatus);
-    LIB_FUNCTION("0zkr0T+NYvI", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserDataStatusAsync);
-    LIB_FUNCTION("xwJIlK0bHgA", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserDataStatusVUser);
-    LIB_FUNCTION("I5dlIKkHNkQ", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserDataStatusVUserAsync);
-    LIB_FUNCTION("6G9+4eIb+cY", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserVariable);
-    LIB_FUNCTION("YRje5yEXS0U", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserVariableAsync);
-    LIB_FUNCTION("zB0vaHTzA6g", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserVariableVUser);
-    LIB_FUNCTION("xZXQuNSTC6o", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusGetMultiUserVariableVUserAsync);
-    LIB_FUNCTION("4NrufkNCkiE", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetData);
-    LIB_FUNCTION("G68xdfQuiyU", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataAsync);
-    LIB_FUNCTION("+RhzSuuXwxo", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataVUser);
-    LIB_FUNCTION("E4BCVfx-YfM", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataVUserAsync);
-    LIB_FUNCTION("c6aYoa47YgI", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusSetMultiSlotVariable);
-    LIB_FUNCTION("5J9GGMludxY", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusSetMultiSlotVariableAsync);
-    LIB_FUNCTION("ukC55HsotJ4", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusTryAndSetVariable);
-    LIB_FUNCTION("xQfR51i4kck", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusTryAndSetVariableAsync);
-    LIB_FUNCTION("ZbitD262GhY", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusTryAndSetVariableVUser);
-    LIB_FUNCTION("trZ6QGW6jHs", "libSceNpTusCompat", 1, "libSceNpTus",
-                 sceNpTusTryAndSetVariableVUserAsync);
     LIB_FUNCTION("sRVb2Cf0GHg", "libSceNpTus", 1, "libSceNpTus", sceNpTssCreateNpTitleCtx);
     LIB_FUNCTION("lBtrk+7lk14", "libSceNpTus", 1, "libSceNpTus", sceNpTssCreateNpTitleCtxA);
     LIB_FUNCTION("-SUR+UoLS6c", "libSceNpTus", 1, "libSceNpTus", sceNpTssGetData);
@@ -1006,6 +931,81 @@ void RegisterLib(Core::Loader::SymbolsResolver* sym) {
     LIB_FUNCTION("trZ6QGW6jHs", "libSceNpTus", 1, "libSceNpTus",
                  sceNpTusTryAndSetVariableVUserAsync);
     LIB_FUNCTION("hYPJFWzFPjA", "libSceNpTus", 1, "libSceNpTus", sceNpTusWaitAsync);
+    LIB_FUNCTION("sRVb2Cf0GHg", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTssCreateNpTitleCtx);
+    LIB_FUNCTION("cRVmNrJDbG8", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusAddAndGetVariable);
+    LIB_FUNCTION("Q2UmHdK04c8", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusAddAndGetVariableAsync);
+    LIB_FUNCTION("ukr6FBSrkJw", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusAddAndGetVariableVUser);
+    LIB_FUNCTION("lliK9T6ylJg", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusAddAndGetVariableVUserAsync);
+    LIB_FUNCTION("BIkMmUfNKWM", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusCreateNpTitleCtx);
+    LIB_FUNCTION("0DT5bP6YzBo", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusDeleteMultiSlotData);
+    LIB_FUNCTION("OCozl1ZtxRY", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusDeleteMultiSlotDataAsync);
+    LIB_FUNCTION("mYhbiRtkE1Y", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusDeleteMultiSlotVariable);
+    LIB_FUNCTION("0nDVqcYECoM", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusDeleteMultiSlotVariableAsync);
+    LIB_FUNCTION("XOzszO4ONWU", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetData);
+    LIB_FUNCTION("uHtKS5V1T5k", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataAsync);
+    LIB_FUNCTION("GQHCksS7aLs", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataVUser);
+    LIB_FUNCTION("5R6kI-8f+Hk", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetDataVUserAsync);
+    LIB_FUNCTION("DXigwIBTjWE", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetFriendsDataStatus);
+    LIB_FUNCTION("LUwvy0MOSqw", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetFriendsDataStatusAsync);
+    LIB_FUNCTION("cy+pAALkHp8", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusGetFriendsVariable);
+    LIB_FUNCTION("YFYWOwYI6DY", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetFriendsVariableAsync);
+    LIB_FUNCTION("pgcNwFHoOL4", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotDataStatus);
+    LIB_FUNCTION("Qyek420uZmM", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotDataStatusAsync);
+    LIB_FUNCTION("NGCeFUl5ckM", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotDataStatusVUser);
+    LIB_FUNCTION("bHWFSg6jvXc", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotDataStatusVUserAsync);
+    LIB_FUNCTION("F+eQlfcka98", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotVariable);
+    LIB_FUNCTION("bcPB2rnhQqo", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotVariableAsync);
+    LIB_FUNCTION("uFxVYJEkcmc", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotVariableVUser);
+    LIB_FUNCTION("qp-rTrq1klk", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiSlotVariableVUserAsync);
+    LIB_FUNCTION("NvHjFkx2rnU", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserDataStatus);
+    LIB_FUNCTION("0zkr0T+NYvI", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserDataStatusAsync);
+    LIB_FUNCTION("xwJIlK0bHgA", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserDataStatusVUser);
+    LIB_FUNCTION("I5dlIKkHNkQ", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserDataStatusVUserAsync);
+    LIB_FUNCTION("6G9+4eIb+cY", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserVariable);
+    LIB_FUNCTION("YRje5yEXS0U", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserVariableAsync);
+    LIB_FUNCTION("zB0vaHTzA6g", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserVariableVUser);
+    LIB_FUNCTION("xZXQuNSTC6o", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusGetMultiUserVariableVUserAsync);
+    LIB_FUNCTION("4NrufkNCkiE", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetData);
+    LIB_FUNCTION("G68xdfQuiyU", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataAsync);
+    LIB_FUNCTION("+RhzSuuXwxo", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataVUser);
+    LIB_FUNCTION("E4BCVfx-YfM", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusSetDataVUserAsync);
+    LIB_FUNCTION("c6aYoa47YgI", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusSetMultiSlotVariable);
+    LIB_FUNCTION("5J9GGMludxY", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusSetMultiSlotVariableAsync);
+    LIB_FUNCTION("ukC55HsotJ4", "libSceNpTusCompat", 1, "libSceNpTus", sceNpTusTryAndSetVariable);
+    LIB_FUNCTION("xQfR51i4kck", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusTryAndSetVariableAsync);
+    LIB_FUNCTION("ZbitD262GhY", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusTryAndSetVariableVUser);
+    LIB_FUNCTION("trZ6QGW6jHs", "libSceNpTusCompat", 1, "libSceNpTus",
+                 sceNpTusTryAndSetVariableVUserAsync);
 };
 
 } // namespace Libraries::NpTus
