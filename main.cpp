@@ -35,7 +35,7 @@ void GenerateCodeFiles(
     std::string headerCode(spdx);
     headerCode += "\n";
     headerCode += "#pragma once\n\n#include \"common/types.h\"\n\n";
-    headerCode += "namespace Core::Loader {\nclass SymbolsResolver;\n}\n\n";
+    // headerCode += "namespace Core::Loader {\nclass SymbolsResolver;\n}\n\n";
     std::string trimmedName = moduleName;
     if (moduleName.find("libSce") != std::string::npos) {
         trimmedName = moduleName.substr(6, moduleName.size() - 1);
@@ -50,10 +50,13 @@ void GenerateCodeFiles(
     std::unordered_set<std::string> funcDeclares;
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
+            if (func.m_funcName.starts_with("module_")) {
+                continue;
+            }
             if (funcDeclares.find(func.m_funcName) == funcDeclares.end()) {
-                std::string funcDeclare("s32 PS4_SYSV_ABI " + func.m_funcName + "();\n");
+                std::string funcDeclare("s32 " + func.m_funcName + "();\n");
                 if (funcDeclare.length() > MAXIMUM_LINE_LENGTH) {
-                    funcDeclare = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "();\n";
+                    funcDeclare = "s32\n" + func.m_funcName + "();\n";
                 }
                 headerCode += funcDeclare;
                 funcDeclares.insert(func.m_funcName);
@@ -61,7 +64,7 @@ void GenerateCodeFiles(
         }
     }
 
-    headerCode += "\nvoid RegisterLib(Core::Loader::SymbolsResolver* sym);\n";
+    headerCode += "\nvoid RegisterHooks();\n";
 
     headerCode += "} // namespace Libraries::" + trimmedName;
     std::ofstream headerFile(MODULE_DIR + headerName);
@@ -72,9 +75,37 @@ void GenerateCodeFiles(
     std::string sourceCode(spdx);
     sourceCode += "\n";
     sourceCode += "#include \"common/logging/log.h\"\n";
-    sourceCode += "#include \"core/libraries/error_codes.h\"\n";
-    sourceCode += "#include \"core/libraries/libs.h\"\n";
+    sourceCode += "#include \"common/plugin_common.h\"\n";
     sourceCode += "#include \"core/libraries/" + lowModName + "/" + headerName + "\"\n\n";
+
+    std::unordered_set<std::string> funcImplementation_;
+    for (const auto& lib : libName2FuncTableMap) {
+        for (const auto& func : lib.second) {
+            if (func.m_funcName.starts_with("module_")) {
+                continue;
+            }
+            if (funcImplementation_.find(func.m_funcName) == funcImplementation_.end()) {
+                sourceCode += "HOOK_INIT(" + func.m_funcName + ");\n";
+                sourceCode += "static s32 " + func.m_funcName + "_hook() {\n";
+                sourceCode +=
+                    "    return Libraries::" + trimmedName + "::" + func.m_funcName + "();\n}\n\n";
+
+                funcImplementation_.insert(func.m_funcName);
+            }
+        }
+    }
+
+    sourceCode += "static void RegisterLibraryHooks() {\n";
+    for (const auto& lib : libName2FuncTableMap) {
+        for (const auto& func : lib.second) {
+            if (func.m_funcName.starts_with("module_")) {
+                continue;
+            }
+            std::string nextLine = "    HOOK(" + func.m_funcName + ");\n";
+            sourceCode += nextLine;
+        }
+    }
+    sourceCode += "}\n\n";
 
     sourceCode += "namespace Libraries::" + trimmedName + " {\n\n";
 
@@ -82,11 +113,11 @@ void GenerateCodeFiles(
     std::unordered_set<std::string> funcImplementation;
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
+            if (func.m_funcName.starts_with("module_")) {
+                continue;
+            }
             if (funcImplementation.find(func.m_funcName) == funcImplementation.end()) {
-                std::string funcHeader = "s32 PS4_SYSV_ABI " + func.m_funcName + "() {";
-                if (funcHeader.length() > MAXIMUM_LINE_LENGTH) {
-                    funcHeader = "s32 PS4_SYSV_ABI\n" + func.m_funcName + "() {";
-                }
+                std::string funcHeader = "s32 " + func.m_funcName + "() {";
                 const std::string funcDeclare(funcHeader + "\n" + "    LOG_ERROR(Lib_" +
                                               trimmedName +
                                               ", \"(STUBBED) called\");\n"
@@ -97,22 +128,10 @@ void GenerateCodeFiles(
             }
         }
     }
-    sourceCode += "void RegisterLib(Core::Loader::SymbolsResolver* sym) {\n";
-    for (const auto& lib : libName2FuncTableMap) {
-        for (const auto& func : lib.second) {
-            std::string nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" +
-                                   lib.first + "\", " + std::to_string(func.m_libversion) + ", \"" +
-                                   moduleName + "\", " + func.m_funcName + ");\n";
-            if (nextLine.length() > MAXIMUM_LINE_LENGTH) {
-                nextLine = "    LIB_FUNCTION(\"" + func.m_encoded_id + "\", \"" + lib.first +
-                           "\", " + std::to_string(func.m_libversion) + ", \"" + moduleName +
-                           "\",\n" + "                 " + func.m_funcName + ");\n";
-            }
-            sourceCode += nextLine;
-        }
-    }
+    sourceCode += "static void RegisterHooks() {\n";
+    sourceCode += "    return RegisterLibraryHooks();\n}\n\n";
+    
 
-    sourceCode += "};\n\n";
     sourceCode += "} // namespace Libraries::" + trimmedName;
     std::ofstream sourceFile(MODULE_DIR + sourceName);
     sourceFile << sourceCode;
