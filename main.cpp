@@ -78,6 +78,8 @@ void GenerateCodeFiles(
     sourceCode += "#include \"common/plugin_common.h\"\n";
     sourceCode += "#include \"core/libraries/" + lowModName + "/" + headerName + "\"\n\n";
 
+    sourceCode += "extern \"C\" {\n\n";
+
     std::unordered_set<std::string> funcImplementation_;
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
@@ -86,9 +88,10 @@ void GenerateCodeFiles(
             }
             if (funcImplementation_.find(func.m_funcName) == funcImplementation_.end()) {
                 sourceCode += "HOOK_INIT(" + func.m_funcName + ");\n";
-                sourceCode += "static s32 " + func.m_funcName + "_hook() {\n";
+                sourceCode += "template<typename... Args>\n";
+                sourceCode += "static auto " + func.m_funcName + "_hook(Args... args) {\n";
                 sourceCode +=
-                    "    return Libraries::" + trimmedName + "::" + func.m_funcName + "();\n}\n\n";
+                    "    return Libraries::" + trimmedName + "::" + func.m_funcName + "(args...);\n}\n\n";
 
                 funcImplementation_.insert(func.m_funcName);
             }
@@ -105,7 +108,9 @@ void GenerateCodeFiles(
             sourceCode += nextLine;
         }
     }
-    sourceCode += "}\n\n";
+    sourceCode += "}\n\n"; // RegisterLibraryHooks
+
+    sourceCode += "}\n\n"; // extern "C"
 
     sourceCode += "namespace Libraries::" + trimmedName + " {\n\n";
 
