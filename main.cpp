@@ -87,18 +87,15 @@ void GenerateCodeFiles(
                 continue;
             }
             if (funcImplementation_.find(func.m_funcName) == funcImplementation_.end()) {
-                sourceCode += "HOOK_INIT(" + func.m_funcName + ");\n";
-                sourceCode += "template<typename... Args>\n";
-                sourceCode += "static auto " + func.m_funcName + "_hook(Args... args) {\n";
                 sourceCode +=
-                    "    return Libraries::" + trimmedName + "::" + func.m_funcName + "(args...);\n}\n\n";
+                    "SHADNET_HOOK_DECLARE(Libraries::" + trimmedName + ", " + func.m_funcName + ");\n";
 
                 funcImplementation_.insert(func.m_funcName);
             }
         }
     }
 
-    sourceCode += "static void RegisterLibraryHooks() {\n";
+    sourceCode += "\nstatic void RegisterLibraryHooks() {\n";
     for (const auto& lib : libName2FuncTableMap) {
         for (const auto& func : lib.second) {
             if (func.m_funcName.starts_with("module_")) {
