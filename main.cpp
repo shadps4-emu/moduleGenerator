@@ -87,8 +87,8 @@ void GenerateCodeFiles(
                 continue;
             }
             if (funcImplementation_.find(func.m_funcName) == funcImplementation_.end()) {
-                sourceCode +=
-                    "SHADNET_HOOK_DECLARE(Libraries::" + trimmedName + ", " + func.m_funcName + ");\n";
+                sourceCode += "SHADNET_HOOK_DECLARE(Libraries::" + trimmedName + ", " +
+                              func.m_funcName + ");\n";
 
                 funcImplementation_.insert(func.m_funcName);
             }
@@ -101,7 +101,8 @@ void GenerateCodeFiles(
             if (func.m_funcName.starts_with("module_")) {
                 continue;
             }
-            std::string nextLine = "    HOOK(" + func.m_funcName + ");\n";
+            std::string nextLine =
+                "    SHADNET_HOOK(Libraries::" + trimmedName + ", " + func.m_funcName + ");\n";
             sourceCode += nextLine;
         }
     }
