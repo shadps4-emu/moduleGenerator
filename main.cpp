@@ -217,6 +217,7 @@ int main(int argc, char* argv[]) {
         modules_to_generate.push_back(std::string("libSceAudio3d"));
         modules_to_generate.push_back(std::string("libSceInvitationDialog"));
         modules_to_generate.push_back(std::string("libSceNpUtility"));
+        modules_to_generate.push_back(std::string("libSceNpAuth"));
     }
     GetSymbolsFromLibDoc(modules_to_generate);
 
